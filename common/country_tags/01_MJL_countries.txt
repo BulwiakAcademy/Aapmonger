@@ -1,0 +1,5 @@
+# China
+CHN = "countries/China.txt"
+# Africans
+CHW = "countries/Bachwezi.txt"
+AFR = "countries/Toto.txt"

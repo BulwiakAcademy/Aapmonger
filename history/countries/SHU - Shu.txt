@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = sichuanese
+capital = 679	#Chengdu
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Liu"
+		dynasty = "Bei"
+		birth_date = 1424.11.11
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}

@@ -1,0 +1,186 @@
+AYU_ideas = {
+    start = {
+        cavalry_power = 0.15
+        liberty_desire_from_subject_development = -0.2
+    }
+ 
+    bonus = {
+        diplomatic_annexation_cost = -0.15
+    }
+ 
+    trigger = {
+        tag = AYU
+    }
+    free = yes
+ 
+    white_elephant = {
+        vassal_income = 0.2
+    }
+    corvee_system = {
+        global_manpower_modifier = 0.25
+    }
+    trading_links = {
+        diplomatic_reputation = 1
+    }
+    ayu_foreign_mercenaries = {
+        land_maintenance_modifier = -0.05
+    }
+    ayu_embassies = {
+        improve_relation_modifier = 0.3
+    }
+    phrai_luang = {
+        development_cost = -0.1
+    }
+    personal_executions = {
+        harsh_treatment_cost = -0.2
+    }
+}
+
+MAJ_ideas = {
+    start = {
+        ae_impact = -0.15
+        legitimacy = 1
+    }
+   
+    bonus = {
+        diplomatic_annexation_cost = -0.15
+    }
+   
+    free = yes        #will be added at load.
+   
+    trigger = {
+        tag = MAJ
+    }
+    maj_nusantara_tributaries = {
+        vassal_forcelimit_bonus = 1
+        reduced_liberty_desire = 10
+    }
+    maj_restore_candi = {
+        global_missionary_strength = 0.02
+    }
+    maj_maritime_silk_road = {
+        trade_efficiency = 0.1
+    }
+    maj_nusa_tenggara = {
+        colonists = 1
+    }
+    maj_gajah_madas_oath = {
+        land_morale = 0.1
+    }
+    maj_majapahit_armada = {
+        heavy_ship_power = 0.1
+        navy_tradition = 1
+    }
+    maj_reformed_bhattara_saptaprabhu = {
+        advisor_cost = -0.15
+    }
+}
+
+BEI_ideas = {
+    start = {
+        land_morale = 0.1
+        global_ship_cost = -0.1
+    }
+    bonus = {
+        ship_durability = 0.1
+    }
+    trigger = {
+        tag = BEI
+    }
+    free = yes
+    bei_galleys = {
+        galley_power = 0.2
+    }
+    bei_sea_nomads = {
+        global_sailors_modifier = 0.2
+    }
+    bei_diplomacy = {
+        diplomatic_reputation = 1
+    }
+    bei_vassals = {
+        reduced_liberty_desire = 10
+    }
+    settle_the_islands = { # same as malay ideas
+        global_colonial_growth = 20
+    }
+    bei_naval_prowess = {
+        naval_morale = 0.15
+    }
+    bei_trade = {
+        trade_efficiency = 0.1
+    }
+}
+
+MLC_ideas = {
+    start = {
+        global_trade_power = 0.1
+        naval_forcelimit_modifier = 0.33
+    }
+    bonus = {
+        merchants = 1
+    }
+    trigger = {
+        tag = MLC
+    }
+    free = yes
+    mlc_vassal_princes = {
+        reduced_liberty_desire = 10
+        vassal_income = 0.25
+    }
+    mlc_maritime_laws = {
+        global_ship_trade_power = 0.2
+    }
+    mlc_new_hegemony = {
+        diplomatic_reputation = 1
+    }
+    mlc_islamic_sultanate = {
+        tolerance_own = 1
+    }
+    mlc_habor_masters = {
+        trade_steering = 0.2
+        num_accepted_cultures = 1
+    }
+    mlc_daulat = {
+        legitimacy = 1
+    }
+    mlc_jawi_script = {
+        idea_cost = -0.1
+    }
+}
+
+MSA_ideas = {
+    start = {
+        global_trade_power = 0.15
+        land_morale = 0.15
+    }
+    bonus = {
+        ship_durability = 0.1
+    }
+    trigger = {
+        tag = MSA
+    }
+    free = yes
+    settle_the_islands = { # same as malay ideas
+        global_colonial_growth = 20
+    }
+    msa_advanced_galley_warfare = {
+        galley_power = 0.25
+    }
+    msa_expert_haggling = {
+        trade_efficiency = 0.15
+    }
+    msa_chart_the_seas = {
+        own_coast_naval_combat_bonus = 1
+        naval_morale = 0.1
+    }
+    msa_in_every_port = {
+        merchants = 1
+        ship_power_propagation = 0.2
+    }
+    msa_sea_nomads_steering = {
+        trade_steering = 0.25
+    }
+    msa_spice_kings = {
+        global_trade_goods_size_modifier = 0.1
+    }
+}

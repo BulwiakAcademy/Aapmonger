@@ -1,0 +1,88 @@
+country_decisions = {
+	mjl_ai_remove_merc_provs = {
+		major = yes
+		potential = {
+			ai = yes
+		}
+		allow = {
+			any_owned_province = {
+				has_province_flag = mjl_merc_province_origin
+			}
+		}
+		effect = {
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						has_province_flag = mjl_merc_province_origin
+					}
+					clr_province_flag = mjl_merc_province_origin	
+					remove_province_triggered_modifier = mjl_berc_fl_3000
+					remove_province_triggered_modifier = mjl_berc_fl_2950
+					remove_province_triggered_modifier = mjl_berc_fl_2900
+					remove_province_triggered_modifier = mjl_berc_fl_2850
+					remove_province_triggered_modifier = mjl_berc_fl_2800
+					remove_province_triggered_modifier = mjl_berc_fl_2750
+					remove_province_triggered_modifier = mjl_berc_fl_2700
+					remove_province_triggered_modifier = mjl_berc_fl_2650
+					remove_province_triggered_modifier = mjl_berc_fl_2600
+					remove_province_triggered_modifier = mjl_berc_fl_2550
+					remove_province_triggered_modifier = mjl_berc_fl_2500
+					remove_province_triggered_modifier = mjl_berc_fl_2450
+					remove_province_triggered_modifier = mjl_berc_fl_2400
+					remove_province_triggered_modifier = mjl_berc_fl_2350
+					remove_province_triggered_modifier = mjl_berc_fl_2300
+					remove_province_triggered_modifier = mjl_berc_fl_2250
+					remove_province_triggered_modifier = mjl_berc_fl_2200
+					remove_province_triggered_modifier = mjl_berc_fl_2150
+					remove_province_triggered_modifier = mjl_berc_fl_2100
+					remove_province_triggered_modifier = mjl_berc_fl_2050
+					remove_province_triggered_modifier = mjl_berc_fl_2000
+					remove_province_triggered_modifier = mjl_berc_fl_1950
+					remove_province_triggered_modifier = mjl_berc_fl_1900
+					remove_province_triggered_modifier = mjl_berc_fl_1850
+					remove_province_triggered_modifier = mjl_berc_fl_1800
+					remove_province_triggered_modifier = mjl_berc_fl_1750
+					remove_province_triggered_modifier = mjl_berc_fl_1700
+					remove_province_triggered_modifier = mjl_berc_fl_1650
+					remove_province_triggered_modifier = mjl_berc_fl_1600
+					remove_province_triggered_modifier = mjl_berc_fl_1550
+					remove_province_triggered_modifier = mjl_berc_fl_1500
+					remove_province_triggered_modifier = mjl_berc_fl_1450
+					remove_province_triggered_modifier = mjl_berc_fl_1400
+					remove_province_triggered_modifier = mjl_berc_fl_1350
+					remove_province_triggered_modifier = mjl_berc_fl_1300
+					remove_province_triggered_modifier = mjl_berc_fl_1250
+					remove_province_triggered_modifier = mjl_berc_fl_1200
+					remove_province_triggered_modifier = mjl_berc_fl_1150
+					remove_province_triggered_modifier = mjl_berc_fl_1100
+					remove_province_triggered_modifier = mjl_berc_fl_1050
+					remove_province_triggered_modifier = mjl_berc_fl_1000
+					remove_province_triggered_modifier = mjl_berc_fl_950
+					remove_province_triggered_modifier = mjl_berc_fl_900
+					remove_province_triggered_modifier = mjl_berc_fl_850
+					remove_province_triggered_modifier = mjl_berc_fl_800
+					remove_province_triggered_modifier = mjl_berc_fl_750
+					remove_province_triggered_modifier = mjl_berc_fl_700
+					remove_province_triggered_modifier = mjl_berc_fl_650
+					remove_province_triggered_modifier = mjl_berc_fl_600
+					remove_province_triggered_modifier = mjl_berc_fl_550
+					remove_province_triggered_modifier = mjl_berc_fl_500
+					remove_province_triggered_modifier = mjl_berc_fl_450
+					remove_province_triggered_modifier = mjl_berc_fl_400
+					remove_province_triggered_modifier = mjl_berc_fl_350
+					remove_province_triggered_modifier = mjl_berc_fl_300
+					remove_province_triggered_modifier = mjl_berc_fl_250
+					remove_province_triggered_modifier = mjl_berc_fl_200
+					remove_province_triggered_modifier = mjl_berc_fl_150
+					remove_province_triggered_modifier = mjl_berc_fl_100
+					remove_province_triggered_modifier = mjl_berc_fl_50
+					remove_province_triggered_modifier = mjl_berc_fl_25
+					remove_province_triggered_modifier = mjl_berc_fl_0
+				}
+			}
+		}
+ 		ai_will_do = {
+   			factor = 1
+   		}
+	}
+}

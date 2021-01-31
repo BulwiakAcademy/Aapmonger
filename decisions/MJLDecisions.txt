@@ -1,0 +1,47 @@
+country_decisions = {
+	mjl_change_muslim_school = {
+		major = no
+		potential = {
+			ai = no
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+		}
+		allow = {
+			OR = {
+				NOT = { has_country_flag = mjl_1444_change_school }
+				had_country_flag = { flag = mjl_1444_change_school days = 9125 }
+			}
+			prestige = 0
+		}
+		effect = {
+			custom_tooltip = mjl_change_muslim_school_decision_tt
+			set_country_flag = mjl_1444_change_school
+			add_prestige = -50
+			country_event = { id = mjl_events.5 }
+		}
+	}
+	mjl_kongo_return_to_the_roots = {
+		major = yes
+		potential = {
+			tag = KON
+			NOT = { religion = shamanism }
+			NOT = { has_country_flag = mjl_kongo_back_to_roots_flag }
+		}
+		allow = {
+			stability = 1
+			dominant_religion = shamanism
+		}
+		effect = {
+			set_country_flag = mjl_kongo_back_to_roots_flag
+			add_prestige = -25
+			add_stability = -2
+			change_religion = shamanism
+			capital_scope = {
+				change_religion = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

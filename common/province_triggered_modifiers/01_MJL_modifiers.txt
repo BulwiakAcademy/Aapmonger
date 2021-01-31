@@ -1,0 +1,1382 @@
+mjl_berc_fl_3000 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 3000
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 470	
+}
+
+mjl_berc_fl_2950 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2950
+			NOT = { 
+				land_forcelimit = 3000
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 462
+}
+
+mjl_berc_fl_2900 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2900
+			NOT = { 
+				land_forcelimit = 2950
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 455
+}
+
+mjl_berc_fl_2850 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2850
+			NOT = { 
+				land_forcelimit = 2900
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 447
+}
+
+mjl_berc_fl_2800 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2800
+			NOT = { 
+				land_forcelimit = 2850
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 440
+}
+
+mjl_berc_fl_2750 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2750
+			NOT = { 
+				land_forcelimit = 2800
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 432
+}
+
+mjl_berc_fl_2700 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2700
+			NOT = { 
+				land_forcelimit = 2750
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 425
+}
+
+mjl_berc_fl_2650 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2650
+			NOT = { 
+				land_forcelimit = 2700
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 417
+}
+
+mjl_berc_fl_2600 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2600
+			NOT = { 
+				land_forcelimit = 2650
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 410
+}
+
+mjl_berc_fl_2550 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2550
+			NOT = { 
+				land_forcelimit = 2600
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 402
+}
+
+mjl_berc_fl_2500 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2500
+			NOT = { 
+				land_forcelimit = 2550
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 395
+}
+
+mjl_berc_fl_2450 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2450
+			NOT = { 
+				land_forcelimit = 2500
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 387
+}
+
+mjl_berc_fl_2400 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2400
+			NOT = { 
+				land_forcelimit = 2450
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 380
+}
+
+mjl_berc_fl_2350 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2350
+			NOT = { 
+				land_forcelimit = 2400
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 372
+}
+
+mjl_berc_fl_2300 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2300
+			NOT = { 
+				land_forcelimit = 2350
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 365
+}
+
+mjl_berc_fl_2250 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2250
+			NOT = { 
+				land_forcelimit = 2300
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 357
+}
+
+mjl_berc_fl_2200 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2200
+			NOT = { 
+				land_forcelimit = 2250
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 350
+}
+
+mjl_berc_fl_2150 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2150
+			NOT = { 
+				land_forcelimit = 2200
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 342
+}
+
+mjl_berc_fl_2100 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2100
+			NOT = { 
+				land_forcelimit = 2150
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 335
+}
+
+mjl_berc_fl_2050 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2050
+			NOT = { 
+				land_forcelimit = 2100
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 327
+}
+
+mjl_berc_fl_2000 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 2000
+			NOT = { 
+				land_forcelimit = 2050
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 320
+}
+
+mjl_berc_fl_1950 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1950
+			NOT = { 
+				land_forcelimit = 2000
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 312
+}
+
+mjl_berc_fl_1900 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1900
+			NOT = { 
+				land_forcelimit = 1950
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 305
+}
+
+mjl_berc_fl_1850 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1850
+			NOT = { 
+				land_forcelimit = 1900
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 297
+}
+
+mjl_berc_fl_1800 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1800
+			NOT = { 
+				land_forcelimit = 1850
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 290
+}
+
+mjl_berc_fl_1750 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1750
+			NOT = { 
+				land_forcelimit = 1800
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 282
+}
+
+mjl_berc_fl_1700 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1700
+			NOT = { 
+				land_forcelimit = 1750
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 275
+}
+
+mjl_berc_fl_1650 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1650
+			NOT = { 
+				land_forcelimit = 1700
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 267
+}
+
+mjl_berc_fl_1600 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1600
+			NOT = { 
+				land_forcelimit = 1650
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 260
+}
+
+mjl_berc_fl_1600 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1600
+			NOT = { 
+				land_forcelimit = 1650
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 260
+}
+
+mjl_berc_fl_1550 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1550
+			NOT = { 
+				land_forcelimit = 1600
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 252
+}
+
+mjl_berc_fl_1500 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1500
+			NOT = { 
+				land_forcelimit = 1550
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 245
+}
+
+mjl_berc_fl_1450 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1450
+			NOT = { 
+				land_forcelimit = 1500
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 237
+}
+
+mjl_berc_fl_1400 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1400
+			NOT = { 
+				land_forcelimit = 1450
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 230
+}
+
+mjl_berc_fl_1350 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1350
+			NOT = { 
+				land_forcelimit = 1400
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 222
+}
+
+mjl_berc_fl_1300 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1300
+			NOT = { 
+				land_forcelimit = 1350
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 215
+}
+
+mjl_berc_fl_1250 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1250
+			NOT = { 
+				land_forcelimit = 1300
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 207
+}
+
+mjl_berc_fl_1200 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1200
+			NOT = { 
+				land_forcelimit = 1250
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 200
+}
+
+mjl_berc_fl_1150 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1150
+			NOT = { 
+				land_forcelimit = 1200
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 192
+}
+
+mjl_berc_fl_1100 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1100
+			NOT = { 
+				land_forcelimit = 1150
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 185
+}
+
+mjl_berc_fl_1050 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1050
+			NOT = { 
+				land_forcelimit = 1100
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 177
+}
+
+mjl_berc_fl_1000 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1000
+			NOT = { 
+				land_forcelimit = 1050
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 170
+}
+
+mjl_berc_fl_950 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 950
+			NOT = { 
+				land_forcelimit = 1000
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 162
+}
+
+mjl_berc_fl_900 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 900
+			NOT = { 
+				land_forcelimit = 950
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 155
+}
+
+mjl_berc_fl_850 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 850
+			NOT = { 
+				land_forcelimit = 900
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 147
+}
+
+mjl_berc_fl_800 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 800
+			NOT = { 
+				land_forcelimit = 850
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 140
+}
+
+mjl_berc_fl_750 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 750
+			NOT = { 
+				land_forcelimit = 800
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 132
+}
+
+mjl_berc_fl_700 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 700
+			NOT = { 
+				land_forcelimit = 750
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 125
+}
+
+mjl_berc_fl_650 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 650
+			NOT = { 
+				land_forcelimit = 700
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 117
+}
+
+mjl_berc_fl_600 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 600
+			NOT = { 
+				land_forcelimit = 650
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 110
+}
+
+mjl_berc_fl_550 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 550
+			NOT = { 
+				land_forcelimit = 600
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 102
+}
+
+mjl_berc_fl_500 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 500
+			NOT = { 
+				land_forcelimit = 550
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 95
+}
+
+mjl_berc_fl_450 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 450
+			NOT = { 
+				land_forcelimit = 500
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 87
+}
+
+mjl_berc_fl_400 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 400
+			NOT = { 
+				land_forcelimit = 450
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 80
+}
+
+mjl_berc_fl_350 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 350
+			NOT = { 
+				land_forcelimit = 400
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 72
+}
+
+mjl_berc_fl_300 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 300
+			NOT = { 
+				land_forcelimit = 350
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 65
+}
+
+mjl_berc_fl_250 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 250
+			NOT = { 
+				land_forcelimit = 300
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 57
+}
+
+mjl_berc_fl_200 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 200
+			NOT = { 
+				land_forcelimit = 250
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 50
+}
+
+mjl_berc_fl_150 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 150
+			NOT = { 
+				land_forcelimit = 200
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 42
+}
+
+mjl_berc_fl_100 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 100
+			NOT = { 
+				land_forcelimit = 150
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 35
+}
+
+mjl_berc_fl_50 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 50
+			NOT = { 
+				land_forcelimit = 100
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 27
+}
+
+mjl_berc_fl_25 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 25
+			NOT = { 
+				land_forcelimit = 50
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 23
+}
+
+mjl_berc_fl_0 = {
+	potential = {
+	}
+
+	trigger = {
+		owner = {
+			land_forcelimit = 1
+			NOT = { 
+				land_forcelimit = 25
+			}
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_flag = mjl_merc_province_origin
+				}
+			}
+		}
+	}
+
+	local_amount_of_banners = 20
+}

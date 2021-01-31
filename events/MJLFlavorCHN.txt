@@ -1,0 +1,138 @@
+
+namespace = mjl_china
+normal_or_historical_nations = yes
+
+country_event = {
+	id = mjl_china.1
+	title = "mjl_china.EVTNAME1"
+	desc = "mjl_china.EVTDESC1"
+	picture = CHURCH_ESTATE_2_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "mjl_china.EVTOPTA1"
+		if = {
+			limit = {
+				NOT = {
+					religion = vajrayana
+				}
+			}
+			change_religion = vajrayana
+			add_stability = -2
+			add_country_modifier = {
+				name = "mjl_china_conversions"
+				duration = 5475
+			}
+		}
+		else {
+			add_stability = 1
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "mjl_china.EVTOPTB1"
+		if = {
+			limit = {
+				NOT = {
+					religion = tengri_pagan_reformed 
+				}
+			}
+			change_religion = tengri_pagan_reformed 
+			add_stability = -2
+			add_country_modifier = {
+				name = "mjl_china_conversions"
+				duration = 5475
+			}
+		}
+		else {
+			add_stability = 1
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "mjl_china.EVTOPTC1"
+		if = {
+			limit = {
+				NOT = {
+					religion = shinto
+				}
+			}
+			change_religion = shinto
+			add_stability = -2
+			add_country_modifier = {
+				name = "mjl_china_conversions"
+				duration = 5475
+			}
+		}
+		else {
+			add_stability = 1
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "mjl_china.EVTOPTD1"
+		if = {
+			limit = {
+				NOT = {
+					religion = confucianism
+				}
+			}
+			change_religion = confucianism
+			add_stability = -2
+			add_country_modifier = {
+				name = "mjl_china_conversions"
+				duration = 5475
+			}
+		}
+		else {
+			add_stability = 1
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "mjl_china.EVTOPTE1"
+		if = {
+			limit = {
+				NOT = {
+					religion = mahayana
+				}
+			}
+			change_religion = mahayana
+			add_stability = -2
+			add_country_modifier = {
+				name = "mjl_china_conversions"
+				duration = 5475
+			}
+		}
+		else {
+			add_stability = 1
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+}
+
+country_event = {
+	id = mjl_china.2
+	title = "mjl_china.EVTNAME2"
+	desc = "mjl_china.EVTDESC2"
+	picture = CHURCH_ESTATE_2_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "mjl_china.EVTOPTA2"
+		custom_tooltip = mjl_china.2.a.tt
+		set_country_flag = mjl_embrace_the_monke
+	}
+}

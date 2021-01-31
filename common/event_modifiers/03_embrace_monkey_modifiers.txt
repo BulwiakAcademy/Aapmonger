@@ -1,0 +1,5 @@
+#This is the province modifier, where institution spawned first.
+
+birthplace_of_the_embracemonke = { # Only 1 manpower. In honor for Harambe.
+	local_manpower = 0.001
+}

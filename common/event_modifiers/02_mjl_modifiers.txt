@@ -1,0 +1,93 @@
+shu_conquer_flatlands = {
+	shock_damage_received = -0.1
+}
+
+mjl_china_wars = {
+	manpower_recovery_speed = 0.1
+}
+
+mjl_fortified_xuanhua {
+	fort_maintenance_modifier = -0.25
+}
+
+mjl_peacefull_conquest = {
+	local_unrest = -4
+}
+
+mjl_jianghuai_culture = {
+	local_autonomy = -0.05
+}
+
+mjl_develop_shanxi = {
+	local_development_cost = -0.1
+}
+
+mjl_table_slam = {
+	discipline = 0.35
+}
+
+mjl_china_conversions = {
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.20
+}
+
+mjl_bejing_capital = {
+	local_state_maintenance_modifier = -0.2
+	regiment_recruit_speed = -0.5
+	local_tax_modifier = 0.2
+	local_institution_spread = 0.33
+}
+mjl_crushed_hordes = {
+	cavalry_cost = -0.3
+	cavalry_power = 0.1
+}
+mjl_poyang_conquest = {
+	local_autonomy = -0.05
+}
+
+mjl_convert_dali = {
+	local_missionary_strength = 0.025
+	local_culture_conversion_cost = -0.2
+	local_unrest = 4
+}
+
+mjl_secured_wuchan = {
+	global_own_trade_power = 0.10
+}
+
+mjl_birthplace_of_gunpowder = {
+	artillery_power = 0.015
+}
+mjl_forbidden_city = {
+	stability_cost_modifier = -0.1
+	prestige = 1
+}
+
+mjl_extra_avisors = {
+	advisor_pool = 1
+}
+
+mjl_chinese_trade_controled = {
+	trade_efficiency = 0.15
+}
+
+mjl_english_monarchy_rulers = {
+	monarch_military_power = 1
+}
+
+mjl_english_cuck = {
+	heir_chance = -10
+}
+
+mjl_lousiana_fl_buff = {
+	naval_forcelimit = 20
+}
+
+mjl_lan_monumental_construction = {
+	prestige = 1
+}
+
+mjl_boon_of_szyna = {
+	allowed_num_of_buildings = 1
+	local_unrest = -3
+}

@@ -1,0 +1,138 @@
+estate_rajput_levies = {
+	icon = privilege_spawn_rajput_regiments
+	max_absolutism = -5
+	influence = 0.1
+	is_valid = {
+		NOT = { religion_group = muslim }
+	}
+	modifier_by_land_ownership = {
+		global_tax_modifier = -0.25
+		global_manpower_modifier = 0.5
+	}
+	penalties = {
+	}
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 1.5
+			any_rival_country = {
+				army_strength = {
+					who = root
+					value = 1.5
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_idea_group = quantity_ideas
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { max_manpower = 40 }
+		}
+		modifier = {
+			factor = 0.5
+			max_manpower = 200
+		}
+		modifier = {
+			factor = 2
+			estate_territory = {
+				estate = estate_maratha
+				territory = 50
+			}
+		}
+		modifier = {
+			factor = 1.5
+			estate_territory = {
+				estate = estate_maratha
+				territory = 40
+			}
+		}
+		modifier = {
+			factor = 1.5
+			estate_territory = {
+				estate = estate_maratha
+				territory = 30
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_territory = {
+					estate = estate_maratha
+					territory = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_territory = {
+					estate = estate_maratha
+					territory = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_territory = {
+					estate = estate_maratha
+					territory = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+	}
+}
+
+estate_jains_advisor = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		NOT = { religion = hinduism }
+	}
+	penalties = {
+		stability_cost_modifier = 0.1
+	}
+	benefits = {
+		dip_advisor_cost = -0.25
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { dip = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			dip = 5
+		}
+	}
+}
+
+
+#estate_vaisyas_devcost_privilege = {
+#	icon = privilege_royal_authority
+#	max_absolutism = -10
+#	loyalty = 0.1
+#	influence = 0.1
+#	penalties = {
+#		global_autonomy = 0.02
+#	}
+#	benefits = {
+#		development_cost = -0.05
+#	}
+#	ai_will_do = {
+#		factor = 10
+#	}
+#}
