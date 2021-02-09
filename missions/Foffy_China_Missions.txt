@@ -120,38 +120,40 @@ h_china_all_5 = {
 		}
 	}	
 
-	foffy_china_faith_question = {
-		icon = mission_buddhist_monk_praying
-		position = 4
-		required_missions = { }
-		
-		trigger = {
-			if = {
-				limit = {
-					was_player = yes
-				}
-				ai = no
-			}
-			OR = {
-				calc_true_if = {
-					all_owned_province = {
-						OR = {
-							has_building = cathedral
-							has_building = temple
-						}
-					}
-					amount = 20
-				}
-				calc_true_if = {
-					all_owned_province = {
-						NOT = { religion = ROOT }
-					}
-					amount = 15
-				}
-			}
-		}
-		effect = {
-			country_event = { id = foffy_china.1 }
-		}
-	}
+
+	#foffy_china_faith_question = {
+	#	icon = mission_buddhist_monk_praying
+	#	position = 4
+	#	required_missions = { }
+	#	
+	#	trigger = {
+	#		if = {
+	#			limit = {
+	#				was_player = yes
+	#			}
+	#			ai = no
+	#		}
+	#		OR = {
+	#			calc_true_if = {
+	#				all_owned_province = {
+	#					OR = {
+	#						has_building = cathedral
+	#						has_building = temple
+	#					}
+	#				}
+	#				amount = 20
+	#			}
+	#			calc_true_if = {
+	#				all_owned_province = {
+	#					NOT = { religion = ROOT }
+	#				}
+	#				amount = 15
+	#			}
+	#		}
+	#	}
+	#	effect = {
+	#		country_event = { id = foffy_china.1 }
+	#	}
+	#}
+	
 }
