@@ -20,7 +20,7 @@ discovered_by = indian
 
 center_of_trade = 1
 add_province_triggered_modifier = h_cwonder_wuchang
-add_province_triggered_modifier = h_cwonder_wuchang_heathen
+#add_province_triggered_modifier = h_cwonder_wuchang_heathen
 add_permanent_province_modifier = {
 	name = h_commandery_province
 	duration = -1
