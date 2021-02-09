@@ -515,8 +515,13 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { was_tag = MNG }
 			NOT = { was_tag = MGE }
 			NOT = { was_tag = SYN }
-			NOT = { was_tag = CHN }
 			NOT = { was_tag = AFR }
+			NOT = { was_tag = QIC }
+			NOT = { was_tag = CXI }
+			NOT = { was_tag = CSH }
+			NOT = { was_tag = WUU }
+			NOT = { was_tag = YUE }
+			NOT = { was_tag = CYI }
 			NOT = { tag = TUR }
 			NOT = { tag = ROM }
 			NOT = { tag = HLR }
@@ -527,8 +532,13 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { tag = MNG }
 			NOT = { tag = MGE }
 			NOT = { tag = SYN }
-			NOT = { tag = CHN }
 			NOT = { tag = AFR }
+			NOT = { tag = QIC }
+			NOT = { tag = CXI }
+			NOT = { tag = CSH }
+			NOT = { tag = WUU }
+			NOT = { tag = YUE }
+			NOT = { tag = CYI }
 		}
 	}
 }

@@ -30,6 +30,13 @@ monarchy = {
 				revolutionary_empire_reform
 				holy_state_reform
 				austrian_archduchy_reform
+				h_reform_warlord_1
+				h_reform_prefecture
+				h_reform_citystate
+				h_reform_warlord_2
+				h_reform_warlord_3
+				h_reform_warlord_4
+				h_reform_sinicized_horde
 			}
 		}
 		hereditary_vs_nobility = {
@@ -251,6 +258,7 @@ republic = {
 				protectorate_parliament_reform
 				prussian_republic_reform
 				united_cantons_reform
+				h_reform_commandery
 			}
 		}
 		republican_virtues = {
@@ -736,6 +744,38 @@ pre_dharma_mapping = {
 		legacy_government = pirate_republic
 	}
 	all_mechanics = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_commandery = {
+		government = republic
+		legacy_government = oligarchic_republic
+	}
+	h_reform_prefecture = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_warlord_1 = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_citystate = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_warlord_2 = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_warlord_3 = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_warlord_4 = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_sinicized_horde = {
 		government = monarchy
 		legacy_government = despotic_monarchy
 	}

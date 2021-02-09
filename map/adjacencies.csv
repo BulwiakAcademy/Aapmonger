@@ -1,4 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+5528;666;sea;1257;-1;-1;-1;-1;Zhanhjing-Kiungchow
 1017;4651;sea;1376;-1;-1;-1;-1;Suo-Tsushima
 2745;4651;sea;1376;-1;-1;-1;-1;Gyeongju-Tsushima
 333;4559;sea;1300;-1;-1;-1;-1;Majorca-Minorca
@@ -29,7 +30,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1017;1818;sea;1390;4853;1213;4848;1208;Suo-Chikuzen
 1014;4186;sea;1390;4860;1202;4872;1202;Bungo-Iyo
 4186;1825;sea;1390;4881;1219;4880;1214;Aki-Iyo
-2159;666;sea;1370;-1;-1;-1;-1;Jiangmen-Hainan
 36;35;sea;1926;3171;1709;3165;1709;Estland-Ösel
 35;39;sea;1256;3157;1684;3158;1694;Ösel-Kurland
 597;620;sea;1361;4403;657;4415;672;Johor-Siak
@@ -45,7 +45,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 112;1774;sea;1308;2995;1432;2994;1434;Venice-Treviso
 54;4141;sea;1268;2945;1599;2943;1597;Stade-Dithmarschen
 1820;1021;sea;1391;4912;1219;4919;1223;Awa-Settsu
-4131;4193;sea;1387;4999;1357;5005;1351;Oshima-Mutsu
+5668;4193;sea;1387;4999;1357;5005;1351;Oshima-Mutsu -> Oshima-Aomori
 1032;1852;sea;4225;5099;1408;5073;1386;Kurils-Tokachi
 1199;1201;sea;1448;-1;-1;-1;-1;Bagamoyo-Zanzibar
 1247;127;sea;1298;-1;-1;-1;-1;Corsica-Sardinia

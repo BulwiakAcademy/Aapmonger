@@ -1,0 +1,198 @@
+namespace = foffy_china
+normal_or_historical_nations = yes
+
+country_event = {
+	id = foffy_china.1
+	title = "foffy_china.EVTNAME1"
+	desc = "foffy_china.EVTDESC1"
+	picture = CHURCH_ESTATE_2_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "foffy_china.EVTOPTA1"
+		if = {
+			limit = {
+				NOT = {
+					religion = vajrayana
+				}
+			}
+			change_religion = vajrayana
+			add_stability = -2
+			add_country_modifier = {
+				name = "foffy_china_conversions"
+				duration = 5475
+			}
+		}
+		else {
+			add_stability_or_adm_power = yes
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTB1"
+		if = {
+			limit = {
+				NOT = {
+					religion = tengri_pagan_reformed 
+				}
+			}
+			change_religion = tengri_pagan_reformed 
+			add_stability = -2
+			add_country_modifier = {
+				name = "foffy_china_conversions"
+				duration = 5475
+			}
+		}
+		else {
+			add_stability_or_adm_power = yes
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTC1"
+		if = {
+			limit = {
+				NOT = {
+					religion = shinto
+				}
+			}
+			change_religion = shinto
+			add_stability = -2
+			add_country_modifier = {
+				name = "foffy_china_conversions"
+				duration = 5475
+			}
+		}
+		else {
+			add_stability_or_adm_power = yes
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTD1"
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				NOT = {
+					religion = confucianism
+				}
+			}
+			change_religion = confucianism
+			add_stability = -2
+			add_country_modifier = {
+				name = "foffy_china_conversions"
+				duration = 5475
+			}
+		}
+		else {
+			add_stability_or_adm_power = yes
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTE1"
+		if = {
+			limit = {
+				NOT = {
+					religion = mahayana
+				}
+			}
+			change_religion = mahayana
+			add_stability = -2
+			add_country_modifier = {
+				name = "foffy_china_conversions"
+				duration = 5475
+			}
+		}
+		else {
+			add_stability_or_adm_power = yes
+			add_dip_power = 50
+			add_adm_power = 50
+			add_mil_power = 50
+		}
+	}
+}
+
+country_event = {
+	id = foffy_china.2
+	title = "foffy_china.EVTNAME2"
+	desc = "foffy_china.EVTDESC2"
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "foffy_china.EVTOPTA2"
+		define_advisor = {
+			name = "Wang Shouren"
+			female = no
+			type = philosopher
+			skill = 2
+			culture = wu
+			cost_multiplier = 0.25
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTB2"
+		define_general = {
+			name = "Wang Shouren"
+			shock = 4
+			fire = 4
+			manuever = 1
+			siege = 1
+			female = no
+		}
+	}
+	option = {
+		name = "foffy_china.EVTOPTC2"
+		add_dip_power = 100
+		add_adm_power = 100
+		add_mil_power = 100
+	}
+}
+
+#Lady of the First Degree
+country_event = {
+	id = foffy_china.3
+	title = "foffy_china.EVTNAME3"
+	desc = "foffy_china.EVTDESC3"
+	picture = wihgfx_FEMALES_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "foffy_china.EVTOPTA3"
+		define_advisor = {
+			name = "Gao Guiying"
+			female = yes
+			type = army_organiser
+			skill = 2
+			culture = xibei
+			cost_multiplier = 0.5
+		}
+	}
+	
+	option = {
+		name = "foffy_china.EVTOPTB3"
+		define_general = {
+			name = "Gao Guiying"
+			shock = 4
+			fire = 2
+			manuever = 1
+			siege = 2
+			female = yes
+			trait = inspirational_leader_general_personality
+		}
+		custom_tooltip = china_csh_gao_guiying_general_tt
+	}
+	
+}

@@ -94,6 +94,27 @@ royal_marriage = {
 			NOT = { war_with = FROM }
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_marrycommandery
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_commandery
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_commanderymarry
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 annexationaction = {
@@ -212,6 +233,15 @@ form_coalition = {
 			}
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_commanderycoalition
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 request_to_join_trade_league = {
@@ -288,6 +318,15 @@ declarewar = {
 			}
 		}
 	}
+	condition = {
+		tooltip = h_tooltip_commanderywar
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 support_independence_action = {
@@ -309,6 +348,136 @@ support_independence_action = {
 			FROM = {
 				is_colonial_nation = no
 			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_commanderysupport
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+guaranteeaction = {
+	condition = {
+		tooltip = h_tooltip_guaranteecommandery
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_commandery
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_commanderyguarantee
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+warningaction = {
+	condition = {
+		tooltip = h_tooltip_commanderywarn
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+threaten_war = {
+	condition = {
+		tooltip = h_tooltip_commanderythreaten
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+
+allianceaction = {
+	condition = {
+		tooltip = h_tooltip_allycommandery
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					has_reform = h_reform_commandery
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = h_tooltip_commanderally
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+enforce_peace = {
+	condition = {
+		tooltip = h_tooltip_commanderyenforce
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+warsubsidy = {
+	condition = {
+		tooltip = h_tooltip_commanderysubsidy
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+offerloan = {
+	condition = {
+		tooltip = h_tooltip_commanderyloan
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+giftaction = {
+	condition = {
+		tooltip = h_tooltip_commanderygift
+		potential = {
+			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
 		}
 	}
 }

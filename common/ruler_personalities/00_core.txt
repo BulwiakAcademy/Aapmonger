@@ -1667,7 +1667,7 @@ strict_personality = {
 			}
 			modifier = {
 				factor = 1
-				has_country_flag = mjl_embrace_the_monke
+				has_country_flag = china_art_of_war_country_flag
 			}
 			modifier = {
 				factor = 1

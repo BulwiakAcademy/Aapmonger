@@ -1,0 +1,380 @@
+########################################
+# Custom ideas for the HashMP Multiplayer mod
+#
+# by Foffy123 and hashinshin
+########################################
+
+########################################
+# Starting Group Ideas - China Rework
+########################################
+
+commandery_ideas = { #Thirteen Commanderies
+	start = {
+		liberty_desire = 500
+		land_morale = 0.25
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		has_reform = h_reform_commandery
+		AND = {
+			OR = {
+				tag = BJG
+				tag = CHS
+				tag = CGD
+				tag = CQG
+				tag = DLN
+				tag = GZH
+				tag = HNG
+				tag = KMG
+				tag = LUO
+				tag = NJG
+				tag = WUC
+				tag = XIN
+				tag = XIM
+			}
+			is_subject = no
+		}
+	}
+	free = yes #will be added at load.
+	
+	commandery_idea_1 = {
+		development_cost = -0.1
+	}
+	commandery_idea_2 = {
+		defensiveness = 0.25
+	}
+	commandery_idea_3 = {
+		global_unrest = -2
+	}
+	commandery_idea_4 = {
+		prestige = 1
+	}
+	commandery_idea_5 = {
+		stability_cost_modifier = -0.1
+	}
+	commandery_idea_6 = {
+		global_tax_modifier = 0.2
+	}
+	commandery_idea_7 = {
+		land_forcelimit_modifier = 0.1
+	}
+}
+
+citystate_ideas = { #Chinese City States
+	start = {
+		global_tax_income = 12
+		global_prov_trade_power_modifier = 0.25
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		has_reform = h_reform_citystate
+		OR = {
+			tag = ANQ
+			tag = BAO
+			tag = CGE
+			tag = CHZ
+			tag = DEZ
+			tag = GXI
+			tag = GNY
+			tag = GUI
+			tag = HZH
+			tag = HUY
+			tag = HUZ
+			tag = JNG
+			tag = JIH
+			tag = KAI
+			tag = KYA
+			tag = MAC
+			tag = QIZ
+			tag = SHG
+			tag = SHE
+			tag = SHZ
+			tag = SZH
+			tag = TAY
+			tag = TAO
+			tag = TIJ
+			tag = WUZ
+			tag = XIX
+			tag = XYU
+			tag = XUZ
+			tag = YNG
+		}
+	}
+	free = yes #will be added at load.
+	
+	citystate_idea_1 = {
+		defensiveness = 0.1
+	}
+	citystate_idea_2 = {
+		idea_cost = -0.1
+	}
+	citystate_idea_3 = {
+		global_sailors_modifier = 0.1
+		global_manpower_modifier = 0.1		
+	}
+	citystate_idea_4 = {
+		same_culture_advisor_cost = -0.2
+	}
+	citystate_idea_5 = {
+		development_cost = -0.1
+	}
+	citystate_idea_6 = {
+		trade_efficiency = 0.1
+	}
+	citystate_idea_7 = {
+		infantry_power = 0.1
+	}
+}
+
+########################################
+# Starting National Ideas
+########################################
+
+CSH_ideas = {
+	start = {
+		leader_land_shock = 1
+		development_cost = -0.05
+	}
+	
+	bonus = {
+		prestige = 1
+	}
+	
+	trigger = {
+		tag = CSH
+	}
+	free = yes
+	
+	shun_humble_beginnings = {
+		manpower_recovery_speed = 0.15
+	}
+	shun_dashing_king = {
+		diplomatic_reputation = 1
+		diplomatic_upkeep = 1
+	}
+	shun_hidden_treasury = {
+		global_tax_modifier = 0.2
+	}
+	shun_obedient_to_heaven = {
+		land_morale = 0.1
+	}
+	shun_perfection_of_sieging = {
+		siege_ability = 0.1
+	}
+	shun_from_sticks_to_guns = {
+		fire_damage_received = -0.1
+	}
+	shun_claim_to_the_mandate = {
+		governing_capacity = 250
+		legitimacy = 0.5
+	}
+}
+
+CYI_ideas = {
+	start = {
+		defensiveness = 0.2
+		shock_damage = 0.2
+	}
+
+	bonus = {
+		manpower_recovery_speed = 0.2
+	}
+	
+	trigger = {
+		tag = CYI
+	}
+	free = yes
+
+	cyi_chain_of_zimo_domains = {
+		reinforce_speed = 0.2
+		reinforce_cost_modifier = -0.1
+	}
+	cyi_promote_bimoism = {
+		advisor_cost = -0.15
+	}
+	cyi_strengthen_yi_caste_system = {
+		stability_cost_modifier = -0.15
+	}
+	cyi_deep_in_mountains = {
+		hostile_attrition = 1.0
+	}
+	cyi_solar_calendar = {
+		technology_cost = -0.05
+	}
+	cyi_renovate_skyward_tombs = {
+		legitimacy = 1
+		prestige = 1
+		devotion = 1
+	}
+	cyi_children_of_the_black_tiger = {
+		land_morale = 0.2
+	}
+}
+
+WUU_ideas = { #Wu
+	start = {
+		infantry_power = 0.1
+		mercenary_discipline = 0.05
+	}
+	
+	bonus = {
+		artillery_power = 0.1
+	}
+	
+	trigger = {
+		tag = WUU
+	}
+	free = yes #will be added at load.
+	
+	WUU_1 = {
+		embracement_cost = -0.2
+		global_institution_spread = 0.33
+	}
+	WUU_2 = {
+		trade_efficiency = 0.1
+		global_trade_power = 0.1
+	}
+	WUU_3 = {
+		development_cost = -0.1
+	}
+	WUU_4 = {
+		mercenary_manpower = 0.33
+	}
+	WUU_5 = {
+		ship_durability = 0.05
+		naval_morale = 0.10
+	}
+	WUU_6 = {
+		global_sailors_modifier = 0.25
+	}
+	WUU_7 = {
+		merchants = 1
+	}
+}
+
+YUE_ideas = { #Yue
+	start = {
+		global_manpower_modifier = 0.1
+		manpower_recovery_speed = 0.20		
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = YUE
+	}
+	free = yes #will be added at load.
+	
+	YUE_1 = {
+		land_morale = 0.1
+	}
+	YUE_2 = {
+		advisor_cost = -0.1
+	}
+	YUE_3 = {
+		infantry_cost = -0.10
+	}
+	YUE_4 = {
+		prestige = 1
+	}
+	YUE_7 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	YUE_6 = {
+		global_unrest = -1
+	}
+	YUE_5 = {
+		fire_damage = 0.1
+	}
+}
+
+QIC_ideas = { #Qi
+	start = {
+		shock_damage_received = -0.2
+		technology_cost = -0.05
+	}
+	
+	bonus = {
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = QIC
+	}
+	free = yes #will be added at load.
+	
+	QIC_1 = {
+		infantry_power = 0.1
+	}
+	QIC_2 = {
+		global_manpower_modifier = 0.25
+		global_sailors_modifier = 0.25
+	}
+	QIC_3 = {
+		galley_power = 0.2
+	}
+	QIC_4 = {
+		build_cost = -0.1
+	}
+	QIC_5 = {
+		num_accepted_cultures = 2
+	}
+	QIC_6 = {
+		movement_speed = 0.2
+		leader_land_manuever = 1
+	}
+	QIC_7 = {
+		monarch_admin_power = 1
+	}
+}
+
+CXI_ideas = { #Xi
+	start = {
+		infantry_power = 0.15
+		core_creation = -0.15
+	}
+	
+	bonus = {
+		province_warscore_cost = -0.1
+	}
+	
+	trigger = {
+		tag = CXI
+	}
+	free = yes #will be added at load.
+	
+	CXI_1 = {
+		land_morale = 0.1
+		loot_amount = 0.25
+	}
+	CXI_2 = {
+		fort_maintenance_modifier = -0.2
+	}
+	CXI_3 = {
+		war_exhaustion = -0.03
+		global_unrest = -1
+	}
+	CXI_4 = {
+		state_maintenance_modifier = -0.2
+	}
+	CXI_5 = {
+		army_tradition = 1
+	}
+	CXI_6 = {
+		production_efficiency = 0.15
+	}
+	CXI_7 = {
+		governing_capacity = 150
+		administrative_efficiency = 0.05
+	}
+}
