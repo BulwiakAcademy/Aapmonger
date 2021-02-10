@@ -3709,26 +3709,6 @@ on_province_owner_change = {
 	}
 	on_province_owner_change_estate_privileges_effect = yes
 
-	# DABE LINES
-
-	if = {
-		limit = {
-			owner = {
-				is_colonial_nation = yes
-				capital_scope = {
-					NOT = { colonial_region = ROOT }
-				}
-			}
-		}
-		owner = {
-			colonial_parent = {
-				ROOT = {
-					cede_province = PREV
-				}
-			}
-		}
-	}
-
 	# my lines
 	if = {
 		limit = {
@@ -4186,6 +4166,25 @@ on_golden_bull_enacted = {
 # FROM = The previous owner.
 on_conquest = {
 	remove_named_unrest = estate_land_seized
+	# DABE LINES
+
+	if = {
+		limit = {
+			owner = {
+				is_colonial_nation = yes
+				capital_scope = {
+					NOT = { colonial_region = ROOT }
+				}
+			}
+		}
+		owner = {
+			colonial_parent = {
+				ROOT = {
+					cede_province = PREV
+				}
+			}
+		}
+	}
 }
 
 on_country_creation = {
