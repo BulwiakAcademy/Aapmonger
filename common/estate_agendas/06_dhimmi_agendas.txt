@@ -309,6 +309,7 @@ estate_dhimmi_build_temple_in_y = {
 	can_select = {
 		adm_tech = 4
 		any_owned_province = {
+			is_state_core = root
 			NOT = { religion_group = root }
 			NOT = { has_building = cathedral }
 			OR = {
