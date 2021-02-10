@@ -56,18 +56,13 @@ country_decisions = {
 				province_id = 2757 # Kaffa
 				province_id = 1224 # Gonder
 				province_id = 1155 # Kano
-				province_id = 1157 # Borno
-				province_id = 1133 # Gao
 				province_id = 1132 # Timbuktu
 				province_id = 1124 # Joma
-				province_id = 2274 # Air
-				province_id = 1234 # Qasr Ibrim
-				province_id = 361 # Qahirah
 				province_id = 4040 # Kalonga
 				province_id = 344 # Marrakech
 				province_id = 346 # Tafilalt
 				province_id = 341 # Tunis
-				province_id = 4092 # Rund
+				province_id = 1196 # Kilwa
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -79,32 +74,33 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-				
+			capital_scope = {
+				continent = africa
+				is_core = ROOT
+			}
 			num_of_owned_provinces_with = {
 				is_core = ROOT
 				continent = africa
-				value = 75
+				value = 100
 			}
-			owns_core_province = 4064 # Buganda
-			owns_core_province = 4097 # Luba
-			owns_core_province = 1170 # Mpemba
-			owns_core_province = 1185 # Butua
-			owns_core_province = 1211 # Harer
-			owns_core_province = 2757 # Kaffa
-			owns_core_province = 1224 # Gonder
-			owns_core_province = 1155 # Kano
-			owns_core_province = 1157 # Borno
-			owns_core_province = 1133 # Gao
-			owns_core_province = 1132 # Timbuktu
-			owns_core_province = 1124 # Joma
-			owns_core_province = 2274 # Air
-			owns_core_province = 1234 # Qasr Ibrim
-			owns_core_province = 361 # Qahirah
-			owns_core_province = 4040 # Kalonga
-			owns_core_province = 344 # Marrakech
-			owns_core_province = 346 # Tafilalt
-			owns_core_province = 341 # Tunis
-			owns_core_province = 4092 # Rund
+			calc_true_if = {
+				amount = 9
+				owns_core_province = 344 # Marrakech
+				owns_core_province = 346 # Tafilalt
+				owns_core_province = 341 # Tunis
+				owns_core_province = 1155 # Kano
+				owns_core_province = 1132 # Timbuktu
+				owns_core_province = 1124 # Joma
+				owns_core_province = 4097 # Luba
+				owns_core_province = 1170 # Mpemba
+				owns_core_province = 4064 # Buganda
+				owns_core_province = 1185 # Butua
+				owns_core_province = 4040 # Kalonga
+				owns_core_province = 1196 # Kilwa
+				owns_core_province = 1224 # Gonder
+				owns_core_province = 1211 # Harer
+				owns_core_province = 2757 # Kaffa
+			}
 		}
 
 		effect = {
