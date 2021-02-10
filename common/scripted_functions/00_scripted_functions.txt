@@ -136,22 +136,22 @@ can_move_trade_port = {
 }
 
 can_order_assault = {
-	condition = {
-		tooltip = "MJL_CANNOT_ASSAULT_WHILE_CN"
-		potential = {
-			FROM = {
-				is_colonial_nation = yes
-			}
-		}
-		allow = {
-			OR = {
-				continent = north_america
-				continent = south_america
-				region = australia_region
-				region = oceanea_region
-			}
-		}
-	}
+#	condition = {
+#		tooltip = "MJL_CANNOT_ASSAULT_WHILE_CN"
+#		potential = {
+#			FROM = {
+#				is_colonial_nation = yes
+#			}
+#		}
+#		allow = {
+#			OR = {
+#				continent = north_america
+#				continent = south_america
+#				region = australia_region
+#				region = oceanea_region
+#			}
+#		}
+#	}
 }
 
 can_order_force_march = {
