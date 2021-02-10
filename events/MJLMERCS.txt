@@ -13,7 +13,7 @@ country_event = {
 			any_owned_province = {
 				culture = ROOT
 				is_core = ROOT
-				is_state = yes
+				is_state_core = root
 			}
 		}
 	}
@@ -44,7 +44,7 @@ country_event = {
 		any_owned_province = {
 			culture = ROOT
 			is_core = ROOT
-			is_state = yes
+			is_state_core = root
 		}
 	}
 	mean_time_to_happen = {
@@ -56,7 +56,7 @@ country_event = {
 			limit = {
 				culture = ROOT
 				is_core = ROOT
-				is_state = yes
+				is_state_core = root
 			}
 			custom_tooltip = mjl_merc_events.2.a.tt
 			set_province_flag = mjl_merc_province_origin
@@ -231,6 +231,7 @@ country_event = {
 			OR = {
 				NOT = { culture = ROOT }
 				NOT = { is_state = yes }
+				NOT = {	is_state_core = root }
 			}
 		}
 	}
