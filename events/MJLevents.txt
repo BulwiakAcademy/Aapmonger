@@ -557,50 +557,87 @@ country_event = {
 }
 
 country_event = {
-	id = mjl_events.9
-	title = "mjl_events.EVTNAME9"
-	desc = "mjl_events.EVTDESC9"
-	picture = COURT_eventPicture
-	
-	trigger = {
-		OR = {
-			tag = MAJ
-			tag = BEI
-		}
-		NOT = { has_country_flag = mjl_discover_australia_flag }
-	}
-	mean_time_to_happen = {
-		months = 24
-	}
-	option = {
-		name = "mjl_events.EVTOPTA9"
-		set_country_flag = mjl_discover_australia_flag
-		australia_region = {
-			ROOT = {
-				discover_province = PREV
-			}
-		}
-		south_china_sea_region = {
-			ROOT = {
-				discover_province = PREV
-			}
-		}
-		east_indian_ocean_region = {
-			ROOT = {
-				discover_province = PREV
-			}
-		}
-		south_west_pacific_region = {
-			ROOT = {
-				discover_province = PREV
-			}
-		}
-		moluccas_region = {
-			ROOT = {
-				discover_province = PREV
-			}
-		}
-	}
+    id = mjl_events.9
+    title = "mjl_events.EVTNAME9"
+    desc = "mjl_events.EVTDESC9"
+    picture = COURT_eventPicture
+
+    is_triggered_only = yes
+    hidden = yes
+    
+    trigger = {
+        NOT = { has_country_flag = discovered_australia_event }
+        ai = no
+        capital_scope = {
+            OR = {
+                region = moluccas_region
+                region = indonesia_region
+                region = malaya_region
+            }
+        }
+    }
+
+    immediate = {
+        name = "mjl_events.EVTOPTA9"
+        set_country_flag = discovered_australia_event
+        australia_region = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        south_china_sea_region = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        east_indian_ocean_region = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        south_west_pacific_region = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        moluccas_region = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        te_waipounamu_area = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        te_ika_a_maui_area = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        melanesia_area = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        1431 = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        1430 = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        1432 = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+    }
+    option = {
+    }
 }
 
 country_event = {
