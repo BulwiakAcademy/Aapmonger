@@ -1,0 +1,94 @@
+confucian_anglican_harmonization = {
+	picture = "confucian_anglican_icon"
+}
+
+confucian_animist_harmonization = {
+	picture = "confucian_animist_icon"
+}
+
+confucian_catholic_harmonization = {
+	picture = "confucian_catholic_icon"
+}
+confucian_coptic_harmonization = {
+	picture = "confucian_coptic_icon"
+}
+
+confucian_fetishist_harmonization = {
+	picture = "confucian_fetishist_icon"
+}
+
+confucian_hindu_harmonization = {
+	picture = "confucian_hindu_icon"
+}
+
+confucian_hussite_harmonization = {
+	picture = "confucian_hussite_icon"
+}
+
+confucian_ibadi_harmonization = {
+	picture = "confucian_ibadi_icon"
+}
+
+confucian_inti_harmonization = {
+	picture = "confucian_inti_icon"
+}
+
+confucian_jewish_harmonization = {
+	picture = "confucian_jewish_icon"
+}
+
+confucian_mahayanna_harmonization = {
+	picture = "confucian_mahayanna_icon"
+}
+
+confucian_mayan_harmonization = {
+	picture = "confucian_mayan_icon"
+}
+
+confucian_nahuatl_harmonization = {
+	picture = "confucian_nahuatl_icon"
+}
+
+confucian_orthodox_harmonization = {
+	picture = "confucian_orthodox_icon"
+}
+
+confucian_protestant_harmonization = {
+	picture = "confucian_protestant_icon"
+}
+
+confucian_reformed_harmonization = {
+	picture = "confucian_reformed_icon"
+}
+
+confucian_shia_harmonization = {
+	picture = "confucian_shia_icon"
+}
+
+confucian_shinto_harmonization = {
+	picture = "confucian_shinto_icon"
+}
+
+confucian_sikh_harmonization = {
+	picture = "confucian_sikh_icon"
+}
+
+confucian_sunni_harmonization = {
+	picture = "confucian_sunni_icon"
+}
+
+confucian_tengri_harmonization = {
+	picture = "confucian_tengri_icon"
+}
+
+confucian_theravada_harmonization = {
+	picture = "confucian_theravada_icon"
+}
+
+confucian_totemism_harmonization = {
+	picture = "confucian_totemism_icon"
+}
+
+confucian_vajrayana_harmonization = {
+	picture = "confucian_vajrayana_icon"
+}

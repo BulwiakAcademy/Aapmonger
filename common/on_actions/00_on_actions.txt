@@ -169,6 +169,7 @@ on_religion_change = {
 	events = {
 		muslim_school_events.20 #Pick School
 		propagate_religion_events.7 #Propagated Country is now Muslim
+		confucianism_reworked.2
 	}
 }
 
@@ -3599,6 +3600,30 @@ on_lose_great_power_status = {
 # province
 on_province_religion_converted = {
 	on_province_religion_converted_estate_privileges_effect = yes
+	remove_province_modifier = "confucian_anglican_harmonization"
+	remove_province_modifier = "confucian_animist_harmonization"
+	remove_province_modifier = "confucian_catholic_harmonization"
+	remove_province_modifier = "confucian_coptic_harmonization"
+	remove_province_modifier = "confucian_fetishist_harmonization"
+	remove_province_modifier = "confucian_hindu_harmonization"
+	remove_province_modifier = "confucian_hussite_harmonization"
+	remove_province_modifier = "confucian_ibadi_harmonization"
+	remove_province_modifier = "confucian_inti_harmonization"
+	remove_province_modifier = "confucian_jewish_harmonization"
+	remove_province_modifier = "confucian_mahayanna_harmonization"
+	remove_province_modifier = "confucian_mayan_harmonization"
+	remove_province_modifier = "confucian_nahuatl_harmonization"
+	remove_province_modifier = "confucian_orthodox_harmonization"
+	remove_province_modifier = "confucian_protestant_harmonization"
+	remove_province_modifier = "confucian_reformed_harmonization"
+	remove_province_modifier = "confucian_shia_harmonization"
+	remove_province_modifier = "confucian_shinto_harmonization"
+	remove_province_modifier = "confucian_sikh_harmonization"
+	remove_province_modifier = "confucian_sunni_harmonization"
+	remove_province_modifier = "confucian_tengri_harmonization"
+	remove_province_modifier = "confucian_theravada_harmonization"
+	remove_province_modifier = "confucian_totemism_harmonization"
+	remove_province_modifier = "confucian_vajrayana_harmonization"
 }
 
 # province
@@ -3736,51 +3761,61 @@ on_parliament_debate_succeeded = {
 on_harmonized_pagan = {
 	events = {
 		confucian_events.1
+		confucianism_reworked.1
 	}
 }
 on_harmonized_christian = {
 	events = {
 		confucian_events.2
+		confucianism_reworked.1
 	}
 }
 on_harmonized_muslim = {
 	events = {
 		confucian_events.3
+		confucianism_reworked.1
 	}
 }
 on_harmonized_jewish_group = {
 	events = {
 		confucian_events.5
+		confucianism_reworked.1
 	}
 }
 on_harmonized_zoroastrian_group = {
 	events = {
 		confucian_events.6
+		confucianism_reworked.1
 	}
 }
 on_harmonized_dharmic = {
 	events = {
 		confucian_events.4
+		confucianism_reworked.1
 	}
 }
 on_harmonized_mahayana = {
 	events = {
 		confucian_events.9
+		confucianism_reworked.1
 	}
 }
 on_harmonized_buddhism = { #Theravada
 	events = {
 		confucian_events.8
+		confucianism_reworked.1
 	}
 }
 on_harmonized_shinto = {
 	events = {
 		confucian_events.7
+		confucianism_reworked.1
 	}
 }
 on_harmonized_vajrayana = {
 	events = {
 		confucian_events.10
+		confucianism_reworked.1
 	}
 }
 
@@ -4167,7 +4202,6 @@ on_golden_bull_enacted = {
 on_conquest = {
 	remove_named_unrest = estate_land_seized
 	# DABE LINES
-
 	if = {
 		limit = {
 			owner = {
@@ -4185,6 +4219,187 @@ on_conquest = {
 			}
 		}
 	}
+	#Confucian stuff
+	if = {
+		limit = {
+			has_province_modifier = "confucian_catholic_harmonization"
+		}
+		remove_province_modifier = "confucian_catholic_harmonization"
+		change_religion = catholic
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_anglican_harmonization"
+		}
+		remove_province_modifier = "confucian_anglican_harmonization"
+		change_religion = anglican
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_hussite_harmonization"
+		}
+		remove_province_modifier = "confucian_hussite_harmonization"
+		change_religion = hussite
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_protestant_harmonization"
+		}
+		remove_province_modifier = "confucian_protestant_harmonization"
+		change_religion = protestant
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_reformed_harmonization"
+		}
+		remove_province_modifier = "confucian_reformed_harmonization"
+		change_religion = reformed
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_orthodox_harmonization"
+		}
+		remove_province_modifier = "confucian_orthodox_harmonization"
+		change_religion = orthodox
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_coptic_harmonization"
+		}
+		remove_province_modifier = "confucian_coptic_harmonization"
+		change_religion = coptic
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_sunni_harmonization"
+		}
+		remove_province_modifier = "confucian_sunni_harmonization"
+		change_religion = sunni
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_shia_harmonization"
+		}
+		remove_province_modifier = "confucian_shia_harmonization"
+		change_religion = shiite
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_ibadi_harmonization"
+		}
+		remove_province_modifier = "confucian_ibadi_harmonization"
+		change_religion = ibadi
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_theravada_harmonization"
+		}
+		remove_province_modifier = "confucian_theravada_harmonization"
+		change_religion = buddhism
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_vajrayana_harmonization"
+		}
+		remove_province_modifier = "confucian_vajrayana_harmonization"
+		change_religion = vajrayana
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_mahayanna_harmonization"
+		}
+		remove_province_modifier = "confucian_mahayanna_harmonization"
+		change_religion = mahayana
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_shinto_harmonization"
+		}
+		remove_province_modifier = "confucian_shinto_harmonization"
+		change_religion = shinto
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_hindu_harmonization"
+		}
+		remove_province_modifier = "confucian_hindu_harmonization"
+		change_religion = hinduism
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_sikh_harmonization"
+		}
+		remove_province_modifier = "confucian_sikh_harmonization"
+		change_religion = sikhism
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_animist_harmonization"
+		}
+		remove_province_modifier = "confucian_animist_harmonization"
+		change_religion = animism
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_fetishist_harmonization"
+		}
+		remove_province_modifier = "confucian_fetishist_harmonization"
+		change_religion = shamanism
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_totemism_harmonization"
+		}
+		remove_province_modifier = "confucian_totemism_harmonization"
+		change_religion = totemism
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_inti_harmonization"
+		}
+		remove_province_modifier = "confucian_inti_harmonization"
+		change_religion = inti
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_nahuatl_harmonization"
+		}
+		remove_province_modifier = "confucian_nahuatl_harmonization"
+		change_religion = nahuatl
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_mayan_harmonization"
+		}
+		remove_province_modifier = "confucian_mayan_harmonization"
+		change_religion = mesoamerican_religion
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_tengri_harmonization"
+		}
+		remove_province_modifier = "confucian_tengri_harmonization"
+		change_religion = tengri_pagan_reformed
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_jewish_harmonization"
+		}
+		remove_province_modifier = "confucian_jewish_harmonization"
+		change_religion = jewish
+	}
+	if = {
+		limit = {
+			owner = {
+				religion = confucianism
+				has_harmonized_with = PREV
+			}
+		}
+		owner = {
+			country_event = { id = confucianism_reworked.1 }
+		}
+	}
+
 }
 
 on_country_creation = {

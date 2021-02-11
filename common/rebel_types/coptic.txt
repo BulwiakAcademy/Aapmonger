@@ -157,6 +157,30 @@ coptic_rebels = {
 					name = "forced_conversion"
 					duration = 730
 				}
+				remove_province_modifier = "confucian_anglican_harmonization"
+				remove_province_modifier = "confucian_animist_harmonization"
+				remove_province_modifier = "confucian_catholic_harmonization"
+				remove_province_modifier = "confucian_coptic_harmonization"
+				remove_province_modifier = "confucian_fetishist_harmonization"
+				remove_province_modifier = "confucian_hindu_harmonization"
+				remove_province_modifier = "confucian_hussite_harmonization"
+				remove_province_modifier = "confucian_ibadi_harmonization"
+				remove_province_modifier = "confucian_inti_harmonization"
+				remove_province_modifier = "confucian_jewish_harmonization"
+				remove_province_modifier = "confucian_mahayanna_harmonization"
+				remove_province_modifier = "confucian_mayan_harmonization"
+				remove_province_modifier = "confucian_nahuatl_harmonization"
+				remove_province_modifier = "confucian_orthodox_harmonization"
+				remove_province_modifier = "confucian_protestant_harmonization"
+				remove_province_modifier = "confucian_reformed_harmonization"
+				remove_province_modifier = "confucian_shia_harmonization"
+				remove_province_modifier = "confucian_shinto_harmonization"
+				remove_province_modifier = "confucian_sikh_harmonization"
+				remove_province_modifier = "confucian_sunni_harmonization"
+				remove_province_modifier = "confucian_tengri_harmonization"
+				remove_province_modifier = "confucian_theravada_harmonization"
+				remove_province_modifier = "confucian_totemism_harmonization"
+				remove_province_modifier = "confucian_vajrayana_harmonization"
 			}
 		}
 		owner = {
