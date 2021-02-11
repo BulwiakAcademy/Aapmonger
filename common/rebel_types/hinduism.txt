@@ -283,13 +283,13 @@ hinduism_rebels = {
 			limit = { has_estate = estate_brahmins }
 			change_estate_land_share = {
 				estate = estate_brahmins
-				share = 10.0
+				share = 5.0
 			}
 		}
 		else = {
 			change_estate_land_share = {
 				estate = estate_church
-				share = 10.0
+				share = 5.0
 			}
 		}
 	}

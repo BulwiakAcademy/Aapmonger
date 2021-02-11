@@ -262,7 +262,7 @@ hussite_rebels = {
 
 		change_estate_land_share = {
 			estate = estate_church
-			share = 10.0
+			share = 5.0
 		}
 	}
 }
