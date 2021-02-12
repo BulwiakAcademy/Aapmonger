@@ -34,6 +34,7 @@ NDefines.NCountry.ABANDON_CORE_PRESTIGE = 0
 NDefines.NEconomy.CARAVAN_FACTOR = 3
 NDefines.NEconomy.CARAVAN_POWER_MAX = 25
 NDefines.NEconomy.CARAVAN_POWER_MIN = 2
+NDefines.NEconomy.DEBASE_MAX_CORRUPTION = 25
 
 
 NDefines.NMilitary.WARGOAL_MAX_BONUS = 35
