@@ -139,6 +139,7 @@ emp_hab_empire_branch = {
 			owner = {
 				NOT = { tag = root }
 				NOT = { is_subject_of = ROOT }
+				NOT = { tag = DAN }
 				OR = {
 					AND = {
 						num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -162,6 +163,7 @@ emp_hab_empire_branch = {
 							any_country = {
 								NOT = { tag = root }
 								NOT = { is_subject_of = ROOT }
+								NOT = { tag = DAN }
 								is_part_of_hre = yes
 								num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 									value = 10
