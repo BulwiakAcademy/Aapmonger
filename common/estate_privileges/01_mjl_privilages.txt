@@ -136,3 +136,28 @@ estate_jains_advisor = {
 #		factor = 10
 #	}
 #}
+
+
+estate_church_piety_privilege = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	influence = 0.10
+	is_valid = {
+		religion_group = muslim
+	}
+	can_select = {
+		NOT = { has_estate_privilege = estate_church_clerical_ministers }
+	}
+	penalties = {
+	}
+	benefits = {
+		monthly_piety = -0.001
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+	}
+}
