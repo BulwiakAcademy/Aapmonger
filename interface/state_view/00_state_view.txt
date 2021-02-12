@@ -30,10 +30,10 @@ holy_order = {
     }
 }
 
-banners = {
-    priority = 5
-    requires_country_state = yes
-    dlcs_required = {
-        "Mandate of Heaven"
-    }
-}
+#banners = {
+#    priority = 5
+#    requires_country_state = yes
+#    dlcs_required = {
+#        "Mandate of Heaven"
+#    }
+#}
