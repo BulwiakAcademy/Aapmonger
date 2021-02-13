@@ -330,20 +330,20 @@ overlord_with_too_many_colonies_8 = {
 ###########################################
 # HRE SPY NETWORK BOOST
 ###########################################
-hre_player_nation = {
-	potential = {
-		is_part_of_hre = yes
-	}
-	trigger = {
-		was_player = yes
-		capital_scope = {
-			is_part_of_hre = yes
-		}
-		NOT = { is_year = 1650 }
-	}
-
-	spy_offence = 0.2
-}
+#hre_player_nation = {
+#	potential = {
+#		is_part_of_hre = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		capital_scope = {
+#			is_part_of_hre = yes
+#		}
+#		NOT = { is_year = 1650 }
+#	}
+#
+#	spy_offence = 0.2
+#}
 ###########################################
 # quick build testing
 ###########################################

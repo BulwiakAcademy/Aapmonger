@@ -91,3 +91,7 @@ mjl_boon_of_szyna = {
 	allowed_num_of_buildings = 1
 	local_unrest = -3
 }
+
+mjl_hre_spy_boost_modifier = {
+	spy_offence = 0.2
+}

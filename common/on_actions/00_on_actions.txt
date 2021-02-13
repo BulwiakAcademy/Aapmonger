@@ -16,6 +16,7 @@ on_startup = {
 		foffychina.31
 		mjl_events.4
 		#mjl_events.2
+		mjl_events.14
 		mjl_events.7
 		mjl_events.9
 		flavor_dlh.5
