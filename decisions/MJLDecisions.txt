@@ -7,9 +7,12 @@ country_decisions = {
 			religion_group = muslim
 		}
 		allow = {
-			OR = {
-				NOT = { has_country_flag = mjl_1444_change_school }
-				had_country_flag = { flag = mjl_1444_change_school days = 9125 }
+			custom_trigger_tooltip = {
+				tooltip = mjl_1444_change_school_cd_tt
+				OR = {
+					NOT = { has_country_flag = mjl_1444_change_school }
+					had_country_flag = { flag = mjl_1444_change_school days = 9125 }
+				}
 			}
 			prestige = 0
 		}

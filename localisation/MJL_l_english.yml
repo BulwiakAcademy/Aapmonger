@@ -354,3 +354,4 @@
  EVTDESC702.b:0 "With $MONARCH$ being forced out of office, a new [Root.Monarch.GetTitle] will have to be elected. As the votes are tallied there is an unusual excitement in the air. The three primary candidates are all acutely aware of the events that have transpired these last few days...\n\n§RColonial Nations cannot reelect rulers below 20 Republican Tradition.§!"
  estate_church_piety_privilege:0 "$ESTATE_NAME$ Religious Autonomy"
  estate_church_piety_privilege_desc:0 "If we listen to the advice of the [Root.GetClergyName] and place their concerns at the forefront of our mind, we may derive considerable benefits for our rule and see the people's faith in [Root.GetReligionNoun] greatly strengthened."
+ mjl_1444_change_school_cd_tt:0 "Religious school can be changed only once every §Y25§! years."
