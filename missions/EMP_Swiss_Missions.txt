@@ -422,7 +422,7 @@ swiss_missions_4 = {
 		}
 		trigger = {
 			num_of_owned_provinces_with = {
-				value = 3
+				value = 2
 				fort_level = 3
 				has_terrain = mountain
 			}
