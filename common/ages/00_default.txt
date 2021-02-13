@@ -522,7 +522,7 @@ age_of_absolutism = {
 				max_absolutism = 25
 			}
 			effect = {
-				set_country_flag = mjl_absolutism_age_abso_ability
+				#set_country_flag = mjl_absolutism_age_abso_ability
 			}
 			ai_will_do = {
 				factor = 0
@@ -760,7 +760,7 @@ age_of_revolutions = {
 				max_absolutism = 40
 			}
 			effect = {
-				set_country_flag = mjl_revolution_age_abso_ability
+				#set_country_flag = mjl_revolution_age_abso_ability
 			}
 			ai_will_do = {
 				factor = 15

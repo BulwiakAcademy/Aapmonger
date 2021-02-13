@@ -708,27 +708,27 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = mjl_events.11
-	title = "mjl_events.EVTNAME11"
-	desc = "mjl_events.EVTDESC11"
-	#picture = TRADEGOODS_eventPicture
-	picture = Danny_eventPicture
-
-	trigger = {
-		has_country_flag = mjl_revolution_age_abso_ability
-		has_country_flag = mjl_absolutism_age_abso_ability
-		NOT = { has_country_flag = mjl_absolutism_gained }
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
-	option = {
-		name = "mjl_events.EVTOPTA11"
-		add_absolutism = 15
-		set_country_flag = mjl_absolutism_gained
-	}
-}
+#country_event = {
+#	id = mjl_events.11
+#	title = "mjl_events.EVTNAME11"
+#	desc = "mjl_events.EVTDESC11"
+#	#picture = TRADEGOODS_eventPicture
+#	picture = Danny_eventPicture
+#
+#	trigger = {
+#		has_country_flag = mjl_revolution_age_abso_ability
+#		has_country_flag = mjl_absolutism_age_abso_ability
+#		NOT = { has_country_flag = mjl_absolutism_gained }
+#	}
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	option = {
+#		name = "mjl_events.EVTOPTA11"
+#		add_absolutism = 15
+#		set_country_flag = mjl_absolutism_gained
+#	}
+#}
 
 country_event = {
 	id = mjl_events.12
