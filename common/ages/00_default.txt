@@ -761,6 +761,7 @@ age_of_revolutions = {
 			}
 			effect = {
 				#set_country_flag = mjl_revolution_age_abso_ability
+				add_absolutism = 15
 			}
 			ai_will_do = {
 				factor = 15
