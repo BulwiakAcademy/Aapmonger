@@ -15,6 +15,7 @@ historical_rival = MER
 historical_rival = BAH
 historical_rival = VIJ
 historical_rival = MLW
+historical_rival = AFG
 
 change_rajputs_or_marathas_or_nobles_land_share_effect = {
 	share = 5
