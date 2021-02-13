@@ -2157,12 +2157,12 @@ MJZ_ideas = {
 
 MCH_ideas = {
 	start = {
-		leader_land_shock = 1	
+		land_morale = 0.1
 		land_maintenance_modifier = -0.05
 	}
 	
 	bonus = {
-		land_morale = 0.15	
+		land_morale = 0.05
 	}
 	
 	trigger = {
@@ -2191,6 +2191,7 @@ MCH_ideas = {
 	}
 	manchu_chinese_learning = {
 		mil_tech_cost_modifier = -0.1
+		leader_land_shock = 1
 	}
 	seven_grievances = {
 		ae_impact = -0.1
