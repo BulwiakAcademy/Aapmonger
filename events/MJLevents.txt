@@ -80,9 +80,6 @@ country_event = {
 		religion_group = muslim
 		NOT = { has_country_flag = mjl_1444_change_school }
 	}
-	mean_time_to_happen = {
-		months = 1
-	}
 	option = {
 		name = "mjl_events.EVTOPTA4"
 		trigger = {
