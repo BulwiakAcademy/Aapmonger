@@ -3216,5 +3216,6 @@ country_event = {
 		}
 		change_religion = confucianism
 		add_harmonized_religion = shinto
+		country_event = { id = confucian_events.7 }
 	}
 }

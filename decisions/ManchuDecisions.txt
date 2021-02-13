@@ -250,6 +250,7 @@ country_decisions = {
 				}
 				change_religion = confucianism
 				add_harmonized_religion = tengri_pagan_reformed
+				country_event = { id = confucian_events.1 }
 			}
 			add_government_reform = h_reform_sinicized_horde
 			add_prestige = 10

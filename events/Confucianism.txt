@@ -28,13 +28,121 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
-		name = "confucian_events.1.a"
-		tooltip = {
-			add_country_modifier = {
-				name = "harmonized_pagan"
-				duration = -1
+		name = "confucian_events.EVTOPTA1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_vajrayana"
 			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_vajrayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTB1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_buddhism"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_buddhism"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTC1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_mahayana"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_mahayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTD1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_shinto"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_shinto"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTE1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_pagan"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_pagan"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTF1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_jewish_group"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_jewish_group"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTG1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_dharmic"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_dharmic"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTH1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_muslim"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_muslim"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTI1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_christian"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_christian"
+			duration = -1
 		}
 	}
 }
@@ -57,13 +165,121 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
-		name = "confucian_events.2.a"
-		tooltip = {
-			add_country_modifier = {
-				name = "harmonized_christian"
-				duration = -1
+		name = "confucian_events.EVTOPTA1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_vajrayana"
 			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_vajrayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTB1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_buddhism"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_buddhism"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTC1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_mahayana"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_mahayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTD1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_shinto"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_shinto"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTE1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_pagan"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_pagan"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTF1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_jewish_group"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_jewish_group"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTG1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_dharmic"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_dharmic"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTH1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_muslim"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_muslim"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTI1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_christian"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_christian"
+			duration = -1
 		}
 	}
 }
@@ -94,13 +310,121 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
-		name = "confucian_events.3.a"
-		tooltip = {
-			add_country_modifier = {
-				name = "harmonized_muslim"
-				duration = -1
+		name = "confucian_events.EVTOPTA1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_vajrayana"
 			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_vajrayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTB1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_buddhism"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_buddhism"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTC1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_mahayana"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_mahayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTD1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_shinto"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_shinto"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTE1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_pagan"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_pagan"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTF1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_jewish_group"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_jewish_group"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTG1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_dharmic"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_dharmic"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTH1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_muslim"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_muslim"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTI1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_christian"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_christian"
+			duration = -1
 		}
 	}
 }
@@ -123,13 +447,121 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
-		name = "confucian_events.4.a"
-		tooltip = {
-			add_country_modifier = {
-				name = "harmonized_dharmic"
-				duration = -1
+		name = "confucian_events.EVTOPTA1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_vajrayana"
 			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_vajrayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTB1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_buddhism"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_buddhism"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTC1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_mahayana"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_mahayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTD1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_shinto"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_shinto"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTE1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_pagan"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_pagan"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTF1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_jewish_group"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_jewish_group"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTG1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_dharmic"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_dharmic"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTH1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_muslim"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_muslim"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTI1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_christian"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_christian"
+			duration = -1
 		}
 	}
 }
@@ -152,13 +584,121 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
-		name = "confucian_events.5.a"
-		tooltip = {
-			add_country_modifier = {
-				name = "harmonized_jewish_group"
-				duration = -1
+		name = "confucian_events.EVTOPTA1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_vajrayana"
 			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_vajrayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTB1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_buddhism"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_buddhism"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTC1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_mahayana"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_mahayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTD1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_shinto"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_shinto"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTE1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_pagan"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_pagan"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTF1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_jewish_group"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_jewish_group"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTG1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_dharmic"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_dharmic"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTH1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_muslim"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_muslim"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTI1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_christian"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_christian"
+			duration = -1
 		}
 	}
 }
@@ -187,13 +727,121 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
-		name = "confucian_events.6.a"
-		tooltip = {
-			add_country_modifier = {
-				name = "harmonized_zoroastrian_group"
-				duration = -1
+		name = "confucian_events.EVTOPTA1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_vajrayana"
 			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_vajrayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTB1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_buddhism"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_buddhism"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTC1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_mahayana"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_mahayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTD1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_shinto"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_shinto"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTE1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_pagan"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_pagan"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTF1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_jewish_group"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_jewish_group"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTG1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_dharmic"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_dharmic"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTH1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_muslim"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_muslim"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTI1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_christian"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_christian"
+			duration = -1
 		}
 	}
 }
@@ -216,13 +864,121 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
-		name = "confucian_events.7.a"
-		tooltip = {
-			add_country_modifier = {
-				name = "harmonized_shinto"
-				duration = -1
+		name = "confucian_events.EVTOPTA1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_vajrayana"
 			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_vajrayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTB1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_buddhism"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_buddhism"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTC1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_mahayana"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_mahayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTD1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_shinto"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_shinto"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTE1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_pagan"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_pagan"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTF1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_jewish_group"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_jewish_group"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTG1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_dharmic"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_dharmic"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTH1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_muslim"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_muslim"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTI1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_christian"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_christian"
+			duration = -1
 		}
 	}
 }
@@ -245,13 +1001,121 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
-		name = "confucian_events.8.a"
-		tooltip = {
-			add_country_modifier = {
-				name = "harmonized_buddhism"
-				duration = -1
+		name = "confucian_events.EVTOPTA1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_vajrayana"
 			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_vajrayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTB1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_buddhism"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_buddhism"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTC1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_mahayana"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_mahayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTD1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_shinto"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_shinto"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTE1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_pagan"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_pagan"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTF1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_jewish_group"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_jewish_group"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTG1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_dharmic"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_dharmic"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTH1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_muslim"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_muslim"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTI1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_christian"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_christian"
+			duration = -1
 		}
 	}
 }
@@ -274,13 +1138,121 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
-		name = "confucian_events.9.a"
-		tooltip = {
-			add_country_modifier = {
-				name = "harmonized_mahayana"
-				duration = -1
+		name = "confucian_events.EVTOPTA1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_vajrayana"
 			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_vajrayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTB1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_buddhism"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_buddhism"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTC1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_mahayana"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_mahayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTD1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_shinto"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_shinto"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTE1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_pagan"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_pagan"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTF1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_jewish_group"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_jewish_group"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTG1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_dharmic"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_dharmic"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTH1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_muslim"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_muslim"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTI1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_christian"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_christian"
+			duration = -1
 		}
 	}
 }
@@ -303,13 +1275,121 @@ country_event = {
 		}
 	}
 	
+	
 	option = {
-		name = "confucian_events.10.a"
-		tooltip = {
-			add_country_modifier = {
-				name = "harmonized_vajrayana"
-				duration = -1
+		name = "confucian_events.EVTOPTA1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_vajrayana"
 			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_vajrayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTB1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_buddhism"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_buddhism"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTC1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_mahayana"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_mahayana"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTD1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_shinto"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_shinto"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTE1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_pagan"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_pagan"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTF1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_jewish_group"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_jewish_group"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTG1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_dharmic"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_dharmic"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTH1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_muslim"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_muslim"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "confucian_events.EVTOPTI1"
+		trigger = {
+			NOT = {
+				has_country_modifier = "MJL_harmonized_christian"
+			}
+		}
+		add_country_modifier = {
+			name = "MJL_harmonized_christian"
+			duration = -1
 		}
 	}
 }

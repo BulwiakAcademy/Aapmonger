@@ -92,3 +92,53 @@ confucian_totemism_harmonization = {
 confucian_vajrayana_harmonization = {
 	picture = "confucian_vajrayana_icon"
 }
+
+
+##################################################
+# MHL Confucian Virtues
+##################################################
+MJL_harmonized_vajrayana = {
+	production_efficiency = 0.05  #"Xiào - Filial Piety"
+	religion = yes
+}
+
+MJL_harmonized_buddhism = { #Theravada
+	advisor_cost = -0.75   #"Zhōng - Loyalty"
+	religion = yes
+}
+
+MJL_harmonized_mahayana = {
+	idea_cost = -0.05  #"Lǐ - Proper Rite"
+	religion = yes
+}
+
+MJL_harmonized_shinto = {
+	infantry_power = 0.1   #"Xìn - Integrity"
+	religion = yes
+}
+
+# Religion Groups
+MJL_harmonized_pagan = {
+	global_unrest = -1  #"Yì - Righteousness and Justice" 
+	religion = yes
+}
+
+MJL_harmonized_jewish_group = {
+	global_institution_spread = 0.2  #"Zhì - Knowledge"
+	religion = yes
+}
+
+MJL_harmonized_dharmic = {
+	tolerance_own = 1  #"Rén - Benevolence and Humaneness"
+	religion = yes
+}
+
+MJL_harmonized_muslim = {
+	trade_efficiency = 0.05  #"Jié - Contingency"
+	religion = yes
+}
+
+MJL_harmonized_christian = {
+	stability_cost_modifier = -0.1  #"Chéng - Honesty"
+	religion = yes
+}
