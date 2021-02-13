@@ -1,13 +1,13 @@
 english_civil_war = {
 	ended_by_country_breaking_to_rebels = no
 	potential = {
-		OR = {
-			AND = {
-				tag = ENG
-				NOT = { exists = GBR }
-			}
-			tag = GBR
-		}
+		#OR = {
+		#	AND = {
+		#		tag = ENG
+		#		NOT = { exists = GBR }
+		#	}
+		#	tag = GBR
+		#}
 		NOT = { has_country_flag = eng_civil_war_happened }
 		has_reform = english_monarchy
 		is_free_or_tributary_trigger = yes
