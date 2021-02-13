@@ -24,49 +24,49 @@ normal_or_historical_nations = yes
 #}
 
 
-country_event = {
-	id = mjl_events.2
-	title = "mjl_events.EVTNAME2"
-	desc = "mjl_events.EVTDESC2"
-	picture = COURT_eventPicture
-	
-	trigger = {
-		has_reform = english_monarchy
-		NOT = { has_country_flag = mjl_english_monarchy_ruler_flag }
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
-	option = {
-		name = "mjl_events.EVTOPTA2"
-		add_country_modifier = {
-			name = "mjl_english_monarchy_rulers"
-			duration = -1
-		}
-		set_country_flag = mjl_english_monarchy_ruler_flag
-	}
-}
+#country_event = {
+#	id = mjl_events.2
+#	title = "mjl_events.EVTNAME2"
+#	desc = "mjl_events.EVTDESC2"
+#	picture = COURT_eventPicture
+#	
+#	trigger = {
+#		has_reform = english_monarchy
+#		NOT = { has_country_flag = mjl_english_monarchy_ruler_flag }
+#	}
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	option = {
+#		name = "mjl_events.EVTOPTA2"
+#		add_country_modifier = {
+#			name = "mjl_english_monarchy_rulers"
+#			duration = -1
+#		}
+#		set_country_flag = mjl_english_monarchy_ruler_flag
+#	}
+#}
 
 
-country_event = {
-	id = mjl_events.3
-	title = "mjl_events.EVTNAME3"
-	desc = "mjl_events.EVTDESC3"
-	picture = COURT_eventPicture
-	
-	trigger = {
-		NOT = { has_reform = english_monarchy }
-		has_country_flag = mjl_english_monarchy_ruler_flag
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
-	option = {
-		name = "mjl_events.EVTOPTA3"
-		clr_country_flag = mjl_english_monarchy_ruler_flag
-		remove_country_modifier = mjl_english_monarchy_rulers
-	}
-}
+#country_event = {
+#	id = mjl_events.3
+#	title = "mjl_events.EVTNAME3"
+#	desc = "mjl_events.EVTDESC3"
+#	picture = COURT_eventPicture
+#	
+#	trigger = {
+#		NOT = { has_reform = english_monarchy }
+#		has_country_flag = mjl_english_monarchy_ruler_flag
+#	}
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	option = {
+#		name = "mjl_events.EVTOPTA3"
+#		clr_country_flag = mjl_english_monarchy_ruler_flag
+#		remove_country_modifier = mjl_english_monarchy_rulers
+#	}
+#}
 
 country_event = {
 	id = mjl_events.4

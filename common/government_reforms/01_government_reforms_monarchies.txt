@@ -421,6 +421,7 @@ english_monarchy = {
 	legacy_equivalent = english_monarchy_legacy
 	start_territory_to_estates = 0.3
 	modifiers = {
+		monarch_military_power = 1
 		governing_capacity = 50
 		legitimacy = 0.5
 		global_unrest = -1
