@@ -246,55 +246,56 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = mjl_events.6
-	title = "mjl_events.EVTNAME6"
-	desc = "mjl_events.EVTDESC6"
-	picture = COURT_eventPicture
-	
-	trigger = {
-		has_reform = african_colonists_reform
-		NOT = {
-			OR = {
-				has_idea_group = expansion_ideas
-				has_idea_group = exploration_ideas
-			}
-		}
-		any_owned_province = {
-			is_colony = yes
-			colonysize = 1
-			OR = {
-				NOT = { continent = africa }
-				AND = {
-					continent = africa
-					is_island = yes
-				}
-			}
-		}
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
-	option = {
-		name = "mjl_events.EVTOPTA6"
-		custom_tooltip = mjl_non_africa_province_colonised_tt
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					is_colony = yes
-					OR = {
-						NOT = { continent = africa }
-						AND = {
-							continent = africa
-							is_island = yes
-						}
-					}
-				}
-				add_colonysize = -1000
-			}
-		}
-	}
-}
+#country_event = {
+#	id = mjl_events.6
+#	title = "mjl_events.EVTNAME6"
+#	desc = "mjl_events.EVTDESC6"
+#	picture = COURT_eventPicture
+#	
+#	trigger = {
+#		has_reform = african_colonists_reform
+#		NOT = {
+#			OR = {
+#				has_idea_group = expansion_ideas
+#				has_idea_group = exploration_ideas
+#			}
+#		}
+#		any_owned_province = {
+#			is_colony = yes
+#			colonysize = 1
+#			OR = {
+#				NOT = { continent = africa }
+#				AND = {
+#					continent = africa
+#					is_island = yes
+#				}
+#			}
+#		}
+#	}
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	option = {
+#		name = "mjl_events.EVTOPTA6"
+#		custom_tooltip = mjl_non_africa_province_colonised_tt
+#		hidden_effect = {
+#			every_owned_province = {
+#				limit = {
+#					is_colony = yes
+#					OR = {
+#						NOT = { continent = africa }
+#						AND = {
+#							continent = africa
+#							is_island = yes
+#						}
+#					}
+#				}
+#				add_colonysize = -1000
+#			}
+#		}
+#	}
+#}
+
 #clean up event after an ai
 country_event = {
 	id = mjl_events.7

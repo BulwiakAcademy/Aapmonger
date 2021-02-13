@@ -16,17 +16,17 @@ ai_colony_nation_loyalty = {
 
 	liberty_desire = -30
 }
-ai_african_colonist_debuff = {
-	potential = {
-		has_reform = african_colonists_reform
-	}
-	trigger = {
-		ai = yes
-	}
-
-	global_colonial_growth = -15
-	colonists = -1
-}
+#ai_african_colonist_debuff = {
+#	potential = {
+#		has_reform = african_colonists_reform
+#	}
+#	trigger = {
+#		ai = yes
+#	}
+#
+#	global_colonial_growth = -15
+#	colonists = -1
+#}
 ###########################################
 # Too many player colonies
 ###########################################

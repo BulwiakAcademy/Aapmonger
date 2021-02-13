@@ -187,6 +187,44 @@ can_colonize_province = {
 			}
 		}
 	}
+	condition = {
+		tooltip = "MJL_CANT_COLONIZE_WITH_AFRICA_GOV"
+		potential = {
+			FROM = {
+				has_reform = african_colonists_reform
+				NOT = {
+					OR = {
+						has_idea_group = expansion_ideas
+						has_idea_group = exploration_ideas
+					}
+				}
+			}
+		}
+		allow = {
+			AND = {
+				continent = africa
+				is_island = no
+			}
+		}
+	}
+	condition = {
+		tooltip = "MJL_AI_CANT_COLONIZE_WITH_AFRICA_GOV"
+		potential = {
+			FROM = {
+				ai = yes
+				has_reform = african_colonists_reform
+				NOT = {
+					OR = {
+						has_idea_group = expansion_ideas
+						has_idea_group = exploration_ideas
+					}
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_colonize_province_siberian_frontier = {

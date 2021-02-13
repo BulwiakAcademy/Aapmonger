@@ -306,7 +306,7 @@
  more_than_seven_colonial_players_tt:0 "Overlord with 7 colonial subjects"
  more_than_eight_colonial_players_tt:0 "Overlord with 8 colonial subjects"
  mjl_non_africa_province_colonised_tt:0 "Every non-african colony will be removed."
- mjl_non_africa_province_gov_colonised_tt:0 "§RWithout exploration or expansion ideas, every non african mainland colony will be automatically destroyed on creation.§!"
+ mjl_non_africa_province_gov_colonised_tt:0 "§RCannot colonize provinces outside of African mainland without havingexploration or expansion ideas.§!"
  mjl_events.EVTNAME6:0 "Wrong continent colony"
  mjl_events.EVTDESC6:0 "Africans with african colonist reform can only colonise african continent."
  mjl_events.EVTOPTA6:0 "Bruh"
@@ -355,3 +355,4 @@
  estate_church_piety_privilege:0 "$ESTATE_NAME$ Religious Autonomy"
  estate_church_piety_privilege_desc:0 "If we listen to the advice of the [Root.GetClergyName] and place their concerns at the forefront of our mind, we may derive considerable benefits for our rule and see the people's faith in [Root.GetReligionNoun] greatly strengthened."
  mjl_1444_change_school_cd_tt:0 "Religious school can be changed only once every §Y25§! years."
+ MJL_CANT_COLONIZE_WITH_AFRICA_GOV:0 "Nations with §YAfrican Frontier§! reform and without §YExpansions§! or §YExploration§! ideas cannot colonize provinces outside of African mainland."
