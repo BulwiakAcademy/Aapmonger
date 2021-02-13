@@ -980,6 +980,9 @@ colonial_government = {
 		amount_of_banners = -0.5
 		global_trade_goods_size_modifier = -0.15
 		naval_morale = -0.1
+
+		#Loyalty buff
+		liberty_desire = -30
 	}
 
 	custom_attributes = {

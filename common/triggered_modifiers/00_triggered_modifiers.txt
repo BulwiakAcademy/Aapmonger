@@ -5,17 +5,17 @@
 ###########################################
 # AI Stuff
 ###########################################
-ai_colony_nation_loyalty = {
-	potential = {
-		was_player = yes
-		is_colonial_nation = yes
-	}
-	trigger = {
-		ai = yes
-	}
-
-	liberty_desire = -30
-}
+#ai_colony_nation_loyalty = {
+#	potential = {
+#		was_player = yes
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		ai = yes
+#	}
+#
+#	liberty_desire = -30
+#}
 #ai_african_colonist_debuff = {
 #	potential = {
 #		has_reform = african_colonists_reform
