@@ -677,44 +677,44 @@ custodian_of_the_two_holy_mosques = {
 ######################################
 # Catholic control of Rome.
 ######################################
-catholic_rome = {
-	potential = {
-		normal_or_historical_nations = yes
-		has_discovered = 118	# Roma
-		religion = catholic
-		NOT = { tag = PAP }
-	}
+#catholic_rome = {
+#	potential = {
+#		normal_or_historical_nations = yes
+#		has_discovered = 118	# Roma
+#		religion = catholic
+#		NOT = { tag = PAP }
+#	}
+#
+#	trigger = {	
+#		NOT = { overlord_of = PAP }
+#		owns_or_vassal_of = 118 # Roma		
+#		NOT = { tag = ITA }
+#		NOT = { tag = ROM }
+#		ai = yes
+#	}
+#
+#	papal_influence = -10
+#	diplomatic_reputation = -1
+#	#icon = 9
+#}
 
-	trigger = {	
-		NOT = { overlord_of = PAP }
-		owns_or_vassal_of = 118 # Roma		
-		NOT = { tag = ITA }
-		NOT = { tag = ROM }
-		ai = yes
-	}
-
-	papal_influence = -10
-	diplomatic_reputation = -1
-	#icon = 9
-}
-
-papal_subjugation = {
-	potential = {
-		normal_or_historical_nations = yes
-		has_discovered = 118	# Roma
-		religion = catholic
-		NOT = { tag = PAP }
-	}
-
-	trigger = {	
-		overlord_of = PAP
-		NOT = { tag = ITA }
-		ai = yes
-	}
-
-	diplomatic_reputation = -2
-	#icon = 9
-}
+#papal_subjugation = {
+#	potential = {
+#		normal_or_historical_nations = yes
+#		has_discovered = 118	# Roma
+#		religion = catholic
+#		NOT = { tag = PAP }
+#	}
+#
+#	trigger = {	
+#		overlord_of = PAP
+#		NOT = { tag = ITA }
+#		ai = yes
+#	}
+#
+#	diplomatic_reputation = -2
+#	#icon = 9
+#}
 
 
 rapid_collapse_of_society = {
