@@ -313,6 +313,14 @@ country_event = {
 	}
 	immediate = {
 		hidden_effect = {
+			#inflation reset
+			if = {
+				limit = {
+					inflation = 5
+				}
+				add_inflation = -100
+				set_country_flag = mjl_colony_inflation_reset
+			}
 			#corruption reset
 			if = {
 				limit = {
@@ -515,6 +523,14 @@ country_event = {
 	option = {
 		name = "mjl_events.EVTOPTA7"
 		set_country_flag = mjl_cn_clean_up_ai_mess
+		if = {
+			limit = {
+				has_country_flag = mjl_colony_inflation_reset
+			}
+			clr_country_flag = mjl_colony_inflation_reset
+			custom_tooltip = mjl_colony_inflation_reset_tt
+		}
+
 		if = {
 			limit = {
 				has_country_flag = mjl_colony_stability_fix_3
