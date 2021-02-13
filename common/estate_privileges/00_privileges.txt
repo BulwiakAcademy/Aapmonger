@@ -6505,7 +6505,7 @@ estate_church_for_the_faith = {
 	max_absolutism = -5
 	is_valid = {
 		has_dlc = "Emperor"
-		NOT = { religion = confucianism }
+		#NOT = { religion = confucianism }
 		OR = {
 			any_known_country = {
 				NOT = { religion = root }
