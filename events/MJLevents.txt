@@ -804,6 +804,7 @@ country_event = {
 	title = "mjl_events.EVTNAME14"
 	desc = "mjl_events.EVTDESC14"
 	picture = Danny_eventPicture
+	hidden = yes
 
 	is_triggered_only = yes
 
@@ -815,12 +816,14 @@ country_event = {
 			is_part_of_hre = yes
 		}
 	}
-	option = {
-		name = "mjl_events.EVTOPTA14"
+	immediate = {
 		set_country_flag = mjl_hre_capital_spy_boost_flag
 		add_country_modifier = {
 			name = "mjl_hre_spy_boost_modifier"
 			duration = 36500
 		}
+	}
+	option = {
+		name = "mjl_events.EVTOPTA14"
 	}
 }
