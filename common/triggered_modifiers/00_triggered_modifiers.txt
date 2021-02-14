@@ -30,7 +30,7 @@
 ###########################################
 # Too many player colonies
 ###########################################
-overlord_with_too_many_colonies_4 = {
+overlord_with_too_many_colonies = {
 	potential = {
 		ai = no
 		OR = {
