@@ -781,23 +781,25 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = mjl_events.13
-	title = "mjl_events.EVTNAME13"
-	desc = "mjl_events.EVTDESC13"
-	picture = Loaf_eventPicture
-
-	trigger = {
-		ai = no
-	}
-	mean_time_to_happen = {
-		months = 3000
-	}
-	option = {
-		name = "mjl_events.EVTOPTA13"
-		add_prestige = 5
-	}
-}
+#country_event = {
+#	id = mjl_events.13
+#	title = "mjl_events.EVTNAME13"
+#	desc = "mjl_events.EVTDESC13"
+#	picture = Loaf_eventPicture
+#
+#	is_triggered_only = yes
+#
+#	trigger = {
+#		NOT = { has_country_flag = mjl_loaf_event_flag }
+#		ai = no
+#	}
+#
+#	option = {
+#		name = "mjl_events.EVTOPTA13"
+#		set_country_flag = mjl_loaf_event_flag
+#		add_prestige = 5
+#	}
+#}
 
 country_event = {
 	id = mjl_events.14
