@@ -2777,7 +2777,7 @@ shandong_area = { #5
 
 jiangsu_area = { #3
 	#2141 2142 4196
-	1821 1822 5563 #5563 NEW PROV
+	1821 1822 5563 5565 #5563 NEW PROV 5565 added
 }
 
 south_jiangsu_area = { #4
@@ -2786,7 +2786,7 @@ south_jiangsu_area = { #4
 
 anhui_area = { #3 (North Anhui)
 	#1838 2143 2144
-	686 1838 5565 5570 #5565 5570 NEW PROVS
+	686 1838 5570 5538 5653 #5565 5570 NEW PROVS  5538 5653 added  5565 removed
 }
 
 south_anhui_area = { #3
@@ -2868,7 +2868,7 @@ north_henan_area = { #3
 
 shanxi_area = { #5
 	#693 694 697 2177 2178
-	693 5534 5585 5642 #5534 5585 5642 NEW PROVS
+	693 5534 5585 #5534 5585 5642 NEW PROVS  5642 removed
 }
 
 shaanxi_area = { #4
@@ -2956,7 +2956,7 @@ jinan_area = {
 }
 
 jinzhong_area = {
-	5574 5594 5599 5600
+	5574 5594 5599 5600 5642 # 5642 added
 }
 
 kunming_area = {
@@ -3027,7 +3027,7 @@ xuzhou_area = {
 
 biyang_area = {
 	color = { 0 50 150 }
-	5537 5646 5645 5662 5524
+	5537 5646 5645 5524 # 5662 removed
 }
 
 yanshan_area = {
@@ -3035,7 +3035,7 @@ yanshan_area = {
 }
 
 wuchang_area = {
-	5505 682 5538 5653
+	5505 682 5662 # 5538 5653 removed 5662 added
 }
 
 kaiyang_area = {
