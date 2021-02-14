@@ -103,7 +103,7 @@ MJL_harmonized_vajrayana = {
 }
 
 MJL_harmonized_buddhism = { #Theravada
-	advisor_cost = -0.75   #"Zhōng - Loyalty"
+	advisor_cost = -0.075   #"Zhōng - Loyalty"
 	religion = yes
 }
 
