@@ -95,3 +95,8 @@ mjl_boon_of_szyna = {
 mjl_hre_spy_boost_modifier = {
 	spy_offence = 0.2
 }
+
+mjl_mongolia_movespeed_boost = {
+	local_hostile_movement_speed = 0.15
+	local_friendly_movement_speed = 0.15
+}
