@@ -872,7 +872,7 @@ china_cyi_tier3_5 = {
 			5504 = {
 				owned_by = ROOT
 				development = 35
-				NOT = { num_of_buildings_in_province = 4 }
+				num_of_buildings_in_province = 4
 			}
 			has_institution = global_trade
 		}
