@@ -474,3 +474,177 @@ country_event = {
 }
 
 
+#Released country main religion changes
+country_event = {
+	id = confucianism_reworked.3
+	title = none
+	desc = none
+	picture = none
+	#hidden = yes
+	
+	is_triggered_only = yes
+
+	
+	immediate = {
+		if = {
+			limit = {
+				dominant_religion = anglican
+			}
+			change_religion = anglican
+		}
+		if = {
+			limit = {
+				dominant_religion = animism
+			}
+			change_religion = animism
+		}
+		if = {
+			limit = {
+				dominant_religion = buddhism
+			}
+			change_religion = buddhism
+		}
+		if = {
+			limit = {
+				dominant_religion = catholic
+			}
+			change_religion = catholic
+		}
+		if = {
+			limit = {
+				dominant_religion = coptic
+			}
+			change_religion = coptic
+		}
+		if = {
+			limit = {
+				dominant_religion = hinduism
+			}
+			change_religion = hinduism
+		}
+		if = {
+			limit = {
+				dominant_religion = hussite
+			}
+			change_religion = hussite
+		}
+		if = {
+			limit = {
+				dominant_religion = ibadi
+			}
+			change_religion = ibadi
+		}
+		if = {
+			limit = {
+				dominant_religion = inti
+			}
+			change_religion = inti
+		}
+		if = {
+			limit = {
+				dominant_religion = jewish
+			}
+			change_religion = jewish
+		}
+		if = {
+			limit = {
+				dominant_religion = mahayana
+			}
+			change_religion = mahayana
+		}
+		if = {
+			limit = {
+				dominant_religion = maya
+			}
+			change_religion = maya
+		}
+		if = {
+			limit = {
+				dominant_religion = nahuatl
+			}
+			change_religion = nahuatl
+		}
+		if = {
+			limit = {
+				dominant_religion = norse
+			}
+			change_religion = norse
+		}
+		if = {
+			limit = {
+				dominant_religion = orthodox
+			}
+			change_religion = orthodox
+		}
+		if = {
+			limit = {
+				dominant_religion = protestant
+			}
+			change_religion = protestant
+		}
+		if = {
+			limit = {
+				dominant_religion = reformed
+			}
+			change_religion = reformed
+		}
+		if = {
+			limit = {
+				dominant_religion = shamanism
+			}
+			change_religion = shamanism
+		}
+		if = {
+			limit = {
+				dominant_religion = shiite
+			}
+			change_religion = shiite
+		}
+		if = {
+			limit = {
+				dominant_religion = shinto
+			}
+			change_religion = shinto
+		}
+		if = {
+			limit = {
+				dominant_religion = sikhism
+			}
+			change_religion = sikhism
+		}
+		if = {
+			limit = {
+				dominant_religion = sunni
+			}
+			change_religion = sunni
+		}
+		if = {
+			limit = {
+				dominant_religion = tengri_pagan_reformed
+			}
+			change_religion = tengri_pagan_reformed
+		}
+		if = {
+			limit = {
+				dominant_religion = totemism
+			}
+			change_religion = totemism
+		}
+		if = {
+			limit = {
+				dominant_religion = vajrayana
+			}
+			change_religion = vajrayana
+		}
+		if = {
+			limit = {
+				dominant_religion = zoroastrian
+			}
+			change_religion = zoroastrian
+		}
+	}
+
+	option = { }
+	
+}
+

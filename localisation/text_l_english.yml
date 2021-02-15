@@ -3296,7 +3296,7 @@
  MODIFIERS_STRATEGIC_EFFECTS:0 "Triggered Modifiers"
  HRE_LEAVE_ALL_PROVINCES:0 "All provinces will remain with the current owner and be removed from the Empire."
  HRE_LEAVE_RELEASE:0 "§Y$COUNTRY$§W will be released with the following provinces: $LIST$.\n"
- RELEASE_RELIGION:0 "They will follow the §Y$RELIGION$§! faith."
+ RELEASE_RELIGION:0 "They will follow the §Y$RELIGION$§! faith. Nations with §YConfucian§! provinces will be released as their Dominant Religion."
  RELEASE_REFORMS:1 "They will start with no Reforms enacted but will gain your current Reform Progress and get back all the Reform Progress spent so far."
  HRE_LEAVE_EMPEROR:0 "The Emperor (§Y$COUNTRY$§W) will gain ownership of the following provinces: $LIST$.\n"
  HRE_LEAVE_PROVINCES:0 "All other provinces will remain with the current owner and be removed from the Empire."

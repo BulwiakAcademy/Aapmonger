@@ -4096,6 +4096,18 @@ on_create_vassal = {
 		add_government_reform = papacy_reform
 		adopt_reform_progress = FROM
 	}
+	if = {
+		limit = {
+			ROOT  = {
+				religion = confucianism
+			}
+		}
+		ROOT  = {
+			country_event = {
+				id = confucianism_reworked.3
+			}
+		}
+	}
 }
 
 # ROOT = Country establishing it
@@ -4175,6 +4187,18 @@ on_country_released = {
 		}
 		capital_scope = {
 			change_religion = FROM
+		}
+	}
+	if = {
+		limit = {
+			ROOT  = {
+				religion = confucianism
+			}
+		}
+		ROOT  = {
+			country_event = {
+				id = confucianism_reworked.3
+			}
 		}
 	}
 }
@@ -4296,6 +4320,18 @@ on_create_client_state = {
 		}
 		add_government_reform = junior_revolutionary_republic_reform
 		set_country_flag = had_revolution
+	}
+	if = {
+		limit = {
+			ROOT  = {
+				religion = confucianism
+			}
+		}
+		ROOT  = {
+			country_event = {
+				id = confucianism_reworked.3
+			}
+		}
 	}
 }
 
@@ -4537,5 +4573,17 @@ on_country_creation = {
 		change_religion = catholic
 		change_government = theocracy
 		add_government_reform = papacy_reform
+	}
+	if = {
+		limit = {
+			ROOT  = {
+				religion = confucianism
+			}
+		}
+		ROOT  = {
+			country_event = {
+				id = confucianism_reworked.3
+			}
+		}
 	}
 }
