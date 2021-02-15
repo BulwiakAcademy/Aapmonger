@@ -1307,7 +1307,7 @@ eastern = {
 		icon = 9
 		country = {
 			tolerance_heretic = 2
-			land_forcelimit_modifier = 0.175
+			land_forcelimit_modifier = 0.1
 		}
 		country_as_secondary = {
 			cav_to_inf_ratio = 0.25
