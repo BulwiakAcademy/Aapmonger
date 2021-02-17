@@ -222,7 +222,7 @@ CYI_ideas = {
 WUU_ideas = { #Wu
 	start = {
 		infantry_power = 0.1
-		mercenary_discipline = 0.05
+		fire_damage = 0.1
 	}
 	
 	bonus = {
@@ -246,7 +246,7 @@ WUU_ideas = { #Wu
 		development_cost = -0.1
 	}
 	WUU_4 = {
-		mercenary_manpower = 0.33
+		amount_of_banners = 0.25
 	}
 	WUU_5 = {
 		ship_durability = 0.05
