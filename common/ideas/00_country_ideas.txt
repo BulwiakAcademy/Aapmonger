@@ -1437,7 +1437,7 @@ JAP_ideas = {
 	}
 	
 	bonus = {
-		infantry_power = 0.15
+		infantry_power = 0.2
 	}
 	
 	trigger = {
@@ -1456,16 +1456,18 @@ JAP_ideas = {
 		global_institution_spread = 0.1
 	}
 	jap_maritime_legacy = {
-		ship_durability = 0.1
+		naval_forcelimit_modifier = 0.25
+		heavy_ship_power = 0.15
 	}
 	jap_land_of_the_rising_sun = {
 		prestige = 1
 	}
 	jap_kaitakudan = {
 		global_colonial_growth = 20
+		colonists = 1
 	}
 	jap_great_power_diplomacy = {
-		ae_impact = -0.15
+		idea_cost = -0.05
 	}
 }
 
