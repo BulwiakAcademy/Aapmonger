@@ -684,6 +684,7 @@ country_event = { #CSH Warlord Death
 		tag = CSH
 		ruler_has_personality = immortal_personality
 		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -704,6 +705,10 @@ country_event = { #CSH Warlord Death
 			factor = 0.2
 			is_year = 1494
 		}
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
 	}
 	
 	option = { 
@@ -729,6 +734,7 @@ country_event = { #CXI Warlord Death
 		tag = CXI
 		ruler_has_personality = immortal_personality
 		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -749,6 +755,10 @@ country_event = { #CXI Warlord Death
 			factor = 0.2
 			is_year = 1494
 		}
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
 	}
 	
 	option = { 
@@ -774,6 +784,7 @@ country_event = { #CYI Warlord Death
 		tag = CYI
 		ruler_has_personality = immortal_personality
 		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -794,6 +805,10 @@ country_event = { #CYI Warlord Death
 			factor = 0.2
 			is_year = 1494
 		}
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
 	}
 	
 	option = { 
@@ -819,6 +834,7 @@ country_event = { #QIC Warlord Death
 		tag = QIC
 		ruler_has_personality = immortal_personality
 		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -839,6 +855,10 @@ country_event = { #QIC Warlord Death
 			factor = 0.2
 			is_year = 1494
 		}
+	}
+
+	immediate = {
+		set_country_flag = china_warlord_death_flag
 	}
 	
 	option = { 
@@ -864,6 +884,7 @@ country_event = { #WUU Warlord Death
 		tag = WUU
 		ruler_has_personality = immortal_personality
 		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -884,6 +905,10 @@ country_event = { #WUU Warlord Death
 			factor = 0.2
 			is_year = 1494
 		}
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
 	}
 	
 	option = { 
@@ -909,6 +934,7 @@ country_event = { #YUE Warlord Death
 		tag = YUE
 		ruler_has_personality = immortal_personality
 		is_year = 1486
+		NOT = { has_country_flag = china_warlord_death_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -929,6 +955,10 @@ country_event = { #YUE Warlord Death
 			factor = 0.2
 			is_year = 1494
 		}
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
 	}
 	
 	option = { 
@@ -1008,6 +1038,174 @@ country_event = {
 		name = foffychina.32.b
 		5551 = {
 			change_trade_goods = gold
+		}
+	}
+	
+}
+
+country_event = { #CSH Warlord Death on ruler death
+	id = foffychina.33
+	title = foffychina.25.t
+	desc = foffychina.25.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CSH
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+
+	option = { 
+		name = foffychina.25.a
+		add_country_modifier = {
+			name = "h_csh_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #CXI Warlord Death on ruler death
+	id = foffychina.34
+	title = foffychina.26.t
+	desc = foffychina.26.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CXI
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.26.a
+		add_country_modifier = {
+			name = "h_cxi_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #CYI Warlord Death on ruler death
+	id = foffychina.35
+	title = foffychina.27.t
+	desc = foffychina.27.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CYI
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.27.a
+		add_country_modifier = {
+			name = "h_cyi_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #QIC Warlord Death on ruler death
+	id = foffychina.36
+	title = foffychina.28.t
+	desc = foffychina.28.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = QIC
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.28.a
+		add_country_modifier = {
+			name = "h_qic_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #WUU Warlord Death on ruler death
+	id = foffychina.37
+	title = foffychina.29.t
+	desc = foffychina.29.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = WUU
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.29.a
+		add_country_modifier = {
+			name = "h_wuu_legacy"
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = { #YUE Warlord Death on ruler death
+	id = foffychina.38
+	title = foffychina.30.t
+	desc = foffychina.30.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = YUE
+		NOT = { has_country_flag = china_warlord_death_flag }
+	}
+	
+	immediate = {
+		set_country_flag = china_warlord_death_flag
+	}
+	
+	option = { 
+		name = foffychina.30.a
+		add_country_modifier = {
+			name = "h_yue_legacy"
+			duration = 3650
 		}
 	}
 	

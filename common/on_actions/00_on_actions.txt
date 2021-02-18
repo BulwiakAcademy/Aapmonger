@@ -884,6 +884,13 @@ on_monarch_death = {
 		flavor_pap.19 # death of borgia pope
 		flavor_tus.22 # Medici Pope
 		flavor_tus.24 # death of the Medici Pope
+		#ruler death events
+		foffychina.33
+		foffychina.34
+		foffychina.35
+		foffychina.36
+		foffychina.37
+		foffychina.38
 	}
 }
 
