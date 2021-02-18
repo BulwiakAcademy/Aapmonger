@@ -55,7 +55,7 @@ h_csh_anc2_3 = {
 }
 
 h_csh_anc3_1 = {
-	global_manpower_modifier = 0.2
+	global_manpower_modifier = 0.15
 }
 
 h_csh_anc3_2 = {
@@ -188,7 +188,8 @@ h_wuu_anc1_1 = {
 }
 
 h_wuu_anc1_2 = {
-	merc_maintenance_modifier = -0.15
+	#merc_maintenance_modifier = -0.15
+	land_maintenance_modifier = -0.075
 }
 
 h_wuu_anc1_3 = {
@@ -208,9 +209,10 @@ h_wuu_anc2_3 = {
 	colonists = 1
 	colonist_placement_chance = 0.03
 }
-
+	
 h_wuu_anc3_1 = {
-	mercenary_discipline = 0.05
+	amount_of_banners = 0.3
+	#mercenary_discipline = 0.05
 }
 
 h_wuu_anc3_2 = {
@@ -287,11 +289,14 @@ h_qic_legacy = {
 
 h_wuu_legacy = {
 	advisor_cost = -0.15
-	mercenary_discipline = 0.05
+	amount_of_banners = 0.3
+	#mercenary_discipline = 0.05
 }
 
 h_yue_legacy = {
-	global_manpower_modifier = 0.33
+	#global_manpower_modifier = 0.33
+	fire_damage = 0.075
+	fire_damage_received = -0.075
 }
 
 ###############################
