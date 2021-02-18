@@ -2017,10 +2017,21 @@ country_event = {
 		government = monarchy
 		has_heir = no
 		has_government_attribute = heir
+		OR = {
+			NOT = { has_country_flag = has_had_suryavansha_flag }
+			had_country_flag = {
+				flag = has_had_suryavansha_flag
+				days = 27375
+			}
+		}
 	}
 
 	mean_time_to_happen = {
 		months = 180
+	}
+
+	immediate = {
+		set_country_flag = has_had_suryavansha_flag
 	}
 
 	option = {
