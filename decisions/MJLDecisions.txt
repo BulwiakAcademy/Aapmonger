@@ -47,6 +47,31 @@ country_decisions = {
 			factor = 0
 		}
 	}	
+	mjl_manchu_buryat_gold = {
+		major = yes
+		potential = {
+			OR = {
+				tag = MCH
+				tag = QNG
+			}
+			1056 = {
+				NOT = { trade_goods = gold }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			owns_core_province = 1056 #Barguzin
+			dip_tech = 7
+			mil_tech = 7
+		}
+		effect = {
+			1056 = {
+				change_trade_goods = gold
+			}
+		}
+	}
 	#ARUMBA LINES
 	dev_sum_clicks_decision = {
 		major = yes
