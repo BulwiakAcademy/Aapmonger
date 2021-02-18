@@ -20,7 +20,7 @@ h_warlord_startmod = {
 }
 
 h_wu_armada = {
-	heavy_ship_power = 0.1
+	heavy_ship_power = 0.05
 }
 
 h_china_wonders = {
@@ -421,7 +421,7 @@ china_wuu_monopolize_hangzhou_trade = {
 }
 
 china_wuu_sea_dragon_king = {
-	naval_morale = 0.1
+	naval_morale = 0.05
 }
 
 china_wuu_pushed_north = {
