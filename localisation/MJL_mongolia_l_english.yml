@@ -3,4 +3,7 @@
  mjl_manchu_buryat_gold_title:0 "Barguzin Gold Company"
  mjl_manchu_buryat_gold_desc:0 ""
  mjl_estate_tribes_advisors:0 "Tribal Counselors"
- mjl_estate_tribes_advisors_desc:0 "All clans representatives are invited to the ruler council to advise the [Root.Monarch.GetTitle]."
+ mjl_estate_tribes_advisors_desc:0 "All clans representatives should be invited to the ruler council to advise the [Root.Monarch.GetTitle]."
+ estate_tribes_tribal_primacy:0 "Tribal Primacy"
+ estate_tribes_tribal_primacy_desc:0 "Giving the Taishi free rein over all clans would strengthen our capacities considerably, even if it may cost us dearly in compensating their contributions."
+ 
