@@ -2,3 +2,5 @@
  mjl_mongolia_movespeed_boost:0 "Movespeed Buff"
  mjl_manchu_buryat_gold_title:0 "Barguzin Gold Company"
  mjl_manchu_buryat_gold_desc:0 ""
+ mjl_estate_tribes_advisors:0 "Tribal Counselors"
+ mjl_estate_tribes_advisors_desc:0 "All clans representatives are invited to the ruler council to advise the [Root.Monarch.GetTitle]."
