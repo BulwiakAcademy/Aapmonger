@@ -1,0 +1,23 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "become_new_yemen_pic"
+		texturefile = "gfx//interface//missions//become_new_yemen_pic.dds"
+	}
+	
+	spriteType = {
+		name = "become_new_persia_pic"
+		texturefile = "gfx//interface//missions//become_new_persia_pic.dds"
+	}
+	
+	spriteType = { # Not in Paradox base
+		name = "mission_arabian_trade_fixed"
+		texturefile = "gfx//interface//missions//mission_arabian_trade_fixed.dds"
+	}
+
+	spriteType = {
+		name = "back_to_our_roots_pic"
+		texturefile = "gfx//interface//missions//back_to_our_roots_pic.dds"
+	}
+	
+}

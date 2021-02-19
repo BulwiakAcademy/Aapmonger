@@ -1,0 +1,12 @@
+# Hormuz
+tamed_the_desert_modifier = {
+	local_development_cost = -0.15
+}
+the_way_to_god_modifier = {
+	monthly_piety = -0.001
+}
+
+# Teutonic Order
+#centralized_the_order_modifier = {
+#	stability_cost_modifier = -0.20
+#}
