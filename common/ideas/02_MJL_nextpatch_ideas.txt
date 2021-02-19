@@ -171,7 +171,7 @@ MSA_ideas = {
     }
     msa_chart_the_seas = {
         own_coast_naval_combat_bonus = 1
-        naval_morale = 0.1
+        naval_morale = 0.075
     }
     msa_in_every_port = {
         merchants = 1
