@@ -37,21 +37,37 @@ country_decisions = {
 					root = {
 						NOT = {
 							num_of_owned_provinces_with = {
-								value = 20
+								value = 30
 								region = italy_region
 								is_core = root
 							}
 						}
 						owns_core_province = 101	
 						owns_core_province = 104	
-						owns_core_province = 116	
-						owns_core_province = 118	
+						owns_core_province = 116
+						owns_core_province = 118
+						owns_core_province = 112
+						owns_core_province = 108
+						owns_core_province = 1774
+						owns_core_province = 109
+						owns_core_province = 4730
+						owns_core_province = 119
+						owns_core_province = 121
+						owns_core_province = 103
 					}
 				}
 				province_id = 101	# Genoa
 				province_id = 104	# Milan
 				province_id = 116	# Firenze
 				province_id = 118	# Roma
+				province_id = 112	# Venezia
+				province_id = 108	# Verona
+				province_id = 1774	# Treviso
+				province_id = 109	# Mantova
+				province_id = 4730	# Bologna
+				province_id = 119	# Ancona
+				province_id = 121	# Napoli
+				province_id = 103	# Torino
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -66,8 +82,16 @@ country_decisions = {
 			owns_core_province = 104	# Milan
 			owns_core_province = 116	# Firenze
 			owns_core_province = 118	# Roma
+			owns_core_province = 112	# Venezia
+			owns_core_province = 108	# Verona
+			owns_core_province = 1774	# Treviso
+			owns_core_province = 109	# Mantova
+			owns_core_province = 4730	# Bologna
+			owns_core_province = 119	# Ancona
+			owns_core_province = 121	# Napoli
+			owns_core_province = 103	# Torino
 			num_of_owned_provinces_with = {
-				value = 20
+				value = 30
 				region = italy_region
 				is_core = root
 			}
