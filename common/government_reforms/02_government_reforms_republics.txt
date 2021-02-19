@@ -983,6 +983,9 @@ colonial_government = {
 
 		#Loyalty buff
 		liberty_desire = -30
+
+		#All players privateer debuff
+		privateer_efficiency = -0.4
 	}
 
 	custom_attributes = {
