@@ -21,9 +21,12 @@ country_decisions = {
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
 			NOT = { tag = ARB }
+			NOT = { tag = ORM }
+			NOT = { tag = MAM }
+			NOT = { was_tag = MAM }
 			OR = {
 				primary_culture = yemeni_culture
-				tag = ORM	
+				tag = ETH
 			}
 			is_colonial_nation = no
 			OR = {
