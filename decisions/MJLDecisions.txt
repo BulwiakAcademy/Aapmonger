@@ -72,6 +72,46 @@ country_decisions = {
 			}
 		}
 	}
+	mjl_educate_ruler = {
+		major = yes
+		potential = {
+			NOT = {
+				government = republic
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			ai = no
+			NOT = {
+				adm = 4
+				dip = 4
+				mil = 4
+			}
+			NOT = {
+				check_variable = { 
+					which = mjl_educate_rulers_count
+					value = 2 
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_cant_educate_same_ruler_tt
+				NOT = { has_ruler_flag = mjl_ruler_educated_flag }
+			}
+		}
+		effect = {
+			add_years_of_income = -1
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+			change_variable = {
+				which = mjl_educate_rulers_count
+				value = 1
+			}
+			set_ruler_flag = mjl_ruler_educated_flag
+		}
+	}
 	#ARUMBA LINES
 	dev_sum_clicks_decision = {
 		major = yes

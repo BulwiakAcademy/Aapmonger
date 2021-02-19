@@ -367,3 +367,7 @@
  dev_sum_clicks_decision_tooltip:0 "Manual Development:\n\n§W£adm£ Development Gained: §G[This.dev_adm_clicks.GetValue] \n§W£dip£ Development Gained: §G[This.dev_dip_clicks.GetValue] \n§W£mil£ Development Gained: §G[This.dev_mil_clicks.GetValue] \n\n§WTotal Development Gained: §Y[This.dev_sum_clicks.GetValue]"
  reform_into_khmer_title:0 "Reform into Khmer"
  reform_into_khmer_desc:0 ""
+ mjl_educate_rulers_count:0 "Number of Educated Rulers"
+ mjl_educate_ruler_title:0 "Educate Ruler"
+ mjl_educate_ruler_desc:0 "Can educate ruler twice per campaign. Cannot Educate the same ruler more than once."
+ mjl_cant_educate_same_ruler_tt:0 "Current ruler didnt had Ruler Education before."
