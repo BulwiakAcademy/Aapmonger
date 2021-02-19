@@ -9,6 +9,11 @@ historical_friend = HUN
 historical_rival = TUR
 historical_rival = FRA
 national_focus = ADM
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 add_accepted_culture = slovene
 

@@ -5,6 +5,11 @@ religion = sunni
 technology_group = chinese
 capital = 636	# Brunei Town
 religious_school = shafii_school
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 1399.1.1 = {
 	monarch = {

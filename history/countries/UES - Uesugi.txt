@@ -5,6 +5,11 @@ primary_culture = togoku
 religion = shinto
 technology_group = chinese
 capital = 1843	# Kozuke
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 1336.1.1 = {
 	monarch = {

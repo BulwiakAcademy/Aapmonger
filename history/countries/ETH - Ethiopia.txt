@@ -6,6 +6,11 @@ religion = coptic
 technology_group = east_african
 unit_type = sub_saharan
 capital = 1224		# Gonder
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 change_estate_land_share = {
 	estate = estate_nobles

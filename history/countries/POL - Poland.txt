@@ -7,6 +7,11 @@ historical_friend = LIT
 historical_rival = TEU
 capital = 262 # Krakow
 add_accepted_culture = ruthenian
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 national_focus = ADM
 

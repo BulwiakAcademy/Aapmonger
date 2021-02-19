@@ -100,3 +100,7 @@ mjl_mongolia_movespeed_boost = {
 	local_hostile_movement_speed = 0.15
 	local_friendly_movement_speed = 0.15
 }
+
+mjl_privateer_efficiency_debuff = {
+	privateer_efficiency = -0.4
+}

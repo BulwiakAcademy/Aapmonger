@@ -8,6 +8,11 @@ historical_friend = CAS
 capital = 227 # Lisboa
 add_army_professionalism = 0.05
 national_focus = DIP
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 
 1385.1.1 = {

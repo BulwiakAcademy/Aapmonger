@@ -6,6 +6,11 @@ religion = ibadi
 primary_culture = gulf_arabic
 capital = 2999	# Ormuz Island
 religious_school = maliki_school
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 #Rulers of Ormuz
 1442.1.1 = {

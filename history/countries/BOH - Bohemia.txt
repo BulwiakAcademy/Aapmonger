@@ -7,6 +7,11 @@ capital = 266 # Praha
 technology_group = western
 add_accepted_culture = sorbian
 add_army_professionalism = 0.1
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 #change_estate_land_share = {
 #	estate = estate_burghers

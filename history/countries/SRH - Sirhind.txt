@@ -4,6 +4,11 @@ technology_group = indian
 primary_culture = panjabi
 religion = hinduism
 capital = 510 #Sirhind
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 change_estate_land_share = {
 	estate = estate_church

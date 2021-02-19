@@ -9,6 +9,11 @@ historical_rival = GRA
 historical_friend = POR
 capital = 219 # Toledo
 national_focus = MIL
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 add_army_professionalism = 0.1
 

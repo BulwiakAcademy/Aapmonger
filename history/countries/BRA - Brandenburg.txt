@@ -6,6 +6,11 @@ technology_group = western
 primary_culture = saxon
 religion = catholic
 capital = 50	# Berlin
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 #change_estate_land_share = {
 #	estate = estate_church

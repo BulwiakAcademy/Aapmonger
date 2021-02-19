@@ -7,6 +7,11 @@ technology_group = eastern
 historical_rival = NOV
 capital = 295 # Moskva
 fixed_capital = 295 # Cannot move capital away from this province & no power cost to move to it
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 national_focus = ADM
 

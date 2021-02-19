@@ -11,6 +11,11 @@ fixed_capital = 112 # Cannot move capital away from this province & no power cos
 historical_friend = KNI
 national_focus = DIP
 add_army_professionalism = 0.05
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 1380.1.1 = { leader = {	name = "Carlo Zeno"	type = admiral	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1404.1.1 } }
 

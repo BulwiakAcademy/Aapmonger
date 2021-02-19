@@ -6,6 +6,11 @@ technology_group = muslim
 capital = 344 # Marrakech
 add_accepted_culture = berber
 religious_school = maliki_school
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 change_estate_land_share = {
 	estate = estate_nobles

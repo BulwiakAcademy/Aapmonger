@@ -10,6 +10,11 @@ historical_rival = CSH
 historical_rival = WUU
 historical_rival = YUE
 historical_rival = QIC
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 1444.1.31 = {
 	monarch = {

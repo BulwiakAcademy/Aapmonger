@@ -7,6 +7,11 @@ religion = catholic
 technology_group = eastern
 capital = 153 # Buda
 historical_friend = HAB
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 #change_estate_land_share = {
 #	estate = estate_church

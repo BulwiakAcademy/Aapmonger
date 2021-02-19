@@ -5,6 +5,11 @@ primary_culture = manchu
 religion = tengri_pagan_reformed
 secondary_religion = confucianism
 capital = 2108
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 1399.1.1 = {
 	monarch = {

@@ -8,6 +8,11 @@ government = monarchy
 add_government_reform = iqta
 capital = 454 # Samarkand
 religious_school = hanafi_school
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 1409.5.13 = {
 	monarch = {

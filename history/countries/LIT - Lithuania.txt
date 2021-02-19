@@ -8,6 +8,11 @@ religion = catholic
 technology_group = eastern
 historical_friend = POL
 capital = 272 # Vilnius
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 1392.1.1 = {
 	monarch = {

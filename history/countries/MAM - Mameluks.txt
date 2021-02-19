@@ -9,6 +9,11 @@ historical_rival = TIM
 capital = 361 # Cairo
 add_army_professionalism = 0.1
 religious_school = shafii_school
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 change_estate_land_share = {
 	estate = estate_church

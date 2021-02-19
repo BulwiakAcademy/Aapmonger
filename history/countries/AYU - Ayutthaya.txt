@@ -4,6 +4,11 @@ primary_culture = central_thai
 religion = buddhism
 technology_group = chinese
 capital = 600 # Ayutthaya
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 
 1395.1.1 = {

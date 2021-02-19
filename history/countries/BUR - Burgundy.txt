@@ -7,6 +7,11 @@ religion = catholic
 technology_group = western
 capital = 192	# Dijon
 add_army_professionalism = 0.1
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 1363.1.1 = {
 	monarch = {

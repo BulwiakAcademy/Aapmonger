@@ -8,6 +8,11 @@ technology_group = western
 capital = 183 # Paris
 national_focus = DIP
 historical_rival = HAB
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
 
 change_estate_land_share = {
 	estate = estate_nobles
