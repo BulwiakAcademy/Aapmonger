@@ -811,7 +811,15 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		ai = no
+		OR = {
+			tag = HAB
+			tag = BRA
+			tag = SWI
+			tag = LAN
+			tag = BOH
+			tag = HES
+			tag = DAN
+		}
 		NOT = { has_country_flag = mjl_hre_capital_spy_boost_flag }
 		is_part_of_hre = yes
 		capital_scope = {
