@@ -372,3 +372,4 @@
  mjl_educate_ruler_desc:0 "Can educate ruler twice per campaign. Cannot Educate the same ruler more than once."
  mjl_cant_educate_same_ruler_tt:0 "Current ruler didnt had Ruler Education before."
  mjl_privateer_efficiency_debuff:0 "Privateer Efficiency Debuff"
+ mjl_less_than_7_stats_tt:0 "Ruler with less than 7 total points."
