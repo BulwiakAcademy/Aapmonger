@@ -19,7 +19,7 @@ change_estate_land_share = {
 	share = 3
 }
 change_dhimmi_or_church_land_share_effect = {
-	share = -10
+	share = -10.504
 }
 change_estate_land_share = {
 	estate = estate_church

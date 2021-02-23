@@ -12,7 +12,7 @@ add_country_modifier = {
 
 change_estate_land_share = {
 	estate = estate_church
-	share = 8
+	share = 8.25
 }
 
 #Lodis

@@ -14,7 +14,7 @@ add_country_modifier = {
 
 
 change_rajputs_or_marathas_or_nobles_land_share_effect = {
-	share = 6
+	share = 5.799
 }
 
 1397.1.1 = {

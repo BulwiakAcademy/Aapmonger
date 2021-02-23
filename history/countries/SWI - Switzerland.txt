@@ -12,6 +12,12 @@ add_country_modifier = {
 }
 
 
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -0.5
+}
+
+
 1399.1.1 = {
 	monarch = {
 		name = "Die Tagsatzung"

@@ -13,6 +13,11 @@ add_country_modifier = {
 	duration = -1
 }
 
+change_estate_land_share = {
+	estate = estate_dhimmi
+	share = -0.502
+}
+
 
 1390.1.1 = {
 	monarch = {

@@ -13,6 +13,11 @@ add_country_modifier = {
 
 
 
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.502
+}
+
 1376.1.1 = {
 	monarch = {
 		name = "Hermann II"

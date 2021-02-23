@@ -23,6 +23,12 @@ national_focus = MIL
 #	share = 10
 #}
 
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.5
+}
+
+
 1444.1.1 = {
 	monarch = {
 		name = "Jöns"

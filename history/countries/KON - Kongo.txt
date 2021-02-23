@@ -12,6 +12,11 @@ add_country_modifier = {
 }
 
 
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.502
+}
+
 unit_type = sub_saharan
 capital = 1170	# M'banza Kongo
 

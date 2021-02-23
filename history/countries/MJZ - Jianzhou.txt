@@ -11,6 +11,11 @@ add_country_modifier = {
 }
 
 
+change_estate_land_share = {
+	estate = estate_nomadic_tribes
+	share = -0.501
+}
+
 1399.1.1 = {
 	monarch = {
 		name = "Bukuri Yongson"

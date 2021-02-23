@@ -13,6 +13,11 @@ add_country_modifier = {
 }
 
 
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.5
+}
+
 national_focus = ADM
 
 1444.10.1 = {

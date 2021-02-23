@@ -18,6 +18,11 @@ add_country_modifier = {
 #	share = -5
 #}
 
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -0.502
+}
+
 1378.11.29 = {
 	monarch = {
 		name = "Václav IV"

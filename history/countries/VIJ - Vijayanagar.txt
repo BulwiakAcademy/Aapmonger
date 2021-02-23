@@ -15,7 +15,7 @@ change_brahmins_or_church_land_share_effect = {
 }
 
 change_vaisyas_or_burghers_land_share_effect = {
-	share = 5
+	share = 5.211
 }
 
 change_rajputs_or_marathas_or_nobles_land_share_effect = {

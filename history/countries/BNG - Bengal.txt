@@ -13,7 +13,7 @@ add_country_modifier = {
 
 change_estate_land_share = {
 	estate = estate_church
-	share = 12
+	share = 12.26
 }
 change_brahmins_or_church_land_share_effect = {
 	share = -5
