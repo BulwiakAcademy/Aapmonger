@@ -183,7 +183,7 @@
  MJL_CANNOT_ASSAULT_WHILE_CN:0 "Cannot assault as Colony"
  MJL_OTHER_CN_REGION_CAPITAL:0 "Cannot move capital to another colonial region"
  MJL_CANT_COLONIZE_OTHER_CN_REGION:0 "Cannot colonize provinces outside of your colonial region"
- estate_vaisyas_devcost_privilege:0 "Development Privilage"
+ estate_vaisyas_devcost_privilege:0 "Development Privilege"
  incidents_bur_inheritance.1.f:0 "Come what may, Burgundy shall remain Burgundian."
  mjl_english_monarchy_rulers:0 "English Luck"
  mjl_events.EVTNAME2:0 "English Military School"
@@ -373,3 +373,4 @@
  mjl_cant_educate_same_ruler_tt:0 "Current ruler didnt had Ruler Education before."
  mjl_privateer_efficiency_debuff:0 "Privateer Efficiency Debuff"
  mjl_less_than_7_stats_tt:0 "Ruler with less than 7 total points."
+ mjl_burghers_indebted_to_burghers_tt:0 "This privilege can be taken only once every 10 years."
