@@ -837,3 +837,26 @@ country_event = {
 		name = "mjl_events.EVTOPTA14"
 	}
 }
+
+
+country_event = {
+	id = mjl_events.15
+	title = none
+	desc = none
+	picture = none
+	hidden = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	immediate = {
+		add_country_modifier = {
+			name = "mjl_absolutism_age_max_abso"
+			duration = -1
+		}
+	}
+	option = {
+		name = "mjl_events.EVTOPTA15"
+	}
+}

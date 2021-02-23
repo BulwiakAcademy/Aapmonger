@@ -519,9 +519,13 @@ age_of_absolutism = {
 
 		ab_rival_change = {
 			modifier = {
-				max_absolutism = 25
+				#max_absolutism = 25
 			}
 			effect = {
+				custom_tooltip = mjl_max_absolutism_perma_tt
+				hidden_effect = {
+					country_event = { id = mjl_events.15 }
+				}
 				#set_country_flag = mjl_absolutism_age_abso_ability
 			}
 			ai_will_do = {
@@ -757,7 +761,7 @@ age_of_revolutions = {
 		}
 		ab_same_contine_lib_desire = {
 			modifier = {
-				max_absolutism = 40
+				max_absolutism = 15
 			}
 			effect = {
 				#set_country_flag = mjl_revolution_age_abso_ability

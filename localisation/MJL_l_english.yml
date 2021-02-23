@@ -374,3 +374,5 @@
  mjl_privateer_efficiency_debuff:0 "Privateer Efficiency Debuff"
  mjl_less_than_7_stats_tt:0 "Ruler with less than 7 total points."
  mjl_burghers_indebted_to_burghers_tt:0 "This privilege can be taken only once every 10 years."
+ mjl_max_absolutism_perma_tt:0 "Maximum Absolutism: §G+25.00§! \n§YThis modifier is permanent and will be active after Age of Absolutism.§!"
+ mjl_absolutism_age_max_abso:0 "Absolute Rule Age Objective"
