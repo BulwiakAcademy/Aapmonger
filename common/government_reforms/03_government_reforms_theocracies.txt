@@ -698,7 +698,7 @@ admiral_king_reform = {
 	}
 	modifiers = {
 		devotion = 0.1
-		naval_morale = 0.15
+		naval_morale = 0.05
 		leader_naval_fire = 1
 	}
 	custom_attributes = {
