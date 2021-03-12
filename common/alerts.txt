@@ -183,7 +183,7 @@ alerts = {
 	}
 
 	alert_too_few_rivals = {
-		category = HIGH
+		category = MEDIUM
 	}
 
 	alert_risk_of_union = {

@@ -190,8 +190,8 @@ mission_rewards_power_projection = {
 ##################################
 
 lacking_rival = {
-	power = -1
-	min = -60
+	power = 0
+	min = 0
 }
 
 has_rival = {
