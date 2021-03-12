@@ -181,7 +181,7 @@ diplomatic_missions = {
 					all_ally = {
 						has_opinion = {
 							who = ROOT
-							value = 150
+							value = 75
 						}
 					}
 					amount = 2
