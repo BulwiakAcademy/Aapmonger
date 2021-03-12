@@ -857,7 +857,7 @@ sealand_hormuz_missions_4 = {
 				ai = no
 			}
 			naval_forcelimit = 60
-			num_of_heavy_ship = 30
+			num_of_heavy_ship = 10
 		}
 		effect = {
 			add_country_modifier = {
