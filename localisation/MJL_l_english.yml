@@ -376,3 +376,6 @@
  mjl_burghers_indebted_to_burghers_tt:0 "This privilege can be taken only once every 10 years."
  mjl_max_absolutism_perma_tt:0 "Maximum Absolutism: §G+25.00§! \n§YThis modifier is permanent and will be active after Age of Absolutism.§!"
  mjl_absolutism_age_max_abso:0 "Absolute Rule Age Objective"
+ mjl_tun_dev_copper_title:0 "Copper Mine Advancements"
+ mjl_tun_dev_copper_desc:0 ""
+ mjl_tun_income_boost:0 "Copper Mining Advancements"

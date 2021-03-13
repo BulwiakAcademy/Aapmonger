@@ -678,6 +678,30 @@ gc_tunis_5 = {
 	}
 	has_country_shield = yes
 	
+	mjl_tun_dev_copper = {
+		icon = mission_jawal_silver_mine
+		required_missions = {  }
+		position = 1
+		
+		provinces_to_highlight = {
+			province_id = 2454
+		}
+		
+		trigger = {	
+			2454 = {
+				owned_by = ROOT
+				is_core = ROOT
+				development = 15
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "mjl_tun_income_boost"
+				duration = -1
+			}
+		}
+	}
+
 	gc_tun_ottomans = {
 		icon = mission_ottoman_diplomacy
 		required_missions = {  }
