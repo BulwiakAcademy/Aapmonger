@@ -448,7 +448,7 @@ gc_morocco_2 = {
 			1293 = {
 				privateer_power = {
 					country = ROOT
-					share = 25
+					share = 15
 				}
 			}
 		}
@@ -699,7 +699,7 @@ gc_morocco_3 = {
 				1298 = {
 					privateer_power = {
 						country = ROOT
-						share = 25
+						share = 15
 					}
 				}
 			}
@@ -825,7 +825,7 @@ gc_morocco_3 = {
 			1975 = {
 				privateer_power = {
 					country = ROOT
-					share = 33
+					share = 25
 				}
 			}
 			kingdom_of_the_isles_area = {
