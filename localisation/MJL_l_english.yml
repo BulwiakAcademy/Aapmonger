@@ -379,3 +379,5 @@
  mjl_tun_dev_copper_title:0 "Copper Mine Advancements"
  mjl_tun_dev_copper_desc:0 ""
  mjl_tun_income_boost:0 "Copper Mining Advancements"
+ estate_tun_church_piety_privilege:0 "Tunisian Caliphate"
+ estate_tun_church_piety_privilege_desc:0 "If we listen to the advice of the [Root.GetClergyName] and place their concerns at the forefront of our mind, we may derive considerable benefits for our rule and see the people's faith in [Root.GetReligionNoun] greatly strengthened."
