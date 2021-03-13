@@ -381,3 +381,4 @@
  mjl_tun_income_boost:0 "Copper Mining Advancements"
  estate_tun_church_piety_privilege:0 "Tunisian Faith"
  estate_tun_church_piety_privilege_desc:0 "If we listen to the advice of the [Root.GetClergyName] and place their concerns at the forefront of our mind, we may derive considerable benefits for our rule and see the people's faith in [Root.GetReligionNoun] greatly strengthened."
+ mjl_spa_mainland_iberia_tt:0 "§YProvince(s)§! is in the §YMainland§! part of region §YIberia Region§!"

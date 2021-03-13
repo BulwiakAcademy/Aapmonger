@@ -69,6 +69,7 @@ country_decisions = {
 				AND = {
 					region = iberia_region
 					owner = { religion_group = muslim }
+					NOT = { area = baleares_area }
 				}
 			}
 			OR = {
@@ -90,9 +91,18 @@ country_decisions = {
 			owns_core_province = 219	# Toledo
 			owns_core_province = 220	# Valencia
 			owns_core_province = 223	# Granada
-			iberia_region = {
-				type = all
-				NOT = { owner = { religion_group = muslim } }
+			
+			NOT = {
+				any_province = {
+					custom_trigger_tooltip = {
+						tooltip = mjl_spa_mainland_iberia_tt
+						AND = {
+							region = iberia_region
+							NOT = { area = baleares_area }
+						}
+					}
+					owner = { religion_group = muslim }
+				}	
 			}
 		}
 		effect = {
@@ -200,9 +210,17 @@ country_decisions = {
 			is_nomad = no
 			is_at_war = no
 			legitimacy = 100
-			iberia_region = {
-				type = all
-				NOT = { owner = { religion_group = muslim } }
+			NOT = {
+				any_province = {
+					custom_trigger_tooltip = {
+						tooltip = mjl_spa_mainland_iberia_tt
+						AND = {
+							region = iberia_region
+							NOT = { area = baleares_area }
+						}
+					}
+					owner = { religion_group = muslim }
+				}	
 			}
 			custom_trigger_tooltip = {
 				tooltip = forming_spain_diplomatically_tooltip
