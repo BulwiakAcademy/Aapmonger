@@ -14093,7 +14093,6 @@ TUN_ideas = {
 	}
 	tun_caliphate = {
 		development_cost = -0.1
-		monthly_piety = 0.001
 	}
 }
 
