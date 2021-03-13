@@ -1,7 +1,8 @@
 #126 - Malta
 
-owner = SIC
-controller = SIC
+owner = JAI
+controller = JAI
+add_core = JAI
 culture = maltese 
 religion = catholic 
 hre = no 
