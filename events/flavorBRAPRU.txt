@@ -631,7 +631,7 @@ country_event = {
 				}
 			}
 		}
-		add_treasury = 100
+		add_treasury = 25
 		FROM = {
 			country_event = { id = flavor_brapru.17 }
 			add_opinion = {
@@ -685,7 +685,7 @@ country_event = {
 				}
 			}
 		}
-		add_treasury = -100
+		add_treasury = -25
 		FROM = {
 			add_opinion = {
 				who = ROOT

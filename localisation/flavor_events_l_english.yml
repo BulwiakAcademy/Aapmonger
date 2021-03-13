@@ -2431,7 +2431,7 @@
  flavor_brapru.15.t:0 "The Fate of Neumark"
  flavor_brapru.15.d:0 "Due to lack of funds and due to an unstable political situation our predecessors have seen fit to first pawn and then sell the lands of Neumark to the Teutonic order. The area was once claimed by settlers from Brandenburg, however, and the burghers of the province claim the Order is neglecting them.\nThe Teutons have already tried to pawn Neumark to the Polish King but the Burghers of Neumark have rejected that solution. As long as order is duly compensated we have every reason to believe the Grand Master would accept if we offered to re-purchase the province."
  flavor_brapru.15.a:0 "Make the Grandmaster a generous offer."
- flavor_brapru.15.a.tt:1 "§ROffer 100§!¤ for the provinces of §YNeumark§! and §YDramburg§!."
+ flavor_brapru.15.a.tt:1 "§ROffer 25§!¤ for the provinces of §YNeumark§! and §YDramburg§!."
  flavor_brapru.15.b:0 "We must conserve our funds."
  flavor_brapru.15.b.tt:0 "We will not get another opportunity to acquire Neumark diplomatically."
  flavor_brapru.16.t:0 "The Fate of Neumark"
