@@ -143,6 +143,7 @@ sealand_hormuz_missions_1_1 = { # Forming Yemen removes this missions
 			NOT = {
 				exists = YEM
 			}
+			is_at_war = no
 		}
 		effect = {
 			set_country_flag = keep_hormuz_missions
@@ -1094,6 +1095,7 @@ sealand_hormuz_missions_5 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			is_at_war = no
 		}
 		effect = {
 			change_tag = PER
