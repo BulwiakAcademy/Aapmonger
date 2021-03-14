@@ -18,6 +18,7 @@ peasant_war = {
 			AND = {
 				has_global_flag = great_peasants_war_flag
 				is_part_of_hre = yes
+				NOT = { has_country_flag = had_great_peasant_war }
 			}
 		}
 	}

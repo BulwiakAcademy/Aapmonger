@@ -17,6 +17,13 @@ country_event = {
 	
 	immediate = {
 		set_country_flag = had_peasant_war
+		if = {
+			limit = {
+				has_global_flag = great_peasants_war_flag
+				is_part_of_hre = yes
+			}
+			set_country_flag = had_great_peasant_war
+		}
 		add_stability = -6
 		add_prestige = -10
 		random_owned_province = { 
