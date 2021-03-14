@@ -388,3 +388,7 @@
  PR_military_reform_decision:0 "Military Reforms"
  PR_commandant_decision:0 "Inspirational Leader"
  PR_grand_captain_decision:0 "Grand Captain"
+ PR_commandant_cooldown:0 "Inspirational Leader Cooldown"
+ PR_commandant_cooldown_tooltip:0 "Perhaps another time..."
+ PR_grand_captain_cooldown:0 "Grand Captain Cooldown"
+ PR_grand_captain_cooldown_tooltip:0 "Perhaps another time..."
