@@ -1,6 +1,6 @@
 
 h_china_all_tier4_5 = {
-	slot = 5
+	slot = 1
 	generic = no
 	ai = yes
 	potential = {
@@ -22,7 +22,7 @@ h_china_all_tier4_5 = {
 
 	china_dragon_throne = { #Dragon Throne
 		icon = mission_seize_the_dragon_throne
-		position = 7
+		position = 3
         provinces_to_highlight = {
 			OR = {
 				owner = {
@@ -111,7 +111,7 @@ h_china_all_tier4_5 = {
 	china_four_great_inventions = { #Four Great inventions
 		icon = mission_vedic_education
 		required_missions = { china_dragon_throne }
-		position = 8
+		position = 4
         provinces_to_highlight = {
         }
 		trigger = {
@@ -148,7 +148,7 @@ h_china_all_tier4_5 = {
 	china_forbidden_city = { #Forbidden City
 		icon = mission_conquer_punjab
 		required_missions = { china_four_great_inventions }
-		position = 9
+		position = 5
         provinces_to_highlight = {
         	province_id = 1816
         }
@@ -190,7 +190,7 @@ h_china_all_tier4_5 = {
 	china_art_of_war = { #Art of War
 		icon = mission_manchu_warrior
 		required_missions = { china_forbidden_city }
-		position = 10
+		position = 6
 		trigger = {
 			has_reform = h_reform_warlord_4
 			if = {

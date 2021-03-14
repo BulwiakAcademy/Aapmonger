@@ -453,12 +453,12 @@ h_qic_col_war1_3_4_reward = {
 	global_autonomy = -0.1
 }
 
-h_qic_col_war2_4_5_reward = {
+h_qic_col_war2_2_5_reward = {
 	global_ship_trade_power = 0.15
 	light_ship_cost = -0.15
 }
 
-h_qic_col_war2_4_6_reward = {
+h_qic_col_war2_2_6_reward = {
 	idea_cost = -0.1
 }
 
@@ -466,11 +466,11 @@ h_qic_col_war2_3_6_reward = {
 	local_defensiveness = 0.15
 }
 
-h_qic_col_war3_1_4_reward = {
+h_qic_col_war3_4_3_reward = {
 	global_trade_goods_size_modifier = 0.1
 }
 
-h_qic_col_war3_1_5_reward = {
+h_qic_col_war3_5_4_reward = {
 	infantry_power = 0.10
 	army_tradition = 0.25
 }
@@ -495,11 +495,11 @@ h_qic_col_war2_5_5_reward = {
 	global_trade_power = 0.1
 }
 
-h_cxi_col_war3_1_5_reward = {
+h_cxi_col_war3_4_3_reward = {
 	leader_land_fire = 1
 }
 
-h_cxi_col_war3_1_8_reward = {
+h_cxi_col_war3_4_4_reward = {
 	land_morale = 0.075
 	infantry_cost = -0.075
 }

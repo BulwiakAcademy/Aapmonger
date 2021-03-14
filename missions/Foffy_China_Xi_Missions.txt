@@ -32,6 +32,87 @@ h_cxi_col_war1_4 = {
 	has_country_shield = yes
 }
 
+h_cxi_col_war3_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = CXI
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+		}
+	}
+	has_country_shield = yes
+	
+	h_cxi_col_war3_4_3 = { #
+		icon = mission_manchu_warrior
+		position = 3
+		required_missions = { h_cxi_col_war1_3_2 }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = wuchang_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			wuchang_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_army_tradition = 15
+			add_country_modifier = {
+				name = "h_cxi_col_war3_4_3_reward"
+				duration = 5475
+			}
+		}
+	}
+	
+	h_cxi_col_war3_4_4 = { #
+		icon = mission_unite_home_region
+		position = 4
+		required_missions = { 
+			h_cxi_col_war3_4_3 
+		}
+		
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			army_size = 100
+		}
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = "h_cxi_col_war3_4_4_reward"
+				duration = 3650
+			}
+		}
+	}
+}
+
 h_cxi_col_war1_3 = {
 	slot = 3
 	generic = no
@@ -655,88 +736,6 @@ h_cxi_col_war3_5 = {
 				cost_multiplier = 0.5
 			}
 			add_prestige = 10
-		}
-	}
-}
-
-h_cxi_col_war3_1 = {
-	slot = 1
-	generic = no
-	ai = yes
-	potential = {
-		tag = CXI
-		OR = {
-			has_reform = h_reform_warlord_1
-			has_reform = h_reform_warlord_2
-			has_reform = h_reform_warlord_3
-			has_reform = h_reform_warlord_4
-		}
-	}
-	has_country_shield = yes
-	
-	h_cxi_col_war3_1_5 = { #
-		icon = mission_manchu_warrior
-		position = 5
-		required_missions = { h_cxi_col_war1_3_4 }
-		
-		provinces_to_highlight = {
-			OR = {
-				area = wuchang_area
-			}
-			NOT = { owned_by = ROOT }
-		}
-		trigger = {
-			OR = {
-				has_reform = h_reform_warlord_3
-				has_reform = h_reform_warlord_4
-			}
-			if = {
-				limit = {
-					was_player = yes
-				}
-				ai = no
-			}
-			wuchang_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			add_army_tradition = 15
-			add_country_modifier = {
-				name = "h_cxi_col_war3_1_5_reward"
-				duration = 5475
-			}
-		}
-	}
-	
-	h_cxi_col_war3_1_8 = { #
-		icon = mission_unite_home_region
-		position = 8
-		required_missions = { 
-			h_cxi_col_war3_1_5 
-			h_cxi_col_war2_2_7
-		}
-		
-		trigger = {
-			OR = {
-				has_reform = h_reform_warlord_3
-				has_reform = h_reform_warlord_4
-			}
-			if = {
-				limit = {
-					was_player = yes
-				}
-				ai = no
-			}
-			army_size = 100
-		}
-		effect = {
-			add_prestige = 10
-			add_country_modifier = {
-				name = "h_cxi_col_war3_1_8_reward"
-				duration = 3650
-			}
 		}
 	}
 }

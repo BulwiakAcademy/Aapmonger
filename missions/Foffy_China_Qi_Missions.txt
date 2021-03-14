@@ -189,8 +189,8 @@ h_qic_col_war1_3 = {
 	}
 }
 
-h_qic_col_war2_2 = {
-	slot = 2
+h_qic_col_war3_4 = {
+	slot = 4
 	generic = no
 	ai = yes
 	potential = {
@@ -204,7 +204,147 @@ h_qic_col_war2_2 = {
 	}
 	has_country_shield = yes
 	
-	h_qic_col_war2_2_5 = { #
+	h_qic_col_war3_4_2 = { #
+		icon = mission_non-western_cavalry_raid
+		position = 2
+		required_missions = { h_qic_col_war1_3_1 }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = jinzhong_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			jinzhong_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			datong_area = {
+				limit = {
+					NOT = { is_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = SCO
+				}
+				add_casus_belli = {
+					target = LNG
+					type = cb_vassalize_mission
+				}
+			}
+		}
+	}
+	
+	h_qic_col_war3_4_3 = { #
+		icon = mission_have_two_subjects
+		position = 3
+		required_missions = { h_qic_col_war3_4_2 }
+		
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					exists = LNG
+				}
+				owned_by = LNG
+			}
+			else = {
+				OR = {
+					area = changzhi_area
+				}
+				NOT = { owned_by = ROOT }
+			}			
+		}
+		
+		trigger = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			if = {
+				limit = {
+					exists = LNG
+					LNG = {
+						is_subject_of = QIC
+					}
+				}
+				custom_trigger_tooltip = { 
+					tooltip = h_qic_col_war3_4_2_tooltip 
+					NOT = {
+						LNG = {
+							liberty_desire = 5
+						}
+					}
+				}
+			}
+			else = {
+				custom_trigger_tooltip = { 
+					tooltip = h_qic_col_war3_4_2_tooltip 
+					694 = {
+						is_core = ROOT
+					}
+					5661 = {
+						is_core = ROOT
+					}
+					5660 = {
+						is_core = ROOT
+					}
+					5535 = {
+						is_core = ROOT
+					}
+					5573 = {
+						is_core = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			add_mil_power = 50
+			add_country_modifier = {
+				name = "h_qic_col_war3_4_3_reward"
+				duration = 3650
+			}
+		}
+	}
+}
+
+h_qic_col_war2_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = QIC
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+		}
+	}
+	has_country_shield = yes
+	
+	h_qic_col_war2_4_5 = { #
 		icon = mission_manchu_warrior
 		position = 5
 		required_missions = { h_qic_col_war1_3_4 }
@@ -222,7 +362,7 @@ h_qic_col_war2_2 = {
 			}
 			stability = 1
 			custom_trigger_tooltip = {
-				tooltip = h_qic_col_war2_2_5_tooltip
+				tooltip = h_qic_col_war2_4_5_tooltip
 				NOT = {
 					any_owned_province = {
 						culture = shandong_culture
@@ -268,8 +408,8 @@ h_qic_col_war2_2 = {
 	}
 }
 
-h_qic_col_war2_4 = {
-	slot = 4
+h_qic_col_war2_2 = {
+	slot = 2
 	generic = no
 	ai = yes
 	potential = {
@@ -283,7 +423,7 @@ h_qic_col_war2_4 = {
 	}
 	has_country_shield = yes
 	
-	h_qic_col_war2_4_5 = { #
+	h_qic_col_war2_2_5 = { #
 		icon = mission_galleys_in_port
 		position = 5
 		required_missions = { h_qic_col_war1_3_4 }
@@ -303,7 +443,7 @@ h_qic_col_war2_4 = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = "h_qic_col_war2_4_5_reward"
+				name = "h_qic_col_war2_2_5_reward"
 				duration = 5475
 			}
 			add_treasury = 100
@@ -311,10 +451,10 @@ h_qic_col_war2_4 = {
 		}
 	}
 	
-	h_qic_col_war2_4_6 = { #
+	h_qic_col_war2_2_6 = { #
 		icon = mission_junk_boat
 		position = 6
-		required_missions = { h_qic_col_war2_4_5 }
+		required_missions = { h_qic_col_war2_2_5 }
 		
 		provinces_to_highlight = {
 			province_id = 4233
@@ -345,10 +485,10 @@ h_qic_col_war2_4 = {
 		}
 	}
 	
-	h_qic_col_war2_4_7 = { #
+	h_qic_col_war2_2_7 = { #
 		icon = mission_asian_trader
 		position = 7
-		required_missions = { h_qic_col_war2_4_6 }
+		required_missions = { h_qic_col_war2_2_6 }
 		
 		provinces_to_highlight = {
 			province_id = 726
@@ -481,8 +621,8 @@ h_qic_col_war2_3 = {
 	}
 }
 
-h_qic_col_war3_1 = {
-	slot = 1
+h_qic_col_war3_5 = {
+	slot = 5
 	generic = no
 	ai = yes
 	potential = {
@@ -495,135 +635,11 @@ h_qic_col_war3_1 = {
 		}
 	}
 	has_country_shield = yes
-	
-	h_qic_col_war3_1_2 = { #
-		icon = mission_non-western_cavalry_raid
-		position = 2
-		required_missions = { h_qic_col_war1_3_1 }
-		
-		provinces_to_highlight = {
-			OR = {
-				area = jinzhong_area
-			}
-			NOT = { owned_by = ROOT }
-		}
-		trigger = {
-			OR = {
-				has_reform = h_reform_warlord_3
-				has_reform = h_reform_warlord_4
-			}
-			if = {
-				limit = {
-					was_player = yes
-				}
-				ai = no
-			}
-			jinzhong_area = {
-				type = all
-				owned_by = ROOT
-			}
-		}
-		effect = {
-			datong_area = {
-				limit = {
-					NOT = { is_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
-				add_claim = ROOT
-			}
-			if = {
-				limit = {
-					exists = SCO
-				}
-				add_casus_belli = {
-					target = LNG
-					type = cb_vassalize_mission
-				}
-			}
-		}
-	}
-	
-	h_qic_col_war3_1_4 = { #
-		icon = mission_have_two_subjects
-		position = 4
-		required_missions = { h_qic_col_war3_1_2 }
-		
-		provinces_to_highlight = {
-			if = {
-				limit = {
-					exists = LNG
-				}
-				owned_by = LNG
-			}
-			else = {
-				OR = {
-					area = changzhi_area
-				}
-				NOT = { owned_by = ROOT }
-			}			
-		}
-		
-		trigger = {
-			OR = {
-				has_reform = h_reform_warlord_3
-				has_reform = h_reform_warlord_4
-			}
-			if = {
-				limit = {
-					was_player = yes
-				}
-				ai = no
-			}
-			if = {
-				limit = {
-					exists = LNG
-					LNG = {
-						is_subject_of = QIC
-					}
-				}
-				custom_trigger_tooltip = { 
-					tooltip = h_qic_col_war3_1_2_tooltip 
-					NOT = {
-						LNG = {
-							liberty_desire = 5
-						}
-					}
-				}
-			}
-			else = {
-				custom_trigger_tooltip = { 
-					tooltip = h_qic_col_war3_1_2_tooltip 
-					694 = {
-						is_core = ROOT
-					}
-					5661 = {
-						is_core = ROOT
-					}
-					5660 = {
-						is_core = ROOT
-					}
-					5535 = {
-						is_core = ROOT
-					}
-					5573 = {
-						is_core = ROOT
-					}
-				}
-			}
-		}
-		effect = {
-			add_mil_power = 50
-			add_country_modifier = {
-				name = "h_qic_col_war3_1_4_reward"
-				duration = 3650
-			}
-		}
-	}
-	
-	h_qic_col_war3_1_5 = { #
+
+	h_qic_col_war3_5_4 = { #
 		icon = mission_japanese_samurai
-		position = 5
-		required_missions = { h_qic_col_war3_1_4 }
+		position = 4
+		required_missions = { h_qic_col_war3_4_3 }
 		
 		trigger = {
 			OR = {
@@ -643,18 +659,18 @@ h_qic_col_war3_1 = {
 		effect = {
 			add_mil_power = 50
 			add_country_modifier = {
-				name = "h_qic_col_war3_1_5_reward"
+				name = "h_qic_col_war3_5_4_reward"
 				duration = 7300
 			}
 		}
 	}
-	
-	h_qic_col_war3_1_6 = { #
+
+	h_qic_col_war3_5_6 = { #
 		icon = mission_market_place_with_asian_traders
 		position = 6
 		required_missions = { 
-			h_qic_col_war3_1_5
-			h_qic_col_war2_2_5
+			h_qic_col_war3_5_4
+			h_qic_col_war2_4_5
 			
 		}
 		
