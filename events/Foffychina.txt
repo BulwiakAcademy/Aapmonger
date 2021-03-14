@@ -1210,3 +1210,393 @@ country_event = { #YUE Warlord Death on ruler death
 	}
 	
 }
+
+country_event = { #Move Capital Beijing
+	id = foffychina.39
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_beijing }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = { 
+		name = foffychina.39.a
+		1816 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_beijing
+	}
+}
+
+country_event = { #Move Capital Changsha
+	id = foffychina.40
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_changsha }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		5503 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_changsha
+	}
+}
+
+country_event = { #Move Capital Chengdu
+	id = foffychina.41
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_chengdu }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		5504 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_chengdu
+	}
+}
+
+country_event = { #Move Capital Chongqing
+	id = foffychina.42
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_chongqing }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		680 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_chongqing
+	}
+}
+
+country_event = { #Move Capital Dalian
+	id = foffychina.43
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_dalian }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		726 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_dalian
+	}
+}
+
+country_event = { #Move Capital Guangzhou
+	id = foffychina.44
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_guangzhou }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		667 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_guangzhou
+	}
+}
+
+country_event = { #Move Capital Hangzhou
+	id = foffychina.45
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_hangzhou }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		684 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_hangzhou
+	}
+}
+
+country_event = { #Move Capital Kunming
+	id = foffychina.46
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_kumning }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		662 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_kumning
+	}
+}
+
+country_event = { #Move Capital Luoyang
+	id = foffychina.47
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_luoyang }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		5571 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_luoyang
+	}
+}
+
+country_event = { #Move Capital Nanjing
+	id = foffychina.48
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_nanjing }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		1821 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_nanjing
+	}
+}
+
+country_event = { #Move Capital Wuchang
+	id = foffychina.49
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_wuchang }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		682 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_wuchang
+	}
+}
+
+country_event = { #Move Capital Xi'an
+	id = foffychina.50
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_xian }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		700 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_xian
+	}
+}
+
+country_event = { #Move Capital Xiamen
+	id = foffychina.51
+	title = foffychina.39.t
+	desc = foffychina.39.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_flag = h_commandery_capital }
+		NOT = { has_country_flag = h_commandery_capital_denied_xiamen }
+	}
+	
+	immediate = {
+		set_country_flag = h_commandery_capital
+	}
+	
+	option = {
+		name = foffychina.39.a
+		1829 = {
+			move_capital_effect = yes
+		}
+	}
+	option = {
+		name = foffychina.39.b
+		clr_country_flag = h_commandery_capital
+		set_country_flag = h_commandery_capital_denied_xiamen
+	}
+}

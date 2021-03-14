@@ -19,21 +19,33 @@ country_decisions = {
 			owns = 1816
 			NOT = { capital = 1816 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_beijing }
 		}
 		allow = {
 			is_at_war = no
 			controls = 1816		
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 1816
-			1816 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.39 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_beijing }
+				}
+				1816 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_beijing
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 1816
 			}
 		}
 		do_not_core = 1816 # Beijing
@@ -52,21 +64,33 @@ country_decisions = {
 			owns = 5503
 			NOT = { capital = 5503}
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_changsha }
 		}
 		allow = {
 			is_at_war = no
 			controls = 5503
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 5503
-			5503 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.40 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_changsha }
+				}
+				5503 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_changsha
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 5503
 			}
 		}
 		do_not_core = 5503 # Changsha
@@ -85,24 +109,36 @@ country_decisions = {
 			owns = 5504 
 			NOT = { capital = 5504 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_chengdu }
 		}
 		allow = {
 			is_at_war = no
 			controls = 5504 
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 5504 
-			5504 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.41 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_chengdu }
+				}
+				5504 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_chengdu
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 5504
 			}
 		}
-		do_not_core = 5504 # Constantinople
+		do_not_core = 5504 # Chengdu
 	}
 
 	h_cqg_capital = {
@@ -118,21 +154,33 @@ country_decisions = {
 			owns = 680
 			NOT = { capital = 680 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_chongqing }
 		}
 		allow = {
 			is_at_war = no
 			controls = 680		
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 680
-			680 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.42 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_chongqing }
+				}
+				680 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_chongqing
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 680
 			}
 		}
 		do_not_core = 680 # Chongqing
@@ -151,21 +199,33 @@ country_decisions = {
 			owns = 726
 			NOT = { capital = 726 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_dalian }
 		}
 		allow = {
 			is_at_war = no
 			controls = 726		
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 726
-			726 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.43 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_dalian }
+				}
+				726 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_dalian
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 726
 			}
 		}
 		do_not_core = 726 # Dalian
@@ -184,21 +244,33 @@ country_decisions = {
 			owns = 667
 			NOT = { capital = 667 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_guangzhou }
 		}
 		allow = {
 			is_at_war = no
 			controls = 667		
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 667
-			667 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.44 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_guangzhou }
+				}
+				667 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_guangzhou
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 667
 			}
 		}
 		do_not_core = 667 # Guangzhou
@@ -217,24 +289,36 @@ country_decisions = {
 			owns = 684
 			NOT = { capital = 684 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_hangzhou }
 		}
 		allow = {
 			is_at_war = no
 			controls = 684		
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 684
-			684 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.45 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_hangzhou }
+				}
+				684 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_hangzhou
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 684
 			}
 		}
-		do_not_core = 684 # Constantinople
+		do_not_core = 684 # Hangzhou
 	}
 	
 	h_kmg_capital = {
@@ -250,21 +334,33 @@ country_decisions = {
 			owns = 662
 			NOT = { capital = 662 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_kumning }
 		}
 		allow = {
 			is_at_war = no
 			controls = 662		
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 662
-			662 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.46 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_kumning }
+				}
+				662 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_kumning
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 662
 			}
 		}
 		do_not_core = 662 # Kunming
@@ -283,21 +379,33 @@ country_decisions = {
 			owns = 5571
 			NOT = { capital = 5571 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_luoyang }
 		}
 		allow = {
 			is_at_war = no
 			controls = 5571 
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 5571 
-			5571 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.47 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_luoyang }
+				}
+				5571 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_luoyang
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 5571
 			}
 		}
 		do_not_core = 5571 # Luoyang
@@ -316,21 +424,33 @@ country_decisions = {
 			owns = 1821
 			NOT = { capital = 1821 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_nanjing }
 		}
 		allow = {
 			is_at_war = no
 			controls = 1821
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 1821
-			1821 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.48 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_nanjing }
+				}
+				1821 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_nanjing
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 1821
 			}
 		}
 		do_not_core = 1821 # Nanjing
@@ -349,21 +469,33 @@ country_decisions = {
 			owns = 682
 			NOT = { capital = 682 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_wuchang }
 		}
 		allow = {
 			is_at_war = no
 			controls = 682		
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 682
-			682 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.49 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_wuchang }
+				}
+				682 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_wuchang
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 682
 			}
 		}
 		do_not_core = 682 # Wuchang
@@ -382,21 +514,33 @@ country_decisions = {
 			owns = 700
 			NOT = { capital = 700 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_xian }
 		}
 		allow = {
 			is_at_war = no
 			controls = 700		
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 700
-			700 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.50 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_xian }
+				}
+				700 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_xian
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 700
 			}
 		}
 		do_not_core = 700 # Xi'an
@@ -415,21 +559,33 @@ country_decisions = {
 			owns = 1829
 			NOT = { capital = 1829 }
 			NOT = { has_country_flag = h_commandery_capital }
+			NOT = { has_country_flag = h_commandery_capital_denied_xiamen }
 		}
 		allow = {
 			is_at_war = no
 			controls = 1829		
 		}
 		effect = {
-			set_country_flag = h_commandery_capital
-			add_stability_or_adm_power = yes
-			add_core = 1829
-			1829 = {
-				move_capital_effect = yes
-				change_culture = ROOT
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
+			country_event = { id = foffychina.51 }
+			if = {
+				limit = {
+					NOT = { has_global_flag = h_commandery_capital_bonus_xiamen }
+				}
+				1829 = {
+					change_culture = ROOT
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+				set_global_flag = h_commandery_capital_bonus_xiamen
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = h_commandery_capital_bonus }
+				}
+				set_country_flag = h_commandery_capital_bonus
+				add_stability_or_adm_power = yes
+				add_core = 1829
 			}
 		}
 		do_not_core = 1829 # Xiamen
