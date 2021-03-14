@@ -359,6 +359,16 @@ support_independence_action = {
 			always = no
 		}
 	}
+	
+	condition = {
+		tooltip = h_tooltip_commanderysupport
+		potential = {
+			FROM = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 guaranteeaction = {
