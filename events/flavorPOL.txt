@@ -1657,7 +1657,10 @@ country_event = {
 			exists = yes
 			is_subject = no
 			NOT = { junior_union_with = POL }
-			dynasty = "Jagiellon"
+			OR = {
+				dynasty = "Jagiellon"
+				government = republic
+			}
 		}
 		NOT = { is_year = 1450 }
 	}
