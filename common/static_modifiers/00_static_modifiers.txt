@@ -1699,4 +1699,5 @@ at_peace_revolutionary = { # Applied if at peace while reactionaries are borderi
 
 mjl_subject_cavaran_malus = {
 	caravan_power = -0.5
+	cav_to_inf_ratio = 0.5
 }
