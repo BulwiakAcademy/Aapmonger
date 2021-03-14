@@ -75,6 +75,7 @@ country_event = {
 		tag = GNV
 		government = republic
 		is_subject_of = SAV
+		is_at_war = no
 	}
 	
 	fire_only_once = yes
