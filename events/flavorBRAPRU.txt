@@ -672,6 +672,7 @@ country_event = {
 					}
 					cede_province = BRA
 					add_core = BRA
+					add_local_autonomy = -50
 				}
 			}
 			4747 = {
@@ -682,6 +683,7 @@ country_event = {
 					}
 					cede_province = BRA
 					add_core = BRA
+					add_local_autonomy = -50
 				}
 			}
 		}
