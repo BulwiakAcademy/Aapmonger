@@ -393,3 +393,4 @@
  PR_grand_captain_cooldown:0 "Grand Captain Cooldown"
  PR_grand_captain_cooldown_tooltip:0 "Perhaps another time..."
  mjl_subject_cavaran_malus:0 "Subject Nation"
+ h_tooltip_tributechinese:0 "Chinese nations may not become tributaries."

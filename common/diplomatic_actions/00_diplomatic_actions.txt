@@ -491,3 +491,39 @@ giftaction = {
 		}
 	}
 }
+
+tributary_state_action = {
+	condition = {
+		tooltip = h_tooltip_tributechinese
+		potential = {
+
+		}
+		allow = {
+			from = {
+				NOT = {
+					has_reform = h_reform_commandery
+				}
+				NOT = {
+					has_reform = h_reform_warlord_1 
+				}
+				NOT = {
+					has_reform = h_reform_warlord_2
+				}
+				NOT = {
+					has_reform = h_reform_warlord_3
+				}
+				NOT = {
+					has_reform = h_reform_warlord_4
+				}
+				NOT = {
+					has_reform = h_reform_prefecture
+				}
+				NOT = {
+					has_reform = h_reform_citystate
+				}
+			}
+		}
+	}
+}
+# tributary_state_action
+# ask_for_tributary_state_action

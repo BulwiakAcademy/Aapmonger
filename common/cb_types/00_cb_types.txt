@@ -1223,7 +1223,30 @@ cb_force_tributary = {
 	prerequisites = {
 		has_dlc = "Mandate of Heaven"
 		is_emperor_of_china = yes
-		FROM = { is_subject = no }
+		FROM = { 
+			is_subject = no
+			NOT = {
+				has_reform = h_reform_commandery
+			}
+			NOT = {
+				has_reform = h_reform_warlord_1 
+			}
+			NOT = {
+				has_reform = h_reform_warlord_2
+			}
+			NOT = {
+				has_reform = h_reform_warlord_3
+			}
+			NOT = {
+				has_reform = h_reform_warlord_4
+			}
+			NOT = {
+				has_reform = h_reform_prefecture
+			}
+			NOT = {
+				has_reform = h_reform_citystate
+			}
+		}
 		is_neighbor_of = FROM
 	}
 	
