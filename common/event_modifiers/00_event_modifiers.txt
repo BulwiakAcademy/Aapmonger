@@ -9096,7 +9096,8 @@ guns_commonplace = {
 }
 
 traditional_warfare = {
-	land_morale = 0.15
+	land_morale = 0.05
+	naval_morale = 0.05
 }
 
 firearm_restrictions = {
