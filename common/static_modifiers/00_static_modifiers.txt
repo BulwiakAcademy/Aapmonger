@@ -1691,3 +1691,12 @@ lost_hegemony = {
 at_peace_revolutionary = { # Applied if at peace while reactionaries are bordering you
 	yearly_revolutionary_zeal = -4
 }
+
+
+#################################################
+#           new ones
+#################################################
+
+mjl_subject_cavaran_malus = {
+	caravan_power = -0.5
+}

@@ -207,6 +207,9 @@ vassal = {
 	modifier_overlord = {
 		modifier = vassal_subject
 	}
+	modifier_subject = {
+		modifier = mjl_subject_cavaran_malus
+	}
 
 	overlord_opinion_modifier = is_vassal
 	subject_opinion_modifier = is_vassal
@@ -252,6 +255,9 @@ march = {
 		}
 		expiration_message_overlord = MARCHTOOLARGE
 		expiration_message_subject = MARCHTOOLARGEUS
+	}
+	modifier_subject = {
+		modifier = mjl_subject_cavaran_malus
 	}
 }
 
