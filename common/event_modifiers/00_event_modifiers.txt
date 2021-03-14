@@ -9128,7 +9128,7 @@ shinto_converted_to_mahayana = {
 }
 
 shinto_kirishitan_realm = {
-	advisor_cost = -0.25
+	advisor_cost = -0.15
 }
 
 significant_christian_presence = {
