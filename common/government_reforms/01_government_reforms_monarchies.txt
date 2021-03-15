@@ -227,7 +227,7 @@ daimyo = {
 		capital_scope = { region = japan_region }
 	}
 	modifiers = {
-		land_morale = 0.1
+		#land_morale = 0.1
 		infantry_power = 0.1
 	}
 	custom_attributes = {
@@ -265,9 +265,9 @@ indep_daimyo = {
 	maintain_dynasty = yes
 
 	modifiers = {
-		land_morale = 0.1
+		#land_morale = 0.1
 		infantry_power = 0.1
-		governing_capacity = -150
+		governing_capacity = -50
 	}
 	custom_attributes = {
 		locked_government_type = yes
