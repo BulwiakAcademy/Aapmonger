@@ -258,7 +258,8 @@ h_cwonder_xian = {
 	trigger = {
 		is_core = ROOT
 	}
-	infantry_cost = -0.1
+	#infantry_cost = -0.1
+	global_regiment_cost = -0.10
 	governing_capacity = 50
 	#Province scope
 	on_activation = {
