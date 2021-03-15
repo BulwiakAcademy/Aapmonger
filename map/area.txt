@@ -2682,9 +2682,9 @@ chahar_area = {
 	5611 5612 5622 5623 #5611 5612 5622 5623 NEW PROVS
 }
 
-inner_mongolia_area = { #5
-	702  2114 2747 4671 4670
-}
+#inner_mongolia_area = { #5
+#	702 2114 2747 4671 4670
+#}
 
 outer_mongolia_area = { #5
 	717 721 2116  4220
