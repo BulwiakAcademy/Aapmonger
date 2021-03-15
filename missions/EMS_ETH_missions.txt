@@ -1,0 +1,767 @@
+######################## 1st Slot ######################## 
+
+EMS_ETH_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = ETH
+	}
+	has_country_shield = yes
+	
+	EMS_ethiopian_renaissance = {
+		icon = public_works
+		required_missions = { }
+		position = 6
+		
+		trigger = {
+			has_institution = renaissance
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "EMS_ethiopian_renaissance"
+				duration = 3650
+			}
+		}
+	}	
+}
+
+######################## 2nd Slot ######################## 
+
+EMS_ETH_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = ETH
+	}
+	has_country_shield = yes
+	
+	EMS_reforms_of_zara_yaqob = {
+		icon = mission_noble_council
+		required_missions = { EMS_crush_the_revolt }
+		position = 2
+		
+		trigger = {
+			monthly_mil = 10
+			monthly_dip = 10
+			monthly_adm = 10
+			stability = 1
+			NOT = { inflation = 4 }
+		}
+		
+		effect = {
+			add_treasury = 100
+			change_government_reform_progress = 25
+		}
+	}	
+
+	EMS_united_in_belief = {
+		icon = mission_european_church
+		required_missions = { EMS_reforms_of_zara_yaqob }
+		position = 3
+		
+		trigger = {
+			religious_unity = 1
+		}
+		
+		hidden_effect = {
+			capital_scope = {
+				remove_building = temple
+			}
+		}
+
+		effect = {
+			add_stability = 1
+			add_prestige = 10
+			capital_scope = {
+				add_building = cathedral
+			}
+		}
+	}
+
+	EMS_empire_not_only_in_name = {
+		icon = mission_empire
+		required_missions = { EMS_united_in_belief EMS_dominate_home_region }
+		position = 5
+		
+		trigger = {
+			government_rank = 3
+			total_development = 1000
+			prestige = 75
+		}
+		
+		effect = {
+			add_prestige = 10
+			add_adm_power = 100
+			add_mil_power = 100
+			add_dip_power = 100
+			add_country_modifier = {
+				name = "EMS_ethiopian_empire"
+				duration = -1
+			}
+		}
+	}
+}
+
+######################## 3rd Slot ######################## 
+
+EMS_ETH_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = ETH
+	}
+	has_country_shield = yes
+	
+	EMS_crush_the_revolt = {
+		icon = mission_cannons_firing
+		required_missions = { }
+		position = 1		
+		
+		trigger = {
+			NOT = {
+				has_spawned_rebels = nationalist_rebels
+			}
+			AND = {
+				owns = 2771
+				owns = 2772
+				owns = 1227
+			}
+		}
+		
+		effect = {
+			add_prestige = 10
+			capital_scope = {
+				ROOT = {
+					infantry = PREV
+					infantry = PREV
+					infantry = PREV 
+				}
+			}
+		}
+	}
+
+	EMS_recruit_new_soldiers = {
+		icon =  mission_assemble_an_army
+		required_missions = { EMS_crush_the_revolt }
+		position = 2
+		
+		trigger = {
+			army_size_percentage = 1
+			num_of_generals = 1
+		}
+		
+		effect = {
+			add_army_tradition = 10
+			add_mil_power = 100
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 2757
+						province_id = 2758
+						province_id = 2759
+						province_id = 4158
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	EMS_conquer_gold_mine = {
+		icon = mission_zambezi_gold
+		required_missions = { EMS_recruit_new_soldiers }
+		position = 3
+		
+		trigger = {
+			 southern_ethiopia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2757
+				province_id = 2758
+				province_id = 2759
+				province_id = 4158
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "EMS_reform_of_administration"
+				duration = 5475
+			}
+			hadiya_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			shewa_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			ifat_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			aussa_area = { 
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			sennar_area = { 
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			upper_nubia_area = { 
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	EMS_dominate_home_region = {
+		icon = mission_unite_home_region
+		required_missions = { EMS_conquer_gold_mine }
+		position = 4
+		
+		trigger = {
+			hadiya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			shewa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			ifat_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			aussa_area = { 
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			sennar_area = { 
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			upper_nubia_area = { 
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		provinces_to_highlight = {
+			OR = {
+				area = hadiya_area
+				area = shewa_area
+				area = ifat_area
+				area = aussa_area
+				area = sennar_area
+				area = upper_nubia_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			yemen_area = { 
+				limit = {
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			upper_yemen_area = { 
+				limit = {
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			tihama_al_yemen_area = { 
+				limit = {
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			somaliland_area = { 
+				limit = {
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			majarteen_area = { 
+				limit = {
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+			mogadishu_area = { 
+				limit = {
+					NOT = { is_core = ROOT	}
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+
+		EMS_conquer_somalia = {
+		icon = mission_invade_island
+		required_missions = { EMS_dominate_home_region }
+		position = 5
+		
+		trigger = {
+			somaliland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			majarteen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			mogadishu_area= {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		provinces_to_highlight = {
+			OR = {
+				area = mogadishu_area
+				area = majarteen_area
+				area = somaliland_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {	
+			mombasa_area = { 
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			northern_swahili_coast_area = { 
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			central_swahili_coast_area = { 
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	EMS_destroy_kilwa = {
+		icon = mission_italian_condottiere
+		required_missions = { EMS_conquer_somalia }
+		position = 6
+		
+		trigger = {
+			mombasa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			northern_swahili_coast_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			central_swahili_coast_area= {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		provinces_to_highlight = {
+			OR = {
+				area = central_swahili_coast_area
+				area = northern_swahili_coast_area
+				area = mombasa_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {	
+			add_country_modifier = {
+				name = "EMS_king_of_zanzibar"
+				duration = -1
+			}
+		}
+	}
+}
+
+######################## 4rd Slot ######################## 
+
+EMS_ETH_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = ETH
+	}
+	has_country_shield = yes
+
+	EMS_explore_savannas= {
+		icon = mission_african_soldier
+		required_missions = {  }
+		position = 1
+		
+		trigger = {
+			AND = {
+				num_of_colonists = 1
+			}
+		}
+		
+		effect = {	
+			define_conquistador = {
+				name = "Matewosi Medabi"
+  		 		shock = 4
+  		  		fire = 2
+  		  		manuever = 5
+  		  		siege = 1
+			}
+		}
+	}
+
+	EMS_cross_the_sahara= {
+		icon = mission_saharan_route
+		required_missions = { EMS_explore_savannas }
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2932
+				province_id = 774
+				province_id = 1219
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		trigger = {
+			AND = {
+				owns = 2932
+				owns = 774
+				owns = 1219
+
+			}
+		}
+		
+		effect = {	
+			add_country_modifier = {
+				name = "EMS_saharan_trade_road"
+				duration = 18250
+			}
+			kanem_area = { 
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			bornu_area = { 
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	EMS_conquer_kanem_bornu= {
+		icon = mission_invade_kanem
+		required_missions = { EMS_cross_the_sahara }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = bornu_area
+				area = kanem_area
+
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		trigger = {
+			bornu_area = { 
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kanem_area = { 
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {	
+			1157 = {
+				add_center_of_trade_level = 1
+				add_building = marketplace
+			}
+			1158 = {
+				add_center_of_trade_level = 1
+				add_building = marketplace
+			}
+		}
+	}
+
+	EMS_develop_the_gold_mines = {
+		icon = mission_establish_mint_towns
+		required_missions = { EMS_conquer_gold_mine }
+		position = 4
+		
+		trigger = {
+			2757 = { 
+				development = 20
+			}
+			2762 = { 
+				development = 20
+			}
+		}
+		
+		effect = {
+			define_advisor = {
+				type = master_of_mint
+				skill = 3
+				cost_multiplier = 0.5
+			}	
+			2757 = { 
+			add_province_modifier = { 
+    			name = EMS_gold_rush
+    			duration = 3650 
+				}	
+			}
+			2762 = { 
+			add_province_modifier = { 
+    			name = EMS_gold_rush
+    			duration = 3650 
+				}	
+			}
+		}
+	}
+
+	EMS_reconquer_yemen = {
+		icon = mission_arabian_fort
+		required_missions = { EMS_dominate_home_region }
+		position = 5
+		
+		trigger = {
+			yemen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			upper_yemen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			tihama_al_yemen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		provinces_to_highlight = {
+			OR = {
+				area = yemen_area
+				area = upper_yemen_area
+				area = tihama_al_yemen_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_dlc = "Dharma" }
+				}
+				1215 = { 
+					add_building = stock_exchange 
+				}	
+			}
+			else_if = {
+				limit = {
+					has_dlc = "Dharma"
+				}
+				1215 = {
+					center_of_trade = 1
+					add_building = marketplace
+				}
+			}			
+		}
+	}
+
+	EMS_control_adeni_trade = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { EMS_reconquer_yemen EMS_conquer_somalia }
+		position = 6
+		
+		trigger = {
+			387 = { 
+				trade_share = {
+					country = ROOT
+					share = 65
+				}
+			}
+		}
+		
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 534
+						province_id = 4413
+						province_id = 531
+						province_id = 2030
+						province_id = 2089
+						province_id = 529
+						province_id = 517
+						province_id = 4457
+						province_id = 504
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	EMS_ethiopian_traders_in_india = {
+		icon = mission_indian_empire
+		required_missions = { EMS_control_adeni_trade }
+		position = 7
+		
+		trigger = {
+			OR = {
+				owns = 534
+				owns = 4413
+				owns = 531
+				owns = 2030
+				owns = 2089
+				owns = 529
+				owns = 517
+				owns = 4457
+				owns = 504
+			}
+		}
+		
+				
+		provinces_to_highlight = {
+			OR = {
+				owns = 534
+				owns = 4413
+				owns = 531
+				owns = 2030
+				owns = 2089
+				owns = 529
+				owns = 517
+				owns = 4457
+				owns = 504
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			define_advisor = {
+				type = trader
+				skill = 3
+				cost_multiplier = 0.25
+			}	
+			add_treasury = 1000		
+		}
+	}
+}
+
+######################## 5rd Slot ######################## 
+
+EMS_ETH_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = ETH
+	}
+	has_country_shield = yes
+
+	EMS_production_of_coffee = {
+		icon = mission_asian_trader
+		required_missions = { EMS_conquer_gold_mine }
+		position = 4
+		
+		trigger = {
+		production_leader = {
+			trade_goods = coffee
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "EMS_monetary_reforms"
+				duration = 5475
+			}	
+			add_country_modifier = {
+				name = "EMS_coffee_production"
+				duration = -1
+			}
+			add_years_of_owned_provinces_production_income = {
+            	years = 5
+            	trigger = {
+               		 trade_goods = coffee
+            	}
+			custom_tooltip = EMS_production_of_coffee.tooltip
+        	}
+		}
+	}
+}
