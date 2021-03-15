@@ -57,7 +57,7 @@
  overlord_daimyo_at_peace:0 "Daimyos at peace"
  overlord_daimyo_same_isolationism:0 "Daimyos' Isolationism"
  HARMONIZE_WITH_RELIGION:0 "§YHarmonize with Religion§!"
- HARMONIZE_DESC:0 "Provinces with Harmonized Religions are tolerated as if they were §Y$NAME$§!.\nCountries following any of your Harmonized Religions will view you as though you were following that religion."
+ HARMONIZE_DESC:0 "Provinces with Harmonized Religions are tolerated as if they were §Y$NAME$§!.\nCountries following any of your Harmonized Religions will view you as though you were following that religion.\n§YPossible Harmonization Modifiers§!: \nXiào - §G5% Production Efficiency§! \nZhong - §G-0.03 Monthly War Exhaustion§! \nLi - §G-5% Idea Cost Reduction§! \nXìn - §G10% Infantry Combat Ability§! \nYì - §G-1 Global Unrest§! \nZhi - §G20% Global Institution Spread§! \nRén - §G+1 Tolerance of True Faith§! \nJié - §G5% Trade Efficiency§! \nChéng - §G-10% Stability Cost Reduction§!"
  HARMONIZE_DESC_CURRENT:1 "Currently Harmonizing with §Y$RELIGION$§!\nProgress: §Y$PROGRESS$§!\nEstimated Completion: $DONE|Y$"
  HARMONIZE_GROUP_DESC_CURRENT:1 "Currently Harmonizing with the §Y$GROUP$§! Religion Group.\nProgress: §Y$PROGRESS$§!\nEstimated Completion: $DONE|Y$"
  CANCEL_HARMONIZATION:0 "Cancel Harmonization"
