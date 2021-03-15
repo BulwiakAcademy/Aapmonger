@@ -506,6 +506,44 @@ renaissance = {
 				}
 			}
 		}
+		#EXTRA SPREAD
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_renesaince_temple_tt
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		modifier = {
+			factor = 0.025
+			scale = yes
+			potential = {
+				NOT = { continent = europe }
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_rotw_tooltip_development_10
+				NOT = { continent = europe }
+				development = 10
+			}
+		}
+		modifier = {
+			factor = 0.025
+			scale = yes
+			potential = {
+				NOT = { continent = europe }
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_rotw_tooltip_development_20
+				NOT = { continent = europe }
+				development = 20
+			}
+		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
