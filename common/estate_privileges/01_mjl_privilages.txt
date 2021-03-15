@@ -348,3 +348,38 @@ estate_marathas_grant_generalship = {
 		}
 	}
 }
+
+estate_tribes_raise_host = {
+	icon = privilege_promote_purbias
+	influence = 0.1
+	loyalty = -0.05
+	is_valid = {
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	on_granted = {
+		random_owned_province = {
+			add_unit_construction = {
+				type = cavalry
+				amount = 5
+				speed = 0.5
+				cost = 0
+			}
+		}
+		create_general = { tradition = 20 }
+		custom_tooltip = mjl_estate_grant_generalship_tt
+	}
+	cooldown_years = 10
+	on_cooldown_expires = {
+		remove_estate_privilege = estate_tribes_raise_host
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+	}
+}

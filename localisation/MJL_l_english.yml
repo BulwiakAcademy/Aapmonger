@@ -400,3 +400,5 @@
  estate_rajput_grant_generalship:0 "Grant Generalship"
  estate_rajput_grant_generalship_desc:0 "The [Root.GetRajputsName] are experienced in the art of warfare and leadership. Promoting generals from their ranks is most reasonable action."
  mjl_estate_grant_generalship_tt:0 "§YThis Privilege will be automatically revoked after the cooldown expires.§!"
+ estate_tribes_raise_host:0 "Raise Nomadic Host"
+ estate_tribes_raise_host_desc:0 "Call the Banners. All of them."
