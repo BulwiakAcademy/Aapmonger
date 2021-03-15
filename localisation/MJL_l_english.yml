@@ -408,3 +408,5 @@
  mjl_colonialism_regimental_camp_tt:0  "Province with §YRegimental Camp§! or §YConscription Center§! building"
  mjl_colonialism_coastal_cot_lvl_2:0 "Costoal province with §YCenter of Trade§! level 2"
  mjl_colonialism_land_cot_lvl_2:0 "Mainland province with §YCenter of Trade§! level 2"
+ PR_printing_press_paper:0 "Province produces paper outside of Europe."
+ mjl_printing_press_manufactory_tt:0 "Province with §YManufactory§! building"

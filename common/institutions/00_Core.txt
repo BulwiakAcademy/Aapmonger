@@ -814,6 +814,7 @@ new_world_i = {
 				}
 			}
 		}
+		#new stuff
 		modifier = {
 			factor = 0.25
 			scale = yes
@@ -1196,6 +1197,35 @@ printing_press = {
 				is_owned_by_trade_company = no
 				owner = {
 					has_institution = printing_press
+				}
+			}
+		}
+		#New stuff
+		modifier = {
+			factor = 4
+			scale = no
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_printing_press_paper
+				trade_goods = paper
+				NOT = { continent = europe }
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip =  mjl_printing_press_manufactory_tt
+				OR = {
+					has_building = wharf
+					has_building = weapons
+					has_building = textile
+					has_building = plantations
+					has_building = tradecompany
+					has_building = mills
 				}
 			}
 		}
