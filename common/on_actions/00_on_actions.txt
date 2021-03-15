@@ -4571,6 +4571,27 @@ on_conquest = {
 			country_event = { id = confucianism_reworked.1 }
 		}
 	}
+	#Timed commandery buffs
+	if = {
+		limit = {
+			has_province_modifier = "h_commandery_province"
+		}
+		owner = {
+			country_event = { id = foffychina.52 }
+			country_event = { id = foffychina.53 }
+			country_event = { id = foffychina.54 }
+			country_event = { id = foffychina.55 }
+			country_event = { id = foffychina.56 }
+			country_event = { id = foffychina.57 }
+			country_event = { id = foffychina.58 }
+			country_event = { id = foffychina.59 }
+			country_event = { id = foffychina.60 }
+			country_event = { id = foffychina.61 }
+			country_event = { id = foffychina.62 }
+			country_event = { id = foffychina.63 }
+			country_event = { id = foffychina.64 }
+		}
+	}
 
 }
 

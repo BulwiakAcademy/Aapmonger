@@ -524,3 +524,8 @@
  desc_mjl_shun_mountains_mod:0 ""
  mjl_shun_mountains_effect_tooltip:1 "§G-10%§! local development cost in all §YMountain§! provinces in the §YChina§! superregion."
  mjl_shun_mountains_mod_revoke_tooltip:0 "Removes §YSacred Mountains of China§! modifier from all owned provinces."
+ h_commandery_bonus_changsha_reward:0 "Scholary Elite"
+ h_commandery_bonus_chengdu_reward_provincial:0 "Local Irrigation"
+ h_commandery_bonus_xian_reward:0 "Efficient Tax Collectors"
+ h_commandery_bonus_xiamen_reward:0 "Strict Trade Practices"
+ h_commandery_bonus_chengdu_reward:0 "Cultural Advisors"

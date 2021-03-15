@@ -1600,3 +1600,337 @@ country_event = { #Move Capital Xiamen
 		set_country_flag = h_commandery_capital_denied_xiamen
 	}
 }
+
+#Timed commandery buffs
+
+country_event = { #Timed commandery buff beijing
+	id = foffychina.52
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_beijing }
+		owns = 1816
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 1816
+		}
+		add_prestige = 15
+		change_government_reform_progress = 50
+		set_global_flag = h_commandery_bonus_beijing
+	}
+}
+
+country_event = { #Timed commandery buff changsha
+	id = foffychina.53
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_changsha }
+		owns = 5503
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 5503
+		}
+		add_country_modifier = {
+			name= "h_commandery_bonus_changsha_reward"
+			duration = 5475
+		}
+		set_global_flag = h_commandery_bonus_changsha
+	}
+}
+
+country_event = { #Timed commandery buff chengdu
+	id = foffychina.54
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_chengdu }
+		owns = 5504
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 5504
+		}
+		add_country_modifier = {
+			name= "h_commandery_bonus_chengdu_reward"
+			duration = 5475
+		}
+		5504 = {
+			add_province_modifier = {
+				name = h_commandery_bonus_chengdu_reward_provincial
+				duration = -1
+			}
+		}
+		set_global_flag = h_commandery_bonus_chengdu
+	}
+}
+
+country_event = { #Timed commandery buff chongqing
+	id = foffychina.55
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_chongqing }
+		owns = 680
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 680
+		}
+		define_general = {
+			shock = 3
+			fire = 3
+			manuever = 5
+			siege = 2
+		}
+		set_global_flag = h_commandery_bonus_chongqing
+	}
+}
+
+country_event = { #Timed commandery buff dalian
+	id = foffychina.56
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_dalian }
+		owns = 726
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 726
+		}
+		change_innovativeness = 5
+		set_global_flag = h_commandery_bonus_dalian
+	}
+}
+
+country_event = { #Timed commandery buff guangzhou
+	id = foffychina.57
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_guangzhou }
+		owns = 667
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 667
+		}
+		667 = {
+			add_building = stock_exchange
+		}
+		set_global_flag = h_commandery_bonus_guangzhou
+	}
+}
+
+country_event = { #Timed commandery buff hangzhou
+	id = foffychina.58
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_hangzhou }
+		owns = 684
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 684
+		}
+		add_mercantilism = 7
+		set_global_flag = h_commandery_bonus_hangzhou
+	}
+}
+
+country_event = { #Timed commandery buff kumning
+	id = foffychina.59
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_kumning }
+		owns = 662
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 662
+		}
+		define_advisor = {
+			type = master_of_mint
+			name = "Xuanzang"
+			skill = 2
+			cost_multiplier = 0.5
+		}
+		set_global_flag = h_commandery_bonus_kumning
+	}
+}
+
+country_event = { #Timed commandery buff luoyang
+	id = foffychina.60
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_luoyang }
+		owns = 5571
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 5571
+		}
+		add_corruption = -4
+		set_global_flag = h_commandery_bonus_luoyang
+	}
+}
+
+country_event = { #Timed commandery buff nanjing
+	id = foffychina.61
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_nanjing }
+		owns = 1821
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 1821
+		}
+		add_treasury = 300
+		set_global_flag = h_commandery_bonus_nanjing
+	}
+}
+
+country_event = { #Timed commandery buff wuchang
+	id = foffychina.62
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_wuchang }
+		owns = 682
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 682
+		}
+		682 = {
+			add_building = counting_house
+		}
+		set_global_flag = h_commandery_bonus_wuchang
+	}
+}
+
+country_event = { #Timed commandery buff xian
+	id = foffychina.63
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_xian }
+		owns = 700
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 700
+		}
+		add_country_modifier = {
+			name= "h_commandery_bonus_xian_reward"
+			duration = 5475
+		}
+		set_global_flag = h_commandery_bonus_xian
+	}
+}
+
+country_event = { #Timed commandery buff xiamen
+	id = foffychina.64
+	title = foffychina.52.t
+	desc = foffychina.52.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = h_commandery_bonus_xiamen }
+		owns = 1829
+	}
+	
+	option = {
+		name = foffychina.52.c
+		trigger = {
+			owns = 1829
+		}
+		add_country_modifier = {
+			name= "h_commandery_bonus_xiamen_reward"
+			duration = 3650
+		}
+		set_global_flag = h_commandery_bonus_xiamen
+	}
+}
