@@ -173,7 +173,7 @@ CSH_ideas = {
 		fire_damage_received = -0.1
 	}
 	shun_claim_to_the_mandate = {
-		governing_capacity = 250
+		governing_capacity_modifier = 0.1
 		legitimacy = 0.5
 	}
 }
@@ -374,7 +374,7 @@ CXI_ideas = { #Xi
 		production_efficiency = 0.15
 	}
 	CXI_7 = {
-		governing_capacity = 150
+		governing_capacity_modifier = 0.05
 		administrative_efficiency = 0.05
 	}
 }
