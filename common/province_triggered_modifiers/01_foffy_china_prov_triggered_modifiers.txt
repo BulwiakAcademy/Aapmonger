@@ -219,7 +219,7 @@ h_cwonder_nanjing = {
 	trigger = {
 		is_core = ROOT
 	}
-	advisor_cost = -0.05
+	advisor_cost = -0.1
 	governing_capacity = 50
 	#Province scope
 	on_activation = {
