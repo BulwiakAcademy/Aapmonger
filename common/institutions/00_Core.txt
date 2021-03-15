@@ -814,6 +814,41 @@ new_world_i = {
 				}
 			}
 		}
+		modifier = {
+			factor = 0.25
+			scale = yes
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_colonialism_regimental_camp_tt
+				OR = {
+					has_building = regimental_camp
+					has_building = conscription_center
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_colonialism_coastal_cot_lvl_2
+				has_port = yes
+				province_has_center_of_trade_of_level = 2
+			}
+		}
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_colonialism_land_cot_lvl_2
+				has_port = no
+				province_has_center_of_trade_of_level = 2
+			}
+		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)

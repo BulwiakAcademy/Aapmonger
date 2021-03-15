@@ -406,3 +406,5 @@
  mjl_rotw_tooltip_development_20:0 "Non-European 20 development province"
  mjl_renesaince_temple_tt:0 "Province with §YTemple§! or §YCathedral§! building"
  mjl_colonialism_regimental_camp_tt:0  "Province with §YRegimental Camp§! or §YConscription Center§! building"
+ mjl_colonialism_coastal_cot_lvl_2:0 "Costoal province with §YCenter of Trade§! level 2"
+ mjl_colonialism_land_cot_lvl_2:0 "Mainland province with §YCenter of Trade§! level 2"
