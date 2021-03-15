@@ -141,7 +141,7 @@ citystate_ideas = { #Chinese City States
 CSH_ideas = {
 	start = {
 		leader_land_shock = 1
-		development_cost = -0.05
+		development_cost = -0.1
 	}
 	
 	bonus = {
