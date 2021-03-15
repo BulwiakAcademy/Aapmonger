@@ -278,7 +278,8 @@ h_cwonder_xiamen = {
 	trigger = {
 		is_core = ROOT
 	}
-	trade_efficiency = 0.05
+	#trade_efficiency = 0.05
+	merchants = 1
 	governing_capacity = 50
 	#Province scope
 	on_activation = {
