@@ -65,16 +65,15 @@ EMS_ETH_missions_2 = {
 		trigger = {
 			religious_unity = 1
 		}
-		
-		hidden_effect = {
-			capital_scope = {
-				remove_building = temple
-			}
-		}
 
 		effect = {
 			add_stability = 1
 			add_prestige = 10
+			hidden_effect = {
+				capital_scope = {
+					remove_building = temple
+				}
+			}
 			capital_scope = {
 				add_building = cathedral
 			}
