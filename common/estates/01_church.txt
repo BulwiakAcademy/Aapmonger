@@ -219,6 +219,7 @@ estate_church =
 		estate_church_statutory_rights
 		estate_church_piety_privilege
 		estate_tun_church_piety_privilege
+		mjl_shun_mountains
 	}
 
 	agendas = {

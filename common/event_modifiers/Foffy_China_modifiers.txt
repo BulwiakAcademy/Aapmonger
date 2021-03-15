@@ -580,3 +580,7 @@ h_cxi_col_war2_3_5_reward = {
 h_cxi_col_war2_5_5_reward = {
 	global_trade_power = 0.1
 }
+
+mjl_shun_mountains_mod = {
+	local_development_cost = -0.1
+}
