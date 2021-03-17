@@ -601,6 +601,7 @@ gc_morocco_3 = {
 					has_country_flag = wattasid_resolution
 				}
 				is_year = 1500
+				army_size_percentage = 1
 			}
 		}
 		effect = {
