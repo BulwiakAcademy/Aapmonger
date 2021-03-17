@@ -508,8 +508,8 @@ renaissance = {
 		}
 		#EXTRA SPREAD
 		modifier = {
-			factor = 0.1
-			scale = yes
+			factor = 3.5
+			scale = no
 			potential = {
 			}
 			custom_trigger_tooltip = {
@@ -533,7 +533,7 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			scale = yes
 			potential = {
 				NOT = { continent = europe }
