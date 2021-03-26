@@ -307,7 +307,7 @@
  more_than_seven_colonial_players_tt:0 "Overlord with 7 colonial subjects"
  more_than_eight_colonial_players_tt:0 "Overlord with 8 colonial subjects"
  mjl_non_africa_province_colonised_tt:0 "Every non-african colony will be removed."
- mjl_non_africa_province_gov_colonised_tt:0 "§RCannot colonize provinces outside of African mainland without havingexploration or expansion ideas.§!"
+ mjl_non_africa_province_gov_colonised_tt:0 "§RCannot colonize provinces outside of African mainland without having exploration or expansion ideas.§!"
  mjl_events.EVTNAME6:0 "Wrong continent colony"
  mjl_events.EVTDESC6:0 "Africans with african colonist reform can only colonise african continent."
  mjl_events.EVTOPTA6:0 "Bruh"
