@@ -70,9 +70,9 @@ normal_or_historical_nations = yes
 
 country_event = {
 	id = mjl_events.4
-	title = "mjl_events.EVTNAME4"
-	desc = "mjl_events.EVTDESC4"
-	picture = COURT_eventPicture
+	title = muslim_school_events.20.t
+	desc = muslim_school_events.20.d
+	picture = MYSTIC_IN_PRAYER_eventPicture
 	
 	is_triggered_only = yes
 
@@ -83,7 +83,7 @@ country_event = {
 		NOT = { has_country_flag = mjl_1444_change_school }
 	}
 	option = {
-		name = "mjl_events.EVTOPTA4"
+		name = muslim_school_events.20.b
 		trigger = {
 			NOT = { religion = shiite }
 		}
@@ -94,7 +94,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTB4"
+		name = muslim_school_events.20.c
 		trigger = {
 			NOT = { religion = shiite }
 		}
@@ -105,7 +105,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTC4"
+		name = muslim_school_events.20.dd
 		trigger = {
 			NOT = { religion = shiite }
 		}
@@ -116,7 +116,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTD4"
+		name = muslim_school_events.20.e
 		trigger = {
 			NOT = { religion = shiite }
 		}
@@ -127,7 +127,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTE4"
+		name = muslim_school_events.20.f
 		trigger = {
 			NOT = { religion = sunni }
 		}
@@ -138,7 +138,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTF4"
+		name = muslim_school_events.20.g
 		trigger = {
 			NOT = { religion = sunni }
 		}
@@ -149,7 +149,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTG4"
+		name = muslim_school_events.20.h
 		trigger = {
 			NOT = { religion = sunni }
 		}
@@ -163,14 +163,14 @@ country_event = {
 
 country_event = {
 	id = mjl_events.5
-	title = "mjl_events.EVTNAME5"
-	desc = "mjl_events.EVTDESC5"
-	picture = COURT_eventPicture
+	title = muslim_school_events.20.t
+	desc = muslim_school_events.20.d
+	picture = MYSTIC_IN_PRAYER_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "mjl_events.EVTOPTA5"
+		name = muslim_school_events.20.b
 		trigger = {
 			NOT = { religion = shiite }
 		}
@@ -181,7 +181,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTB5"
+		name = muslim_school_events.20.c
 		trigger = {
 			NOT = { religion = shiite }
 		}
@@ -192,7 +192,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTC5"
+		name = muslim_school_events.20.dd
 		trigger = {
 			NOT = { religion = shiite }
 		}
@@ -203,7 +203,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTD5"
+		name = muslim_school_events.20.e
 		trigger = {
 			NOT = { religion = shiite }
 		}
@@ -214,7 +214,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTE5"
+		name = muslim_school_events.20.f
 		trigger = {
 			NOT = { religion = sunni }
 		}
@@ -225,7 +225,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTF5"
+		name = muslim_school_events.20.g
 		trigger = {
 			NOT = { religion = sunni }
 		}
@@ -236,7 +236,7 @@ country_event = {
 		set_country_flag = mjl_1444_change_school
 	}
 	option = {
-		name = "mjl_events.EVTOPTG5"
+		name = muslim_school_events.20.h
 		trigger = {
 			NOT = { religion = sunni }
 		}
