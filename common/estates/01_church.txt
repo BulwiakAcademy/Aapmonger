@@ -208,6 +208,10 @@ estate_church =
 		estate_church_independent_inquisition
 		estate_church_new_world_mission
 		estate_church_clerical_ministers
+		estate_church_piety_privilege
+		estate_tun_church_piety_privilege
+		mjl_shun_mountains
+		mjl_estate_church_orm_tamed_deserts
 		estate_church_clerical_oversight
 		estate_church_inwards_perfection
 		estate_church_enforced_one_faith
@@ -217,9 +221,6 @@ estate_church =
 		estate_church_monopoly_of_wine
 		estate_church_monopoly_of_slaves
 		estate_church_statutory_rights
-		estate_church_piety_privilege
-		estate_tun_church_piety_privilege
-		mjl_shun_mountains
 	}
 
 	agendas = {

@@ -19,7 +19,7 @@
         tame_the_desert_title:0 "Tame the Desert"
         tame_the_desert_desc:0 "Tame the Desert"
         tamed_the_desert_modifier:0 "Tamed the Desert"
-        tamed_the_desert_modifier_tooltip:0 "Every owned desert province in Arabia region gets '§YTamed the Desert§!' until the end of the game, giving the following effects:\nLocal Development Cost: §G-15.0%§!"
+        tamed_the_desert_modifier_tooltip:0 "Grants new '§YTame the Desert§!' privilege that gives to all owned desert provinces in Arabia region '§YTamed the Desert§!' nodifier, giving the following effects:\nLocal Development Cost: §G-15.0%§!"
         the_way_to_god_title:0 "The Way to God"
         the_way_to_god_desc:0 "The Way to God"
         the_way_to_god_modifier:0 "Masjid al-Haram"
@@ -33,6 +33,10 @@
         secure_hormuz_trade_desc:0 "Secure Hormuz Trade"
         become_new_persia_title:0 "Become New Persia"
         become_new_persia_desc:0 "Become New Persia"
+        mjl_estate_church_orm_tamed_deserts:0 "Tame the Desert"
+        mjl_estate_church_orm_tamed_deserts_desc:0 ""
+        mjl_estate_church_orm_tamed_deserts_effect_tooltip:1 "§G-15%§! local development cost in all §YDesert§! provinces in the §YArabia§! region."
+        mjl_estate_church_orm_tamed_deserts_mod_revoke_tooltip:0 "Removes §YTamed the Desert§! modifier from all owned provinces."
 
     # Mamluks:
       # Missions:

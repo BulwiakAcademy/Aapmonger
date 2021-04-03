@@ -390,18 +390,18 @@ sealand_hormuz_missions_2 = {
 			}
 		}
 		effect = {
-			hidden_effect = {
-				every_owned_province = {
-					limit = {
-						region = arabia_region
-						has_terrain = desert
-					}
-					add_province_modifier = {
-						name = "tamed_the_desert_modifier"
-						duration = -1
-					}
-				}
-			} # Otherwise it shows every province separately, causing long list.
+			#hidden_effect = {
+			#	every_owned_province = {
+			#		limit = {
+			#			region = arabia_region
+			#			has_terrain = desert
+			#		}
+			#		add_province_modifier = {
+			#			name = "tamed_the_desert_modifier"
+			#			duration = -1
+			#		}
+			#	}
+			#} # Otherwise it shows every province separately, causing long list.
 			custom_tooltip = tamed_the_desert_modifier_tooltip
 			mecca_area = {
 				limit = {
