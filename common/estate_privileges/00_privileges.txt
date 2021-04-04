@@ -2505,6 +2505,7 @@ estate_jains_indebted_to_jains = {
 		}
 	}
 	on_granted = {
+		set_country_flag = mjl_indebted_to_burghers_flag
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
 		add_mercantilism = -1
 		tooltip = {

@@ -383,6 +383,7 @@ estate_tribes_raise_host = {
 		}
 	}
 }
+
 mjl_estate_church_orm_tamed_deserts = {
 	icon = privilege_grant_new_world_charter
 	land_share = 5
