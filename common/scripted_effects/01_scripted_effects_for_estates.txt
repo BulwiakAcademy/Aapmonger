@@ -1012,6 +1012,53 @@ on_province_owner_change_estate_privileges_effect = {
 			duration = -1
 		}
 	}
+	#NEW STUFF
+	if = {
+		limit = {
+			has_terrain = mountain
+			owner = {
+				has_estate_privilege = mjl_shun_mountains
+			}
+			NOT = { has_province_modifier = mjl_shun_mountains_mod }
+		}
+		add_province_modifier = {
+			name = mjl_shun_mountains_mod
+			duration = -1
+		}
+	}
+	else_if = {
+		limit = {
+			has_terrain = mountain
+			has_province_modifier = mjl_shun_mountains_mod
+			owner = {
+				NOT = { has_estate_privilege = mjl_shun_mountains }
+			}
+		}
+		remove_province_modifier = mjl_shun_mountains_mod
+	}
+	if = {
+		limit = {
+			has_terrain = desert
+			owner = {
+				has_estate_privilege = mjl_estate_church_orm_tamed_deserts
+			}
+			NOT = { has_province_modifier = "tamed_the_desert_modifier" }
+		}
+		add_province_modifier = {
+			name = "tamed_the_desert_modifier"
+			duration = -1
+		}
+	}
+	else_if = {
+		limit = {
+			has_terrain = desert
+			has_province_modifier = "tamed_the_desert_modifier"
+			owner = {
+				NOT = { has_estate_privilege = mjl_estate_church_orm_tamed_deserts }
+			}
+		}
+		remove_province_modifier = "tamed_the_desert_modifier"
+	}
 }
 
 on_trade_good_changed_estate_privileges_effect = {
