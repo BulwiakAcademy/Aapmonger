@@ -1248,6 +1248,8 @@ trade_company_nippon = {
 		737 1013 2741 4228 4229 #south_korea_area
 		#foffychina
 		5668
+		#foffy korea
+		5669 5670 5671 5672
 	}
 	
 	# Specific

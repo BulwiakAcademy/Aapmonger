@@ -234,6 +234,9 @@ asia = {
 
 	#foffyjapan
 	5668
+	
+	#foffy korea
+	5669 5670 5671 5672
 }
 
 africa = {

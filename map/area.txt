@@ -2473,7 +2473,7 @@ pyongan_area = { #3
 }
 
 hamgyeong_area = { #3
-	732 2742 2743
+	732 2742 2743 5672 #foffy korea
 }
 
 western_korea_area = { #4 (Hwanghae + Gyeonggi)
@@ -3045,6 +3045,10 @@ kaiyang_area = {
 
 yunnan_area = {
 	2748 5632 5657
+}
+
+fo1_area = {
+	5669 5670 5671
 }
 
 ########################################

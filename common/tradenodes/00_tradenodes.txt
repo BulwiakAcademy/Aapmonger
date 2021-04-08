@@ -636,6 +636,8 @@ nippon={
 		737 1013 2741 4228 4229 #south_korea_area
 		#foffyjapan
 		5668
+		#foffykorea
+		5669 5670 5671 5672
 	}
 }
 hangzhou={
