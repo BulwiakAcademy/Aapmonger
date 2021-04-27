@@ -167,6 +167,7 @@ ural_region = {
 		bashkiria_area
 		samara_area
 		volga_area
+		lower_ural_area
 	}
 }
 
@@ -596,6 +597,12 @@ central_asia_region = {
 		shanshan_area
 		kyzylkum_area
 		termez_area
+		mangyshlak_area
+		turgay_area
+		qaraghandy_area
+		naryn_area
+		hotan_area
+		aqmola_area
 	}
 }
 
@@ -628,7 +635,8 @@ west_siberia_region = {
 		irkutsk_area
 		ishim_area
 		kara_area
-		aqmola_area
+		yenisei_area
+		lower_ob_area
 	}
 }
 
@@ -663,6 +671,7 @@ mongolia_region = {
 		ejin_area
 		alxa_area
 		chifeng_area
+		zungarian_gate
 	}
 }
 

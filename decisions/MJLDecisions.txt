@@ -53,10 +53,15 @@ country_decisions = {
 			OR = {
 				tag = MCH
 				tag = QNG
+				tag = ZUN
+				tag = YUA
 			}
 			1056 = {
 				NOT = { trade_goods = gold }
 			}
+		}
+		provinces_to_highlight = {
+			province_id = 1056
 		}
 		ai_will_do = {
 			factor = 0

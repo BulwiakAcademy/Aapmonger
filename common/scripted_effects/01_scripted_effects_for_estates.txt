@@ -1059,6 +1059,29 @@ on_province_owner_change_estate_privileges_effect = {
 		}
 		remove_province_modifier = "tamed_the_desert_modifier"
 	}
+	if = {
+		limit = {
+			has_terrain = mountain
+			owner = {
+				has_estate_privilege = h_populate_altai_mountains
+			}
+			NOT = { has_province_modifier = h_populate_altai_mountains_mod }
+		}
+		add_province_modifier = {
+			name = h_populate_altai_mountains_mod
+			duration = -1
+		}
+	}
+	else_if = {
+		limit = {
+			has_terrain = mountain
+			has_province_modifier = h_populate_altai_mountains_mod
+			owner = {
+				NOT = { has_estate_privilege = h_populate_altai_mountains }
+			}
+		}
+		remove_province_modifier = h_populate_altai_mountains_mod
+	}
 }
 
 on_trade_good_changed_estate_privileges_effect = {

@@ -35,3 +35,167 @@ country_event = {
 	option = { }
 }
 
+#Esen Death
+country_event = {
+	id = mjl_mongol_events.2
+	title = "mjl_mongol_events.2.t"
+	desc = "mjl_mongol_events.2.d"
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = OIR
+	}
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = mjl_esen_choros_death_flag
+		}
+	}
+
+	option = { 
+		name = "mjl_mongol_events.2.a" # My time has come!
+		custom_tooltip = mjl_mongol_events.2.a.tt
+		every_subject_country = {
+			add_liberty_desire = 100
+			country_event = { id = mjl_mongol_events.3 }
+		}
+		#if = {
+		#	limit = {
+		#		KHA = {
+		#			is_subject_of = ROOT
+		#		}
+		#	}
+		#	free_vassal = KHA
+		#}
+		if = {
+			limit = {
+				SYG = {
+					is_subject_of = ROOT
+				}
+			}
+			free_vassal = SYG
+		}
+		if = {
+			limit = {
+				TUM = {
+					is_subject_of = ROOT
+				}
+			}
+			free_vassal = TUM
+		}
+		if = {
+			limit = {
+				HMI = {
+					is_subject_of = ROOT
+				}
+			}
+			free_vassal = HMI
+		}
+	}
+}
+
+#Esen Death Subjects
+country_event = {
+	id = mjl_mongol_events.3
+	title = "mjl_mongol_events.3.t"
+	desc = "mjl_mongol_events.3.d"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "mjl_mongol_events.3.a" # My time has come!
+		add_prestige = 10
+		if = {
+			limit = {
+				tag = ZUN
+			}
+			add_country_modifier = {
+				name = "mjl_esen_choros_death_modifier"
+				duration = 1825
+			}
+		}
+		tooltip = {
+			OIR = {
+				every_subject_country = {
+					add_liberty_desire = 50
+				}
+			}
+			#KHA = {
+			#	grant_independence = yes
+			#}
+			HMI = {
+				grant_independence = yes
+			}
+			SYG = {
+				grant_independence = yes
+			}
+			TUM = {
+				grant_independence = yes
+			}
+		}
+	}
+}
+#Tumen vassal change
+#country_event = {
+#	id = mjl_mongol_events.4
+#	title = "mjl_mongol_events.4.t"
+#	desc = "mjl_mongol_events.4.d"
+#	picture = DEATH_OF_HEIR_eventPicture
+#	
+#	trigger = {
+#		NOT = {
+#			tag = OIR
+#		}
+#		any_subject_country = {
+#			is_subject_of_type = tumen_vassal
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 10
+#	}
+#
+#	option = {
+#		name = "mjl_mongol_events.4.a" # My time has come!
+#		every_subject_country = {
+#			limit = {
+#				is_subject_of_type = tumen_vassal
+#			}
+#			FROM = { vassalize = PREV }
+#		}
+#	}
+#}
+
+
+#Esen Death Failsafe if he dont die after 10 years.
+country_event = {
+	id = mjl_mongol_events.5
+	title = none
+	desc = none
+	picture = none
+	hidden = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = OIR
+		is_year = 1454
+		has_ruler = "Esen Taishi"
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			kill_ruler = yes
+		}
+	}
+
+	option = { }
+}

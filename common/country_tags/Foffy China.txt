@@ -80,3 +80,15 @@ PUU = "countries/Pu.txt"
 JUU = "countries/Ju.txt"
 GON = "countries/Gong.txt"
 NUU = "countries/Nu.txt"
+
+#Oirat Split
+TRG = "countries/Torghut.txt"
+OLO = "countries/Olots.txt"
+DOR = "countries/Dorbet.txt"
+ALT = "countries/Altai.txt"
+KOD = "countries/Khoid.txt"
+KCN = "countries/Kharchin.txt"
+KRG = "countries/Kyrgyz.txt"
+DUR = "countries/Daur.txt"
+TUV = "countries/Tuva.txt"
+

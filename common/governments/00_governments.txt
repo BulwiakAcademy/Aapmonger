@@ -430,6 +430,7 @@ tribal = {
 			reforms = {
 				religious_societies_reform
 				lip_service_reform
+				mjl_altaic_herdsmen
 			}
 		}
 		tribal_modernization = {

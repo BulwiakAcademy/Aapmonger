@@ -1864,7 +1864,7 @@ province;red;green;blue;x;x
 1863;84;56;32;Graz;x
 1864;212;58;79;Somogy;x
 1865;84;60;126;Ghent;x
-1866;212;62;173;Namur ;x
+1866;212;62;173;Namur;x
 1867;84;64;32;Freiburg;x
 1868;212;66;79;Augsburg;x
 1869;84;68;126;Zürich;x
@@ -1936,7 +1936,7 @@ province;red;green;blue;x;x
 1935;52;0;240;Semigallia;x
 1936;55;0;0;Kovno;x
 1937;65;0;250;Grodno;x
-1938;75;0;25;Wizna;x 
+1938;75;0;25;Wizna;x
 1939;85;0;225;Leczyca;x
 1940;95;0;50;Belz;x
 1941;105;0;200;Turov;x
@@ -2001,7 +2001,7 @@ province;red;green;blue;x;x
 2000;60;221;221;Qinghai Lake;x
 2001;95;200;200;Siling Lake;x
 2002;200;135;255;Galápagos Islands;x
-2003;120;2;232;Ktunaxa;X
+2003;120;2;232;Ktunaxa;x
 2004;125;4;236;Niitsitapi;x
 2005;130;8;240;Asinaan;x
 2006;135;16;244;Apsáalooke;x
@@ -2237,7 +2237,7 @@ province;red;green;blue;x;x
 2236;131;211;134;Bojnord;x
 2237;160;109;157;Tekrur;x
 2238;80;73;160;Kantor;x
-2239;120;75;185;Siine;x 
+2239;120;75;185;Siine;x
 2240;120;137;132;Galam;x
 2241;200;111;182;Beafada;x
 2242;240;69;110;Karou;x
@@ -2248,8 +2248,8 @@ province;red;green;blue;x;x
 2247;80;117;83;Walata;x
 2248;120;119;108;Do;x
 2249;160;151;133;Sibiridugu;x
-2250;160;77;210;Bendugu;x 
-2251;80;61;184;Bagoe;x 
+2250;160;77;210;Bendugu;x
+2251;80;61;184;Bagoe;x
 2252;200;117;235;Lobi;x
 2253;160;121;133;Gwiriko;x
 2254;240;125;232;Bonoman;x
@@ -2275,8 +2275,8 @@ province;red;green;blue;x;x
 2274;160;145;234;Agades;x
 2275;120;125;161;Tenere;x
 2276;80;123;136;Itesan;x
-2277;240;161;86;Kawar;x 
-2278;240;149;110;Kebbi;x 
+2277;240;161;86;Kawar;x
+2278;240;149;110;Kebbi;x
 2279;120;155;185;Daura;x
 2280;160;157;210;Biram;x
 2281;200;159;235;Rano;x
@@ -2287,7 +2287,7 @@ province;red;green;blue;x;x
 2286;240;131;236;Logone;x
 2287;40;163;11;Kotoko;x
 2288;40;133;82;Yao;x
-2289;40;71;135;Ondo;x 
+2289;40;71;135;Ondo;x
 2290;240;81;86;Ijebu;x
 2291;120;87;161;Ketu;x
 2292;140;145;232;Moshi;x
@@ -4280,7 +4280,7 @@ province;red;green;blue;x;x
 4279;67;107;179;Zabid;x
 4280;215;128;24;Taiz;x
 4281;67;191;24;Dhamar;x
-4282;210;179;54;Sahda;x;
+4282;210;179;54;Sahda;x
 4283;224;24;38;Shihr;x
 4284;99;150;71;Al Ghayda;x
 4285;181;124;124;Baraimi Oasis;x
@@ -4650,7 +4650,7 @@ province;red;green;blue;x;x
 4649;62;137;250;Mayo;x
 4650;82;176;150;Opata;x
 4651;214;134;156;Tsushima;x
-4652;140;69;200;Haicheng;
+4652;140;69;200;Haicheng;x
 4653;117;192;171;Maolian;x
 4654;60;240;76;Fuerhe;x
 4655;194;93;131;Shilimian;x
@@ -4864,38 +4864,38 @@ province;red;green;blue;x;x
 5573;248;241;109;Jicheng;x
 5574;133;243;114;Jinzhong;x
 5575;52;41;180;Jiuquan;x
-5576;13;95;162;Mianyang;x # #  
-5577;143;31;123;Nanchong;x # #  
-5578;56;145;47;Longmenshan;x # # Wenchuan 
-5579;175;177;99;Fengjie;x # # 
-5580;130;57;219;Xixiang;x # # silk
-5581;176;30;92;Guangyuan;x # #
-5582;54;94;186;Heyang;x # #
-5583;224;156;210;Yichuan;x # #
-5584;226;186;243;Weinan;x # #
-5585;226;46;14;Shuzhou;x # #
-5586;101;215;47;Hezuo;x # #
-5587;232;219;55;Wuzhong;x # #
-5588;103;184;128;Yibin;x # #
-5589;55;95;232;Zhangbei;x # #
-5590;173;230;57;Guyuan;x # #
-5591;157;99;188;Weichang;x # #
-5592;216;71;136;Cangzhou;x # #
-5593;142;113;174;Dezhou;x # #
-5594;236;232;51;Anyang;x # #
-5595;215;224;39;Zhangjiajie;x # #
-5596;67;197;122;Shaoyang;x # #
-5597;82;139;182;Huihua;x # #
-5598;222;41;190;Yaoyang;x # #
-5599;65;199;135;Xinxiang;x # #
-5600;148;95;58;Puyang;x # #
-5601;176;81;17;Heze;x # #
-5602;160;33;71;Xuzhou;x # #
-5603;40;145;71;Chuxiong;x # #
-5604;146;39;71;Yuxi;x # #
-5605;111;69;116;Yulin;x # #
-5606;166;170;15;Beihai;x # #
-5607;155;67;30;Hechi;x # #
+5576;13;95;162;Mianyang;x
+5577;143;31;123;Nanchong;x
+5578;56;145;47;Longmenshan;x
+5579;175;177;99;Fengjie;x
+5580;130;57;219;Xixiang;x
+5581;176;30;92;Guangyuan;x
+5582;54;94;186;Heyang;x
+5583;224;156;210;Yichuan;x
+5584;226;186;243;Weinan;x
+5585;226;46;14;Shuzhou;x
+5586;101;215;47;Hezuo;x
+5587;232;219;55;Wuzhong;x
+5588;103;184;128;Yibin;x
+5589;55;95;232;Zhangbei;x
+5590;173;230;57;Guyuan;x
+5591;157;99;188;Weichang;x
+5592;216;71;136;Cangzhou;x
+5593;142;113;174;Dezhou;x
+5594;236;232;51;Anyang;x
+5595;215;224;39;Zhangjiajie;x
+5596;67;197;122;Shaoyang;x
+5597;82;139;182;Huihua;x
+5598;222;41;190;Yaoyang;x
+5599;65;199;135;Xinxiang;x
+5600;148;95;58;Puyang;x
+5601;176;81;17;Heze;x
+5602;160;33;71;Xuzhou;x
+5603;40;145;71;Chuxiong;x
+5604;146;39;71;Yuxi;x
+5605;111;69;116;Yulin;x
+5606;166;170;15;Beihai;x
+5607;155;67;30;Hechi;x
 5608;68;68;164;Bayannur;x
 5609;46;160;106;Shenyang;x
 5610;189;181;17;Liaoyang;x
@@ -4915,9 +4915,9 @@ province;red;green;blue;x;x
 5624;198;160;74;Ejin;x
 5625;80;192;128;Alxa;x
 5626;164;108;117;Jilantaizhen;x
-5627;141;118;46;Shizuishan;x # #
-5628;155;32;35;Wuhai;x # #
-5629;85;111;77;Gaxun;x # #
+5627;141;118;46;Shizuishan;x
+5628;155;32;35;Wuhai;x
+5629;85;111;77;Gaxun;x
 5630;61;19;93;Fushan;x
 5631;80;68;128;Chahar;x
 5632;103;240;128;Suijiang;x
@@ -4945,7 +4945,7 @@ province;red;green;blue;x;x
 5654;28;199;1;Uxin;x
 5655;51;134;173;Chaohu;x
 5656;100;19;99;Sihui;x
-5657;3;111;128;Zhaotong
+5657;3;111;128;Zhaotong;x
 5658;127;66;128;Zuoyun;x
 5659;100;94;180;Shangyi;x
 5660;11;241;109;Luliang;x
@@ -4961,3 +4961,46 @@ province;red;green;blue;x;x
 5670;39;76;45;Sokcho;x
 5671;58;140;71;Munchon;x
 5672;41;26;63;Kilju;x
+5673;12;238;122;Karasahr;x
+5674;3;196;58;Fukang;x
+5675;186;84;102;Khorgas;x
+5676;11;223;161;Kizilsu;x
+5677;68;211;190;Bortala;x
+5678;71;90;65;Taldy-Kurgan;x
+5679;72;108;247;Naryn;x
+5680;187;129;6;Andijan;x
+5681;218;13;39;Oskmen;x
+5682;68;0;109;Abakan;x
+5683;211;145;5;Krasnoyarsk;x
+5684;244;79;46;Khakas;x
+5685;205;176;239;Shagonar;x
+5686;110;77;32;Uqturpan;x
+5687;134;164;191;Luntai;x
+5688;112;136;98;Karghalik;x
+5689;60;120;106;Niya;x
+5690;59;14;54;Karamay;x
+5691;16;113;126;Shu;x
+5692;50;24;85;Dzungarian Mountains;x
+5693;243;154;123;Bogda Shan;x
+5694;175;211;102;Dunhuang;x
+5695;187;1;85;Loulan;x
+5696;215;50;22;Bratsk;x
+5697;223;97;71;Severobaykalsk;x
+5698;40;52;149;Buzachi;x
+5699;27;116;143;Kara-Bogaz-Gol;x
+5700;160;80;35;Kyzyl-Arvat;x
+5701;231;7;59;Zamm;x
+5702;24;46;105;Karatau;x
+5703;211;98;125;Kyzyl-Orda;x
+5704;183;172;237;Betpaqdala;x
+5705;157;245;2;Balchas;x
+5706;97;27;47;Ayagoz;x
+5707;19;32;139;Korgalzhyn;x
+5708;6;181;186;Isilkul;x
+5709;68;63;78;Kyzylzhar;x
+5710;108;11;74;Shadrinsk;x
+5711;57;157;241;Or;x
+5712;251;199;108;Konda;x
+5713;22;166;196;Kazym;x
+5714;248;109;245;Vasyugan;x
+5715;193;44;245;Karazhal;x

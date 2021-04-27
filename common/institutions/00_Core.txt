@@ -83,6 +83,15 @@ feudalism = {
 					province_id = 2329
 					province_id = 2331
 					province_id = 2999
+					#Choros
+					culture = oirats
+					province_id = 5675
+					province_id = 2120
+					province_id = 5677
+					province_id = 5678
+					province_id = 461
+					province_id = 2368
+					province_id = 2125
 				}
 			}
 			AND = {

@@ -606,3 +606,21 @@ h_commandery_bonus_xiamen_reward = {
 h_commandery_bonus_chengdu_reward = {
 	same_culture_advisor_cost = -0.15
 }
+
+h_populate_altai_mountains_mod = {
+	local_development_cost = -0.2
+}
+
+mjl_oirat_buffs = {
+	global_tax_income = 120
+	global_manpower = 20
+}
+
+mjl_herd_bonus_prod = {
+	local_production_efficiency = 0.5
+}
+
+mjl_esen_choros_death_modifier = {
+	global_unrest = -2
+	discipline = 0.05
+}

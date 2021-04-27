@@ -1,0 +1,8 @@
+#5693 - Bogda Shan
+
+
+
+
+discovered_by = nomad_group
+discovered_by = chinese
+

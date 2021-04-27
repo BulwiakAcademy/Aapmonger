@@ -1,7 +1,7 @@
 # 2538 - Lingyuan
 
-owner = KRC #MNG
-controller = KRC #MNG
+owner = CHH #MNG
+controller = CHH #MNG
 culture = chahar #hanyu
 religion = vajrayana #confucianism
 capital = "Lingyuan"
@@ -10,7 +10,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 citysize = 5500
-add_core = KRC #MNG
+add_core = CHH #MNG
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group

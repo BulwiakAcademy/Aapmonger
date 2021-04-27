@@ -1701,3 +1701,14 @@ mjl_subject_cavaran_malus = {
 	caravan_power = -0.5
 	cav_to_inf_ratio = 0.5
 }
+
+#Tumen
+tumen_subject = {
+	land_forcelimit = 1
+}
+
+tumen_subject_nation = {
+	core_creation = -0.2
+	years_of_nationalism = -10
+	horde_unity = 3
+}

@@ -295,3 +295,67 @@ h_reform_sinicized_horde = {
 		locked_government_type = yes
 	}
 }
+
+mjl_altaic_herdsmen = {
+	potential = {
+		OR = {
+			is_nomad = yes
+			culture_group = altaic
+		}
+	}
+	trigger = {
+		OR = {
+			is_nomad = yes
+			culture_group = altaic
+		}
+		any_owned_province = {
+			OR = {
+				trade_goods = livestock
+				trade_goods = grain
+			}
+		}
+	}
+	icon = "retain_tribal_hierarchy"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_trade_goods_size_modifier = 0.05
+		global_autonomy = -0.1
+	}
+	effect = {
+		custom_tooltip = mjl_producing_livestock_and_grain_tt
+		hidden_effect = {
+			every_owned_province = {
+				if = {
+					limit = {
+						trade_goods = livestock
+					}
+					add_province_modifier = { 
+						name = mjl_herd_bonus_prod
+						duration = -1
+						hidden = yes
+					}
+				}
+				if = {
+					limit = {
+						trade_goods = grain
+					}
+					add_province_modifier = { 
+						name = mjl_herd_bonus_prod
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+	}
+	removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = mjl_herd_bonus_prod
+				}
+				remove_province_modifier = mjl_herd_bonus_prod
+			}
+		}
+	}
+}

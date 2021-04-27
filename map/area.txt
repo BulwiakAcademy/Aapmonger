@@ -851,7 +851,7 @@ nogai_area = { #5
 }
 
 ural_area = { #5
-	1080 1078 1780 2427 2441 
+	1080 1780 2427 #Oirat Split
 }
 
 pomor_area = { #4
@@ -863,11 +863,11 @@ arkhangelsk_area = { #4
 }
 
 bashkiria_area = { #5
-	475 1965 1966 2420 2444
+	475 1966 2420 2444 5711 #Oirat Split
 }
 
 volga_area = { #3
-	2421 4265 4267
+	2421 4265 4267 1965 #Oirat Split
 }
 
 galich_area = { #4
@@ -1909,7 +1909,7 @@ kalat_area = { #3
 }
 
 ferghana_area = { #3
-	458 460 1967
+	458 460 1967 5680 #Oirat Split
 }
 
 arys_area = { #3
@@ -1938,7 +1938,7 @@ kabulistan_area = { #5
 }
 
 transcaspia_area = {
-	437 438 439 443 2349
+	437 438 2349 5700 #Oirat Split
 }
 
 mashhad_area = { #4 - Northern Khorasan
@@ -1960,7 +1960,7 @@ ghor_area = { #3
 
 merv_area = { #3
 	color = { 60 186 134 }
-	444 445 2350
+	444 445 2350 5701 #Oirat Split
 }
 
 balkh_area = { #3
@@ -2576,19 +2576,19 @@ tunguska_area = { #5
 }
 
 central_siberia_area = { #5
-	1064 1067 1068 1070 2430
+	1067 1068 1070 2430 2445 #Oirat Split
 }
 
 kara_area = { #5
-	1069 1072 1073 2445 4691
+	1072 1073 4691 5713 #Oirat Split
 }
 
 ob_area = { #4
-	480 2428 2429 2433 
+	2433 2428 2429 1069 5714 #Oirat Split
 }
 
 irkutsk_area = { #5
-	1060 1062 1063 2442 2443
+	1060 2442 5697 5696 4679 #Oirat Split
 }
 
 perm_area = { #5
@@ -2596,27 +2596,27 @@ perm_area = { #5
 }
 
 balchasj_area = { #5
-	477 478 2355 2360 4685
+	477 5705 5706 2355 #Oirat Split
 }
 
 kazakhstan_area = { #5
-	476 2351 2353 2358 2359
+	476 2358 2359 5704 2361 #Oirat Split
 }
 
 syr_darya_area = { #4
-	456 1969 2352 2361
+	456 2352 5703 5702 1969 #Oirat Split
 }
 
 yrtesh_area = { #5
-	1071 2434 4687 4688 4689
+	1071 4687 4688 4689 #Oirat Split
 }
 
 ishim_area = { #5
-	1074 1075 1076 2369 4692
+	1074 1075 1076 4690 5709 #Oirat Split
 }
 
 aqmola_area = { #5
-	479 2354 2357 4686 4690
+	479 2354 2357 5707 5708 #Oirat Split
 }
 
 ########################################
@@ -2700,7 +2700,7 @@ altai_sayan_area = { #3
 }
 
 tannu_uriankhai_area = {#3
-	716 1065 1066 4679
+	716 1066 5685 5684 #Oirat Split
 }
 
 central_mongolia_area = { #3
@@ -2713,7 +2713,7 @@ uliastai_area = {#3
 
 jetysuu_area = { #5
 	color = { 56 37 169 }
-	459 461 2125 2126 2368
+	459 461 2368 5691 5678 #Oirat Split
 }
 
 kashgaria_area = { #5 #Just Kashgar & Yarkand
@@ -2721,20 +2721,20 @@ kashgaria_area = { #5 #Just Kashgar & Yarkand
 }
 
 tarim_basin_area = { #3 #The rest of the Seven Cities
-	712 2121 2192
+	712 2121 2192 5687 #Oirat Split
 }
 
 shanshan_area = { #4
-	710 711 2123 4693
+	711 2123 5689 5695 #Oirat Split
 }
 
 turpan_kumul_area = { #4
-	2122 4206 4207
+	2122 4206 4207 713 #Oirat Split
 }
 
 zungaria_area = { #5
 	color = { 65 220 28 }
-	713 715 2120 4208 4683
+	715 2120 4208 5673 5674 #Oirat Split
 }
 
 amdo_area = { #4
@@ -2746,7 +2746,7 @@ tsang_area = { #5
 }
 
 north_zungaria = { #3
-	714 2118 2119 4681 4684
+	714 4681 4684 5681 4683 #Oirat Split
 }
 
 kham_area = { #5
@@ -3004,8 +3004,8 @@ xianning_area = {
 	5554 5598 5652 1833
 }
 
-yumen_area = {
-	707 5508 5575
+yumen_area = { #new added oirat split to be done
+	707 5508 5575 5694
 }
 
 chifeng_area = {
@@ -3046,9 +3046,50 @@ kaiyang_area = {
 yunnan_area = {
 	2748 5632 5657
 }
-
+##############################
+#		Korea areas
+##############################
 fo1_area = {
 	5669 5670 5671
+}
+##############################
+#		Mongol Split
+##############################
+mangyshlak_area = {
+	439 443 5699 5698 #Oirat Split
+}
+
+hotan_area = {
+	5688 710 4693 #Oirat Split
+}
+
+lower_ural_area = {
+	color = { 71 139 85 }
+ 	2441 5710 5712 1078 #Oirat Split
+}
+
+yenisei_area = {
+ 	5683 5682 2443 1063 1062 #Oirat Split
+}
+
+naryn_area = {
+	2126 2125 5679 5676 5686 #Oirat Split
+}
+
+zungarian_gate = {
+	5677 5675 2118 5690 2119 #Oirat Split
+}
+
+qaraghandy_area = {
+	478 2360 4685 5715 4686 #Oirat Split
+}
+
+turgay_area = {
+	2353 2351 2369 4692 #Oirat Split
+}
+
+lower_ob_area = {
+	2434 480 1064 1065 #Oirat Split
 }
 
 ########################################

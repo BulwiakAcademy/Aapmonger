@@ -9224,7 +9224,7 @@ GLH_ideas = {
 YUA_ideas = {
 	start = {
 		global_manpower_modifier = 0.25
-		cavalry_power = 0.20
+		cavalry_power = 0.25
 	}
 	bonus = {
 		governing_capacity_modifier = 0.1
@@ -9245,6 +9245,7 @@ YUA_ideas = {
 	}
 	yua_keshik_and_weijun = {
 		shock_damage = 0.1
+        cavalry_fire = 1
 	}
 	yua_a_thousand_miles_as_if_at_home = {
 		movement_speed = 0.15
@@ -9252,9 +9253,11 @@ YUA_ideas = {
 	}
 	yua_sino_mongol_administration = {
 		administrative_efficiency = 0.05
+		horde_unity = 1
+		legitimacy = 1
 	}
 	yua_pax_mongolica = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.15
 	}
 }
 
@@ -14524,6 +14527,11 @@ OIR_ideas = {
 		OR = {
 			tag = OIR
 			tag = ZUN
+			tag = TRG
+			tag = OLO
+			tag = DOR
+			tag = ALT
+			tag = KOD
 		}
 	}
 	free = yes

@@ -115,6 +115,27 @@ royal_marriage = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = mjl_tooltip_marryoirat
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					tag = OIR
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_oiratmarry
+		potential = {
+			ROOT = { tag = OIR }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 annexationaction = {
@@ -242,6 +263,15 @@ form_coalition = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = mjl_tooltip_oiratcoalition
+		potential = {
+			ROOT = { tag = OIR }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 request_to_join_trade_league = {
@@ -327,6 +357,32 @@ declarewar = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = mjl_tooltip_oiratwar
+		potential = {
+			ROOT = { tag = OIR }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_tumenwar
+		potential = {
+			ROOT = {
+				is_subject_of_type = tumen_vassal
+				ai = yes
+			}
+		}
+		allow = {
+			FROM = {
+				OR = {
+					overlord_of = ROOT
+					is_subject_of_type = tumen_vassal
+				}
+			}
+		}
+	}
 }
 
 support_independence_action = {
@@ -359,11 +415,28 @@ support_independence_action = {
 			always = no
 		}
 	}
-	
 	condition = {
 		tooltip = h_tooltip_commanderysupport
 		potential = {
 			FROM = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_oiratsupport
+		potential = {
+			ROOT = { tag = OIR }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_oiratsupport
+		potential = {
+			FROM = { tag = OIR }
 		}
 		allow = {
 			always = no
@@ -393,6 +466,27 @@ guaranteeaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = mjl_tooltip_guaranteeoirat
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					tag = OIR
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_oiratguarantee
+		potential = {
+			ROOT = { tag = OIR }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 warningaction = {
@@ -405,6 +499,15 @@ warningaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = mjl_tooltip_oiratwarn
+		potential = {
+			ROOT = { tag = OIR }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 threaten_war = {
@@ -412,6 +515,15 @@ threaten_war = {
 		tooltip = h_tooltip_commanderythreaten
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_oiratthreaten
+		potential = {
+			ROOT = { tag = OIR }
 		}
 		allow = {
 			always = no
@@ -442,6 +554,27 @@ allianceaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = mjl_tooltip_allyoirat
+		potential = {
+		}
+		allow = {
+			FROM = {
+				NOT = { 
+					tag = OIR
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_oiratally
+		potential = {
+			ROOT = { tag = OIR }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 enforce_peace = {
@@ -449,6 +582,15 @@ enforce_peace = {
 		tooltip = h_tooltip_commanderyenforce
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_oiratenforce
+		potential = {
+			ROOT = { tag = OIR }
 		}
 		allow = {
 			always = no
@@ -466,6 +608,15 @@ warsubsidy = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = mjl_tooltip_oiratsubsidy
+		potential = {
+			ROOT = { tag = OIR }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 offerloan = {
@@ -478,6 +629,15 @@ offerloan = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = mjl_tooltip_oiratloan
+		potential = {
+			ROOT = { tag = OIR }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 giftaction = {
@@ -485,6 +645,15 @@ giftaction = {
 		tooltip = h_tooltip_commanderygift
 		potential = {
 			ROOT = { has_reform = h_reform_commandery }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_oiratgift
+		potential = {
+			ROOT = { tag = OIR }
 		}
 		allow = {
 			always = no

@@ -136,6 +136,7 @@ country_decisions = {
 			}
 			change_tag = YUA
 			remove_non_electors_emperors_from_empire_effect = yes
+			swap_non_generic_missions = yes
 			china_superregion = {
 				limit = {
 					NOT = { owned_by = ROOT }
