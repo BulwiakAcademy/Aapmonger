@@ -15456,40 +15456,40 @@ MLC_ideas = {
 }
 
 MSA_ideas = {
-	start = {
-		global_trade_power = 0.15
-		land_morale = 0.1
-	}
-	bonus = {
-		ship_durability = 0.1
-	}
-	trigger = {
-		tag = MSA
-	}
-	free = yes
-	settle_the_islands = { # same as malay ideas
-		global_colonial_growth = 20
-	}
-	msa_advanced_galley_warfare = {
-		galley_power = 0.25
-	}
-	msa_expert_haggling = {
-		trade_efficiency = 0.15
-	}
-	msa_chart_the_seas = {
-		own_coast_naval_combat_bonus = 1
-		naval_morale = 0.15
-	}
-	msa_in_every_port = {
-		merchants = 1
-		ship_power_propagation = 0.2
-	}
-	msa_sea_nomads_steering = {
-		trade_steering = 0.25
-	}
-	msa_spice_kings = {
-		global_trade_goods_size_modifier = 0.1
-	}
+    start = {
+        global_trade_power = 0.15
+        land_morale = 0.15
+    }
+    bonus = {
+        ship_durability = 0.1
+    }
+    trigger = {
+        tag = MSA
+    }
+    free = yes
+    settle_the_islands = { # same as malay ideas
+        global_colonial_growth = 20
+    }
+    msa_advanced_galley_warfare = {
+        galley_power = 0.1
+    }
+    msa_expert_haggling = {
+        trade_efficiency = 0.15
+    }
+    msa_chart_the_seas = {
+        own_coast_naval_combat_bonus = 1
+        naval_morale = 0.075
+    }
+    msa_in_every_port = {
+        merchants = 1
+        ship_power_propagation = 0.2
+    }
+    msa_sea_nomads_steering = {
+        trade_steering = 0.25
+    }
+    msa_spice_kings = {
+        global_trade_goods_size_modifier = 0.1
+    }
 }
 
 SIA_ideas = {
