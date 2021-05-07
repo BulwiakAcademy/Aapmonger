@@ -1,7 +1,7 @@
 #581 - Sagaing
 
-owner = AVA
-controller = AVA
+owner = TAU
+controller = TAU
 culture = burmese
 religion = buddhism
 capital = "Sagaing"
@@ -11,7 +11,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 4
 is_city = yes
-add_core = AVA
+add_core = TAU
 
 
 
