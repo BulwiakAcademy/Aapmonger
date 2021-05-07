@@ -1,8 +1,8 @@
 # 3589 - Shizuishan
 
-owner = TAN
-controller = TAN
-add_core = TAN
+owner = TAT
+controller = TAT
+add_core = TAT
 culture = mongol
 religion = vajrayana
 capital = "Shizuishan"

@@ -1,8 +1,8 @@
 #1066 - Altai
 
-owner = ALT
-controller = ALT
-add_core = ALT
+owner = ALL
+controller = ALL
+add_core = ALL
 #owner = OIR
 #controller = OIR
 #add_core = OIR

@@ -249,7 +249,7 @@ country_event = {
 			}
 			else = {
 				every_enemy_country = {
-					country_event = { id = dutch_revolt.20 days = 1 }
+					country_event = { id = flavor_bur.20 days = 1 }
 				}
 			}
 			# Begin incident
@@ -338,6 +338,7 @@ country_event = {
 			ai = yes
 			was_player = no
 			NOT = { truce_with = ROOT }
+			is_subject = no
 		}
 		is_free_or_tributary_trigger = yes
 		is_at_war = no
@@ -577,7 +578,7 @@ country_event = {
 	}
 }
 
-# The Count of Maçon and the Union of Arras
+# The Count of MaÃ§on and the Union of Arras
 country_event = {
 	id = flavor_bur.15
 	title = "flavor_bur.EVTNAME15"

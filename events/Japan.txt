@@ -105,6 +105,14 @@ province_event = {
 										has_reform = black_market_consortium_reform
 									}
 								}
+								AND = {
+									has_country_flag = ikko_ikki_peasants_flag
+									OR = {
+										has_reform = leading_clergy_reform
+										has_reform = monastic_order_reform
+										has_reform = peasants_republic
+									}
+								}
 							}
 							NOT = { war_with = event_target:new_shogunate }
 						}
@@ -126,6 +134,14 @@ province_event = {
 										has_reform = black_market_consortium_reform
 									}
 								}
+								AND = {
+									has_country_flag = ikko_ikki_peasants_flag
+									OR = {
+										has_reform = leading_clergy_reform
+										has_reform = monastic_order_reform
+										has_reform = peasants_republic
+									}
+								}
 							}
 							war_with = event_target:new_shogunate
 						}
@@ -139,6 +155,9 @@ province_event = {
 								NOT = { has_reform = pirate_king_reform }
 								NOT = { has_reform = war_against_the_world_doctrine_reform }
 								NOT = { has_reform = black_market_consortium_reform }
+								NOT = {	has_reform = leading_clergy_reform }
+								NOT = {	has_reform = monastic_order_reform }
+								NOT = {	has_reform = peasants_republic }
 							}
 							add_government_reform = indep_daimyo
 						}

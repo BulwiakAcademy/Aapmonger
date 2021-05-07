@@ -310,12 +310,12 @@ coptic_missions = {
 			else = {
 				add_manpower = 10
 			}
-				bahari_area = {
-					add_province_modifier = {
-						name = "the_faithful_liberated"
-						duration = 3650
-					}
+			bahari_area = {
+				add_province_modifier = {
+					name = "the_faithful_liberated"
+					duration = 3650
 				}
+			}
 			hidden_effect = {
 				country_event = { id = coptic_flavor.15 }
 			}

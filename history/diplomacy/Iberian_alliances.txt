@@ -214,7 +214,7 @@ royal_marriage = {
 	end_date = 1481.8.29
 } 
 
-# Afonso, Heir to Jo„o II, and Isabella of Aragon-Castille
+# Afonso, Heir to Jo√£o II, and Isabella of Aragon-Castille
 royal_marriage = {
 	first = POR
 	second = CAS
@@ -239,9 +239,9 @@ royal_marriage = {
 }
 
 # Manuel I and Leonor of Spain
-# Jo„o III and Catarina of Spain
+# Jo√£o III and Catarina of Spain
 # Charles V of Spain and Isabella of Portugal
-# King Felipe II of Spain (son of Karl V) ~ Isabel (daughter of King Jo‰o III of Portugal)
+# King Felipe II of Spain (son of Karl V) ~ Isabel (daughter of King Jo√§o III of Portugal)
 royal_marriage = {
 	first = POR
 	second = SPA
@@ -266,7 +266,7 @@ royal_marriage = {
 }
 
 # Philip V of Spain and Elisabeth Farnese of Parma
-# Joseph of Portugal and Marianne Victoria of BorbÛn
+# Joseph of Portugal and Marianne Victoria of Borb√≥n
 # Ferdinand VI of Spain and Maria Magdalena Barbara
 royal_marriage = {
 	first = POR
@@ -275,7 +275,7 @@ royal_marriage = {
 	end_date = 1777.2.24
 }
 	
-# Jo„o VI and Carlotta of Spain
+# Jo√£o VI and Carlotta of Spain
 royal_marriage = {
 	first = POR
 	second = SPA
@@ -324,7 +324,7 @@ royal_marriage = {
 	end_date = 1665.9.17
 } 
 
-# Louis of Spain and Louise Elisabeth d'OrlÈans
+# Louis of Spain and Louise Elisabeth d'Orl√©ans
 royal_marriage = {
 	first = SPA
 	second = FRA

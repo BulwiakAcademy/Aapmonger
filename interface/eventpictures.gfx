@@ -38,6 +38,7 @@ spriteTypes = {
 ###################################################################
 
 	#END 
+
 	spriteType = {
 		name = "TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture.dds"
@@ -721,4 +722,80 @@ spriteTypes = {
 		name = "VILLAGE_RAIDED_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_AOW/VILLAGE_RAIDED_eventPicture.dds"
 	}
+	
+	spriteType = {
+		name = "EP_ISLAND_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ep/EP_ISLAND_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "EP_POLYNESIAN_MARAE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ep/EP_POLYNESIAN_MARAE_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "EP_MANIHOLE_HELMET_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ep/EP_MANIHOLE_HELMET_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "EP_MAORI_HAKA_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ep/EP_MAORI_HAKA_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "EP_MOAIS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ep/EP_MOAIS_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "EP_POLYNESIAN_DANCES_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ep/EP_POLYNESIAN_DANCES_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "EP_POLYNESIAN_HORN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ep/EP_POLYNESIAN_HORN_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "EP_POLYNESIAN_SHIPS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ep/EP_POLYNESIAN_SHIPS_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "EP_POLYNESIAN_TATTOO_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ep/EP_POLYNESIAN_TATTOO_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "EP_SAMOAN_WARRIORS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ep/EP_SAMOAN_WARRIORS_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "NUSANTARA_QUEEN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_leviathan/NUSANTARA_QUEEN_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "MALAYAN_PORT_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_leviathan/MALAYAN_PORT_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "NUSANTARA_THRONE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_leviathan/NUSANTARA_THRONE_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "NUSANTARA_WAR_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_leviathan/NUSANTARA_WAR_eventPicture.dds"
+	}
+	
+	spriteType = {
+		name = "SHWEDAGON_PAGON_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_leviathan/SHWEDAGON_PAGON_eventPicture.dds"
+	}
+
 }

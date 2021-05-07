@@ -260,9 +260,20 @@ gc_spain_1_b = {
 		}
 
 		trigger = {
-			2021 = {
-				country_or_non_sovereign_subject_holds = ROOT
-				has_holy_order_trigger = yes
+			if = {
+				limit = {
+					religion = catholic
+				}
+				2021 = {
+					country_or_non_sovereign_subject_holds = ROOT
+					has_holy_order_trigger = yes
+				}
+			}
+			else = {
+				2021 = {
+					country_or_non_sovereign_subject_holds = ROOT
+					religion = ROOT
+				}
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 5
@@ -460,7 +471,7 @@ gc_spain_2_b = {
 				fire = 5
 				manuever = 6
 				siege = 1
-				name = "Hern·n CortÈs"
+				name = "Hern√°n Cort√©s"
 			}
 			490 = {
 				add_base_production = 3
@@ -552,12 +563,27 @@ gc_spain_2_b = {
 		}
 
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = mexico_holy_order_tooltip
-				num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
-					has_holy_order_trigger = yes
-					region = mexico_region
-					value = 5
+			if = {
+				limit = {
+					religion = catholic
+				}
+				custom_trigger_tooltip = {
+					tooltip = mexico_holy_order_tooltip
+					num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
+						has_holy_order_trigger = yes
+						region = mexico_region
+						value = 5
+					}
+				}
+			}
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = mexico_holy_order_alternative_tooltip
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						religion = ROOT
+						region = mexico_region
+						value = 25
+					}
 				}
 			}
 			mexico_region = {
@@ -1178,17 +1204,35 @@ gc_spain_3_b = {
 		}
 
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = native_reductions_tooltip
-				num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
-					has_holy_order_trigger = yes
-					OR = {
-						continent = north_america
-						continent = south_america
+			if = {
+				limit = {
+					religion = catholic
+				}
+				custom_trigger_tooltip = {
+					tooltip = native_reductions_tooltip
+					num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
+						has_holy_order_trigger = yes
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						value = 15
 					}
-					value = 15
 				}
 			}
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = native_reductions_alternative_tooltip
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						religion = ROOT
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						value = 75
+					}
+				}
+			}			
 			216 = { # school of salamanca
 				has_building = university
 			}
@@ -1317,6 +1361,13 @@ gc_spain_4 = {
 					}
 					add_permanent_claim = ROOT
 				}
+				western_sicily_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
 				calabria_area = {
 					limit = {
 						NOT = { is_core = ROOT }
@@ -1341,6 +1392,12 @@ gc_spain_4 = {
 			}
 			else = {
 				sicily_area = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = NAP
+				}
+				western_sicily_area = {
 					limit = {
 						NOT = { country_or_non_sovereign_subject_holds = ROOT }
 					}
@@ -1375,6 +1432,7 @@ gc_spain_4 = {
 		provinces_to_highlight = {
 			OR = {
 				area = sicily_area
+				area = western_sicily_area
 				area = calabria_area
 				area = apulia_area
 				area = naples_area
@@ -1384,6 +1442,10 @@ gc_spain_4 = {
 
 		trigger = {
 			sicily_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_sicily_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -2184,12 +2246,27 @@ gc_spain_5_c = {
 		}
 
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = colombia_holy_order_tooltip
-				num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
-					has_holy_order_trigger = yes
-					colonial_region = colonial_colombia
-					value = 5
+			if = {
+				limit = {
+					religion = catholic
+				}
+				custom_trigger_tooltip = {
+					tooltip = colombia_holy_order_tooltip
+					num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
+						has_holy_order_trigger = yes
+						colonial_region = colonial_colombia
+						value = 5
+					}
+				}
+			}
+			else = {
+				custom_trigger_tooltip = {
+					tooltip = colombia_holy_order_alternative_tooltip
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						religion = ROOT
+						colonial_region = colonial_colombia
+						value = 25
+					}
 				}
 			}
 			colonial_colombia = {

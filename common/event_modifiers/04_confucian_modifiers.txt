@@ -93,6 +93,10 @@ confucian_vajrayana_harmonization = {
 	picture = "confucian_vajrayana_icon"
 }
 
+confucian_dreamtime_harmonization = {
+	picture = "confucian_dreamtime_icon"
+}
+
 
 ##################################################
 # MHL Confucian Virtues

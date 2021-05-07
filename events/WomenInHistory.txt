@@ -1,7 +1,7 @@
 ########################################
 # Events for Women in History
 #
-# written by Sara Wendel-Örtqvist
+# written by Sara Wendel-Ã–rtqvist
 ########################################
 
 namespace = women_history_events
@@ -178,7 +178,7 @@ country_event = {
 	}
 }
 
-# Kösem Sultan (1590-1651)
+# KÃ¶sem Sultan (1590-1651)
 country_event = {
 	id = women_history_events.3
 	title = women_history_events.3.t
@@ -221,7 +221,7 @@ country_event = {
 				NOT = { has_dlc = "Rights of Man" }
 			}
 			define_ruler = {
-				name = "Kösem Sultan"
+				name = "KÃ¶sem Sultan"
 				dynasty = "Osmanoglu"
 				culture = ruthenian
 				fixed = yes
@@ -244,7 +244,7 @@ country_event = {
 				has_government_attribute = queen
 			}
 			define_consort = {
-				name = "Kösem Sultan"
+				name = "KÃ¶sem Sultan"
 				culture = ruthenian
 				adm = 5
 				dip = 4
@@ -257,7 +257,7 @@ country_event = {
 		}
 		else = {
 			define_ruler = {
-				name = "Kösem Sultan"
+				name = "KÃ¶sem Sultan"
 				dynasty = "Osmanoglu"
 				culture = ruthenian
 				fixed = yes
@@ -504,7 +504,7 @@ country_event = {
 	}
 }
 
-# Germaine de Staël (1766-1817)
+# Germaine de StaÃ«l (1766-1817)
 country_event = {
 	id = women_history_events.7
 	title = women_history_events.7.t
@@ -538,7 +538,7 @@ country_event = {
 			culture = swiss
 			discount = yes
 			skill = 2
-			name = "Germaine de Staël"
+			name = "Germaine de StaÃ«l"
 		}
 
 	}
@@ -551,7 +551,7 @@ country_event = {
 			culture = swiss
 			discount = yes
 			skill = 2
-			name = "Germaine de Staël"
+			name = "Germaine de StaÃ«l"
 		}
 	}
 }
@@ -765,7 +765,7 @@ country_event = {
 		add_meritocracy_effect = yes
 		define_heir = {
 			name = "Isabel"
-			dynasty = "de Trastámara"
+			dynasty = "de TrastÃ¡mara"
 			culture = castillian
 			claim = 95
 			adm = 5
@@ -793,7 +793,7 @@ country_event = {
 			discount = yes
 			skill = 2
 			culture = castillian
-			name = "Isabel de Trastámara"
+			name = "Isabel de TrastÃ¡mara"
 		}
 	}
 }
@@ -1496,7 +1496,7 @@ country_event = {
 	}
 }
 
-# Gráinne Ní Mháille
+# GrÃ¡inne NÃ­ MhÃ¡ille
 country_event = {
 	id = women_history_events.22
 	title = women_history_events.22.t
@@ -1937,7 +1937,7 @@ country_event = {
 	}
 }
 
-# Louise of Mecklenburg-Strelitz (1776 – 1810)
+# Louise of Mecklenburg-Strelitz (1776 â€“ 1810)
 country_event = {
 	id = women_history_events.28
 	title = women_history_events.28.t
@@ -2152,7 +2152,7 @@ country_event = {
 	}
 }
 
-# Abigail Adams (1744 – 1818)
+# Abigail Adams (1744 â€“ 1818)
 country_event = {
 	id = women_history_events.31
 	title = women_history_events.31.t
@@ -2302,7 +2302,7 @@ country_event = {
 	}
 }
 
-# Sacagawea (1787? – 1812)
+# Sacagawea (1787? â€“ 1812)
 country_event = {
 	id = women_history_events.33
 	title = women_history_events.33.t
@@ -3233,7 +3233,7 @@ country_event = {
 	}
 }
 
-# Empress Dowager Xiaozhuang (1613 – 1688)
+# Empress Dowager Xiaozhuang (1613 â€“ 1688)
 country_event = {
 	id = women_history_events.48
 	title = women_history_events.48.t
@@ -3309,7 +3309,7 @@ country_event = {
 	}
 }
 
-# Inés de Suárez
+# InÃ©s de SuÃ¡rez
 country_event = {
 	id = women_history_events.49
 	title = women_history_events.49.t

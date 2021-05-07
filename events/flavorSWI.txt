@@ -36,7 +36,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.8
-			owns = 1869 #Zürich
+			owns = 1869 #ZÃ¼rich
 		}
 		modifier = {
 			factor = 0.8
@@ -640,7 +640,7 @@ country_event = {
 	trigger = {
 		is_religion_enabled = reformed
 		OR = {
-			OR = { #Geneva vassals will only get this event if they are a player, otherwise Geneva's overlord or province owner gets this event.
+			AND = { #Geneva vassals will only get this event if they are a player, otherwise Geneva's overlord or province owner gets this event.
 				is_subject = no
 				AND = {
 					tag = GNV
@@ -702,6 +702,7 @@ country_event = {
 		trigger = {
 			NOT = {
 				tag = GNV
+				tag = PAP
 			}
 		}
 		if = {

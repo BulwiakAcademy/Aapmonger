@@ -93,6 +93,62 @@ temple = {
 	modifier = {
 		local_tax_modifier = 0.4
 	}
+	on_built = {
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						religion = buddhism
+						religion = mahayana
+						religion = vajrayana
+					}
+					has_estate_privilege = estate_church_karma_temples
+				}
+			}
+			FROM = {
+				add_karma = 3
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					religion = catholic
+					has_estate_privilege = estate_church_influence_temples
+				}
+			}
+			FROM = {
+				add_papal_influence = 3
+			}
+		}
+	}
+	on_destroyed = {
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						religion = buddhism
+						religion = mahayana
+						religion = vajrayana
+					}
+					has_estate_privilege = estate_church_karma_temples
+				}
+			}
+			FROM = {
+				add_karma = -3
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					religion = catholic
+					has_estate_privilege = estate_church_influence_temples
+				}
+			}
+			FROM = {
+				add_papal_influence = -3
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 1
@@ -104,6 +160,30 @@ barracks = {
 	time = 12
 	modifier = {
 		local_manpower_modifier = 0.5
+	}
+	on_built = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_manpower = 1
+			}
+		}
+	}
+	on_destroyed = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_manpower = -1
+			}
+		}
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -163,7 +243,7 @@ shipyard = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 105 # Little above build cost
+			factor = 1.5 # bit more likely if close to the naval force limit
 			FROM = { navy_size_percentage = 0.95 }
 		}
 		modifier = {
@@ -189,6 +269,8 @@ fort_15th = {
 			province_id = 4142
 			province_id = 6
 			province_id = 2994
+			province_id = 47
+			province_id = 4745
 			province_id = 48
 			province_id = 1
 			province_id = 1930
@@ -230,6 +312,7 @@ fort_15th = {
 			province_id = 164
 			province_id = 4700
 			province_id = 2348
+			province_id = 318
 			province_id = 285
 			province_id = 2447
 			province_id = 1215
@@ -264,7 +347,7 @@ fort_15th = {
 			province_id = 1001
 			province_id = 983
 			province_id = 982
-			province_id = 984
+			province_id = 983
 			province_id = 2569
 			province_id = 2578
 			province_id = 2576
@@ -292,6 +375,7 @@ fort_15th = {
 			province_id = 5528
 			province_id = 597
 			province_id = 2686
+			province_id = 4815
 			province_id = 620
 			province_id = 2677
 			province_id = 659
@@ -307,7 +391,7 @@ fort_15th = {
 			province_id = 633
 			province_id = 2695
 			province_id = 2716
-			province_id = 642
+			province_id = 4796
 			province_id = 647
 			province_id = 646
 			province_id = 649
@@ -327,6 +411,8 @@ fort_15th = {
 			province_id = 1107
 			province_id = 489
 			province_id = 2654
+			province_id = 4141
+			province_id = 54
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -364,6 +450,8 @@ fort_15th = {
 			province_id = 4142
 			province_id = 6
 			province_id = 2994
+			province_id = 47
+			province_id = 4745
 			province_id = 48
 			province_id = 1
 			province_id = 1930
@@ -405,6 +493,7 @@ fort_15th = {
 			province_id = 164
 			province_id = 4700
 			province_id = 2348
+			province_id = 318
 			province_id = 285
 			province_id = 2447
 			province_id = 1215
@@ -439,7 +528,7 @@ fort_15th = {
 			province_id = 1001
 			province_id = 983
 			province_id = 982
-			province_id = 984
+			province_id = 983
 			province_id = 2569
 			province_id = 2578
 			province_id = 2576
@@ -467,6 +556,7 @@ fort_15th = {
 			province_id = 5528
 			province_id = 597
 			province_id = 2686
+			province_id = 4815
 			province_id = 620
 			province_id = 2677
 			province_id = 659
@@ -482,7 +572,7 @@ fort_15th = {
 			province_id = 633
 			province_id = 2695
 			province_id = 2716
-			province_id = 642
+			province_id = 4796
 			province_id = 647
 			province_id = 646
 			province_id = 649
@@ -502,6 +592,8 @@ fort_15th = {
 			province_id = 1107
 			province_id = 489
 			province_id = 2654
+			province_id = 4141
+			province_id = 54
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -604,6 +696,7 @@ coastal_defence = {
 	modifier = {
 		blockade_force_required = 0.5
 		hostile_disembark_speed = 1.0
+		#block_slave_raid = yes
 	}
 
 	ai_will_do = {
@@ -652,6 +745,32 @@ dock = {
 	modifier = {
 		local_sailors_modifier = 0.5
 	}
+	
+	on_built = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_sailors = 200
+			}
+		}
+	}
+	
+	on_destroyed = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_sailors = -200
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 1
@@ -694,7 +813,7 @@ regimental_camp = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 215 # Little above build cost
+			factor = 1.5 # more likely if we have an army close to the force limit
 			FROM = { army_size_percentage = 0.95 }
 		}
 		modifier = {
@@ -720,6 +839,8 @@ fort_16th = {
 			province_id = 4142
 			province_id = 6
 			province_id = 2994
+			province_id = 47
+			province_id = 4745
 			province_id = 48
 			province_id = 1
 			province_id = 1930
@@ -761,6 +882,7 @@ fort_16th = {
 			province_id = 164
 			province_id = 4700
 			province_id = 2348
+			province_id = 318
 			province_id = 285
 			province_id = 2447
 			province_id = 1215
@@ -795,7 +917,7 @@ fort_16th = {
 			province_id = 1001
 			province_id = 983
 			province_id = 982
-			province_id = 984
+			province_id = 983
 			province_id = 2569
 			province_id = 2578
 			province_id = 2576
@@ -823,6 +945,7 @@ fort_16th = {
 			province_id = 5528
 			province_id = 597
 			province_id = 2686
+			province_id = 4815
 			province_id = 620
 			province_id = 2677
 			province_id = 659
@@ -838,7 +961,7 @@ fort_16th = {
 			province_id = 633
 			province_id = 2695
 			province_id = 2716
-			province_id = 642
+			province_id = 4796
 			province_id = 647
 			province_id = 646
 			province_id = 649
@@ -858,6 +981,8 @@ fort_16th = {
 			province_id = 1107
 			province_id = 489
 			province_id = 2654
+			province_id = 4141
+			province_id = 54
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -895,6 +1020,8 @@ fort_16th = {
 			province_id = 4142
 			province_id = 6
 			province_id = 2994
+			province_id = 47
+			province_id = 4745
 			province_id = 48
 			province_id = 1
 			province_id = 1930
@@ -936,6 +1063,7 @@ fort_16th = {
 			province_id = 164
 			province_id = 4700
 			province_id = 2348
+			province_id = 318
 			province_id = 285
 			province_id = 2447
 			province_id = 1215
@@ -970,7 +1098,7 @@ fort_16th = {
 			province_id = 1001
 			province_id = 983
 			province_id = 982
-			province_id = 984
+			province_id = 983
 			province_id = 2569
 			province_id = 2578
 			province_id = 2576
@@ -998,6 +1126,7 @@ fort_16th = {
 			province_id = 5528
 			province_id = 597
 			province_id = 2686
+			province_id = 4815
 			province_id = 620
 			province_id = 2677
 			province_id = 659
@@ -1013,7 +1142,7 @@ fort_16th = {
 			province_id = 633
 			province_id = 2695
 			province_id = 2716
-			province_id = 642
+			province_id = 4796
 			province_id = 647
 			province_id = 646
 			province_id = 649
@@ -1033,6 +1162,8 @@ fort_16th = {
 			province_id = 1107
 			province_id = 489
 			province_id = 2654
+			province_id = 4141
+			province_id = 54
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -1138,6 +1269,7 @@ naval_battery = {
 		blockade_force_required = 1.0
 		hostile_disembark_speed = 2.0
 		hostile_fleet_attrition = 5
+		#block_slave_raid = yes
 	}
 
 	ai_will_do = {
@@ -1172,6 +1304,62 @@ cathedral = {
 	modifier = {
 		local_missionary_strength = 0.03
 		local_tax_modifier = 0.6
+	}
+	on_built = {
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						religion = buddhism
+						religion = mahayana
+						religion = vajrayana
+					}
+					has_estate_privilege = estate_church_karma_temples
+				}
+			}
+			FROM = {
+				add_karma = 3
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					religion = catholic
+					has_estate_privilege = estate_church_influence_temples
+				}
+			}
+			FROM = {
+				add_papal_influence = 3
+			}
+		}
+	}
+	on_destroyed = {
+		if = {
+			limit = {
+				FROM = {
+					OR = {
+						religion = buddhism
+						religion = mahayana
+						religion = vajrayana
+					}
+					has_estate_privilege = estate_church_karma_temples
+				}
+			}
+			FROM = {
+				add_karma = -3
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					religion = catholic
+					has_estate_privilege = estate_church_influence_temples
+				}
+			}
+			FROM = {
+				add_papal_influence = -3
+			}
+		}
 	}
 
 	ai_will_do = {
@@ -1292,7 +1480,7 @@ grand_shipyard = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 320 # Little above build cost
+			factor = 1.5 # bit more likely if close to the force limit
 			FROM = { navy_size_percentage = 0.95 }
 		}
 		modifier = {
@@ -1334,6 +1522,31 @@ training_fields = {
 	modifier = {
 		local_manpower_modifier = 1
 	}
+	
+	on_built = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_manpower = 1
+			}
+		}
+	}
+	on_destroyed = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_manpower = -1
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 1
@@ -1358,6 +1571,8 @@ fort_17th = {
 			province_id = 4142
 			province_id = 6
 			province_id = 2994
+			province_id = 47
+			province_id = 4745
 			province_id = 48
 			province_id = 1
 			province_id = 1930
@@ -1399,6 +1614,7 @@ fort_17th = {
 			province_id = 164
 			province_id = 4700
 			province_id = 2348
+			province_id = 318
 			province_id = 285
 			province_id = 2447
 			province_id = 1215
@@ -1433,7 +1649,7 @@ fort_17th = {
 			province_id = 1001
 			province_id = 983
 			province_id = 982
-			province_id = 984
+			province_id = 983
 			province_id = 2569
 			province_id = 2578
 			province_id = 2576
@@ -1461,6 +1677,7 @@ fort_17th = {
 			province_id = 5528
 			province_id = 597
 			province_id = 2686
+			province_id = 4815
 			province_id = 620
 			province_id = 2677
 			province_id = 659
@@ -1476,7 +1693,7 @@ fort_17th = {
 			province_id = 633
 			province_id = 2695
 			province_id = 2716
-			province_id = 642
+			province_id = 4796
 			province_id = 647
 			province_id = 646
 			province_id = 649
@@ -1496,6 +1713,8 @@ fort_17th = {
 			province_id = 1107
 			province_id = 489
 			province_id = 2654
+			province_id = 4141
+			province_id = 54
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -1533,6 +1752,8 @@ fort_17th = {
 			province_id = 4142
 			province_id = 6
 			province_id = 2994
+			province_id = 47
+			province_id = 4745
 			province_id = 48
 			province_id = 1
 			province_id = 1930
@@ -1574,6 +1795,7 @@ fort_17th = {
 			province_id = 164
 			province_id = 4700
 			province_id = 2348
+			province_id = 318
 			province_id = 285
 			province_id = 2447
 			province_id = 1215
@@ -1608,7 +1830,7 @@ fort_17th = {
 			province_id = 1001
 			province_id = 983
 			province_id = 982
-			province_id = 984
+			province_id = 983
 			province_id = 2569
 			province_id = 2578
 			province_id = 2576
@@ -1636,6 +1858,7 @@ fort_17th = {
 			province_id = 5528
 			province_id = 597
 			province_id = 2686
+			province_id = 4815
 			province_id = 620
 			province_id = 2677
 			province_id = 659
@@ -1651,7 +1874,7 @@ fort_17th = {
 			province_id = 633
 			province_id = 2695
 			province_id = 2716
-			province_id = 642
+			province_id = 4796
 			province_id = 647
 			province_id = 646
 			province_id = 649
@@ -1671,6 +1894,8 @@ fort_17th = {
 			province_id = 1107
 			province_id = 489
 			province_id = 2654
+			province_id = 4141
+			province_id = 54
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -1858,6 +2083,32 @@ drydock = {
 	modifier = {
 		local_sailors_modifier = 1.0
 	}
+	
+	on_built = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_sailors = 200
+			}
+		}
+	}
+	
+	on_destroyed = {
+		if = {
+			limit = {
+				FROM = {
+					has_reform = corvee_reform
+				}
+			}
+			FROM = {
+				add_sailors = -200
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 1
@@ -1901,7 +2152,7 @@ conscription_center = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 435 # Little above build cost
+			factor = 1.5 # more likely if we have an army close to the force limit
 			FROM = { army_size_percentage = 0.95 }
 		}
 		modifier = {
@@ -1918,7 +2169,7 @@ fort_18th = {
 	time = 30
 
 
-	make_obsolete = fort_17th	
+	make_obsolete = fort_17th
 	build_trigger = {
 		OR = {
 			is_capital = yes
@@ -1931,6 +2182,8 @@ fort_18th = {
 			province_id = 4142
 			province_id = 6
 			province_id = 2994
+			province_id = 47
+			province_id = 4745
 			province_id = 48
 			province_id = 1
 			province_id = 1930
@@ -1972,6 +2225,7 @@ fort_18th = {
 			province_id = 164
 			province_id = 4700
 			province_id = 2348
+			province_id = 318
 			province_id = 285
 			province_id = 2447
 			province_id = 1215
@@ -2006,7 +2260,7 @@ fort_18th = {
 			province_id = 1001
 			province_id = 983
 			province_id = 982
-			province_id = 984
+			province_id = 983
 			province_id = 2569
 			province_id = 2578
 			province_id = 2576
@@ -2034,6 +2288,7 @@ fort_18th = {
 			province_id = 5528
 			province_id = 597
 			province_id = 2686
+			province_id = 4815
 			province_id = 620
 			province_id = 2677
 			province_id = 659
@@ -2049,7 +2304,7 @@ fort_18th = {
 			province_id = 633
 			province_id = 2695
 			province_id = 2716
-			province_id = 642
+			province_id = 4796
 			province_id = 647
 			province_id = 646
 			province_id = 649
@@ -2069,6 +2324,8 @@ fort_18th = {
 			province_id = 1107
 			province_id = 489
 			province_id = 2654
+			province_id = 4141
+			province_id = 54
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -2107,6 +2364,8 @@ fort_18th = {
 			province_id = 4142
 			province_id = 6
 			province_id = 2994
+			province_id = 47
+			province_id = 4745
 			province_id = 48
 			province_id = 1
 			province_id = 1930
@@ -2148,6 +2407,7 @@ fort_18th = {
 			province_id = 164
 			province_id = 4700
 			province_id = 2348
+			province_id = 318
 			province_id = 285
 			province_id = 2447
 			province_id = 1215
@@ -2182,7 +2442,7 @@ fort_18th = {
 			province_id = 1001
 			province_id = 983
 			province_id = 982
-			province_id = 984
+			province_id = 983
 			province_id = 2569
 			province_id = 2578
 			province_id = 2576
@@ -2210,6 +2470,7 @@ fort_18th = {
 			province_id = 5528
 			province_id = 597
 			province_id = 2686
+			province_id = 4815
 			province_id = 620
 			province_id = 2677
 			province_id = 659
@@ -2225,7 +2486,7 @@ fort_18th = {
 			province_id = 633
 			province_id = 2695
 			province_id = 2716
-			province_id = 642
+			province_id = 4796
 			province_id = 647
 			province_id = 646
 			province_id = 649
@@ -2245,6 +2506,8 @@ fort_18th = {
 			province_id = 1107
 			province_id = 489
 			province_id = 2654
+			province_id = 4141
+			province_id = 54
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -2348,7 +2611,7 @@ wharf = {
 	onmap = yes
 
 	ai_will_do = {
-		factor = 1750
+		factor = 1
 
 		modifier = {
 			factor = 0.4
@@ -2425,6 +2688,7 @@ tradecompany = {
 		ivory
 		slaves
 		spices
+		cloves
 		fur
 		incense
 	}

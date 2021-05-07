@@ -59,6 +59,17 @@ on_startup = {
 			disaster = french_revolution
 		}
 	}
+	if = {
+		limit = {
+			exists = SUK
+		}
+		SUK = {
+			set_ruler_flag = suk_monarch_flag
+		}
+		AYU = {
+			set_country_flag = ayu_monarch_flag
+		}
+	}
 
 	#### Dev click counter ###
 	#ARUMBA LINES
@@ -741,6 +752,12 @@ on_siege_lost_province =  {
 on_abandon_colony = {
 }
 
+# province
+# root = location, from = country that owns it
+# Fired right after the great project is constructed
+#on_great_project_constructed = {
+#}
+
 # OBS: Consider that the following on_actions can be called for Personal Union juniors as well.
 # country
 on_new_monarch = {
@@ -753,7 +770,7 @@ on_new_monarch = {
 				has_province_modifier = domain_of_spouses_family
 			}
 		}
-		random_owned_province = {
+		every_owned_province = {
 			limit = { has_province_modifier = domain_of_spouses_family }
 			remove_province_modifier = domain_of_spouses_family
 		}
@@ -765,7 +782,7 @@ on_new_monarch = {
 				has_province_modifier = home_of_consort
 			}
 		}
-		random_owned_province = {
+		every_owned_province = {
 			limit = { has_province_modifier = home_of_consort }
 			remove_province_modifier = home_of_consort
 		}
@@ -932,6 +949,10 @@ on_regent = {
 		flavor_daimyo.4			#Shiba Yoshikado
 	}
 }
+
+# country
+#on_extend_regency = {
+#}
 
 # country
 on_new_term_election = {
@@ -3749,6 +3770,7 @@ on_province_religion_converted = {
 	remove_province_modifier = "confucian_theravada_harmonization"
 	remove_province_modifier = "confucian_totemism_harmonization"
 	remove_province_modifier = "confucian_vajrayana_harmonization"
+	remove_province_modifier = "confucian_dreamtime_harmonization"
 }
 
 # province
@@ -3858,6 +3880,27 @@ on_province_owner_change = {
 		remove_province_modifier = sufi_shrine
 	}
 	on_province_owner_change_estate_privileges_effect = yes
+	
+	if = {
+		limit = {
+			region = indo_china_region
+			has_building = farm_estate
+			trade_goods = grain
+			owner = {
+				has_mission = mnd_khm_irrigation 
+				NOT = {
+					OR = {
+						has_estate = estate_vaisyas
+						has_estate = estate_burghers
+					}
+				}
+			}
+		}
+		add_province_modifier = {
+			name = grain_production_improved
+			duration = 7300
+		}
+	}
 
 	# my lines
 	if = {
@@ -4015,6 +4058,17 @@ on_refuse_tribute = {
 
 # country
 on_leader_recruited = {
+	if = {
+		limit = {
+			has_estate_privilege = estate_nobles_command_of_the_military
+		}
+		add_estate_influence_modifier = {
+			estate = estate_nobles
+			influence = 5
+			duration = 3650
+			desc = EST_VAL_NOBLE_LEADER
+		}
+	}
 }
 
 # country
@@ -4115,8 +4169,17 @@ on_company_chartered = {
 
 # ROOT = Overlord, FROM = Minor
 on_dependency_gained = {
-	events = {
-		dutch_republic.31 # States General falls under a PU
+	if = {
+		limit = {
+			FROM = {
+				has_reform = dutch_republic
+			}
+		}
+		ROOT = {
+			country_event = {
+				id = dutch_republic.31
+			}# States General falls under a PU
+		}
 	}
 }
 
@@ -4622,6 +4685,13 @@ on_conquest = {
 		}
 		remove_province_modifier = "confucian_jewish_harmonization"
 		change_religion = jewish
+	}
+	if = {
+		limit = {
+			has_province_modifier = "confucian_dreamtime_harmonization"
+		}
+		remove_province_modifier = "confucian_dreamtime_harmonization"
+		change_religion = dreamtime
 	}
 	if = {
 		limit = {

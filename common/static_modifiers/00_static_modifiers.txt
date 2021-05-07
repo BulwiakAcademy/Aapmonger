@@ -2,7 +2,7 @@
 #
 # Effects are fully scriptable here.
 
-# These names can NOT be removed or changes, as the code uses them....
+# Missing static modifiers expected by code will print to the errorlog
 
 ################
 null_modifier = {
@@ -249,7 +249,7 @@ cardinals_spread_institution = {
 }
 
 manpower = {
-	garrison_growth = 0.01			#1% increase from manpower.
+	garrison_growth = 0.01					#1% increase from manpower.
 }
 
 sailors = {
@@ -368,7 +368,7 @@ non_accepted_culture = {
 	local_missionary_strength = -0.02
 	local_manpower_modifier = -0.33
 	local_sailors_modifier = -0.2
-	local_unrest = 2				#1% revolt risk!
+	local_unrest = 2					#1% revolt risk!
 }
 
 accepted_culture_demoted = {
@@ -475,6 +475,7 @@ local_autonomy_trade_company = {
 
 recent_uprising = {
 	local_unrest = -100
+	picture = "recent_uprising"
 }
 
 
@@ -494,6 +495,7 @@ national_defense = {
 
 
 resource_depleted = {
+	# Not used anymore, however if you add it, will be applied again. Kept it for modders
 	local_tax_modifier = -0.50				# penalty when migrant have been there recently.
 }
 
@@ -1276,6 +1278,7 @@ gov_rank_10 = {
 # For autonomy mechanics
 autonomy_increased = {
 	local_unrest = -10
+	picture="autonomy_increased"
 }
 
 autonomy_decreased = {

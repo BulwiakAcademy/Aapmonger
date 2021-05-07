@@ -24,7 +24,6 @@ spriteTypes = {
 ######                     Embrace Monke                     ######
 ###################################################################
 
-
 	spriteType = {
 		name = "GFX_progress_bar_frame"
 		texturefile = "gfx//interface//progress_bar_frame.dds"
@@ -87,6 +86,13 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	
+	spriteType = {
+		name = "GFX_icon_tech_may_build_flagships"
+		texturefile = "gfx//interface//icon_tech_may_build_flagships.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
 	spriteType = {
 		name = "GFX_icon_tech_may_agitate_for_liberty"
 		texturefile = "gfx//interface//ideas_EU4//may_agitate_for_liberty.dds"
@@ -211,7 +217,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//institutions//feudalism.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
-	}
+	}	
 	spriteType = {
 		name = "GFX_icon_institution_renaissance"
 		texturefile = "gfx//interface//institutions//renaissance.dds"
@@ -350,7 +356,7 @@ spriteTypes = {
 		noOfFrames = 2
 		transparencecheck = yes
 	}
-
+	
 	spriteType = {
 		name = "GFX_institution_tab_renaissance"
 		texturefile = "gfx/interface/institutions//institution_tab_renaissance.dds"

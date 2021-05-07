@@ -1063,7 +1063,7 @@ country_event = {
 		change_government = republic
 		add_government_reform = pirate_republic_reform
 		define_ruler = {
-			dynasty = "Störtebeker"
+			dynasty = "StÃ¶rtebeker"
 			culture = pommeranian
 		}
 		add_republican_tradition = 50

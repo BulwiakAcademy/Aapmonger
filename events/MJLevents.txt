@@ -646,7 +646,12 @@ country_event = {
                 discover_province = PREV
             }
         }
-        te_ika_a_maui_area = {
+		te_ika_a_maui_hauauru_area = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+		te_ika_a_maui_waho_area = {
             ROOT = {
                 discover_province = PREV
             }

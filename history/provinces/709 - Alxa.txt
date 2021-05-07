@@ -1,8 +1,8 @@
 #709 - Yinchuan #Alxa is a city in this region, BUT modern day Yinchuan is right next to it, and thats Xingqing capital of Xia kingdom
 
-owner = TAN
-controller = TAN
-add_core = TAN
+owner = TAT
+controller = TAT
+add_core = TAT
 culture = mongol
 religion = vajrayana
 capital = "Yinchuan"

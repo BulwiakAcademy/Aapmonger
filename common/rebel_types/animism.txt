@@ -181,6 +181,7 @@ animism_rebels = {
 				remove_province_modifier = "confucian_theravada_harmonization"
 				remove_province_modifier = "confucian_totemism_harmonization"
 				remove_province_modifier = "confucian_vajrayana_harmonization"
+				remove_province_modifier = "confucian_dreamtime_harmonization"
 			}
 		}
 		owner = {

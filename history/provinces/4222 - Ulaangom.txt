@@ -3,9 +3,9 @@
 #owner = OIR		# The Oirads united much of Mongolia
 #controller = OIR
 #add_core = OIR
-owner = ALT
-controller = ALT
-add_core = ALT
+owner = ALL
+controller = ALL
+add_core = ALL
 culture = oirats
 religion = tengri_pagan_reformed
 capital = "Ulaangom"

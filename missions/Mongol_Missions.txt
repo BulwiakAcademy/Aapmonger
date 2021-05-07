@@ -146,7 +146,7 @@ mongol_missions_1 = {
 				owned_by = KOR
 			}
 		}
-		trigger = {                                                     
+		trigger = {
 			OR = {
 				KOR = {
 					is_subject_of = ROOT
