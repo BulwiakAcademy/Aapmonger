@@ -603,14 +603,7 @@ country_event = {
     
     trigger = {
         NOT = { has_country_flag = discovered_australia_event }
-        ai = no
-        capital_scope = {
-            OR = {
-                region = moluccas_region
-                region = indonesia_region
-                region = malaya_region
-            }
-        }
+        technology_group = chinese
     }
 
     immediate = {
@@ -672,6 +665,11 @@ country_event = {
             }
         }
         1432 = {
+            ROOT = {
+                discover_province = PREV
+            }
+        }
+        1726 = {
             ROOT = {
                 discover_province = PREV
             }
