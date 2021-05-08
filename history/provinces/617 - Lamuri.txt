@@ -22,10 +22,10 @@ center_of_trade = 1
 1405.1.1 = { discovered_by = MNG }
 
 1444.1.1 = {
-	owner = ATJ
-	controller = ATJ
+	#owner = ATJ
+	#controller = ATJ
 	add_core = ATJ
-	remove_core = PSA
+	#remove_core = PSA
 }
 
 1471.1.1 = { capital = "Kutaraja" }

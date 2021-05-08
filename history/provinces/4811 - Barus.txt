@@ -1,6 +1,7 @@
 
-owner = BRS
-controller = BRS
+owner = PSA
+controller = PSA
+add_core = PSA
 culture = sumatran
 religion = hinduism
 capital = "Barus"
