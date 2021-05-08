@@ -12076,7 +12076,7 @@ TKG_ideas = {
 MAS_ideas = {
 	start = {
 		tolerance_heathen = 3
-		global_colonial_growth = 2
+		global_colonial_growth = 20
 	}
 	bonus = {
 		trade_efficiency = 0.15
