@@ -722,7 +722,43 @@ indonesians_5 = {
 		culture_group = malay
 	}
 	has_country_shield = yes
-	
+
+	mjl_colonize_midway = {
+		icon = mission_establish_high_seas_navy
+		required_missions = {  }
+		provinces_to_highlight = {
+			region = oceanea_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 1
+				region = oceanea_region
+				is_city = yes
+			}
+		}
+		effect = {
+			northern_polynesia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+	        northern_polynesia_area = {
+	            ROOT = {
+	                discover_province = PREV
+	            }
+	        }
+	        1697 = {
+	            ROOT = {
+	                discover_province = PREV
+	            }
+	        }
+			add_dip_power = 100
+		}
+	}	
 	indonesia_palopo_iron = {
 		icon = mission_war_chest
 		required_missions = { }
