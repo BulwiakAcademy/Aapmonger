@@ -9,8 +9,9 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 add_core = TDO
-owner = TDO
-controller = TDO
+owner = MAS
+controller = MAS
+add_core = MAS
 is_city = yes
 discovered_by = chinese
 
