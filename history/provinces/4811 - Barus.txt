@@ -2,7 +2,7 @@
 owner = PSA
 controller = PSA
 add_core = PSA
-culture = sumatran
+culture = acehnese
 religion = hinduism
 capital = "Barus"
 trade_goods = spices
