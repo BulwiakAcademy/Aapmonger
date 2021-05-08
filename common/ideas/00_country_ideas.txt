@@ -15279,7 +15279,7 @@ MAJ_ideas = {
 
 ATJ_ideas = {
 	start = {
-		global_ship_cost = -0.1
+		global_unrest = -2
 		global_missionary_strength = 0.02
 	}
 	bonus = {
@@ -15299,19 +15299,20 @@ ATJ_ideas = {
 		missionary_maintenance_cost = -0.25
 	}
 	rise_of_aceh = {
+		infantry_power = 0.2
 		province_warscore_cost = -0.1
 	}
 	military_adventures = {
-		naval_morale = 0.15
+		naval_morale = 0.1
 	}
 	porch_of_mecca = {
 		technology_cost = -0.10
 	}
 	acehnese_moneylending = {
-		interest = -1
+		interest = -0.5
 	}
-	settle_the_islands = { # same as malay ideas
-		global_colonial_growth = 20
+	settle_the_islands_new = { # same as malay ideas
+		colonists = 1
 	}
 }
 
