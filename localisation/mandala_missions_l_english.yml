@@ -385,7 +385,7 @@
  indonesia_convert_region_title:0 "Religious Dominance"
  indonesia_convert_region_desc:0 "To spread the faith is our sacred duty. All of Nusantara must know the light of the divine."
  obj_convert_60_provinces_tooltip_tt:0 "At least 60 provinces in the regions of §YIndonesia§!, §YMalaya§! and/or §YMolucca§! must profess the §Y[Root.Religion.GetName]§! religion."
- obj_convert_20_provinces_tooltip_tt:0 "Has converted at least 20 provinces in the area."
+ obj_convert_20_provinces_tooltip_tt:0 "Has converted at least 20 provinces."
  indonesia_vassals_title:0 "Vassal Kingdoms"
  indonesia_vassals_desc:0 "We should not expand only through direct conquest. We should also subjugate other kingdoms and collect tribute from them."
  indonesia_expel_europeans_title:0 "Expel Europeans"

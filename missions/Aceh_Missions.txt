@@ -200,7 +200,6 @@ atj_2 = {
 			}
 		}
 	}
-
 	atj_conquer_aceh = {
 		icon = mission_unite_home_region
 		required_missions = {  }
@@ -236,6 +235,13 @@ atj_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			upper_wasteland_sumatra_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	atj_sumatra_campaign = {
@@ -246,17 +252,19 @@ atj_2 = {
 				area = central_sumatra_area
 				area = batak_area
 				area = minangkabau_area
+				area = upper_wasteland_sumatra_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			calc_true_if = {
-				amount = 10
+				amount = 12
 				all_province = {
 					OR = {
 						area = central_sumatra_area
 						area = batak_area
 						area = minangkabau_area
+						area = upper_wasteland_sumatra_area
 					}
 					country_or_non_sovereign_subject_holds = ROOT
 				}
@@ -307,6 +315,13 @@ atj_2 = {
 				add_permanent_claim = ROOT
 			}
 			johor_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lower_wasteland_sumatra_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
