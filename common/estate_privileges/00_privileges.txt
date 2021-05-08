@@ -6895,10 +6895,11 @@ estate_church_brahmins_at_court = {
 estate_burghers_khmer_irrigation = {
 	icon = privilege_monopoly_of_goods_livestock
 	can_select = {
+		NOT = { has_estate_privilege = estate_vaisyas_khmer_irrigation }
 		OR = {
-			has_estate_privilege = estate_vaisyas_khmer_irrigation
-			#mission_completed = mnd_khm_irrigation
-			#mission_completed = sun_rice_production
+			tag = LNA
+			tag = KHM
+			tag = SUN
 		}
 	}
 	is_valid = {
@@ -6907,7 +6908,6 @@ estate_burghers_khmer_irrigation = {
 			tag = LNA
 			tag = KHM
 			tag = SUN
-			has_estate_privilege = estate_vaisyas_khmer_irrigation
 		}
 	}
 	on_granted = {
@@ -6949,9 +6949,11 @@ estate_burghers_khmer_irrigation = {
 estate_vaisyas_khmer_irrigation = {
 	icon = privilege_monopoly_of_goods_livestock
 	can_select = {
+		NOT = { has_estate_privilege = estate_burghers_khmer_irrigation }
 		OR = {
-			mission_completed = mnd_khm_irrigation
-			has_estate_privilege = estate_vaisyas_khmer_irrigation
+			tag = LNA
+			tag = KHM
+			tag = SUN
 		}
 	}
 	is_valid = {
@@ -6959,7 +6961,7 @@ estate_vaisyas_khmer_irrigation = {
 		OR = {
 			tag = LNA
 			tag = KHM
-			has_estate_privilege = estate_vaisyas_khmer_irrigation
+			tag = SUN
 		}
 	}
 	on_granted = {
