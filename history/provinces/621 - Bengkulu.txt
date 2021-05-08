@@ -4,6 +4,11 @@ latent_trade_goods = {
 	coal
 }
 
+owner = IND
+controller = IND
+add_core = IND
+is_city = yes
+trade_goods = spices
 culture = sumatran
 religion = hinduism
 capital = "Bengkulu"
