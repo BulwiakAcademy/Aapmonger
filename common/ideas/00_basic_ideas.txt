@@ -753,10 +753,6 @@ exploration_ideas = {
 maritime_ideas = {
 	category = DIP
 
-	trigger = {
-		always = no
-	}
-
 	bonus = {
 		sea_repair = yes
 	}
@@ -1103,7 +1099,7 @@ naval_ideas = {
 	category = MIL
 
 	trigger = {
-		primitives = yes
+		always = no
 	}
 
 	bonus = {
