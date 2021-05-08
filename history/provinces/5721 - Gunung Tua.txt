@@ -1,0 +1,17 @@
+#5721 - Gunung Tua
+
+owner = DLI
+controller = DLI
+add_core = DLI
+culture = sumatran
+religion = sunni
+capital = "Gunung Tua"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

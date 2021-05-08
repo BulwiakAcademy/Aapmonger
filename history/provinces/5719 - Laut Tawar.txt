@@ -1,0 +1,17 @@
+#5719 - Laut Tawar
+
+owner = PSA
+controller = PSA
+add_core = PSA
+culture = acehnese
+religion = sunni
+capital = "Laut Tawar"
+trade_goods = gems
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

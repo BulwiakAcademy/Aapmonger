@@ -1079,6 +1079,8 @@ malaya_region = {	#Western Indonesia Malaya.
 		batak_area
 		minangkabau_area
 		indian_ocean_islands_area
+		upper_wasteland_sumatra_area #Ex wasteland
+		lower_wasteland_sumatra_area #Ex wasteland
 	}
 	monsoon = {
 		00.10.01

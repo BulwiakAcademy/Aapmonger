@@ -1,0 +1,17 @@
+#5718 - Gunung Leuser
+
+owner = PSA
+controller = PSA
+add_core = PSA
+culture = acehnese
+religion = sunni
+capital = "Gunung Leuser"
+trade_goods = copper
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

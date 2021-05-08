@@ -1,0 +1,17 @@
+#5720 - Bangkinang
+
+owner = SAK
+controller = SAK
+add_core = SAK
+culture = sumatran
+religion = sunni
+capital = "Bangkinang"
+trade_goods = naval_supplies
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
