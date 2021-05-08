@@ -4254,7 +4254,7 @@ new_khmer_golden_age = {
 }
 
 estate_burghers_khmer_irrigation_mod = {
-	local_development_cost = -0.1
+	local_build_cost = -0.1
 }
 
 grain_production_improved = {

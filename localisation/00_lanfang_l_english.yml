@@ -158,7 +158,7 @@
  estate_burghers_khmer_irrigation_desc:0 "The state provides the infrastructure and tools to utilize some of the world's most advanced irrigation techniques, allowing for rapid population growth due to an abundant food supply."
  estate_vaisyas_khmer_irrigation:0 "Advanced Irrigation Techniques"
  estate_vaisyas_khmer_irrigation_desc:0 "The state provides the infrastructure and tools to utilize some of the world's most advanced irrigation techniques, allowing for rapid population growth due to an abundant food supply."
- estate_burghers_khmer_irrigation_effect_tooltip:0 "Every owned province producing §YGrain§! gains:\nLocal Development Cost: §G-10%§!"
+ estate_burghers_khmer_irrigation_effect_tooltip:0 "Every owned province producing §YGrain§! gains:\nLocal Construction Cost: §G-10%§!"
  estate_burghers_khmer_irrigation_revoke_effect_tooltip:0 "The modifier §YAdvanced Irrigation Techniques§! is removed from all owned provinces."
  estate_burghers_khmer_irrigation_mod:0 "Advanced Irrigation Techniques"
  desc_estate_burghers_khmer_irrigation_mod:0 "The state provides the infrastructure and tools to utilize some of the world's most advanced irrigation techniques, allowing for rapid population growth due to an abundant food supply."
