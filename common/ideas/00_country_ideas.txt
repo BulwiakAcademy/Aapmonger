@@ -12075,11 +12075,11 @@ TKG_ideas = {
 
 MAS_ideas = {
 	start = {
-		leader_naval_manuever = 1
-		sailor_maintenance_modifer = -0.1
+		tolerance_heathen = 3
+		global_colonial_growth = 2
 	}
 	bonus = {
-		leader_naval_fire = 1
+		trade_efficiency = 0.15
 	}
 	
 	trigger = {
@@ -12088,23 +12088,24 @@ MAS_ideas = {
 	
 	free = yes
 	
+	mas_legacy_of_panai = {
+		colonists = 1
+		range = 0.33
+	}
 	mas_hinalliwood = {
 		idea_cost = -0.1
-	}
-	mas_legacy_of_panai = {
-		naval_morale = 0.15
 	}
 	mas_riches_of_the_visayas = {
 		development_cost = -0.1
 	}
 	mas_masters_of_maritime_warfare = {
-		leader_naval_shock = 1
+		naval_morale = 0.1
 	}
 	mas_articles_of_the_confederation = {
 		prestige = 1
 	}
 	mas_kinaduatan = {
-		stability_cost_modifier = -0.1
+		same_culture_advisor_cost = -0.15
 	}
 	mas_expand_the_shipbuilding_sector = {
 		ship_durability = 0.05
