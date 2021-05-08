@@ -10,8 +10,9 @@ base_production = 3
 base_manpower = 2
 is_city = yes
 discovered_by = chinese
-owner = BEI
-controller = BEI
+owner = MAS
+controller = MAS
+add_core = MAS
 add_core = BEI
 add_local_autonomy = 25
 
