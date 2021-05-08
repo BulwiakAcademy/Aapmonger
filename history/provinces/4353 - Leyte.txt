@@ -1,9 +1,12 @@
 #4353 - Leyte
 
+owner = CEB
+controller = CEB
+add_core = CEB
 culture = filipino
 religion = animism
 capital = "Leyte"
-trade_goods = unknown
+trade_goods = spices
 hre = no
 base_tax = 2 
 base_production = 2

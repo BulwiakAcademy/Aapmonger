@@ -1,9 +1,12 @@
 #2701 - Tagloc
 
+owner = BTU
+controller = BTU
+add_core = BTU
 culture = filipino
 religion = animism
 capital = "Tagloc"
-trade_goods = unknown
+trade_goods = naval_supplies
 hre = no
 base_tax = 2 
 base_production = 2

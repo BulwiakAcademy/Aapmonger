@@ -1,9 +1,12 @@
 #4348 - Ifugao
 
+owner = PGS
+controller = PGS
+add_core = PGS
 culture = filipino
 religion = animism
 capital = "Ifugao"
-trade_goods = unknown
+trade_goods = coffee
 hre = no
 base_tax = 1
 base_production = 1
