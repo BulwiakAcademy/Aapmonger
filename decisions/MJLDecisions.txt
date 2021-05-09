@@ -243,7 +243,8 @@ country_decisions = {
 			}
 		}
 		effect = {
-			add_years_of_income = -1
+			#add_years_of_income = -1
+			add_treasury = -100
 			change_adm = 1
 			change_dip = 1
 			change_mil = 1
