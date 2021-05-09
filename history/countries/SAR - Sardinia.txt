@@ -6,7 +6,7 @@ primary_culture = sardinian
 capital = 127	# Cagliari
 fixed_capital = 127 # Cannot move capital away from this province & no power cost to move to it
 
-1414.1.1 = {
+1387.1.1 = {
 	monarch = { 
 		name = "Mariano V"
 		dynasty = "d'Arborea"
@@ -16,13 +16,12 @@ fixed_capital = 127 # Cannot move capital away from this province & no power cos
 	}
 }
 
-1387.1.1 = {
+1414.1.1 = {
 	heir = {
 		name = "Guglielmo"
 		monarch_name = "Guglielmo I"
 		dynasty = "d'Arborea"
-		birth_date = 1387.1.1
-		death_date = 1430.1.1
+		birth_date = 1414.1.1
 		claim = 80
 		dip = 2
 		mil = 1
@@ -30,10 +29,11 @@ fixed_capital = 127 # Cannot move capital away from this province & no power cos
 	}
 }
 
-1407.1.1 = {
+1415.1.1 = {
 	monarch = { 
 		name = "Guglielmo I"
 		dynasty = "d'Arborea"
+		birth_date = 1414.1.1
 		dip = 2
 		mil = 1
 		adm = 1
