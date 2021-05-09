@@ -2999,7 +2999,7 @@ ganzhou_area = {
 }
 
 guangzhou_area = {
-	665 667 668 5517 5531
+	665 667 668 5531
 }
 
 guilin_area = {
