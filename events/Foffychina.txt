@@ -1028,6 +1028,17 @@ country_event = {
 	option = {
 		name = foffychina.32.a
 		add_years_of_income = -1
+		if = {
+			limit = {
+				5551 = {
+					has_building = weapons
+				}
+			}
+			5551 = {
+				remove_building = weapons
+			}
+			add_treasury = 500
+		}
 		5551 = {
 			change_trade_goods = gold
 			add_base_production = 5
@@ -1036,6 +1047,17 @@ country_event = {
 	
 	option = {
 		name = foffychina.32.b
+		if = {
+			limit = {
+				5551 = {
+					has_building = weapons
+				}
+			}
+			5551 = {
+				remove_building = weapons
+			}
+			add_treasury = 500
+		}
 		5551 = {
 			change_trade_goods = gold
 		}

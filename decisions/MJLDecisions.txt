@@ -72,6 +72,17 @@ country_decisions = {
 			mil_tech = 7
 		}
 		effect = {
+			if = {
+				limit = {
+					1056 = {
+						has_building = tradecompany
+					}
+				}
+				1056 = {
+					remove_building = tradecompany
+				}
+				add_treasury = 500
+			}
 			1056 = {
 				change_trade_goods = gold
 			}
