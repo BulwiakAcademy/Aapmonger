@@ -181,13 +181,6 @@ arctic = {
 
 #Example: Most of Europe north of med.
 mild_winter = {
-
-
-	# North America prev. acrtic
-	977 978 979
-	996 997 998 999 1004 1005 1006 1009
-	2591 2594 2592 2579 2577 2576 2578 2575 2574 2593 2611 2612 2613
-
 	# Scandinavia
   	6 12 13 14 15 26 1981 1982 1983 1984 4141 4142 4149 4165
 	# German North Sea Coast
