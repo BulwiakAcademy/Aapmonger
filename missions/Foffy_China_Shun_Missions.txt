@@ -1,3 +1,97 @@
+h_csh_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = CSH
+		OR = {
+			has_reform = h_reform_warlord_1
+			has_reform = h_reform_warlord_2
+			has_reform = h_reform_warlord_3
+			has_reform = h_reform_warlord_4
+		}
+	}
+	has_country_shield = yes
+	
+	china_csh_secure_taozhou = { #Sescure Taozhou
+		icon = mission_asian_city
+		position = 2
+		required_missions = { h_csh_starter }
+        provinces_to_highlight = {
+			province_id = 2183
+        }
+		trigger = {
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			owns_core_province = 2183
+		}
+		effect = {
+			add_treasury = 200
+			2183 = {
+				add_province_modifier = {
+					name = "china_csh_taozhou_conquered"
+					duration = 5475
+				}
+			}
+			every_province = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+					owned_by = XIA
+				}
+				add_permanent_claim = root
+			}
+		}
+	}
+
+	china_csh_conquer_xia = { #Conquer Xia
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { china_csh_secure_taozhou }
+        provinces_to_highlight = {
+			OR = {
+				province_id = 2184 #Xining
+				province_id = 708 #Baiyin
+				province_id = 5507 #Wuwei
+				province_id = 5665 #Minqin
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+        }
+		trigger = {
+			if = {
+				limit = {
+					was_player = yes
+				}
+				ai = no
+			}
+			owns_or_non_sovereign_subject_of = 2184
+			owns_or_non_sovereign_subject_of = 708
+			owns_or_non_sovereign_subject_of = 5507
+			owns_or_non_sovereign_subject_of = 5665
+		}
+		effect = {
+			add_country_modifier = {
+				name = "china_csh_silk_road_entrance"
+				duration = 5475
+			}
+			707 = {
+				add_trade_modifier = {
+					who = root
+					duration = 7300
+					power = 15
+					key = china_csh_yumen_entrance
+				}
+			}
+		}
+	}
+}
+
 h_csh_3 = {
 	slot = 3
 	generic = no
@@ -34,22 +128,6 @@ h_csh_3 = {
 			country_event = { id = foffychina.1 } #Ruler Event
 		}
 	}
-}
-
-h_csh_3 = {
-	slot = 3
-	generic = no
-	ai = yes
-	potential = {
-		tag = CSH
-		OR = {
-			has_reform = h_reform_warlord_1
-			has_reform = h_reform_warlord_2
-			has_reform = h_reform_warlord_3
-			has_reform = h_reform_warlord_4
-		}
-	}
-	has_country_shield = yes
 	
 	china_csh_gao_guiying = { #Gao Guiying
 		icon = mission_to_china
@@ -286,100 +364,6 @@ h_csh_3 = {
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
-			}
-		}
-	}
-}
-
-h_csh_2 = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential = {
-		tag = CSH
-		OR = {
-			has_reform = h_reform_warlord_1
-			has_reform = h_reform_warlord_2
-			has_reform = h_reform_warlord_3
-			has_reform = h_reform_warlord_4
-		}
-	}
-	has_country_shield = yes
-	
-	china_csh_secure_taozhou = { #Sescure Taozhou
-		icon = mission_asian_city
-		position = 2
-		required_missions = { h_csh_starter }
-        provinces_to_highlight = {
-			province_id = 2183
-        }
-		trigger = {
-			if = {
-				limit = {
-					was_player = yes
-				}
-				ai = no
-			}
-			owns_core_province = 2183
-		}
-		effect = {
-			add_treasury = 200
-			2183 = {
-				add_province_modifier = {
-					name = "china_csh_taozhou_conquered"
-					duration = 5475
-				}
-			}
-			every_province = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-					owned_by = XIA
-				}
-				add_permanent_claim = root
-			}
-		}
-	}
-
-	china_csh_conquer_xia = { #Conquer Xia
-		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { china_csh_secure_taozhou }
-        provinces_to_highlight = {
-			OR = {
-				province_id = 2184 #Xining
-				province_id = 708 #Baiyin
-				province_id = 5507 #Wuwei
-				province_id = 5665 #Minqin
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-        }
-		trigger = {
-			if = {
-				limit = {
-					was_player = yes
-				}
-				ai = no
-			}
-			owns_or_non_sovereign_subject_of = 2184
-			owns_or_non_sovereign_subject_of = 708
-			owns_or_non_sovereign_subject_of = 5507
-			owns_or_non_sovereign_subject_of = 5665
-		}
-		effect = {
-			add_country_modifier = {
-				name = "china_csh_silk_road_entrance"
-				duration = 5475
-			}
-			707 = {
-				add_trade_modifier = {
-					who = root
-					duration = 7300
-					power = 15
-					key = china_csh_yumen_entrance
-				}
 			}
 		}
 	}
@@ -691,7 +675,7 @@ h_csh_tier_2_4 = {
 	}
 }
 
-h_csh_tier3_3 = {
+h_csh_tier_3_3 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -810,7 +794,6 @@ h_csh_tier_3_4 = {
 		}
 	}
 }
-
 
 h_csh_tier_3_5 = {
 	slot = 5

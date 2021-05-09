@@ -627,42 +627,36 @@ country_decisions = {
 					tag = CSH
 				}
 				country_event = { id = foffychina.7 } #Ancillary 1
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
 					tag = CXI
 				}
 				country_event = { id = foffychina.10 } #Ancillary 1
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
 					tag = CYI
 				}
 				country_event = { id = foffychina.13 } #Ancillary 1
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
 					tag = QIC
 				}
 				country_event = { id = foffychina.16 } #Ancillary 1
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
 					tag = WUU
 				}
 				country_event = { id = foffychina.19 } #Ancillary 1
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
 					tag = YUE
 				}
 				country_event = { id = foffychina.22 } #Ancillary 1
-				swap_non_generic_missions = yes
 			}
 		}
 	}
@@ -690,42 +684,36 @@ country_decisions = {
 					tag = CSH
 				}
 				country_event = { id = foffychina.8 } #Ancillary 2
-				swap_non_generic_missions = yes
 			}	
 			if = {
 				limit = {
 					tag = CXI
 				}
 				country_event = { id = foffychina.11 } #Ancillary 2
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
 					tag = CYI
 				}
 				country_event = { id = foffychina.14 } #Ancillary 2
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
 					tag = QIC
 				}
 				country_event = { id = foffychina.17 } #Ancillary 2
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
 					tag = WUU
 				}
 				country_event = { id = foffychina.20 } #Ancillary 2
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
 					tag = YUE
 				}
 				country_event = { id = foffychina.23 } #Ancillary 2
-				swap_non_generic_missions = yes
 			}
 		}
 	}
@@ -765,7 +753,6 @@ country_decisions = {
 				}
 				country_event = { id = foffychina.9 } #Ancillary 3
 				override_country_name = CSH_Empire
-				swap_non_generic_missions = yes
 			}	
 			if = {
 				limit = {
@@ -773,7 +760,6 @@ country_decisions = {
 				}
 				country_event = { id = foffychina.12 } #Ancillary 3
 				override_country_name = CXI_Empire
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
@@ -781,7 +767,6 @@ country_decisions = {
 				}
 				country_event = { id = foffychina.15 } #Ancillary 3
 				override_country_name = CYI_Empire
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
@@ -789,7 +774,6 @@ country_decisions = {
 				}
 				country_event = { id = foffychina.18 } #Ancillary 3
 				override_country_name = QIC_Empire
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
@@ -797,7 +781,6 @@ country_decisions = {
 				}
 				country_event = { id = foffychina.21 } #Ancillary 3
 				override_country_name = WUU_Empire
-				swap_non_generic_missions = yes
 			}
 			if = {
 				limit = {
@@ -805,7 +788,6 @@ country_decisions = {
 				}
 				country_event = { id = foffychina.24 } #Ancillary 3
 				override_country_name = YUE_Empire
-				swap_non_generic_missions = yes
 			}
 		}
 	}
