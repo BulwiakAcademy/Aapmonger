@@ -191,7 +191,7 @@ stateless_society = {
 	modifiers = {
 		governing_capacity_modifier = -0.99
 		defensiveness = 0.75
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 }
 
