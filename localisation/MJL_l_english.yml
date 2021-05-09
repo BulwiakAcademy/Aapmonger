@@ -350,6 +350,7 @@
  mjl_colony_stability_fix_3_tt:0 "Gain §G3§! Stability."
  mjl_colony_stability_fix_2_tt:0 "Gain §G2§! Stability."
  mjl_colony_stability_fix_1_tt:0 "Gain §G1§! Stability."
+ mjl_colony_stabup_nativepolicy_tt:0 "Gained §G1§! Stability for Native Policy switch."
  mjl_colony_government_fix_tt:0 "§YReset all government reforms§!"
  EVTDESC702.a:0 "The term is up for $MONARCH$. With enough support [Root.Monarch.GetSheHe] can stay in office, but then [Root.Monarch.GetSheHe] must defeat [Root.Monarch.GetHerHis] three primary competitors...\n\n§RColonial Nations cannot reelect rulers below 20 Republican Tradition.§!"
  EVTDESC703:0 "The unfortunate passing of $MONARCH$ forces us to hold a premature election. Three primary candidates have been nominated...\n\n§RColonial Nations cannot reelect rulers below 20 Republican Tradition.§!"

@@ -356,6 +356,8 @@ country_event = {
 				add_stability = 1
 				set_country_flag = mjl_colony_stability_fix_1
 			}
+			# Stab for native policy
+			add_stability = 1
 			#### gov cleanup ####
 			#t2
 			if = {
@@ -562,6 +564,7 @@ country_event = {
 			custom_tooltip = mjl_colony_corruption_reset_tt
 		}
 		custom_tooltip = mjl_colony_government_fix_tt
+		custom_tooltip = mjl_colony_stabup_nativepolicy_tt
 	}
 }
 
