@@ -459,7 +459,7 @@ colony = {
 
 	# Subject Interactions:
 	customize_subject = yes
-	replace_governor = yes
+	replace_governor = no
 	start_colonial_war = yes
 	increase_tariffs = yes
 	decrease_tariffs = yes
