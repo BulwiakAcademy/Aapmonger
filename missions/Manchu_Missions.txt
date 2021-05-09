@@ -281,7 +281,7 @@ manchu_missions_1_b = {
 						}
 						controlled_by = ROOT
 						development = 25
-						devastation = 20
+						devastation = 10
 					}
 				}
 			}
@@ -374,7 +374,7 @@ manchu_missions_1_b = {
 						NOT = { owned_by = ROOT }
 						NOT = { is_core = ROOT }
 					}
-					add_core = ROOT
+					add_permanent_claim = ROOT
 				}
 			}
 		}

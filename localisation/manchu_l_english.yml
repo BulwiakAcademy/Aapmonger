@@ -21,7 +21,7 @@
  mch_devastate_china_desc:0 "Many Chinese cities are refusing to surrender to our armies, forcing us into long sieges that slow down our campaign. We must make an example of one of China's greatest cities to show them the consequences of defiance."
  mch_extinguish_ming_title:0 "Extinguish Ming"
  mch_extinguish_ming_desc:0 "So long as there is any remaining bastion of Ming loyalism, our rule over China will never truly be secure. We must eradicate the Ming totally."
- extinguish_ming_tt:0 "§Y[Root.GetName]§! gains cores on all unowned provinces on the §YChina§! subcontinent"
+ extinguish_ming_tt:0 "§Y[Root.GetName]§! gains pernament claims on all unowned provinces on the §YChina§! subcontinent"
  mch_ten_great_campaigns_title:0 "The Ten Great Campaigns"
  mch_ten_great_campaigns_desc:0 "We desire to exceed the accomplishments of all dynasties that have come before us. The boundaries of Qing must extend into Inner Asia and to the South, ruling over peoples that have never before known governance from Beijing."
  mch_confucian_administration_title:0 "Confucian Administration"
