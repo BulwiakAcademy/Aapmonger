@@ -11587,8 +11587,8 @@ YEM_ideas = {
 		merchants = 1
 	}
 	yem_foreign_embassies = {
+		movement_speed = 0.1
 		diplomats = 1
-		envoy_travel_time = -0.1
 	}
 }
 
