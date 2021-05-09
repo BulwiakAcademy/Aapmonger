@@ -14,7 +14,11 @@ country_decisions = {
 				NOT = { exists = SIA }
 				ai = no
 			}
-			culture_group = thai_group
+			OR = {
+				culture_group = thai_group
+				culture_group = southeastasian_group
+				culture_group = burman
+			}
 			OR = {
 				ai = no
 				AND = {
@@ -30,15 +34,19 @@ country_decisions = {
 					ai = no
 				}
 			}
-			OR = {
-				NOT = {
-					tag = AYU
-				}
-				NOT = { has_dlc = "Leviathan" }
-			}
 		}
 		provinces_to_highlight = {
-			region = indo_china_region
+			OR = {
+				region = indo_china_region
+				province_id = 600
+				province_id = 601
+				province_id = 589
+				province_id = 2380
+				province_id = 609
+				province_id = 586
+				province_id = 4399
+				province_id = 614
+			}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
@@ -47,27 +55,30 @@ country_decisions = {
 		
 		allow = {
 			NOT = { exists = SIA }
-			if = {
-				limit = {
-					tag = AYU
-				}
-				adm_tech = 20
-			}
+			adm_tech = 10
+			is_nomad = no
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			owns_core_province = 600
 			owns_core_province = 601
 			owns_core_province = 589
+			owns_core_province = 2380
+			owns_core_province = 609
+			owns_core_province = 586
+			owns_core_province = 4399
+			owns_core_province = 614
 			num_of_owned_provinces_with = {	
-				value = 20
+				value = 50
 				is_core = ROOT
-				region = indo_china_region
+				OR = {
+					region = indo_china_region
+					region = burma_region
+				}
 			}
 		}
 		
 		effect = {
 			change_tag = SIA
-			swap_non_generic_missions = yes
 			indo_china_region = {
 				limit = {
 					NOT = {
@@ -76,7 +87,18 @@ country_decisions = {
 				}
 				add_permanent_claim = ROOT
 			}
+			burma_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
 			add_prestige = 25
+			country_event = {
+				id = flavor_lna.3
+			}
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
