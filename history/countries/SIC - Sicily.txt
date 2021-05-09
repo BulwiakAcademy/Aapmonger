@@ -6,7 +6,7 @@ primary_culture = sicilian
 capital = 125	# Palermo
 
 
-1377.1.28 = {
+1414.1.28 = {
 	monarch = { 
 		name = "Maria I"
 		dynasty = "d'Aragó"
