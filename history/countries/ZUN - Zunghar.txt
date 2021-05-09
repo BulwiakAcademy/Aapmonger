@@ -6,6 +6,15 @@ religion = tengri_pagan_reformed
 technology_group = nomad_group
 capital = 5675 #Khorgas
 add_accepted_culture = khazak
+add_country_modifier = {
+	name = "mjl_privateer_efficiency_debuff"
+	duration = -1
+}
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -0.5
+}
 
 #Khans of the Choros
 1443.1.1 = {
