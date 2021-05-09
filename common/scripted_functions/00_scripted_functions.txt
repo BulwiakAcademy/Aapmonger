@@ -194,8 +194,8 @@ can_colonize_province = {
 				has_reform = african_colonists_reform
 				NOT = {
 					OR = {
-						has_idea_group = expansion_ideas
-						has_idea_group = exploration_ideas
+						has_idea = colonial_ventures
+						has_idea = additional_colonists
 					}
 				}
 			}
