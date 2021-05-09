@@ -7206,7 +7206,7 @@ estate_burghers_orang_laut_alliances = {
 	penalties = {
 	}
 	benefits = {
-		global_own_trade_power = 0.25
+		global_own_trade_power = 0.2
 	}
 	ai_will_do = {
 		factor = 10
