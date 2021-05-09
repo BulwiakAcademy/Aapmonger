@@ -11435,7 +11435,8 @@ emerald_buddha_alternate = {
 
 estate_burghers_tropical_mod = {
 	local_colonial_growth = 10
-	local_development_cost = -0.05
+	supply_limit_modifier = 0.3	
+	local_production_efficiency = 0.05
 }
 
 estate_church_lao_animism_mod = {
