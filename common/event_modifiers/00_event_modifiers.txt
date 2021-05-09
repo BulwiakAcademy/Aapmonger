@@ -827,8 +827,8 @@ counter_reformation = {
 	global_heretic_missionary_strength = 0.03
 	papal_influence = 0.5
 	missionaries = 2
-	technology_cost = 0.05
-	idea_cost = 0.05
+	#technology_cost = 0.05
+	#idea_cost = 0.05
 	religion = yes
 }
 
