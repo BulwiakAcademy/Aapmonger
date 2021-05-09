@@ -32,6 +32,7 @@ NDefines.NCountry.CORE_LOSE_PRESTIGE = 0
 NDefines.NCountry.ABANDON_CORE_PRESTIGE = 0
 NDefines.NCountry.PS_MOVE_TRADE_PORT = 100
 NDefines.NCountry.MINIMUM_POLICY_TIME = 5
+NDefines.NCountry.ABDICATE_LEGITIMACY_HIT = 0
 
 
 NDefines.NEconomy.CARAVAN_FACTOR = 3
