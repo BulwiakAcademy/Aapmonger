@@ -116,6 +116,11 @@ country_decisions = {
 				}
 			}
 			change_tag = NED
+			if = {
+				limit = { NOT = { government = republic } }
+				change_government_to_republic = yes
+			}
+			add_government_reform = dutch_republic
 			swap_non_generic_missions = yes
 			low_countries_region = {
 				limit = {
