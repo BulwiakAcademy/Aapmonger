@@ -1709,14 +1709,15 @@ country_event = {
 
 	option = {
 		name = "dutch_republic.33.a"
-		trigger = {
-			exiled_same_dynasty_as_current = "states_general_abolished_@ROOT"
-		}
+		#trigger = {
+			#exiled_same_dynasty_as_current = "states_general_abolished_@ROOT"
+		#}
 	}
 
 	option = {
 		name = "dutch_republic.33.b"
 		trigger = {
+			always = no
 			NOT = { exiled_same_dynasty_as_current = "states_general_abolished_@ROOT" }
 		}
 		set_ruler = "states_general_abolished_@ROOT"
