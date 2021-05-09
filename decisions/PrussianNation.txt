@@ -21,6 +21,7 @@ country_decisions = {
 				religion = protestant
 				religion = reformed
 				religion = hussite
+				religion = anglican
 			}
 		}
 
@@ -50,6 +51,7 @@ country_decisions = {
 				religion = protestant
 				religion = reformed
 				religion = hussite
+				religion = anglican
 			}
 		}
 
@@ -104,6 +106,7 @@ country_decisions = {
 				religion = protestant
 				religion = reformed
 				religion = hussite
+				religion = anglican
 			}
 			owns_core_province = 41			# Königsberg
 			OR = {
@@ -247,6 +250,7 @@ country_decisions = {
 				religion = reformed
 				religion = protestant
 				religion = hussite
+				religion = anglican
 			}
 			owns_core_province = 41 # Königsberg
 		}
@@ -380,6 +384,7 @@ country_decisions = {
 				religion = reformed
 				religion = protestant
 				religion = hussite
+				religion = anglican
 			}
 			owns_core_province = 41			# Königsberg
 			owns_core_province = 42			# Warmia
