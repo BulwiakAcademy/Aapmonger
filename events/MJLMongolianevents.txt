@@ -27,6 +27,7 @@ country_event = {
 				}
 				add_province_modifier = {
 					name = "mjl_mongolia_movespeed_boost"
+					hidden = yes
 					duration = -1
 				}
 			}
