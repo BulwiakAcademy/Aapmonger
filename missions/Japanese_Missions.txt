@@ -1,3 +1,36 @@
+PR_smz_missions1_slot = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = SMZ
+			tag = UES
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+
+	PR_smz_missions1_desc = {
+		icon = mission_japanese_samurai
+		position = 1
+		required_missions = {  }
+		trigger = {
+			AND = {
+				war_with = ASK
+				NOT = {
+					defensive_war_with = ASK
+				}
+			}
+		}
+		effect = {
+			add_stability = 3
+			add_war_exhaustion = -3
+		}
+	}
+}
+
 japanse_missions_sea = {
 	slot = 1
 	generic = no
@@ -12,9 +45,10 @@ japanse_missions_sea = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
-	
+
 	JAP_pacify_the_north = {
 		icon = mission_japanese_samurai
+		position = 2
 		required_missions = { }
 		provinces_to_highlight = {
 			OR = {
