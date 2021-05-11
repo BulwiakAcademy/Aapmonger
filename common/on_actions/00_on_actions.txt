@@ -403,6 +403,17 @@ on_peace_recipient = {
 # country
 # root = winning country, from = loser country
 on_war_won = {
+	#MJL stuff
+	if = {
+		limit = {
+			any_known_country = {
+				humiliated_by = ROOT
+			}
+			NOT = { has_country_flag = mjl_age_humiliated_rival }
+		}
+		set_country_flag = mjl_age_humiliated_rival
+	}
+	#Rest
 	FROM = { country_event = { id = flavor_cri.6 } }
 	ROOT = { country_event = { id = tributary_events.32 } }
 	
