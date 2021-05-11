@@ -266,6 +266,387 @@ country_decisions = {
 			set_ruler_flag = mjl_ruler_educated_flag
 		}
 	}
+	mjl_show_victory_states = {
+		major = yes
+		potential = {
+			always = yes
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = normandy_area
+				area = estonia_ingria_area
+				area = jutland_area
+				area = neumark_area
+				area = franconia_area
+				area = basque_country
+				area = piedmont_area
+				area = slovakia_area
+				area = tripolitania_area
+				area = kasai_area
+				area = uganda_area
+				area = upper_yemen_area
+				area = palestine_area
+				area = crimea_area
+				area = armenia_area
+				area = herat_area
+				area = upper_doab_area
+				area = ahmednagar_area
+				area = arakan_area
+				area = tenasserim_area
+				area = makassar_area
+				area = red_river_delta_area
+				area = jiangsu_area
+				area = jilin_area
+				area = xia_area
+			}
+			OR = {
+				AND = { 
+					NOT = { controlled_by = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				AND = {
+					NOT = { controlled_by = ROOT }
+					NOT = { controlled_by = REB }
+					owned_by = ROOT
+				}
+			}
+			has_discovered = ROOT
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_normandy
+				normandy_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_estonia
+				estonia_ingria_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_jutland
+				jutland_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_neumark
+				neumark_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_franconia
+				franconia_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_vasconia
+				basque_country = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_piedmont
+				piedmont_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_slovakia
+				slovakia_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_tripolitania
+				tripolitania_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_kasai
+				kasai_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_uganda
+				uganda_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_upper_yemen
+				upper_yemen_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_palestine
+				palestine_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_crimea
+				crimea_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_armenia
+				armenia_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_herat
+				herat_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_upper_doab
+				upper_doab_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_ahmednagar
+				ahmednagar_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_arakan
+				arakan_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_tenasserim
+				tenasserim_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_makassar
+				makassar_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_hong_song
+				red_river_delta_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_jiangsu
+				jiangsu_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_jilin
+				jilin_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_state_xia
+				xia_area = {
+					type = all
+					OR = {
+						controlled_by = ROOT
+						AND = {
+							controlled_by = REB
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+
+			always = no
+		}
+		effect = {
+		}
+	}
 	#ARUMBA LINES
 	dev_sum_clicks_decision = {
 		major = yes
@@ -283,8 +664,7 @@ country_decisions = {
 		}
 		effect = {
 		}
-	}
-	
+	}	
 	# PR decision to check if critical events have fired
 	PR_critical_events = {
 		major = yes
