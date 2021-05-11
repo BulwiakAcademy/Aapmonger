@@ -444,3 +444,5 @@
  mjl_victory_state_jiangsu:0 "Jiangsu area"
  mjl_victory_state_jilin:0 "South Jilin area"
  mjl_victory_state_xia:0 "Xia area"
+ estate_jains_advisor:0 "Jains Advisory Board"
+ estate_jains_advisor_desc:0 "In matters of commerce, the [Root.GetJainsName] are far more knowledgeable than the [Root.Monarch.GetTitle]. It would be folly not to make use of this advice to ensure that the wheels of the economy remain in motion."
