@@ -14,7 +14,7 @@ country_event = {
 		NOT = { war_exhaustion = 1 }
 		has_regency = no
 		NOT = { num_of_rebel_controlled_provinces = 1 }
-		NOT = { had_recent_war = 15 }
+		NOT = { had_recent_war = 25 }
 		has_truce = no
 		NOT = { has_spawned_rebels = pretender_rebels }
 	}
@@ -59,7 +59,7 @@ country_event = {
 		has_regency = no
 		has_heir = yes
 		NOT = { num_of_rebel_controlled_provinces = 1 }
-		NOT = { had_recent_war = 15 }
+		NOT = { had_recent_war = 25 }
 		has_truce = no
 		NOT = { has_spawned_rebels = pretender_rebels }		
 	}
@@ -106,7 +106,7 @@ country_event = {
 		has_heir = no
 		legitimacy = 10
 		NOT = { num_of_rebel_controlled_provinces = 1 }
-		NOT = { had_recent_war = 15 }
+		NOT = { had_recent_war = 25 }
 		has_truce = no
 	}
 	
