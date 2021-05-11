@@ -1,4 +1,12 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+488;487;sea;1516;-1;-1;-1;-1;Jamaica-Zui CARIBBEANS
+500;502;sea;1522;-1;-1;-1;-1;Trinidad-St. Vincent CARIBBEANS
+501;499;sea;1522;-1;-1;-1;-1;Barbados-St. Lucia CARIBBEANS
+1881;494;sea;1523;-1;-1;-1;-1;St. Martin-St. Kitts CARIBBEANS
+492;493;sea;1526;-1;-1;-1;-1;St. Thomas-Boriken CARIBBEANS
+492;4621;sea;1526;-1;-1;-1;-1;Boriken-Higuey CARIBBEANS
+483;2654;sea;1524;-1;-1;-1;-1;Baracoa-Turks Islands CARIBBEANS
+2654;489;sea;1516;-1;-1;-1;-1;Baracoa-Tortuga CARIBBEANS
 2684;2683;sea;1351;-1;-1;-1;-1;Nias-Mentawai SEA STRAITS
 2678;2679;sea;1360;-1;-1;-1;-1;Bangka-Belitung SEA STRAITS
 2679;4802;sea;1360;-1;-1;-1;-1;Pontianak-Belitung SEA STRAITS
@@ -15,7 +23,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2714;4799;sea;1359;-1;-1;-1;-1;Palu-Sangkulirang SEA STRAITS
 648;1245;sea;1400;-1;-1;-1;-1;Manokwari-Halmahera SEA STRAITS
 651;4354;sea;1398;-1;-1;-1;-1;Zamboanga-Sulu SEA STRAITS
-2654;489;sea;1516;-1;-1;-1;-1;Baracoa-Tortuga CARAIBEANS
 5528;666;sea;1370;-1;-1;-1;-1;Zhanhjing-Kiungchow China
 1017;4651;sea;1376;-1;-1;-1;-1;Suo-Tsushima Korea-Japan
 2745;4651;sea;1376;-1;-1;-1;-1;Gyeongju-Tsushima Korea-Japan
