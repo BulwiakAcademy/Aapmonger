@@ -194,7 +194,10 @@ tengri_pagan_reformed_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = pagan
+		OR = {
+			religion_group = pagan
+			dominant_religion = tengri_pagan_reformed
+		}
 	}
 	
 	# Country scope
@@ -243,11 +246,24 @@ tengri_pagan_reformed_rebels = {
 		}
 		else_if = {
 			limit = {
-				religion_group = pagan
 				NOT = { religion = tengri_pagan_reformed }
+				dominant_religion = tengri_pagan_reformed
 			}
 			change_religion = tengri_pagan_reformed
 			force_converted = yes
+		}
+		else_if = {
+			limit = {
+				NOT = { religion = tengri_pagan_reformed }
+				NOT = { dominant_religion = tengri_pagan_reformed }
+				religion_group = pagan
+				NOT = { has_country_modifier = heretic_tolerance }
+			}
+			add_country_modifier = {
+				name = "heretic_tolerance"
+				duration = 3650
+			}
+			add_stability = -1
 		}
 		else = { add_stability = -1 } #Should probably never get here
 		if = {
