@@ -162,6 +162,7 @@ estate_rajput = {
 		estate_rajput_rajput_regiments
 		estate_rajput_military
 		estate_rajput_advisor
+		estate_rajput_levies
 		estate_rajput_grant_generalship
 		estate_rajput_loyalty_privilege
 		estate_rajput_officer_corp
@@ -169,7 +170,6 @@ estate_rajput = {
 		estate_rajput_monopoly_of_metals
 		estate_rajput_monopoly_of_livestock
 		estate_rajput_monopoly_of_gems
-		estate_rajput_levies 
 	}
 
 	agendas = {

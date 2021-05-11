@@ -809,6 +809,9 @@ estate_nobles_nobility_primacy = {
 	land_share = 10
 	max_absolutism = -5
 	loyalty = -0.05
+	is_valid = {
+		NOT = { technology_group = indian }
+	}
 	can_select = {
 		custom_trigger_tooltip = {
 			tooltip = no_other_mil_privilege
@@ -889,6 +892,7 @@ estate_nobles_levies = {
 	influence = 0.1
 	is_valid = {
 		NOT = { has_estate_privilege = estate_nobles_golden_liberty }
+		NOT = { technology_group = indian }
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_nobles_golden_liberty }
@@ -990,6 +994,9 @@ estate_nobles_advisors = {
 	max_absolutism = -5
 	influence = 0.1
 	loyalty = 0.05
+	is_valid = {
+		NOT = { technology_group = indian }
+	}
 	penalties = {
 		stability_cost_modifier = 0.1
 	}
@@ -2570,6 +2577,7 @@ estate_maratha_military = {
 	max_absolutism = -5
 	loyalty = -0.05
 	is_valid = {
+		technology_group = indian
 	}
 	can_select = {
 		custom_trigger_tooltip = {
@@ -2628,7 +2636,7 @@ estate_maratha_advisor = {
 	max_absolutism = -5
 	influence = 0.1
 	is_valid = {
-		NOT = { religion_group = muslim }
+		technology_group = indian
 	}
 	loyalty = 0.05
 	penalties = {
@@ -2677,7 +2685,7 @@ estate_maratha_levies = {
 	max_absolutism = -5
 	influence = 0.1
 	is_valid = {
-		NOT = { religion_group = muslim }
+		technology_group = indian
 	}
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.10
@@ -2872,6 +2880,7 @@ estate_rajput_military = {
 	max_absolutism = -5
 	loyalty = -0.05
 	is_valid = {
+		technology_group = indian
 	}
 	can_select = {
 		custom_trigger_tooltip = {
@@ -2930,7 +2939,7 @@ estate_rajput_advisor = {
 	max_absolutism = -5
 	influence = 0.1
 	is_valid = {
-		NOT = { religion_group = muslim }
+		technology_group = indian
 	}
 	loyalty = 0.05
 	penalties = {

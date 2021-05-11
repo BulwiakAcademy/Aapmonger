@@ -3,7 +3,7 @@ estate_rajput_levies = {
 	max_absolutism = -5
 	influence = 0.1
 	is_valid = {
-		NOT = { religion_group = muslim }
+		technology_group = indian
 	}
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.10

@@ -159,8 +159,8 @@ estate_maratha = {
 		estate_maratha_advisor
 		estate_marathas_grant_generalship
 		estate_maratha_special_privilege
-		estate_maratha_loyalty_privilege
 		estate_maratha_levies
+		estate_maratha_loyalty_privilege
 		estate_maratha_levies_for_muslims
 		estate_maratha_monopoly_of_metals
 		estate_maratha_monopoly_of_livestock
