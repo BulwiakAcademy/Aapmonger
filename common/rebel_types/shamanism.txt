@@ -195,7 +195,10 @@ shamanism_rebels = {
 	
 	# Country scope
 	can_negotiate_trigger = {
-		religion_group = pagan
+		OR = {
+			religion_group = pagan
+			dominant_religion = shamanism
+		}
 	}
 	
 	# Country scope
@@ -244,11 +247,24 @@ shamanism_rebels = {
 		}
 		else_if = {
 			limit = {
-				religion_group = pagan
 				NOT = { religion = shamanism }
+				dominant_religion = shamanism
 			}
 			change_religion = shamanism
 			force_converted = yes
+		}
+		else_if = {
+			limit = {
+				NOT = { religion = shamanism }
+				NOT = { dominant_religion = shamanism }
+				religion_group = pagan
+				NOT = { has_country_modifier = heretic_tolerance }
+			}
+			add_country_modifier = {
+				name = "heretic_tolerance"
+				duration = 3650
+			}
+			add_stability = -1
 		}
 		else = { add_stability = -1 } #Should probably never get here
 		if = {
