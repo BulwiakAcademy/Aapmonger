@@ -43,6 +43,7 @@ country_event = {
 	picture = MILITARY_CAMP_eventPicture
 	
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	trigger = {
 		TAG = MER
@@ -53,9 +54,9 @@ country_event = {
 		num_of_cities = 3
 	}
 	
-	mean_time_to_happen = {
-		months = 105
-	}
+	#mean_time_to_happen = {
+	#	months = 105
+	#}
 	
 	immediate = {
 		hidden_effect = {
