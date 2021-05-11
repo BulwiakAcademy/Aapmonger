@@ -6,8 +6,8 @@ estate_rajput_levies = {
 		NOT = { religion_group = muslim }
 	}
 	modifier_by_land_ownership = {
-		global_tax_modifier = -0.25
-		global_manpower_modifier = 0.5
+		global_tax_modifier = -0.10
+		global_manpower_modifier = 0.25
 	}
 	penalties = {
 	}
