@@ -305,7 +305,7 @@ daimyo_vassal = {
 	enforce_culture = no
 	seize_territory = no
 	#(enable)
-	force_seppuku = yes
+	force_seppuku = no
 	contribute_to_capital = yes
 	force_isolation = yes
 	return_land = yes
