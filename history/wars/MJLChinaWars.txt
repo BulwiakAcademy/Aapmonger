@@ -1,20 +1,20 @@
-name = "China War"
-war_goal = {
-	type = take_capital_throne
-	casus_belli = cb_claim_throne
-	tag = QIC
-}
-
-1443.1.1 = {
-	add_attacker = MJZ
-	add_defender = QIC
-	add_defender = JIN
-	add_defender = YAN
-}
-# Peace
+#name = "China War"
+#war_goal = {
+#	type = take_capital_throne
+#	casus_belli = cb_claim_throne
+#	tag = QIC
+#}
+#
+#1443.1.1 = {
+#	add_attacker = MJZ
+#	add_defender = QIC
+#	add_defender = JIN
+#	add_defender = YAN
+#}
+##Peace
 1444.11.11 = {
-	rem_attacker = MJZ
-	rem_defender = QIC
-	rem_defender = JIN
-	rem_defender = YAN
-}
+#	rem_attacker = MJZ
+#	rem_defender = QIC
+#	rem_defender = JIN
+#	rem_defender = YAN
+#}
