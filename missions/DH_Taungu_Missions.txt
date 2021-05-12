@@ -576,12 +576,20 @@ tau_slot_3 = {
 				limit = {
 					586 = {
 						province_has_center_of_trade_of_level = 1
-						NOT = { province_has_center_of_trade_of_level = 3 }
+						NOT = { 
+							OR = {
+								province_has_center_of_trade_of_level = 2
+								province_has_center_of_trade_of_level = 3
+							}
+						}
 					}
 				}
 				586 = {
 					add_center_of_trade_level = 1
 				}
+			}
+			else = {
+				add_treasury = 250
 			}
 			arakan_area = {
 				limit = {
