@@ -931,12 +931,12 @@ VRN_ideas = {
 
 VEN_ideas = {
 	start = {
-		global_sailors_modifier = 0.20
+		land_morale = 0.1
 		global_trade_power = 0.1
 	}
 	
 	bonus = {
-		galley_power = 0.25
+		galley_power = 0.2
 	}
 	
 	trigger = {
@@ -950,16 +950,17 @@ VEN_ideas = {
 	}
 	printing_industry = {
 		diplomats = 1
+		development_cost = -0.05
 	}
 	stato_da_mar = {
-		trade_efficiency = 0.10
-	}
-	state_inquisition = {
-		global_spy_defence = 0.3
+		trade_efficiency = 0.15
 	}
 	conscription = {
 		naval_maintenance_modifier = -0.2
 		sailor_maintenance_modifer = -0.05
+	}
+	state_inquisition = {
+		infantry_power = 0.15
 	}
 	defend_the_law = {
 		stability_cost_modifier = -0.1
