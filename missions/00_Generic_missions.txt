@@ -412,8 +412,16 @@ administrative_missions = {
 				}
 				ai = no
 			}
-			temple = 5
-			workshop = 5
+			num_of_owned_provinces_with = {
+				value = 5
+				has_tax_building_trigger = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 5
+				has_production_building_trigger = yes
+			}
+			#temple = 5
+			#workshop = 5
 		}
 		effect = {
 			add_adm_power = 50
