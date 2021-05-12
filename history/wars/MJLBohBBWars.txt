@@ -1,0 +1,16 @@
+name = "Bohemia-Brandenburg War"
+war_goal = {
+	type = take_capital_throne
+	casus_belli = cb_claim_throne
+	tag = BOH
+}
+
+1443.1.1 = {
+	add_attacker = BOH
+	add_defender = BRA
+}
+# Peace
+1444.11.11 = {
+	rem_attacker = BOH
+	rem_defender = BRA
+}
