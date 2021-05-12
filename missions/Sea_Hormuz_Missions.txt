@@ -696,7 +696,7 @@ sealand_hormuz_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			override_country_name = THE_CALIPHATE
+			override_country_name = RASHIDUN_CALIPHATE
 		}
 	}
 }
