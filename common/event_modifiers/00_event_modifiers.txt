@@ -2287,7 +2287,7 @@ swedish_military_reforms = {
 
 swedish_mercenary_core = {
 	land_maintenance_modifier = -0.05
-	amount_of_banners = 0.25
+	amount_of_banners = 0.3
 }
 
 swedish_naval_reforms = {
