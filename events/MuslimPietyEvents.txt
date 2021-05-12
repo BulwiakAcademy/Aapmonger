@@ -1657,8 +1657,8 @@ country_event = {
 			remove_heir = yes
 		}
 		add_piety = -0.25
-		add_legitimacy = -25
-		add_stability = -1
+		#add_legitimacy = -25
+		#add_stability = -1
 	}
 }
 
