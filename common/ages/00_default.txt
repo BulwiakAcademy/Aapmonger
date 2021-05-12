@@ -492,8 +492,20 @@ age_of_absolutism = {
 		}
 		
 		obj_emperor_of_china = {
-			is_emperor_of_china = yes
-			imperial_mandate = 50
+			OR = {	
+				AND = {
+					is_emperor = yes
+					imperial_influence = 40
+				}
+				AND = {
+					government_rank = 3
+					grown_by_development = 1000
+				}
+				AND = {
+					is_emperor_of_china = yes
+					imperial_mandate = 50
+				}
+			}
 		}
 		
 		obj_cultures_accepted = {
