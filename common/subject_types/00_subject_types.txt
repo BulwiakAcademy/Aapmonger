@@ -307,7 +307,7 @@ daimyo_vassal = {
 	#(enable)
 	force_seppuku = no
 	contribute_to_capital = yes
-	force_isolation = yes
+	force_isolation = no
 	return_land = yes
 	conscript_general = yes
 	#(special)
