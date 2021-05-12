@@ -1366,7 +1366,7 @@ black_army_reform = {
 	}
 	modifiers = {
 		land_maintenance_modifier = -0.05
-		amount_of_banners = 0.1
+		amount_of_banners = 0.35
 		nobles_loyalty_modifier = -0.1
 	}
 	ai = {
