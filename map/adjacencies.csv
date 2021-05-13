@@ -1,4 +1,13 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+;;sea;;-1;-1;-1;-1;
+;;sea;;-1;-1;-1;-1;
+;;sea;;-1;-1;-1;-1;
+;;sea;;-1;-1;-1;-1;
+;;sea;;-1;-1;-1;-1;
+;;sea;;-1;-1;-1;-1;
+4624;2652;sea;1512;-1;-1;-1;-1;Guane-Ecab CARIBBEANS
+493;1881;sea;1523;-1;-1;-1;-1;St. Martin-St. Thomas CARIBBEANS
+496;497;sea;1523;-1;-1;-1;-1;Guadelupe-Dominica CARIBBEANS
 488;487;sea;1516;-1;-1;-1;-1;Jamaica-Zui CARIBBEANS
 500;502;sea;1522;-1;-1;-1;-1;Trinidad-St. Vincent CARIBBEANS
 501;499;sea;1522;-1;-1;-1;-1;Barbados-St. Lucia CARIBBEANS
