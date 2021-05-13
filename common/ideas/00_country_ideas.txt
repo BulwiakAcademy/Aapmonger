@@ -15522,7 +15522,7 @@ SIA_ideas = {
 		diplomatic_reputation = 2
 	}
 	sia_encourage_immigration = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	sia_integrating_the_realm = {
 		diplomatic_annexation_cost = -0.2
