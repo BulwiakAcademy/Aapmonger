@@ -1043,6 +1043,7 @@ province_event = {
 
 	trigger = {
 		has_great_project = suez_canal
+		always = no
 	}
 	
 	mean_time_to_happen = {
@@ -1067,6 +1068,7 @@ province_event = {
 
 	trigger = {
 		has_great_project = panama_canal
+		always = no
 	}
 	
 	mean_time_to_happen = {

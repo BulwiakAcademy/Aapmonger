@@ -16,7 +16,7 @@ suez_canal = {
 	time = 120
 	
 	modifier = {
-		province_trade_power_value = 20
+		province_trade_power_value = 10
 	}
 }
 
@@ -27,6 +27,6 @@ panama_canal = {
 	time = 120
 	
 	modifier = {
-		province_trade_power_value = 20
+		province_trade_power_value = 10
 	}
 }
