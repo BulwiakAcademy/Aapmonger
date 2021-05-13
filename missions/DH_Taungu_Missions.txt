@@ -604,11 +604,16 @@ tau_slot_3 = {
 	tau_build_palace = {
 		icon = mission_kanbawzathadi_palace
 		required_missions = { tau_conquer_pegu }
+		provinces_to_highlight = {
+			province_id = 586
+		}
 		trigger = {
 			586 = {
 				#is_capital = yes
 				development = 20
 				owned_by = ROOT
+				is_core = ROOT
+				is_state_core = ROOT
 			}
 		}
 		effect = {
