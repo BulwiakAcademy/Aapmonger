@@ -83,6 +83,9 @@ country_event = {
 			has_regency = yes
 		}
 		define_ruler = {
+			DIP = 1
+			ADM = 1
+			MIL = 1
 			dynasty = ROOT #Uncles, or other relatives were by far the most likely coup-makers
 		}
 		kill_heir = yes

@@ -1648,7 +1648,11 @@ country_event = {
 			define_ruler = { dynasty = ROOT }
 		}
 		else = {
-			define_ruler = { }
+			define_ruler = {
+				DIP = 1
+				ADM = 1
+				MIL = 1
+			}
 		}
 		if = {
 			limit = {
