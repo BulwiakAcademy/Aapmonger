@@ -1,9 +1,9 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-;;sea;;-1;-1;-1;-1;
-;;sea;;-1;-1;-1;-1;
-;;sea;;-1;-1;-1;-1;
-;;sea;;-1;-1;-1;-1;
-;;sea;;-1;-1;-1;-1;
+321;2302;sea;1317;-1;-1;-1;-1;Cyprus-Icel MEDITERRANEAN
+320;319;sea;1319;-1;-1;-1;-1;Rhodes-Mentesha MEDITERRANEAN
+4736;341;sea;1302;-1;-1;-1;-1;Tunis-Trapani MEDITERRANEAN
+2982;126;sea;1305;-1;-1;-1;-1;Siracusa-Malta MEDITERRANEAN
+115;1247;sea;1298;-1;-1;-1;-1;Pisa-Corsica MEDITERRANEAN
 235;87;sea;1271;-1;-1;-1;-1;Kent-Calais EC
 4624;2652;sea;1512;-1;-1;-1;-1;Guane-Ecab CARIBBEANS
 493;1881;sea;1523;-1;-1;-1;-1;St. Martin-St. Thomas CARIBBEANS

@@ -447,6 +447,16 @@ fort_15th = {
 			#English Channel
 			province_id = 235
 			province_id = 87
+			#Mediteranean
+			province_id = 115
+			province_id = 2982
+			province_id = 126
+			province_id = 341
+			province_id = 4736
+			province_id = 320
+			province_id = 319
+			province_id = 321
+			province_id = 2302
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -662,6 +672,16 @@ fort_15th = {
 			#English Channel
 			province_id = 235
 			province_id = 87
+			#Mediteranean
+			province_id = 115
+			province_id = 2982
+			province_id = 126
+			province_id = 341
+			province_id = 4736
+			province_id = 320
+			province_id = 319
+			province_id = 321
+			province_id = 2302
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -1085,6 +1105,16 @@ fort_16th = {
 			#English Channel
 			province_id = 235
 			province_id = 87
+			#Mediteranean
+			province_id = 115
+			province_id = 2982
+			province_id = 126
+			province_id = 341
+			province_id = 4736
+			province_id = 320
+			province_id = 319
+			province_id = 321
+			province_id = 2302
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -1300,6 +1330,16 @@ fort_16th = {
 			#English Channel
 			province_id = 235
 			province_id = 87
+			#Mediteranean
+			province_id = 115
+			province_id = 2982
+			province_id = 126
+			province_id = 341
+			province_id = 4736
+			province_id = 320
+			province_id = 319
+			province_id = 321
+			province_id = 2302
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -1885,6 +1925,16 @@ fort_17th = {
 			#English Channel
 			province_id = 235
 			province_id = 87
+			#Mediteranean
+			province_id = 115
+			province_id = 2982
+			province_id = 126
+			province_id = 341
+			province_id = 4736
+			province_id = 320
+			province_id = 319
+			province_id = 321
+			province_id = 2302
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -2100,6 +2150,16 @@ fort_17th = {
 			#English Channel
 			province_id = 235
 			province_id = 87
+			#Mediteranean
+			province_id = 115
+			province_id = 2982
+			province_id = 126
+			province_id = 341
+			province_id = 4736
+			province_id = 320
+			province_id = 319
+			province_id = 321
+			province_id = 2302
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -2564,6 +2624,16 @@ fort_18th = {
 			#English Channel
 			province_id = 235
 			province_id = 87
+			#Mediteranean
+			province_id = 115
+			province_id = 2982
+			province_id = 126
+			province_id = 341
+			province_id = 4736
+			province_id = 320
+			province_id = 319
+			province_id = 321
+			province_id = 2302
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -2780,6 +2850,16 @@ fort_18th = {
 			#English Channel
 			province_id = 235
 			province_id = 87
+			#Mediteranean
+			province_id = 115
+			province_id = 2982
+			province_id = 126
+			province_id = 341
+			province_id = 4736
+			province_id = 320
+			province_id = 319
+			province_id = 321
+			province_id = 2302
 			NOT = {
 				any_neighbor_province = {
 					owner = {
