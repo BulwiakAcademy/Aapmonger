@@ -285,6 +285,7 @@ h_reform_sinicized_horde = {
 		tag = QNG
 	}
 	modifiers = {
+		infantry_power = 0.1
 		monarch_admin_power = 1
 		administrative_efficiency = 0.05
 		land_forcelimit_modifier = 0.2
