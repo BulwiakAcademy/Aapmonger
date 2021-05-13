@@ -14,7 +14,7 @@ mjl_berc_fl_3000 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 470	
+	local_amount_of_banners = 920	
 }
 
 mjl_berc_fl_2950 = {
@@ -36,7 +36,7 @@ mjl_berc_fl_2950 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 462
+	local_amount_of_banners = 905
 }
 
 mjl_berc_fl_2900 = {
@@ -58,7 +58,7 @@ mjl_berc_fl_2900 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 455
+	local_amount_of_banners = 890
 }
 
 mjl_berc_fl_2850 = {
@@ -80,7 +80,7 @@ mjl_berc_fl_2850 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 447
+	local_amount_of_banners = 875
 }
 
 mjl_berc_fl_2800 = {
@@ -102,7 +102,7 @@ mjl_berc_fl_2800 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 440
+	local_amount_of_banners = 860
 }
 
 mjl_berc_fl_2750 = {
@@ -124,7 +124,7 @@ mjl_berc_fl_2750 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 432
+	local_amount_of_banners = 845
 }
 
 mjl_berc_fl_2700 = {
@@ -146,7 +146,7 @@ mjl_berc_fl_2700 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 425
+	local_amount_of_banners = 830
 }
 
 mjl_berc_fl_2650 = {
@@ -168,7 +168,7 @@ mjl_berc_fl_2650 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 417
+	local_amount_of_banners = 815
 }
 
 mjl_berc_fl_2600 = {
@@ -190,7 +190,7 @@ mjl_berc_fl_2600 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 410
+	local_amount_of_banners = 800
 }
 
 mjl_berc_fl_2550 = {
@@ -212,7 +212,7 @@ mjl_berc_fl_2550 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 402
+	local_amount_of_banners = 785
 }
 
 mjl_berc_fl_2500 = {
@@ -234,7 +234,7 @@ mjl_berc_fl_2500 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 395
+	local_amount_of_banners = 770
 }
 
 mjl_berc_fl_2450 = {
@@ -256,7 +256,7 @@ mjl_berc_fl_2450 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 387
+	local_amount_of_banners = 755
 }
 
 mjl_berc_fl_2400 = {
@@ -278,7 +278,7 @@ mjl_berc_fl_2400 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 380
+	local_amount_of_banners = 740
 }
 
 mjl_berc_fl_2350 = {
@@ -300,7 +300,7 @@ mjl_berc_fl_2350 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 372
+	local_amount_of_banners = 725
 }
 
 mjl_berc_fl_2300 = {
@@ -322,7 +322,7 @@ mjl_berc_fl_2300 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 365
+	local_amount_of_banners = 710
 }
 
 mjl_berc_fl_2250 = {
@@ -344,7 +344,7 @@ mjl_berc_fl_2250 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 357
+	local_amount_of_banners = 695
 }
 
 mjl_berc_fl_2200 = {
@@ -366,7 +366,7 @@ mjl_berc_fl_2200 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 350
+	local_amount_of_banners = 680
 }
 
 mjl_berc_fl_2150 = {
@@ -388,7 +388,7 @@ mjl_berc_fl_2150 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 342
+	local_amount_of_banners = 665
 }
 
 mjl_berc_fl_2100 = {
@@ -410,7 +410,7 @@ mjl_berc_fl_2100 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 335
+	local_amount_of_banners = 650
 }
 
 mjl_berc_fl_2050 = {
@@ -432,7 +432,7 @@ mjl_berc_fl_2050 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 327
+	local_amount_of_banners = 635
 }
 
 mjl_berc_fl_2000 = {
@@ -454,7 +454,7 @@ mjl_berc_fl_2000 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 320
+	local_amount_of_banners = 620
 }
 
 mjl_berc_fl_1950 = {
@@ -476,7 +476,7 @@ mjl_berc_fl_1950 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 312
+	local_amount_of_banners = 605
 }
 
 mjl_berc_fl_1900 = {
@@ -498,7 +498,7 @@ mjl_berc_fl_1900 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 305
+	local_amount_of_banners = 590
 }
 
 mjl_berc_fl_1850 = {
@@ -520,7 +520,7 @@ mjl_berc_fl_1850 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 297
+	local_amount_of_banners = 575
 }
 
 mjl_berc_fl_1800 = {
@@ -542,7 +542,7 @@ mjl_berc_fl_1800 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 290
+	local_amount_of_banners = 560
 }
 
 mjl_berc_fl_1750 = {
@@ -564,7 +564,7 @@ mjl_berc_fl_1750 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 282
+	local_amount_of_banners = 545
 }
 
 mjl_berc_fl_1700 = {
@@ -586,7 +586,7 @@ mjl_berc_fl_1700 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 275
+	local_amount_of_banners = 530
 }
 
 mjl_berc_fl_1650 = {
@@ -608,7 +608,7 @@ mjl_berc_fl_1650 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 267
+	local_amount_of_banners = 515
 }
 
 mjl_berc_fl_1600 = {
@@ -630,29 +630,7 @@ mjl_berc_fl_1600 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 260
-}
-
-mjl_berc_fl_1600 = {
-	potential = {
-		owner = {
-			land_forcelimit = 1600
-			NOT = { 
-				land_forcelimit = 1650
-			}
-			NOT = {
-				num_of_owned_provinces_with = {
-					value = 2
-					has_province_flag = mjl_merc_province_origin
-				}
-			}
-		}
-	}
-
-	trigger = {
-	}
-
-	local_amount_of_banners = 260
+	local_amount_of_banners = 500
 }
 
 mjl_berc_fl_1550 = {
@@ -674,7 +652,7 @@ mjl_berc_fl_1550 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 252
+	local_amount_of_banners = 485
 }
 
 mjl_berc_fl_1500 = {
@@ -696,7 +674,7 @@ mjl_berc_fl_1500 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 245
+	local_amount_of_banners = 470
 }
 
 mjl_berc_fl_1450 = {
@@ -718,7 +696,7 @@ mjl_berc_fl_1450 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 237
+	local_amount_of_banners = 455
 }
 
 mjl_berc_fl_1400 = {
@@ -740,7 +718,7 @@ mjl_berc_fl_1400 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 230
+	local_amount_of_banners = 440
 }
 
 mjl_berc_fl_1350 = {
@@ -762,7 +740,7 @@ mjl_berc_fl_1350 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 222
+	local_amount_of_banners = 425
 }
 
 mjl_berc_fl_1300 = {
@@ -784,7 +762,7 @@ mjl_berc_fl_1300 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 215
+	local_amount_of_banners = 410
 }
 
 mjl_berc_fl_1250 = {
@@ -806,7 +784,7 @@ mjl_berc_fl_1250 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 207
+	local_amount_of_banners = 395
 }
 
 mjl_berc_fl_1200 = {
@@ -828,7 +806,7 @@ mjl_berc_fl_1200 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 200
+	local_amount_of_banners = 380
 }
 
 mjl_berc_fl_1150 = {
@@ -850,7 +828,7 @@ mjl_berc_fl_1150 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 192
+	local_amount_of_banners = 365
 }
 
 mjl_berc_fl_1100 = {
@@ -872,7 +850,7 @@ mjl_berc_fl_1100 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 185
+	local_amount_of_banners = 350
 }
 
 mjl_berc_fl_1050 = {
@@ -894,7 +872,7 @@ mjl_berc_fl_1050 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 177
+	local_amount_of_banners = 335
 }
 
 mjl_berc_fl_1000 = {
@@ -916,7 +894,7 @@ mjl_berc_fl_1000 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 170
+	local_amount_of_banners = 320
 }
 
 mjl_berc_fl_950 = {
@@ -938,7 +916,7 @@ mjl_berc_fl_950 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 162
+	local_amount_of_banners = 305
 }
 
 mjl_berc_fl_900 = {
@@ -960,7 +938,7 @@ mjl_berc_fl_900 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 155
+	local_amount_of_banners = 290
 }
 
 mjl_berc_fl_850 = {
@@ -982,7 +960,7 @@ mjl_berc_fl_850 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 147
+	local_amount_of_banners = 275
 }
 
 mjl_berc_fl_800 = {
@@ -1004,7 +982,7 @@ mjl_berc_fl_800 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 140
+	local_amount_of_banners = 260
 }
 
 mjl_berc_fl_750 = {
@@ -1026,7 +1004,7 @@ mjl_berc_fl_750 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 132
+	local_amount_of_banners = 245
 }
 
 mjl_berc_fl_700 = {
@@ -1048,7 +1026,7 @@ mjl_berc_fl_700 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 125
+	local_amount_of_banners = 230
 }
 
 mjl_berc_fl_650 = {
@@ -1070,7 +1048,7 @@ mjl_berc_fl_650 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 117
+	local_amount_of_banners = 215
 }
 
 mjl_berc_fl_600 = {
@@ -1092,7 +1070,7 @@ mjl_berc_fl_600 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 110
+	local_amount_of_banners = 200
 }
 
 mjl_berc_fl_550 = {
@@ -1114,7 +1092,7 @@ mjl_berc_fl_550 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 102
+	local_amount_of_banners = 185
 }
 
 mjl_berc_fl_500 = {
@@ -1136,7 +1114,7 @@ mjl_berc_fl_500 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 95
+	local_amount_of_banners = 170
 }
 
 mjl_berc_fl_450 = {
@@ -1158,7 +1136,7 @@ mjl_berc_fl_450 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 87
+	local_amount_of_banners = 155
 }
 
 mjl_berc_fl_400 = {
@@ -1180,7 +1158,7 @@ mjl_berc_fl_400 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 80
+	local_amount_of_banners = 140
 }
 
 mjl_berc_fl_350 = {
@@ -1202,7 +1180,7 @@ mjl_berc_fl_350 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 72
+	local_amount_of_banners = 125
 }
 
 mjl_berc_fl_300 = {
@@ -1224,7 +1202,7 @@ mjl_berc_fl_300 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 65
+	local_amount_of_banners = 110
 }
 
 mjl_berc_fl_250 = {
@@ -1246,7 +1224,7 @@ mjl_berc_fl_250 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 57
+	local_amount_of_banners = 95
 }
 
 mjl_berc_fl_200 = {
@@ -1268,7 +1246,7 @@ mjl_berc_fl_200 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 50
+	local_amount_of_banners = 80
 }
 
 mjl_berc_fl_150 = {
@@ -1290,7 +1268,7 @@ mjl_berc_fl_150 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 42
+	local_amount_of_banners = 65
 }
 
 mjl_berc_fl_100 = {
@@ -1312,7 +1290,7 @@ mjl_berc_fl_100 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 35
+	local_amount_of_banners = 50
 }
 
 mjl_berc_fl_50 = {
@@ -1334,7 +1312,7 @@ mjl_berc_fl_50 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 27
+	local_amount_of_banners = 35
 }
 
 mjl_berc_fl_25 = {
@@ -1356,7 +1334,7 @@ mjl_berc_fl_25 = {
 	trigger = {
 	}
 
-	local_amount_of_banners = 23
+	local_amount_of_banners = 28
 }
 
 mjl_berc_fl_0 = {
