@@ -1323,7 +1323,7 @@ mahra_area = { #3
 }
 
 yamamah_area = { #4
-	2335 2336 2339 4275
+	2335 2336 2339 4275 4276 #MJL Hormuz
 }
 
 qasim_area = { #4
