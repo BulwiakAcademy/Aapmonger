@@ -1,5 +1,9 @@
 #Rwanda
 
+latent_trade_goods = {
+	coal
+}
+
 owner = RWA
 controller = RWA
 add_core = RWA

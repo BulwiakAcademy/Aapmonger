@@ -1,5 +1,9 @@
 #475 - Bashkortostan
 
+latent_trade_goods = {
+	coal
+}
+
 owner = KAZ
 controller = KAZ
 culture = bashkir

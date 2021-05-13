@@ -1,5 +1,9 @@
 #503 - Kutch
 
+latent_trade_goods = {
+	coal
+}
+
 owner = KAT
 controller = KAT
 culture = saurashtri

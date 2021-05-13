@@ -1,5 +1,9 @@
 # No previous file for Bedde
 
+latent_trade_goods = {
+	coal
+}
+
 owner = KBO
 controller = KBO
 add_core = KBO

@@ -1,5 +1,9 @@
 #Hälsingland-Gästrikland-Medelpad, from Gävle to Näs
 
+latent_trade_goods = {
+	coal
+}
+
 add_core = SWE
 owner = SWE
 controller = SWE

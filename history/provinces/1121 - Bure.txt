@@ -1,5 +1,9 @@
 #1121 - Bure
 
+latent_trade_goods = {
+	coal
+}
+
 owner = MAL
 controller = MAL
 culture = mali

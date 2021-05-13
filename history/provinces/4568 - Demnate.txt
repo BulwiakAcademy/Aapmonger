@@ -1,5 +1,9 @@
 #Demnate
 
+latent_trade_goods = {
+	coal
+}
+
 owner = MOR
 controller = MOR 
 add_core = MOR 

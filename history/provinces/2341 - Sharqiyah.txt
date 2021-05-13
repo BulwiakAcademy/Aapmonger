@@ -1,5 +1,9 @@
 #2341 - Sharqiyah
 
+latent_trade_goods = {
+	coal
+}
+
 owner = ORM
 controller = ORM
 culture = omani_culture

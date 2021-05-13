@@ -1,5 +1,9 @@
 #449 - Ghor
 
+latent_trade_goods = {
+	coal
+}
+
 #owner = TIM
 #controller = TIM
 owner = AFG

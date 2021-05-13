@@ -1,5 +1,9 @@
 #1823 - Stung Treng
 
+latent_trade_goods = {
+	coal
+}
+
 owner = KHM
 controller = KHM
 culture = khmer

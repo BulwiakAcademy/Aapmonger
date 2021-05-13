@@ -1,5 +1,9 @@
 #476 - Kypshak
 
+latent_trade_goods = {
+	coal
+}
+
 owner = SHY
 controller = SHY
 culture = khazak

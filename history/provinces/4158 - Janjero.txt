@@ -1,5 +1,9 @@
 #4158 - Janjero
 
+latent_trade_goods = {
+	coal
+}
+
 owner = JJI
 controller = JJI
 add_core = JJI
