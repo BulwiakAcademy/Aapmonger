@@ -123,7 +123,7 @@ union = {
 }
 
 # Croatia-Hungary, post-Ladislaus of Naples' attempt to take the Croatian and Hungarian crowns
-union = {
+vassal = {
 	first = HUN
 	second = CRO
 	start_date = 1409.1.1
