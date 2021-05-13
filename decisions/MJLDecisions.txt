@@ -56,34 +56,34 @@ country_decisions = {
 				tag = ZUN
 				tag = YUA
 			}
-			1056 = {
+			1053 = {
 				NOT = { trade_goods = gold }
 			}
 		}
 		provinces_to_highlight = {
-			province_id = 1056
+			province_id = 1053
 		}
 		ai_will_do = {
 			factor = 0
 		}
 		allow = {
-			owns_core_province = 1056 #Barguzin
+			owns_core_province = 1053 #Barguzin
 			dip_tech = 7
 			mil_tech = 7
 		}
 		effect = {
 			if = {
 				limit = {
-					1056 = {
+					1053 = {
 						has_building = tradecompany
 					}
 				}
-				1056 = {
+				1053 = {
 					remove_building = tradecompany
 				}
 				add_treasury = 500
 			}
-			1056 = {
+			1053 = {
 				change_trade_goods = gold
 			}
 		}
