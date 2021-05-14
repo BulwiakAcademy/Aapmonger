@@ -15262,12 +15262,6 @@ MAJ_ideas = {
 	maj_restore_candi = {
 		global_missionary_strength = 0.02
 	}
-	maj_maritime_silk_road = {
-		trade_efficiency = 0.1
-	}
-	maj_nusa_tenggara = {
-		colonists = 1
-	}
 	maj_gajah_madas_oath = {
 		land_morale = 0.1
 	}
@@ -15275,8 +15269,14 @@ MAJ_ideas = {
 		heavy_ship_power = 0.1
 		navy_tradition = 1
 	}
+	maj_maritime_silk_road = {
+		trade_efficiency = 0.1
+	}
 	maj_reformed_bhattara_saptaprabhu = {
 		advisor_cost = -0.15
+	}
+	maj_nusa_tenggara = {
+		colonists = 1
 	}
 }
 
