@@ -1277,11 +1277,11 @@ bahrain_area = { #5
 }
 
 pirate_coast_area = { #4
-	397 398 404 2333
+	397 398 2333 5729 5730 #MJL Arabia
 }
 
 nafud_area = { #3
-	393 2338 4272
+	393 2338 4272 5725 5726 #MJL Arabia
 }
 
 tabuk_area = { #4
@@ -1298,7 +1298,7 @@ mecca_area = { #5
 }
 
 asir_area = { #3
-	386 391 4282
+	386 391 4282 5741 #MJL Arabia
 }
 
 tihama_al_yemen_area = { #3
@@ -1315,15 +1315,15 @@ yemen_area = { #Lower Yemen #
 }
 
 hadramut_area = { #3
-	389 2343 4283
+	389 2343 4283 5740 #MJL Arabia
 }
 
 mahra_area = { #3
-	402 1099 4284
+	402 1099 4284 5739 #MJL Arabia
 }
 
 yamamah_area = { #4
-	2335 2336 2339 4275 4276 #MJL Hormuz
+	2335 2336 4275 4276 5727 #MJL Arabia
 }
 
 qasim_area = { #4
@@ -1331,11 +1331,11 @@ qasim_area = { #4
 }
 
 dhofar_area = { #3 (Dhofar + Masirah)
-	401 2341 2342
+	401 5736 5737 5738 #MJL Arabia
 }
 
 oman_area = { #3 (Oman Proper)
-	403 4285 4287  
+	403 4285 4287 5732 #MJL Arabia
 }
 
 mascat_area = { #3 (Batinah and Muscat coast
@@ -3116,14 +3116,14 @@ yunnan_area = {
 }
 
 ##############################
-#		Korea areas
+#		PR Korea areas
 ##############################
 fo1_area = {
-	5669 5670 5671
+	5669 5670 5671 #PR Korea
 }
 
 ##############################
-#		Mongol Split
+#		MJL Mongol Split
 ##############################
 mangyshlak_area = {
 	439 443 5699 5698 #Oirat Split
@@ -3163,17 +3163,32 @@ lower_ob_area = {
 }
 
 ##############################
-#		Sumatra Wastelands
+#		MJL Sumatra Wastelands
 ##############################
 
 upper_wasteland_sumatra_area = {
-	5717 5718 5719 5721
+	5717 5718 5719 5721 #MJL Indonesia
 }
 
 lower_wasteland_sumatra_area = {
-	4808 5716 5720
+	4808 5716 5720 #MJL Indonesia
 }
 
+##############################
+#		MJL Arabia
+##############################
+
+tal_moreeb_area = {
+	404 2339 5728 5731 #MJL Arabia
+}
+
+al_muthanna_area = {
+	5722 5723 5724 #MJL Arabia
+}
+
+al_wusta_area = {
+	2341 2342 5733 5734 5735 #MJL Arabia
+}
 
 ########################################
 # South America    	                   #

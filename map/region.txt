@@ -426,6 +426,9 @@ arabia_region = {
 		qasim_area
 		yamamah_area
 		nafud_area
+		al_wusta_area #MJL Arabia
+		al_muthanna_area #MJL Arabia
+		tal_moreeb_area #MJL Arabia
 	}
 }
 

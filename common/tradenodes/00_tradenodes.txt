@@ -1265,7 +1265,7 @@ gulf_of_aden={
 	members={
 		2324 2775 2782 2783 2786 2788 2789 2790 2793 2794 2795 2024 1205 1206 1209 1212 1215 1230 2765 2773 2792 2784 1211 2764 2787 1232 1331 1779 
 		2768 #Angot
-		401 2341 2342 #dhofar_area
+		401 #dhofar_area
 		402 1099 4284 #mahra_area
 		387 2346 4279 #tihama_al_yemen_area
 		390 2344 4281 #upper_yemen_area
@@ -1274,6 +1274,8 @@ gulf_of_aden={
 		389 2343 4283 #hadramut_area
 		1328 1329 1330 4333 #Red Sea Area
 		4346
+		#MJL Arabia
+		5736 5737 5738 5739 5740 5741
 	}
 }
 hormuz={
@@ -1297,6 +1299,8 @@ hormuz={
 		399 400 4286 #mascat_area
 		431 2999 4327 #mogostan_area
 		1332 1334 1335 4347#Sea
+		#MJL Arabia
+		2339 2341 2342 5728 5729 5730 5731 5732 5733 5734 5735
 	}
 }
 zanzibar={
@@ -1358,12 +1362,14 @@ basra={
 		394 395 396 2340 2347 #bahrain_area
 		393 2338 4272 #nafud_area
 		392 2337 4273 4274 #qasim_area
-		2335 2336 2339 4275 #yamamah_area
+		2335 2336 4275 #yamamah_area
 		408 2311 2312 4288 #basra_area
 		406 409 410 2310 4291 #iraq_arabi_area
 		413 414 2209 2210 #luristan_area
 		415 2211 4293 4294 #shahrizor_area
 		2334 4276 #Wasteland
+		#MJL Arabia
+		5722 5723 5724 5725 5726 5727
 	}
 }
 samarkand={
