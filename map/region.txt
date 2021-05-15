@@ -575,6 +575,7 @@ kongo_region = {
 		matamba_area
 		lower_kasai
 		kasai_area
+		namibe_area #MJL Africa
 	}
 	monsoon = {
 		00.02.01
@@ -618,6 +619,8 @@ south_africa_region = {
 		butua_area
 		limpopo_area
 		transvaal_area
+		kunene_area #MJL Africa
+		karas_area #MJL Africa
 	}
 	monsoon = {
 		00.11.01
