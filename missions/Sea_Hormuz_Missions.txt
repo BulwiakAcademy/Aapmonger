@@ -272,6 +272,7 @@ sealand_hormuz_missions_2 = {
 				area = mahra_area
 				area = hadramut_area
 				area = bahrain_area
+				area = dhofar_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -296,6 +297,10 @@ sealand_hormuz_missions_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			bahrain_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			dhofar_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -361,6 +366,7 @@ sealand_hormuz_missions_2 = {
 				area = yamamah_area
 				area = qasim_area
 				area = nafud_area
+				area = tal_moreeb_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -385,6 +391,10 @@ sealand_hormuz_missions_2 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			nafud_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tal_moreeb_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -418,6 +428,13 @@ sealand_hormuz_missions_2 = {
 				add_permanent_claim = ROOT
 			}
 			tabuk_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			al_muthanna_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
@@ -558,6 +575,20 @@ sealand_hormuz_missions_3 = {
 				add_permanent_claim = ROOT
 			}
 			bahrain_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			dhofar_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			tal_moreeb_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
