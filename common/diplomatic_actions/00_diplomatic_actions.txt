@@ -693,6 +693,24 @@ tributary_state_action = {
 			}
 		}
 	}
+	condition = {
+		tooltip = mjl_tooltip_oirattrib
+		potential = {
+			ROOT = { tag = OIR }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = mjl_tooltip_ayutrib
+		potential = {
+			ROOT = { tag = AYU }
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 # tributary_state_action
 # ask_for_tributary_state_action

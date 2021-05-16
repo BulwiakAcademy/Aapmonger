@@ -50,3 +50,5 @@
  mjl_altaic_herdsmen_desc:0 ""
  mjl_herd_bonus_prod:0 "Hersmen Society"
  mjl_esen_choros_death_modifier:0 "Death of Esen Taishi"
+ mjl_tooltip_ayutrib:0 "Ayutthaya may not have tributaries"
+ mjl_tooltip_oirattrib:0 "Oirat may not have tributaries"
