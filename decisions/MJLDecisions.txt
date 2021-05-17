@@ -23,30 +23,30 @@ country_decisions = {
 			country_event = { id = mjl_events.5 }
 		}
 	}
-	mjl_kongo_return_to_the_roots = {
-		major = yes
-		potential = {
-			tag = KON
-			NOT = { religion = shamanism }
-			NOT = { has_country_flag = mjl_kongo_back_to_roots_flag }
-		}
-		allow = {
-			stability = 1
-			dominant_religion = shamanism
-		}
-		effect = {
-			set_country_flag = mjl_kongo_back_to_roots_flag
-			add_prestige = -25
-			add_stability = -2
-			change_religion = shamanism
-			capital_scope = {
-				change_religion = ROOT
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}	
+	#mjl_kongo_return_to_the_roots = {
+	#	major = yes
+	#	potential = {
+	#		tag = KON
+	#		NOT = { religion = shamanism }
+	#		NOT = { has_country_flag = mjl_kongo_back_to_roots_flag }
+	#	}
+	#	allow = {
+	#		stability = 1
+	#		dominant_religion = shamanism
+	#	}
+	#	effect = {
+	#		set_country_flag = mjl_kongo_back_to_roots_flag
+	#		add_prestige = -25
+	#		add_stability = -2
+	#		change_religion = shamanism
+	#		capital_scope = {
+	#			change_religion = ROOT
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 0
+	#	}
+	#}	
 	mjl_manchu_buryat_gold = {
 		major = yes
 		potential = {
