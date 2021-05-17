@@ -301,13 +301,54 @@ country_decisions = {
 			}
 			OR = {
 				AND = { 
-					NOT = { controlled_by = ROOT }
-					NOT = { owned_by = ROOT }
+					NOT = {
+						controller = {
+							OR = {
+								tag = ROOT
+								AND = {
+									is_subject_of = ROOT
+									NOT = {
+										is_subject_of_type = tributary_state
+									}
+								}
+							}
+						}
+					}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
 				}
 				AND = {
-					NOT = { controlled_by = ROOT }
-					NOT = { controlled_by = REB }
-					owned_by = ROOT
+					country_or_non_sovereign_subject_holds = ROOT
+					controller = {
+						NOT = { tag = ROOT }
+						NOT = { tag = REB }
+						AND = {
+							was_player = yes
+							is_free_or_tributary_trigger = yes
+						}
+						NOT = {
+							AND = {
+								is_subject_of = ROOT
+								NOT = {
+									is_subject_of_type = tributary_state
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					country_or_non_sovereign_subject_holds = ROOT
+					controller = {
+						is_subject = yes
+						NOT = {
+							is_subject_of = ROOT 
+						}
+						NOT = {
+							is_subject_of_type = tributary_state
+						}
+						overlord = {
+							was_player = yes
+						}
+					}
 				}
 			}
 			has_discovered = ROOT
@@ -322,9 +363,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -335,9 +409,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -348,9 +455,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -361,9 +501,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -374,9 +547,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -387,9 +593,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -400,9 +639,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -413,9 +685,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -426,9 +731,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -439,9 +777,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -452,9 +823,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -465,9 +869,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -478,9 +915,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -491,9 +961,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -504,9 +1007,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -517,9 +1053,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -530,9 +1099,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -543,9 +1145,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -556,9 +1191,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -569,9 +1237,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -582,9 +1283,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -595,9 +1329,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -608,9 +1375,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -621,9 +1421,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -634,9 +1467,42 @@ country_decisions = {
 					type = all
 					OR = {
 						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
 						AND = {
-							controlled_by = REB
-							owned_by = ROOT
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
 						}
 					}
 				}
