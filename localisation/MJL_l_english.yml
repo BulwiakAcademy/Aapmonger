@@ -1,5 +1,6 @@
 ﻿l_english:
- new_world_player_nerf:0 "New World Capital"
+ new_world_player_nerf:0 "Colony with over 300 development"
+ new_world_player_nerf_600:0 "Colony with over 600 development"
  merc_weak_horses:0 "Light Lancers"
  merc_steppe_horses:0 "Steppe Lancers"
  merc_tengri_horses:0 "Eagle Warriors"
