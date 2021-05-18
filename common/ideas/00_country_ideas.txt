@@ -15467,7 +15467,7 @@ MLC_ideas = {
 MSA_ideas = {
     start = {
         global_trade_power = 0.15
-        land_morale = 0.15
+        land_morale = 0.1
     }
     bonus = {
         ship_durability = 0.1
@@ -15495,6 +15495,7 @@ MSA_ideas = {
     }
     msa_sea_nomads_steering = {
         trade_steering = 0.25
+		manpower_recovery_speed = 0.1
     }
     msa_spice_kings = {
         global_trade_goods_size_modifier = 0.1
