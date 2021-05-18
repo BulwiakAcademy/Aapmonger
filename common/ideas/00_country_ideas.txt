@@ -2688,6 +2688,7 @@ TAU_ideas = {
 	}
 	chakravartin = {
 		monarch_military_power = 1
+		yearly_absolutism = 1
 	}
 	the_hluttaw = {
 		global_unrest = -2
@@ -2698,7 +2699,7 @@ TAU_ideas = {
 	}
 	bayingyi = {
 		infantry_cost = -0.15
-		infantry_power = 0.15
+		infantry_power = 0.1
 	}
 }
 
