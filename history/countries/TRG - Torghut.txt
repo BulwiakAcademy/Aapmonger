@@ -6,6 +6,16 @@ religion = tengri_pagan_reformed
 technology_group = nomad_group
 capital = 4684 #Narym
 
+1414.1.1 = {
+	monarch = {
+		name = "Kho Orluk"
+		dynasty = "Torghut"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
 1633.1.1 = {
 	monarch = {
 		name = "Kho Orluk"

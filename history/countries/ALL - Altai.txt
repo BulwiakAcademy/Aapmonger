@@ -5,3 +5,13 @@ primary_culture = oirats
 religion = tengri_pagan_reformed
 technology_group = nomad_group
 capital = 1066 #Altai Uriankhai
+
+1414.1.1 = {
+	monarch = {
+		name = "Altan"
+		dynasty = "Altay"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
