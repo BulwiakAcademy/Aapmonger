@@ -447,3 +447,8 @@
  mjl_victory_state_xia:0 "Xia area"
  estate_jains_advisor:0 "Jains Advisory Board"
  estate_jains_advisor_desc:0 "In matters of commerce, the [Root.GetJainsName] are far more knowledgeable than the [Root.Monarch.GetTitle]. It would be folly not to make use of this advice to ensure that the wheels of the economy remain in motion."
+ tau_organized_campaigns1:0 "Organized Military Campaigns"
+ tau_organized_campaigns1_desc:0 "To reach our enemies we must often travel great distances across harsh terrain. We must plan our campaigns far in advance, making sure that we are well supplied and that conditions in the camps do not ferment disease or desertion. With these preparations in place we will march our armies into Siam and beyond!"
+ TAU_buffed_ideas:1 "Burmese Ideas"
+ TAU_buffed_ideas_start:0 "Burmese Traditions"
+ TAU_buffed_ideas_bonus:0 "Burmese Ambition"

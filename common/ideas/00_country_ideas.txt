@@ -2673,6 +2673,7 @@ TAU_ideas = {
 			tag = TAU
 			tag = BPR
 		}
+		NOT = { mission_completed = tau_universal_ruler }
 	}
 	free = yes
 	

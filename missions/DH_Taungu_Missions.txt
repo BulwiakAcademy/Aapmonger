@@ -416,6 +416,7 @@ tau_slot_2 = {
 			}
 		}
 		effect = {
+			#set_country_flag = mjl_tau_empire_flag
 			set_government_rank = 3
 			northern_thai_area = {
 				limit = {
@@ -423,6 +424,10 @@ tau_slot_2 = {
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
 	}
