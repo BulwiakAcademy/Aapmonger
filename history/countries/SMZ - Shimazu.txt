@@ -5,6 +5,7 @@ primary_culture = kyushuan
 religion = shinto
 technology_group = chinese
 capital = 1012	# Satsuma
+add_sailors = 200
 add_country_modifier = {
 	name = "mjl_privateer_efficiency_debuff"
 	duration = -1
