@@ -120,3 +120,7 @@ PR_commandant_cooldown = {
 PR_grand_captain_cooldown = {
 	land_morale = 0.001
 }
+
+mjl_angkorian_empire_modifier = {
+	prestige = 1
+}

@@ -452,3 +452,7 @@
  TAU_buffed_ideas:1 "Burmese Ideas"
  TAU_buffed_ideas_start:0 "Burmese Traditions"
  TAU_buffed_ideas_bonus:0 "Burmese Ambition"
+ mjl_angkorian_empire_modifier:0 "Angkorian Empire"
+ mjl_khmer_empire_title:0 "Reforge the Angkorian Empire"
+ mjl_khmer_empire_desc:0 ""
+ MJL_Kambuja:0 "Kambujadesa"

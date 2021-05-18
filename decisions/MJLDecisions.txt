@@ -88,6 +88,38 @@ country_decisions = {
 			}
 		}
 	}
+	mjl_khmer_empire = {
+		major = yes
+		potential = {
+			tag = KHM
+		}
+		provinces_to_highlight = {
+			region = indo_china_region
+			NOT = { owned_by = ROOT }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			num_of_owned_provinces_with = {
+				value = 50
+				region = indo_china_region
+			}
+		}
+		effect = {
+			country_event = {
+				id = flavor_lna.3
+			}
+			add_country_modifier = {
+				name = "mjl_angkorian_empire_modifier"
+				duration = -1
+			}
+			override_country_name = MJL_Kambuja
+		}
+	}
 	mjl_educate_ruler = {
 		major = yes
 		potential = {
