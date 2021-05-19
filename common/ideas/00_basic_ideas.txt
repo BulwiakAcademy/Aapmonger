@@ -189,7 +189,8 @@ indigenous_ideas = {
 	}
 
 	trigger = {
-		government = native
+		#government = native
+		always = no
 	}
 
 	indigenous_bountiful_land = {
