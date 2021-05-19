@@ -510,6 +510,7 @@ horn_of_africa_region = {
 		damot_area
 		aussa_area
 		shewa_area
+		bale_mountains_area #MJL Africa
 	}
 }
 
@@ -556,6 +557,7 @@ central_africa_region = {
 		rwanda_area
 		chokwe_area
 		bunyoro_area
+		imatong_area #MJL Africa
 	}
 	monsoon = {
 		00.10.01
