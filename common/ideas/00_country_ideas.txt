@@ -9088,11 +9088,11 @@ YUA_ideas = {
 		technology_cost = -0.1
 	}
 	yua_keshik_and_weijun = {
-		shock_damage = 0.1
+		shock_damage = 0.15
 		cavalry_fire = 1
 	}
 	yua_a_thousand_miles_as_if_at_home = {
-		movement_speed = 0.15
+		movement_speed = 0.2
 		envoy_travel_time = -0.1
 	}
 	yua_sino_mongol_administration = {
