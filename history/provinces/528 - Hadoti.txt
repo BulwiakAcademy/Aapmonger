@@ -1,7 +1,8 @@
 #528 - Hadoti
 
-owner = HAD
-controller = HAD
+owner = MER
+controller = MER
+add_core = MER
 culture = rajput
 religion = hinduism
 capital = "Kota"
