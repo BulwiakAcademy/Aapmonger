@@ -68,8 +68,8 @@ plutocracy_ideas = {
 	}
 
 	trigger = {
-		NOT = { government = theocracy }
-		NOT = { has_reform = steppe_horde }
+		#NOT = { government = theocracy }
+		#NOT = { has_reform = steppe_horde }
 	}
 
 	tradition_of_payment = {
