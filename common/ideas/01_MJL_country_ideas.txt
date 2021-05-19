@@ -356,7 +356,7 @@ TAU_buffed_ideas = {
 			tag = TAU
 			tag = BPR
 		}
-		mission_completed = tau_universal_ruler
+		has_country_flag = mjl_tau_empire_flag
 	}
 	free = yes
 	

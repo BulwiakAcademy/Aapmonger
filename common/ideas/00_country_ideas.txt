@@ -2673,7 +2673,7 @@ TAU_ideas = {
 			tag = TAU
 			tag = BPR
 		}
-		NOT = { mission_completed = tau_universal_ruler }
+		NOT = { has_country_flag = mjl_tau_empire_flag }
 	}
 	free = yes
 	
