@@ -38,7 +38,8 @@ modernized_society_views_modifier = {
 	female_advisor_chance = 0.1
 }
 mesopotamian_mamluks_modifier = {
-	cavalry_cost = -0.2
+	cavalry_power = 0.05
+	cav_to_inf_ratio = 0.1
 }
 prepare_for_europe_hugbox_modifier = {
 	manpower_recovery_speed = 0.3
