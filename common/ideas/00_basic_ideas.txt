@@ -18,6 +18,7 @@ aristocracy_ideas = {
 	trigger = {
 		NOT = { government = theocracy }
 		NOT = { has_reform = steppe_horde }
+		NOT = { has_reform = great_mongol_state_reform }
 	}
 	
 	noble_knights = {
