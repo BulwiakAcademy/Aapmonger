@@ -66,7 +66,10 @@ h_populate_altai_mountains = {
 			tag = ZUN
 			tag = YUA
 		}
-		has_reform = steppe_horde
+		OR = {
+			has_reform = steppe_horde
+			has_reform = great_mongol_state_reform
+		}
 	}
 	on_granted = {
 		custom_tooltip = h_populate_altai_mountains_effect_tooltip
