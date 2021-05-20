@@ -118,6 +118,7 @@ country_decisions = {
 			}
 		}
 		effect = {
+			add_adm_power = 150
 			1816 = {
 				add_base_tax = 1
 				add_base_production = 1
