@@ -124,3 +124,7 @@ PR_grand_captain_cooldown = {
 mjl_angkorian_empire_modifier = {
 	prestige = 1
 }
+
+mjl_eco_replacement = {
+	development_cost = -0.1
+}

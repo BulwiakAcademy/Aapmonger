@@ -457,3 +457,7 @@
  mjl_khmer_empire_desc:0 ""
  MJL_Kambuja:0 "Kambujadesa"
  mjl_tau_idea_buff_tt:0 "Improves Burmese §YOrganized Military Campaigns§! National Idea."
+ mjl_eco_replacement:0 "Eco Ideas Replacement"
+ mjl_events.EVTNAME16:0 "Eco Ideas Replacement"
+ mjl_events.EVTDESC16:0 "Modifier added to replace Economic idea group finisher while still keeping same dev cost timings/numbers."
+ mjl_events.EVTOPTA16:0 "Deez nuts"

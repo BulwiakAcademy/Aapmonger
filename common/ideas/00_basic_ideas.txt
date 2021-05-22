@@ -22,26 +22,26 @@ aristocracy_ideas = {
 	}
 	
 	noble_knights = {
-		cavalry_power = 0.10
-		cavalry_cost = -0.10
+		cavalry_power = 0.15
+		land_forcelimit_modifier = 0.25
 	}
 	military_traditions = {
 		mil_tech_cost_modifier  = -0.1
 		cav_to_inf_ratio = 0.25
 	}
 	local_nobility = {
-		global_autonomy = -0.025
-		yearly_absolutism = 0.5
+		global_autonomy = -0.1
+		yearly_absolutism = 1
 	}
 	serfdom = {
-		global_manpower_modifier = 0.33
+		global_manpower_modifier = 0.5
 	}
 	noble_officers = {
 		army_tradition_decay = -0.01
 		navy_tradition_decay = -0.01
 	}
 	international_nobility = {
-		diplomats = 1
+		backrow_artillery_damage = 0.1
 		free_leader_pool = 1
 	}
 	noble_resilience = {
@@ -118,22 +118,22 @@ horde_gov_ideas = {
 		cavalry_cost = -0.33
 	}
 	beyond_the_sun = {
-		ae_impact = -0.1
+		years_of_nationalism = -5
 	}
 	mandate_of_the_khan = {
-		religious_unity = 0.25
+		shock_damage = 0.1
 	}
 	there_shall_be_no_grass = {
 		land_attrition = -0.2
 	}
 	horde_loyalty = {
-		global_unrest = -1
+		horde_unity = 1
 	}
 	watchers_of_the_silk_road = {	
-		caravan_power = 0.20
+		fire_damage_received = -0.1
 	}
 	a_magnanimous_empire = {
-		num_accepted_cultures = 2
+		manpower_recovery_speed = 0.2
 	}
 	
 	ai_will_do = {
@@ -158,10 +158,10 @@ theocracy_gov_ideas = {
 		devotion = 1
 	}
 	by_the_grace_of_god = {
-		fire_damage_received = -0.1
+		shock_damage_received = -0.15
 	}
 	friends_in_high_places = {
-		leader_cost = -0.2
+		global_regiment_recruit_speed = -0.1
 	}
 	flesh_is_weak = {
 		land_morale = 0.1
@@ -230,7 +230,7 @@ innovativeness_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.25
+		advisor_cost = -0.20
 	}
 
 	patron_of_art  = {
@@ -278,16 +278,16 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		culture_conversion_cost = -0.25
+		stability_cost_modifier = -0.25
 		brahmins_hindu_loyalty_modifier = 0.1
 		church_loyalty_modifier = 0.1
 	}
 
-	missionary_schools = {
-		missionaries = 1
+	deus_vult = {
+		cb_on_religious_enemies = yes
 	}
 	church_attendance_duty = {
-		stability_cost_modifier = -0.25
+		culture_conversion_cost = -0.25
 	}
 	divine_supremacy = {
 		global_missionary_strength = 0.03
@@ -301,12 +301,13 @@ religious_ideas = {
 	}
 	religious_tradition = {
 		prestige = 1
+		global_tax_modifier = 0.10
 	}
 	inquisition = {
 		missionary_maintenance_cost = -0.5
 	}
-	deus_vult = {
-		cb_on_religious_enemies = yes
+	missionary_schools = {
+		missionaries = 1
 	}
 
 	ai_will_do = {
@@ -445,13 +446,14 @@ defensive_ideas = {
 
 	bonus = {
 		hostile_attrition = 1
+		land_morale = 0.05
 	}
 
 	battlefield_commisions = {
 		army_tradition_from_battle = 1.0
 	}
 	military_drill = {
-		land_morale = 0.15
+		land_morale = 0.10
 	}
 	improved_manuever = {
 		leader_land_manuever = 1
@@ -499,7 +501,7 @@ trade_ideas = {
 		merchants = 1
 	}
 	trade_manipulation = {
-		trade_steering = 0.25
+		global_own_trade_power = 0.2
 	}
 	fast_negotiations = {
 		caravan_power = 0.25
@@ -526,7 +528,7 @@ economic_ideas = {
 	category = ADM
 
 	bonus = {
-		development_cost = -0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 
 	bureaucracy = {
@@ -597,14 +599,15 @@ exploration_ideas = {
 		range = 0.5
 	}
 	land_of_opportunity = {
-		global_colonial_growth = 10
+		global_colonial_growth = 20
 	}
 	vice_roys  = {
 		global_tariffs = 0.10
- 		envoy_travel_time = -0.20
+ 		min_autonomy_in_territories = -0.1
  	}
 	free_colonies = {
-		expel_minorities_cost = -1.0
+		colonists = 1
+		colonist_placement_chance = 0.05
 	}
 	global_empire = {
 		naval_forcelimit_modifier = 0.25
@@ -783,8 +786,7 @@ maritime_ideas = {
 		admiral_cost = -0.25
 	}
 	naval_fighting_instruction = {
-		blockade_efficiency = 0.5
-		privateer_efficiency = 0.25
+		allowed_marine_fraction = 0.15
 	}
 
 	ai_will_do = {
@@ -900,6 +902,9 @@ expansion_ideas = {
 	bonus = {
  		min_autonomy_in_territories = -0.1
 	}
+	trigger = {
+		always = no
+	}
 
 	additional_colonists = {
 		colonists = 1
@@ -984,7 +989,7 @@ administrative_ideas = {
 		global_regiment_cost = -0.05
 	}
 	adaptability = {
-		core_creation = -0.25
+		core_creation = -0.15
 	}
 	benefits_for_mercenaries = {
 		land_maintenance_modifier = -0.05
@@ -1061,6 +1066,7 @@ influence_ideas = {
 
 	tribute_system = {
 		vassal_income = 0.25
+		vassal_forcelimit_bonus = 1
 	}
 	
 	additional_loyalist_recruitment = {
@@ -1072,12 +1078,14 @@ influence_ideas = {
 	}
 	buffer_states = {
 		diplomatic_upkeep = 1
-	}
-	diplomatic_influence = {
 		diplomatic_reputation = 2
 	}
+	diplomatic_influence = {
+		rival_border_fort_maintenance = -0.25
+		center_of_trade_upgrade_cost = -0.2
+	}
 	postal_service = {
-		envoy_travel_time = -0.25
+		state_maintenance_modifier = -0.2
 	}
 	marcher_lords = {
 		vassal_forcelimit_bonus = 1
