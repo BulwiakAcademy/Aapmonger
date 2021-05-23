@@ -305,6 +305,8 @@ cultural_unity = { #-10% Culture Conversion Cost
 			full_idea_group = naval_ideas
 			amount = 1
 		}
+		NOT = { has_active_policy = cultural_unity2 }
+		NOT = { has_active_policy = cultural_unity3 }
 	}
 	
 	culture_conversion_cost = -0.1
@@ -587,6 +589,7 @@ exchange_of_ideas = { #-2.5% Idea/Tech cost
 			full_idea_group = naval_ideas
 			amount = 2
 		}
+		NOT = { has_active_policy = exchange_of_ideas2 }
 	}
 	
 	idea_cost = -0.025
@@ -680,6 +683,8 @@ cultural_unity2 = { #-15% Culture Conversion Cost
 			full_idea_group = naval_ideas
 			amount = 2
 		}
+		NOT = { has_active_policy = cultural_unity }
+		NOT = { has_active_policy = cultural_unity3 }
 	}
 	
 	culture_conversion_cost = -0.15
@@ -913,6 +918,7 @@ exchange_of_ideas2 = { #-5% Idea/Tech cost
 			full_idea_group = naval_ideas
 			amount = 3
 		}
+		NOT = { has_active_policy = exchange_of_ideas }
 	}
 	
 	idea_cost = -0.05
@@ -979,6 +985,8 @@ cultural_unity3 = { #-20% Culture Conversion Cost
 			full_idea_group = naval_ideas
 			amount = 3
 		}
+		NOT = { has_active_policy = cultural_unity }
+		NOT = { has_active_policy = cultural_unity2 }
 	}
 	
 	culture_conversion_cost = -0.2

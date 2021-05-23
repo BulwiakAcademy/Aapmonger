@@ -160,6 +160,9 @@ modern_firearm_techniques = { #+5% Inf CA
 			full_idea_group = naval_ideas
 			amount = 1
 		}
+		NOT = { has_active_policy = modern_firearm_techniques2 }
+		NOT = { has_active_policy = modern_firearm_techniques3 }
+		NOT = { has_active_policy = modern_firearm_techniques4 }
 	}
 
 	infantry_power = 0.05
@@ -239,6 +242,9 @@ noble_loyalty_act = { #+5 Cav CA +10% Cav to Inf Ratio
 			full_idea_group = naval_ideas
 			amount = 1
 		}
+		NOT = { has_active_policy = noble_loyalty_act2 }
+		NOT = { has_active_policy = noble_loyalty_act3 }
+		NOT = { has_active_policy = noble_loyalty_act4 }
 	}
 
 	cavalry_power = 0.05
@@ -438,6 +444,9 @@ modern_firearm_techniques2 = { #+10% Inf CA
 			full_idea_group = naval_ideas
 			amount = 2
 		}
+		NOT = { has_active_policy = modern_firearm_techniques }
+		NOT = { has_active_policy = modern_firearm_techniques3 }
+		NOT = { has_active_policy = modern_firearm_techniques4 }
 	}
 
 	infantry_power = 0.1
@@ -542,6 +551,9 @@ noble_loyalty_act2 = { #+10 Cav CA +20% Cav to Inf Ratio
 			full_idea_group = naval_ideas
 			amount = 2
 		}
+		NOT = { has_active_policy = noble_loyalty_act }
+		NOT = { has_active_policy = noble_loyalty_act3 }
+		NOT = { has_active_policy = noble_loyalty_act4 }
 	}
 
 	cavalry_power = 0.10
@@ -745,6 +757,9 @@ modern_firearm_techniques3 = { #+15% Inf CA
 			full_idea_group = naval_ideas
 			amount = 3
 		}
+		NOT = { has_active_policy = modern_firearm_techniques }
+		NOT = { has_active_policy = modern_firearm_techniques2 }
+		NOT = { has_active_policy = modern_firearm_techniques4 }
 	}
 
 	infantry_power = 0.15
@@ -849,6 +864,9 @@ noble_loyalty_act3 = { #+15 Cav CA +25% Cav to Inf Ratio
 			full_idea_group = naval_ideas
 			amount = 3
 		}
+		NOT = { has_active_policy = noble_loyalty_act }
+		NOT = { has_active_policy = noble_loyalty_act2 }
+		NOT = { has_active_policy = noble_loyalty_act4 }
 	}
 
 	cavalry_power = 0.15
@@ -938,6 +956,7 @@ military_zeal_act = { #+10% Land Morale
 			full_idea_group = naval_ideas
 			amount = 4
 		}
+		NOT = { has_active_policy = military_zeal_act2 }
 	}
 
 	land_morale = 0.10
@@ -1052,6 +1071,9 @@ modern_firearm_techniques4 = { #+20% Inf CA
 			full_idea_group = naval_ideas
 			amount = 4
 		}
+		NOT = { has_active_policy = modern_firearm_techniques }
+		NOT = { has_active_policy = modern_firearm_techniques2 }
+		NOT = { has_active_policy = modern_firearm_techniques3 }
 	}
 
 	infantry_power = 0.2
@@ -1129,6 +1151,9 @@ noble_loyalty_act4 = { #+20 Cav CA +25% Cav to Inf Ratio
 			full_idea_group = naval_ideas
 			amount = 4
 		}
+		NOT = { has_active_policy = noble_loyalty_act }
+		NOT = { has_active_policy = noble_loyalty_act2 }
+		NOT = { has_active_policy = noble_loyalty_act3 }
 	}
 
 	cavalry_power = 0.2
@@ -1214,6 +1239,8 @@ horse_artillery = { #+10% Art CA
 			full_idea_group = naval_ideas
 			amount = 4
 		}
+		NOT = { has_active_policy = horse_artillery2 }
+		NOT = { has_active_policy = horse_artillery3 }
 	}
 
 	artillery_power = 0.1
@@ -1387,6 +1414,8 @@ horse_artillery2 = { #+15% Art CA
 			full_idea_group = naval_ideas
 			amount = 5
 		}
+		NOT = { has_active_policy = horse_artillery }
+		NOT = { has_active_policy = horse_artillery3 }
 	}
 
 	artillery_power = 0.15
@@ -1513,6 +1542,8 @@ horse_artillery3 = { #+20% Art CA
 			full_idea_group = naval_ideas
 			amount = 6
 		}
+		NOT = { has_active_policy = horse_artillery }
+		NOT = { has_active_policy = horse_artillery2 }
 	}
 
 	artillery_power = 0.20
@@ -1594,6 +1625,7 @@ military_zeal_act2 = { #+15% Land Morale
 			full_idea_group = naval_ideas
 			amount = 6
 		}
+		NOT = { has_active_policy = military_zeal_act }
 	}
 
 	land_morale = 0.15
