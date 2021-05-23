@@ -195,7 +195,9 @@ can_colonize_province = {
 				NOT = {
 					OR = {
 						has_idea = colonial_ventures
-						has_idea = additional_colonists
+						has_active_policy = colonial_administration_act
+						has_active_policy = colonial_administration_act2
+						has_active_policy = colonial_administration_act3
 					}
 				}
 			}

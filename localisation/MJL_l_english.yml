@@ -359,7 +359,7 @@
  estate_church_piety_privilege:0 "$ESTATE_NAME$ Religious Autonomy"
  estate_church_piety_privilege_desc:0 "If we listen to the advice of the [Root.GetClergyName] and place their concerns at the forefront of our mind, we may derive considerable benefits for our rule and see the people's faith in [Root.GetReligionNoun] greatly strengthened."
  mjl_1444_change_school_cd_tt:0 "Religious school can be changed only once every §Y25§! years."
- MJL_CANT_COLONIZE_WITH_AFRICA_GOV:0 "Nations with §YAfrican Frontier§! reform and without §YExpansions§! or §YExploration§! ideas cannot colonize provinces outside of African mainland."
+ MJL_CANT_COLONIZE_WITH_AFRICA_GOV:0 "Nations with §YAfrican Frontier§! reform and without other colonist source cannot colonize provinces outside of African mainland. Pick §YExploration§! ideas or §YThe Colonial Administration Act§! policy."
  mjl_hre_spy_boost_modifier:0 "Holy Roman Spies"
  mjl_events.EVTNAME14:0 "Holy Roman Spies"
  mjl_events.EVTDESC14:0 ""
