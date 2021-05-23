@@ -4551,7 +4551,7 @@
  CONFIRMADDPOLICY_TEXT:1 "Enacting $NAME$ will raise our policy cost to $COST|Y$ $TYPE$ power each month, and it has to be active for at least $YEARS|Y$ years before it can be repealed. It will give you the following benefits:\n$EFFECTS$\nAre you sure?"
  OTHER_NO_ACTIVE_POLICIES:0 "They currently have no active policies."
  OTHER_CURR_ACTIVE_POLICIES:0 "Active Policies"
- POLICY_POSSIBLE:0 "When fully unlocked, this idea group gives access to the following policies, each depending on another Idea Group finished as well."
+ POLICY_POSSIBLE:0 "Fully unlocking any idea group gives access to the new range of policies. All policies are available to everyone no matter the Idea Group choice."
  NO_POSSIBLE_POLICIES_AT_ALL:0 "There are no possible policies to enact right now. You can unlock policies to enact by completing idea groups."
  TRADER_CHANGE:0 "Change"
  APH_ONLY_EUROPE:0 "You can only add provinces on the European Continent"
