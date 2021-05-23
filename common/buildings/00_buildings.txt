@@ -464,6 +464,10 @@ fort_15th = {
 			#Taiwan
 			province_id = 2154
 			province_id = 1829
+			#Japan
+			province_id = 1031
+			province_id = 1033
+			province_id = 1034
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -696,6 +700,10 @@ fort_15th = {
 			#Taiwan
 			province_id = 2154
 			province_id = 1829
+			#Japan
+			province_id = 1031
+			province_id = 1033
+			province_id = 1034
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -1136,6 +1144,10 @@ fort_16th = {
 			#Taiwan
 			province_id = 2154
 			province_id = 1829
+			#Japan
+			province_id = 1031
+			province_id = 1033
+			province_id = 1034
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -1368,6 +1380,10 @@ fort_16th = {
 			#Taiwan
 			province_id = 2154
 			province_id = 1829
+			#Japan
+			province_id = 1031
+			province_id = 1033
+			province_id = 1034
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -1970,6 +1986,10 @@ fort_17th = {
 			#Taiwan
 			province_id = 2154
 			province_id = 1829
+			#Japan
+			province_id = 1031
+			province_id = 1033
+			province_id = 1034
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -2202,6 +2222,10 @@ fort_17th = {
 			#Taiwan
 			province_id = 2154
 			province_id = 1829
+			#Japan
+			province_id = 1031
+			province_id = 1033
+			province_id = 1034
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -2683,6 +2707,10 @@ fort_18th = {
 			#Taiwan
 			province_id = 2154
 			province_id = 1829
+			#Japan
+			province_id = 1031
+			province_id = 1033
+			province_id = 1034
 			NOT = {
 				any_neighbor_province = {
 					owner = {
@@ -2916,6 +2944,10 @@ fort_18th = {
 			#Taiwan
 			province_id = 2154
 			province_id = 1829
+			#Japan
+			province_id = 1031
+			province_id = 1033
+			province_id = 1034
 			NOT = {
 				any_neighbor_province = {
 					owner = {
