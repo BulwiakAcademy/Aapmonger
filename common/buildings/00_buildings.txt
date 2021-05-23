@@ -433,6 +433,7 @@ fort_15th = {
 			province_id = 4799
 			province_id = 1245
 			province_id = 651
+			province_id = 656
 			#Caribbeans
 			province_id = 488
 			province_id = 487
@@ -669,6 +670,7 @@ fort_15th = {
 			province_id = 4799
 			province_id = 1245
 			province_id = 651
+			province_id = 656
 			#Caribbeans
 			province_id = 488
 			province_id = 487
@@ -1113,6 +1115,7 @@ fort_16th = {
 			province_id = 4799
 			province_id = 1245
 			province_id = 651
+			province_id = 656
 			#Caribbeans
 			province_id = 488
 			province_id = 487
@@ -1349,6 +1352,7 @@ fort_16th = {
 			province_id = 4799
 			province_id = 1245
 			province_id = 651
+			province_id = 656
 			#Caribbeans
 			province_id = 488
 			province_id = 487
@@ -1955,6 +1959,7 @@ fort_17th = {
 			province_id = 4799
 			province_id = 1245
 			province_id = 651
+			province_id = 656
 			#Caribbeans
 			province_id = 488
 			province_id = 487
@@ -2191,6 +2196,7 @@ fort_17th = {
 			province_id = 4799
 			province_id = 1245
 			province_id = 651
+			province_id = 656
 			#Caribbeans
 			province_id = 488
 			province_id = 487
@@ -2676,6 +2682,7 @@ fort_18th = {
 			province_id = 4799
 			province_id = 1245
 			province_id = 651
+			province_id = 656
 			#Caribbeans
 			province_id = 488
 			province_id = 487
@@ -2913,6 +2920,7 @@ fort_18th = {
 			province_id = 4799
 			province_id = 1245
 			province_id = 651
+			province_id = 656
 			#Caribbeans
 			province_id = 488
 			province_id = 487
