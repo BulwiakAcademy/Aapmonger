@@ -68,7 +68,6 @@ country_decisions = {
 		}
 		allow = {
 			owns_core_province = 1053 #Barguzin
-			dip_tech = 7
 			mil_tech = 7
 		}
 		effect = {
