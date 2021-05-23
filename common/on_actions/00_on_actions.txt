@@ -3109,6 +3109,43 @@ on_five_year_pulse = {
 		100 = ideagroups.1909
 		100 = ideagroups.1910
 
+		# Horde Ideas		10 (8g 2b)
+		100 = ideagroups.1922
+		100 = ideagroups.1923
+		100 = ideagroups.1924
+		100 = ideagroups.1925
+		100 = ideagroups.1926
+		100 = ideagroups.1927
+		100 = ideagroups.1928
+		100 = ideagroups.1929
+		100 = ideagroups.1930
+		100 = ideagroups.1931
+		
+		#Theocracy Ideas		11 (9g 2b)
+		100 = ideagroups.1911
+		100 = ideagroups.1912
+		100 = ideagroups.1913
+		100 = ideagroups.1914
+		100 = ideagroups.1915
+		100 = ideagroups.1916
+		100 = ideagroups.1917
+		100 = ideagroups.1918
+		100 = ideagroups.1919
+		100 = ideagroups.1920
+		100 = ideagroups.1921
+
+		# Indigenous		10 (6g 4b)
+		100 = ideagroups.1932
+		100 = ideagroups.1933
+		100 = ideagroups.1934
+		100 = ideagroups.1935
+		100 = ideagroups.1936
+		100 = ideagroups.1937
+		100 = ideagroups.1938
+		100 = ideagroups.1939
+		100 = ideagroups.1940
+		100 = ideagroups.1941
+
 		1000 = 0
 	}
 
