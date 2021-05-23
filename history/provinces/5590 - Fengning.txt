@@ -1,10 +1,10 @@
-# 3622 - Guyuan
+# 3622 - Fengning
 
 owner = CHH #MNG
 controller = CHH #MNG
 culture = chahar #hanyu
 religion = vajrayana #confucianism
-capital = "Guyuan"
+capital = "Fengning"
 trade_goods = livestock
 base_tax = 2
 base_production = 2
