@@ -12111,7 +12111,7 @@ MAS_ideas = {
 		same_culture_advisor_cost = -0.15
 	}
 	mas_expand_the_shipbuilding_sector = {
-		ship_durability = 0.05
+		land_morale = 0.10
 	}
 }
 
