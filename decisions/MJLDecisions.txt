@@ -92,6 +92,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			tag = KHM
+			NOT = { has_country_flag = mjl_reforged_angkorian_empire_flag }
 		}
 		provinces_to_highlight = {
 			region = indo_china_region
@@ -110,6 +111,7 @@ country_decisions = {
 			}
 		}
 		effect = {
+			set_country_flag = mjl_reforged_angkorian_empire_flag
 			country_event = {
 				id = flavor_lna.3
 			}
