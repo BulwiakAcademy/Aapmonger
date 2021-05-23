@@ -305,31 +305,44 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = normandy_area
-				area = estonia_ingria_area
-				area = jutland_area
-				area = neumark_area
-				area = franconia_area
-				area = basque_country
-				area = piedmont_area
-				area = slovakia_area
-				area = tripolitania_area
-				area = kasai_area
-				area = uganda_area
-				area = upper_yemen_area
-				area = palestine_area
-				area = crimea_area
-				area = armenia_area
-				area = herat_area
-				area = upper_doab_area
-				area = ahmednagar_area
-				area = arakan_area
-				area = tenasserim_area
-				area = makassar_area
-				area = red_river_delta_area
-				area = jiangsu_area
-				area = jilin_area
-				area = xia_area
+				province_id = 4142
+				province_id = 168
+				province_id = 2995
+				province_id = 4775
+				province_id = 75
+				province_id = 2967
+				province_id = 105
+				province_id = 209
+				province_id = 346
+				province_id = 4736
+				province_id = 137
+				province_id = 153
+				province_id = 38
+				province_id = 284
+				province_id = 364
+				province_id = 774
+				province_id = 4280
+				province_id = 1205
+				province_id = 2258
+				province_id = 4080
+				province_id = 1183
+				province_id = 416
+				province_id = 2359
+				province_id = 432
+				province_id = 452
+				province_id = 4457
+				province_id = 4490
+				province_id = 549
+				province_id = 1815
+				province_id = 594
+				province_id = 623
+				province_id = 2695
+				province_id = 2700
+				province_id = 613
+				province_id = 5652
+				province_id = 5507
+				province_id = 1845
+				province_id = 5590
 			}
 			OR = {
 				AND = { 
@@ -390,9 +403,8 @@ country_decisions = {
 		}
 		allow = {
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_normandy
-				normandy_area = {
-					type = all
+				tooltip = mjl_victory_province_ostjylland
+				4142 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -436,9 +448,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_estonia
-				estonia_ingria_area = {
-					type = all
+				tooltip = mjl_victory_province_caen
+				168 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -482,9 +493,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_jutland
-				jutland_area = {
-					type = all
+				tooltip = mjl_victory_province_stolp
+				2995 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -528,9 +538,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_neumark
-				neumark_area = {
-					type = all
+				tooltip = mjl_victory_province_ravensberg
+				4775 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -574,9 +583,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_franconia
-				franconia_area = {
-					type = all
+				tooltip = mjl_victory_province_strasburg
+				75 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -620,9 +628,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_vasconia
-				basque_country = {
-					type = all
+				tooltip = mjl_victory_province_cheb
+				2967 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -666,9 +673,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_piedmont
-				piedmont_area = {
-					type = all
+				tooltip = mjl_victory_province_parma
+				105 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -712,9 +718,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_slovakia
-				slovakia_area = {
-					type = all
+				tooltip = mjl_victory_province_vizcaya
+				209 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -758,9 +763,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_tripolitania
-				tripolitania_area = {
-					type = all
+				tooltip = mjl_victory_province_tafilalt
+				346 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -804,9 +808,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_kasai
-				kasai_area = {
-					type = all
+				tooltip = mjl_victory_province_trapani
+				4736 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -850,9 +853,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_uganda
-				uganda_area = {
-					type = all
+				tooltip = mjl_victory_province_ragusa
+				137 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -896,9 +898,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_upper_yemen
-				upper_yemen_area = {
-					type = all
+				tooltip = mjl_victory_province_pest
+				153 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -942,9 +943,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_palestine
-				palestine_area = {
-					type = all
+				tooltip = mjl_victory_province_riga
+				38 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -988,9 +988,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_crimea
-				crimea_area = {
-					type = all
+				tooltip = mjl_victory_province_crimea
+				284 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1034,9 +1033,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_armenia
-				armenia_area = {
-					type = all
+				tooltip = mjl_victory_province_gaza
+				364 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1080,9 +1078,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_herat
-				herat_area = {
-					type = all
+				tooltip = mjl_victory_province_al_junaynah
+				774 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1126,9 +1123,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_upper_doab
-				upper_doab_area = {
-					type = all
+				tooltip = mjl_victory_province_taiz
+				4280 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1172,9 +1168,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_ahmednagar
-				ahmednagar_area = {
-					type = all
+				tooltip = mjl_victory_province_mogadishu
+				1205 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1218,9 +1213,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_arakan
-				arakan_area = {
-					type = all
+				tooltip = mjl_victory_province_cape_coast
+				2258 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1264,9 +1258,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_tenasserim
-				tenasserim_area = {
-					type = all
+				tooltip = mjl_victory_province_soyo
+				4080 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1310,9 +1303,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_makassar
-				makassar_area = {
-					type = all
+				tooltip = mjl_victory_province_inhambane
+				1183 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1356,9 +1348,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_hong_song
-				red_river_delta_area = {
-					type = all
+				tooltip = mjl_victory_province_tabriz
+				416 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1402,9 +1393,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_jiangsu
-				jiangsu_area = {
-					type = all
+				tooltip = mjl_victory_province_karakenggyr
+				2359 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1448,9 +1438,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_jilin
-				jilin_area = {
-					type = all
+				tooltip = mjl_victory_province_kerman
+				432 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1494,9 +1483,8 @@ country_decisions = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = mjl_victory_state_xia
-				xia_area = {
-					type = all
+				tooltip = mjl_victory_province_badakshan
+				452 = {
 					OR = {
 						controlled_by = ROOT
 						controller = {
@@ -1539,6 +1527,592 @@ country_decisions = {
 					}
 				}
 			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_khambhat
+				4457 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_ghazipur
+				4490 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_kalingandhra
+				549 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_pathein
+				1815 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_pattani
+				594 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_tulangbewang
+				623 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_east_timor
+				2695 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_panay
+				2700 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_dong_kinh
+				613 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_xinjian
+				5652 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_wuwei
+				5507 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_pyeongyang
+				1845 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mjl_victory_province_fengning
+				5590 = {
+					OR = {
+						controlled_by = ROOT
+						controller = {
+							is_subject_of = ROOT
+							NOT = {
+								is_subject_of_type = tributary_state
+							}
+						}
+						AND = {
+							country_or_non_sovereign_subject_holds = ROOT
+							controller = {
+								OR = {
+									tag = REB
+									tag = ROOT
+									AND = {
+										is_free_or_tributary_trigger = yes
+										was_player = no
+									}
+									AND = {
+										is_subject = yes
+										NOT = {
+											is_subject_of = ROOT 
+										}
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+										overlord = {
+											was_player = no
+										}
+									}
+									AND = {	
+										is_subject_of = ROOT
+										NOT = {
+											is_subject_of_type = tributary_state
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
 
 			always = no
 		}
