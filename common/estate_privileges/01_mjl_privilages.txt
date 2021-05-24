@@ -418,6 +418,17 @@ mjl_estate_church_orm_tamed_deserts = {
 			}
 		}
 	}
+	on_invalid = {
+		custom_tooltip = mjl_estate_church_orm_tamed_deserts_mod_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = "tamed_the_desert_modifier"
+				}
+				remove_province_modifier = "tamed_the_desert_modifier"
+			}
+		}
+	}
 	penalties = {
 	}
 	ai_will_do = {

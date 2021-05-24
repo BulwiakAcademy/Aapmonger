@@ -32,6 +32,17 @@ mjl_shun_mountains = {
 			}
 		}
 	}
+	on_invalid = {
+		custom_tooltip = mjl_shun_mountains_mod_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = mjl_shun_mountains_mod
+				}
+				remove_province_modifier = mjl_shun_mountains_mod
+			}
+		}
+	}
 	penalties = {
 	}
 	ai_will_do = {
@@ -91,6 +102,17 @@ h_populate_altai_mountains = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = { has_province_modifier = h_populate_altai_mountains_mod }
+				remove_province_modifier = h_populate_altai_mountains_mod
+			}
+		}
+	}
+	on_invalid = {
+		custom_tooltip = h_populate_altai_mountains_mod_revoke_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = h_populate_altai_mountains_mod
+				}
 				remove_province_modifier = h_populate_altai_mountains_mod
 			}
 		}
