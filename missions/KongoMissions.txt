@@ -1,0 +1,373 @@
+kongo_far_left_slot = {
+    slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = KON
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+    dominate_region = {
+        icon = mission_persian_soldiers
+		required_missions = { }
+
+        provinces_to_highlight = {
+            province_id = 1170
+            province_id = 4092
+            province_id = 4089
+
+		}
+
+        trigger = {
+            1170 = { is_strongest_trade_power = ROOT }
+            onws = 1170
+            owns = 4092
+            owsa = 4089
+		}
+        effect = {
+            1170 = {
+                add_center_of_trade_level = 1
+            }
+            add_yearly_manpower = 0.5
+            add_treasury = 250
+        }
+    }
+
+	supreme_warriors = {
+		icon = mission_order_in_the_domain
+		required_missions = { dominate_region }
+
+
+		trigger = {
+			army_tradition = 50
+		}
+
+		effect = {
+			add_mil_power = 100
+			add_army_professionalism = 0.05
+		}
+	}
+
+	edge_of_kongo = {
+		icon = mission_indian_soldier_elephant
+		position = 3
+		required_missions = { supreme_warriors }
+
+        provinces_to_highlight = {
+			 OR = {
+				area = luba_area
+				province_id = 4103
+				province_id = 4100
+			}
+			NOT = { owned_by = ROOT }
+        }
+
+		trigger = {
+			luba_area = {
+				type = all
+				owned_by = ROOT
+			}
+			owns_or_non_sovereign_subject_of = 4103
+			owns_or_non_sovereign_subject_of = 4100
+		}
+
+		effect = {
+			rwanda_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+
+			buzinza_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+
+			uganda_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	victorian_campaign = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { edge_of_kongo }
+
+        provinces_to_highlight = {
+			OR = {
+				province_id = 4061
+				province_id = 4062
+				province_id = 4063
+				province_id = 4064
+			}
+			NOT = { owned_by = ROOT}
+        }
+
+		trigger = {
+			owns = 4064
+			owns = 4063
+			owns = 4061
+			owns = 4062
+		}
+
+		effect = {
+			uganda_area = {
+				limit = { owned_by = ROOT }
+				add_province_modifier = {
+					name = "savanna_consription"
+					duration = -1
+				}
+			}
+			bunyoro_area = {
+				limit = { owned_by = ROOT }
+				add_province_modifier = {
+					name = "savanna_consription"
+					duration = -1
+				}
+			}
+		}
+	}
+
+    legend_of_wakanda = {
+        icon = deal_with_the_illuminati
+		required_missions = { victorian_campaign }
+
+        provinces_to_highlight = {
+            OR = {
+				area = uganda_area
+                province_id = 4063
+                province_id = 4061
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+        trigger = {
+            uganda_area = {
+				type = all
+				owned_by = ROOT
+			}
+            owns = 4063
+            owns = 4061
+		}
+        effect = {
+           add_country_modifier = {
+				name = "wakanda"
+				duration = 9125
+			}
+            4066 = { 
+                change_trade_goods = iron
+                add_base_tax = 3
+                add_base_production = 3
+                add_base_manpower = 3
+            }
+        }
+    }
+}
+
+kongo_left_slot = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = KON
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes	
+
+	subjugate_tribes = {
+		icon = mission_reconquer_ceuta
+
+        provinces_to_highlight = { 
+			OR = {
+				area = kongo_area
+				area = matamba_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT}
+        }
+
+		trigger = { 
+			
+			kongo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			matamba_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { 
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
+			}
+			army_tradition = 10
+		}
+	}
+
+	develop_capital = {
+        icon = mission_found_the_city_of_agra
+		required_missions = { dominate_region subjugate_tribes }
+
+        provinces_to_highlight = {
+            province_id = 1170
+		}
+
+        trigger = {
+            1170 = {
+                development = 20
+            }
+		}
+        effect = {
+            capital_scope = {
+                add_province_modifier = {
+					name = "rise_of_capital"
+					duration = 5475
+				}
+            }
+        }
+    }
+
+	expansion_of_metropolis = {
+		icon = mission_early_game_buildings
+		position = 4
+		required_missions = { develop_capital }
+
+
+		trigger = {
+			capital_scope = {
+				development = 30
+			}
+		}
+
+		effect = {
+			add_dip_power = 50
+			capital_scope = {
+				area = {
+					limit = { owned_by = ROOT }
+					add_province_modifier = {
+						name = "growth_of_capital"
+						duration = 5475
+					}
+				}
+			}
+		}
+	}
+
+	expulsion_of_tribes = {
+		icon = mission_bijapur_karnatak
+		position = 6
+		required_missions = { victorian_campaign industrialize_plains }
+
+		trigger = {
+			grown_by_development = 500
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "expulsion_of_tribes_modifier"
+				duration = -1
+			}
+		}
+	}	
+}
+
+kongo_central_slot = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = KON
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	royal_subjects = {
+		icon = mission_have_two_subjects
+		required_missions = { }
+        provinces_to_highlight = { }
+
+		trigger = {
+			vassal = 4
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				region = kongo_region
+				is_city = yes
+				NOT = { 
+					owned_by = ROOT
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "royal_subjects"
+				duration = 9125
+			}
+		}
+	}
+
+	centralization_of_state = {
+		position = 3
+		icon = mission_restore_faith_in_the_throne
+		required_missions = { royal_subjects rise_of_capital }
+        provinces_to_highlight = { }
+
+		trigger = {
+			NOT = { vassal = 2}
+		}
+
+		effect = {
+            add_country_modifier = {
+				name = "kon_centralisation_of_state"
+				duration = 9125
+			}
+		}
+	}
+
+	industrialize_plains = {
+        icon = mission_expand_inland
+		position = 5
+		required_missions = { expansion_of_metropolis centralization_of_state }
+        provinces_to_highlight = {
+            area = kasai_area
+		}
+        trigger = {
+            kasai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+                NOT = { local_autonomy = 50 }
+			}
+		}
+        effect = {
+            add_adm_power = 50
+            add_dip_power = 50
+            add_mil_power = 50
+            4087 = {
+                change_trade_goods = cloth
+            }
+            4091 = {
+                change_trade_goods = cloth
+            }
+            4092 = {
+                add_center_of_trade_level = 1
+            }
+            1171 = {
+                change_trade_goods = gold
+                add_base_production = 2
+            }
+        }
+    }
+}
