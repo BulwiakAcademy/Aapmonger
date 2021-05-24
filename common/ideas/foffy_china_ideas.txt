@@ -140,7 +140,7 @@ citystate_ideas = { #Chinese City States
 
 CSH_ideas = {
 	start = {
-		leader_land_shock = 1
+		land_morale = 0.1
 		development_cost = -0.1
 	}
 	
@@ -154,7 +154,7 @@ CSH_ideas = {
 	free = yes
 	
 	shun_humble_beginnings = {
-		manpower_recovery_speed = 0.15
+		leader_land_shock = 1
 	}
 	shun_dashing_king = {
 		diplomatic_reputation = 1
@@ -164,7 +164,7 @@ CSH_ideas = {
 		global_tax_modifier = 0.2
 	}
 	shun_obedient_to_heaven = {
-		land_morale = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	shun_perfection_of_sieging = {
 		siege_ability = 0.1
