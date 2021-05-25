@@ -322,11 +322,11 @@ kongo_central_slot = {
 	centralization_of_state = {
 		position = 3
 		icon = mission_restore_faith_in_the_throne
-		required_missions = { royal_subjects rise_of_capital }
+		required_missions = { royal_subjects develop_capital }
         provinces_to_highlight = { }
 
 		trigger = {
-			NOT = { vassal = 2}
+			NOT = { vassal = 2 }
 		}
 
 		effect = {
