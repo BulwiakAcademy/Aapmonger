@@ -139,7 +139,7 @@ black_chamber_act = { #+1 Diplomat
 	}
 }
 
-skilled_cartographers = { #Can recruit explorers
+the_pioneer_policy = { #+50% Native Assimilation + AutoExplore Adjacent Land
 	monarch_power = ADM
 
 	potential = {
@@ -172,18 +172,11 @@ skilled_cartographers = { #Can recruit explorers
 		}
 	}
 	
-	may_explore = yes
+	native_assimilation = 0.5
+	auto_explore_adjacent_to_colony = yes
 
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { num_of_colonists = 1 }
-		}
-		modifier = {
-			factor = 0.6
-			NOT = { num_of_colonies = 1 }
-		}
+		factor = 0.6
 	}
 }
 
