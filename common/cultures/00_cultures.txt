@@ -6562,6 +6562,8 @@ thai_group = {
 
 southeastasian_group = { 
 	graphical_culture = asiangfx
+	country = { has_banners = 1}
+	province = { local_has_banners = 1}
 	khmer = {
 		primary = KHM
 		dynasty_names = {
@@ -6771,6 +6773,8 @@ pacific = {
 aboriginal_australian = {
 	graphical_culture = aboriginalgfx
 	second_graphical_culture = africangfx
+	country = { has_banners = 1}
+	province = { local_has_banners = 1}
 	
 	aboriginal = { #(Kuric) Eora/East Coast
 		primary = EOR
