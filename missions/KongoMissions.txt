@@ -21,9 +21,9 @@ kongo_far_left_slot = {
 
         trigger = {
             1170 = { is_strongest_trade_power = ROOT }
-            onws = 1170
+            owns = 1170
             owns = 4092
-            owsa = 4089
+            owns = 4089
 		}
         effect = {
             1170 = {
@@ -213,7 +213,7 @@ kongo_left_slot = {
 				name = "thriving_arms_industry"
 				duration = 9125 #25 years
 			}
-			army_tradition = 10
+			add_army_tradition = 10
 		}
 	}
 
