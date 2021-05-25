@@ -13952,7 +13952,7 @@ TEX_ideas = {
 		no_religion_penalty = yes
 	}
 	bonus = {
-		land_morale = 0.15
+		land_morale = 0.10
 	}
 	trigger = {
 		tag = TEX
@@ -14217,7 +14217,7 @@ VRM_ideas = {
 	}
 	free = yes      #will be added at load.
 	VRM_home_of_the_revolution = {
-		land_morale = 0.15
+		land_morale = 0.10
 		max_revolutionary_zeal = 10
 	}
 	VRM_tea_party = {
