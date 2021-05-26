@@ -104,7 +104,7 @@ horde_gov_ideas = {
 	category = MIL
 	
 	bonus = {
-		cavalry_power = 0.25
+		cavalry_power = 0.20
 	}
 	
 	trigger = {
