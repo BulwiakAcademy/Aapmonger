@@ -140,8 +140,8 @@ citystate_ideas = { #Chinese City States
 
 CSH_ideas = {
 	start = {
+		shock_damage_received = -0.1
 		land_morale = 0.1
-		development_cost = -0.1
 	}
 	
 	bonus = {
@@ -157,8 +157,7 @@ CSH_ideas = {
 		leader_land_shock = 1
 	}
 	shun_dashing_king = {
-		diplomatic_reputation = 1
-		diplomatic_upkeep = 1
+		development_cost = -0.1
 	}
 	shun_hidden_treasury = {
 		global_tax_modifier = 0.2
