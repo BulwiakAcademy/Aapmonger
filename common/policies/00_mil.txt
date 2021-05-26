@@ -162,7 +162,6 @@ modern_firearm_techniques = { #+5% Inf CA
 		}
 		NOT = { has_active_policy = modern_firearm_techniques2 }
 		NOT = { has_active_policy = modern_firearm_techniques3 }
-		NOT = { has_active_policy = modern_firearm_techniques4 }
 	}
 
 	infantry_power = 0.05
@@ -244,7 +243,6 @@ noble_loyalty_act = { #+5 Cav CA +10% Cav to Inf Ratio
 		}
 		NOT = { has_active_policy = noble_loyalty_act2 }
 		NOT = { has_active_policy = noble_loyalty_act3 }
-		NOT = { has_active_policy = noble_loyalty_act4 }
 	}
 
 	cavalry_power = 0.05
@@ -446,7 +444,6 @@ modern_firearm_techniques2 = { #+10% Inf CA
 		}
 		NOT = { has_active_policy = modern_firearm_techniques }
 		NOT = { has_active_policy = modern_firearm_techniques3 }
-		NOT = { has_active_policy = modern_firearm_techniques4 }
 	}
 
 	infantry_power = 0.1
@@ -553,7 +550,6 @@ noble_loyalty_act2 = { #+10 Cav CA +20% Cav to Inf Ratio
 		}
 		NOT = { has_active_policy = noble_loyalty_act }
 		NOT = { has_active_policy = noble_loyalty_act3 }
-		NOT = { has_active_policy = noble_loyalty_act4 }
 	}
 
 	cavalry_power = 0.10
@@ -703,33 +699,6 @@ modern_firearm_techniques3 = { #+15% Inf CA
 			full_idea_group = naval_ideas
 			amount = 3
 		}
-		NOT = {
-			calc_true_if = {
-				full_idea_group = aristocracy_ideas
-				full_idea_group = plutocracy_ideas
-				full_idea_group = horde_gov_ideas
-				full_idea_group = theocracy_gov_ideas
-				full_idea_group = indigenous_ideas
-				full_idea_group = innovativeness_ideas
-				full_idea_group = religious_ideas
-				full_idea_group = spy_ideas
-				full_idea_group = diplomatic_ideas
-				full_idea_group = offensive_ideas
-				full_idea_group = defensive_ideas
-				full_idea_group = trade_ideas
-				full_idea_group = economic_ideas
-				full_idea_group = exploration_ideas
-				full_idea_group = maritime_ideas
-				full_idea_group = quality_ideas
-				full_idea_group = quantity_ideas
-				full_idea_group = expansion_ideas
-				full_idea_group = administrative_ideas
-				full_idea_group = humanist_ideas
-				full_idea_group = influence_ideas
-				full_idea_group = naval_ideas
-				amount = 4
-			}
-		}
 	}
 	allow = {
 		calc_true_if = {
@@ -759,7 +728,6 @@ modern_firearm_techniques3 = { #+15% Inf CA
 		}
 		NOT = { has_active_policy = modern_firearm_techniques }
 		NOT = { has_active_policy = modern_firearm_techniques2 }
-		NOT = { has_active_policy = modern_firearm_techniques4 }
 	}
 
 	infantry_power = 0.15
@@ -810,33 +778,6 @@ noble_loyalty_act3 = { #+15 Cav CA +25% Cav to Inf Ratio
 			full_idea_group = naval_ideas
 			amount = 3
 		}
-		NOT = {
-			calc_true_if = {
-				full_idea_group = aristocracy_ideas
-				full_idea_group = plutocracy_ideas
-				full_idea_group = horde_gov_ideas
-				full_idea_group = theocracy_gov_ideas
-				full_idea_group = indigenous_ideas
-				full_idea_group = innovativeness_ideas
-				full_idea_group = religious_ideas
-				full_idea_group = spy_ideas
-				full_idea_group = diplomatic_ideas
-				full_idea_group = offensive_ideas
-				full_idea_group = defensive_ideas
-				full_idea_group = trade_ideas
-				full_idea_group = economic_ideas
-				full_idea_group = exploration_ideas
-				full_idea_group = maritime_ideas
-				full_idea_group = quality_ideas
-				full_idea_group = quantity_ideas
-				full_idea_group = expansion_ideas
-				full_idea_group = administrative_ideas
-				full_idea_group = humanist_ideas
-				full_idea_group = influence_ideas
-				full_idea_group = naval_ideas
-				amount = 4
-			}
-		}
 	}
 	allow = {
 		calc_true_if = {
@@ -866,7 +807,6 @@ noble_loyalty_act3 = { #+15 Cav CA +25% Cav to Inf Ratio
 		}
 		NOT = { has_active_policy = noble_loyalty_act }
 		NOT = { has_active_policy = noble_loyalty_act2 }
-		NOT = { has_active_policy = noble_loyalty_act4 }
 	}
 
 	cavalry_power = 0.15
@@ -1015,171 +955,6 @@ the_mining_act = { #+1Land Leader Fire
 	}
 }
 
-modern_firearm_techniques4 = { #+20% Inf CA
-	monarch_power = MIL
-
-	potential = {
-		calc_true_if = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = plutocracy_ideas
-			full_idea_group = horde_gov_ideas
-			full_idea_group = theocracy_gov_ideas
-			full_idea_group = indigenous_ideas
-			full_idea_group = innovativeness_ideas
-			full_idea_group = religious_ideas
-			full_idea_group = spy_ideas
-			full_idea_group = diplomatic_ideas
-			full_idea_group = offensive_ideas
-			full_idea_group = defensive_ideas
-			full_idea_group = trade_ideas
-			full_idea_group = economic_ideas
-			full_idea_group = exploration_ideas
-			full_idea_group = maritime_ideas
-			full_idea_group = quality_ideas
-			full_idea_group = quantity_ideas
-			full_idea_group = expansion_ideas
-			full_idea_group = administrative_ideas
-			full_idea_group = humanist_ideas
-			full_idea_group = influence_ideas
-			full_idea_group = naval_ideas
-			amount = 4
-		}
-	}
-	allow = {
-		calc_true_if = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = plutocracy_ideas
-			full_idea_group = horde_gov_ideas
-			full_idea_group = theocracy_gov_ideas
-			full_idea_group = indigenous_ideas
-			full_idea_group = innovativeness_ideas
-			full_idea_group = religious_ideas
-			full_idea_group = spy_ideas
-			full_idea_group = diplomatic_ideas
-			full_idea_group = offensive_ideas
-			full_idea_group = defensive_ideas
-			full_idea_group = trade_ideas
-			full_idea_group = economic_ideas
-			full_idea_group = exploration_ideas
-			full_idea_group = maritime_ideas
-			full_idea_group = quality_ideas
-			full_idea_group = quantity_ideas
-			full_idea_group = expansion_ideas
-			full_idea_group = administrative_ideas
-			full_idea_group = humanist_ideas
-			full_idea_group = influence_ideas
-			full_idea_group = naval_ideas
-			amount = 4
-		}
-		NOT = { has_active_policy = modern_firearm_techniques }
-		NOT = { has_active_policy = modern_firearm_techniques2 }
-		NOT = { has_active_policy = modern_firearm_techniques3 }
-	}
-
-	infantry_power = 0.2
-
-	ai_will_do = {
-		factor = 1.2		
-		modifier = {
-			factor = 1.5
-			infantry_fraction = 0.28
-		}
-		modifier = {
-			factor = 1.5
-			infantry_fraction = 0.38
-		}
-		modifier = {
-			factor = 1.5
-			infantry_fraction = 0.45
-		}
-	}
-}
-
-noble_loyalty_act4 = { #+20 Cav CA +25% Cav to Inf Ratio
-	monarch_power = MIL
-
-	potential = {
-		calc_true_if = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = plutocracy_ideas
-			full_idea_group = horde_gov_ideas
-			full_idea_group = theocracy_gov_ideas
-			full_idea_group = indigenous_ideas
-			full_idea_group = innovativeness_ideas
-			full_idea_group = religious_ideas
-			full_idea_group = spy_ideas
-			full_idea_group = diplomatic_ideas
-			full_idea_group = offensive_ideas
-			full_idea_group = defensive_ideas
-			full_idea_group = trade_ideas
-			full_idea_group = economic_ideas
-			full_idea_group = exploration_ideas
-			full_idea_group = maritime_ideas
-			full_idea_group = quality_ideas
-			full_idea_group = quantity_ideas
-			full_idea_group = expansion_ideas
-			full_idea_group = administrative_ideas
-			full_idea_group = humanist_ideas
-			full_idea_group = influence_ideas
-			full_idea_group = naval_ideas
-			amount = 4
-		}
-	}
-	allow = {
-		calc_true_if = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = plutocracy_ideas
-			full_idea_group = horde_gov_ideas
-			full_idea_group = theocracy_gov_ideas
-			full_idea_group = indigenous_ideas
-			full_idea_group = innovativeness_ideas
-			full_idea_group = religious_ideas
-			full_idea_group = spy_ideas
-			full_idea_group = diplomatic_ideas
-			full_idea_group = offensive_ideas
-			full_idea_group = defensive_ideas
-			full_idea_group = trade_ideas
-			full_idea_group = economic_ideas
-			full_idea_group = exploration_ideas
-			full_idea_group = maritime_ideas
-			full_idea_group = quality_ideas
-			full_idea_group = quantity_ideas
-			full_idea_group = expansion_ideas
-			full_idea_group = administrative_ideas
-			full_idea_group = humanist_ideas
-			full_idea_group = influence_ideas
-			full_idea_group = naval_ideas
-			amount = 4
-		}
-		NOT = { has_active_policy = noble_loyalty_act }
-		NOT = { has_active_policy = noble_loyalty_act2 }
-		NOT = { has_active_policy = noble_loyalty_act3 }
-	}
-
-	cavalry_power = 0.2
-	cav_to_inf_ratio = 0.25
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { cavalry_fraction = 0.2 }
-		}			
-		modifier = {
-			factor = 1.5
-			cavalry_fraction = 0.28
-		}
-		modifier = {
-			factor = 1.5
-			cavalry_fraction = 0.38
-		}
-		modifier = {
-			factor = 1.5
-			cavalry_fraction = 0.45
-		}
-	}
-}
-
 horse_artillery = { #+10% Art CA
 	monarch_power = MIL
 
@@ -1240,7 +1015,6 @@ horse_artillery = { #+10% Art CA
 			amount = 4
 		}
 		NOT = { has_active_policy = horse_artillery2 }
-		NOT = { has_active_policy = horse_artillery3 }
 	}
 
 	artillery_power = 0.1
@@ -1360,33 +1134,6 @@ horse_artillery2 = { #+15% Art CA
 			full_idea_group = naval_ideas
 			amount = 5
 		}
-		NOT = {
-			calc_true_if = {
-				full_idea_group = aristocracy_ideas
-				full_idea_group = plutocracy_ideas
-				full_idea_group = horde_gov_ideas
-				full_idea_group = theocracy_gov_ideas
-				full_idea_group = indigenous_ideas
-				full_idea_group = innovativeness_ideas
-				full_idea_group = religious_ideas
-				full_idea_group = spy_ideas
-				full_idea_group = diplomatic_ideas
-				full_idea_group = offensive_ideas
-				full_idea_group = defensive_ideas
-				full_idea_group = trade_ideas
-				full_idea_group = economic_ideas
-				full_idea_group = exploration_ideas
-				full_idea_group = maritime_ideas
-				full_idea_group = quality_ideas
-				full_idea_group = quantity_ideas
-				full_idea_group = expansion_ideas
-				full_idea_group = administrative_ideas
-				full_idea_group = humanist_ideas
-				full_idea_group = influence_ideas
-				full_idea_group = naval_ideas
-				amount = 6
-			}
-		}
 	}
 	allow = {
 		calc_true_if = {
@@ -1415,7 +1162,6 @@ horse_artillery2 = { #+15% Art CA
 			amount = 5
 		}
 		NOT = { has_active_policy = horse_artillery }
-		NOT = { has_active_policy = horse_artillery3 }
 	}
 
 	artillery_power = 0.15
@@ -1483,89 +1229,6 @@ the_tenures_abolition_act = { #+20% Fire DMG
 
 	ai_will_do = {
 		factor = 1
-	}
-}
-
-horse_artillery3 = { #+20% Art CA
-	monarch_power = MIL
-
-	potential = {
-		calc_true_if = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = plutocracy_ideas
-			full_idea_group = horde_gov_ideas
-			full_idea_group = theocracy_gov_ideas
-			full_idea_group = indigenous_ideas
-			full_idea_group = innovativeness_ideas
-			full_idea_group = religious_ideas
-			full_idea_group = spy_ideas
-			full_idea_group = diplomatic_ideas
-			full_idea_group = offensive_ideas
-			full_idea_group = defensive_ideas
-			full_idea_group = trade_ideas
-			full_idea_group = economic_ideas
-			full_idea_group = exploration_ideas
-			full_idea_group = maritime_ideas
-			full_idea_group = quality_ideas
-			full_idea_group = quantity_ideas
-			full_idea_group = expansion_ideas
-			full_idea_group = administrative_ideas
-			full_idea_group = humanist_ideas
-			full_idea_group = influence_ideas
-			full_idea_group = naval_ideas
-			amount = 6
-		}
-	}
-	allow = {
-		calc_true_if = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = plutocracy_ideas
-			full_idea_group = horde_gov_ideas
-			full_idea_group = theocracy_gov_ideas
-			full_idea_group = indigenous_ideas
-			full_idea_group = innovativeness_ideas
-			full_idea_group = religious_ideas
-			full_idea_group = spy_ideas
-			full_idea_group = diplomatic_ideas
-			full_idea_group = offensive_ideas
-			full_idea_group = defensive_ideas
-			full_idea_group = trade_ideas
-			full_idea_group = economic_ideas
-			full_idea_group = exploration_ideas
-			full_idea_group = maritime_ideas
-			full_idea_group = quality_ideas
-			full_idea_group = quantity_ideas
-			full_idea_group = expansion_ideas
-			full_idea_group = administrative_ideas
-			full_idea_group = humanist_ideas
-			full_idea_group = influence_ideas
-			full_idea_group = naval_ideas
-			amount = 6
-		}
-		NOT = { has_active_policy = horse_artillery }
-		NOT = { has_active_policy = horse_artillery2 }
-	}
-
-	artillery_power = 0.20
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { artillery_fraction = 0.2 }
-		}			
-		modifier = {
-			factor = 1.5
-			artillery_fraction = 0.28
-		}
-		modifier = {
-			factor = 1.5
-			artillery_fraction = 0.38
-		}
-		modifier = {
-			factor = 1.5
-			artillery_fraction = 0.45
-		}
 	}
 }
 
